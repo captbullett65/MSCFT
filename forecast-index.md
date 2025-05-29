@@ -5,7 +5,7 @@ A central reference for templates, examples, and logs in this repository.
 ---
 
 ## 📁 Templates
-- [MSCFT Plain Template](docs/MSCFT-Template-Plain.txt)
+- [MSCFT Plain Template](https://github.com/captbullett65/MSCFT-/blob/main/templates)
 - [Forecast Example Template](templates/Forecast_ExampleTemplate.txt)
 
 ## 🔍 Active Forecasts
