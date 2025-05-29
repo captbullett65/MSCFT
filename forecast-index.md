@@ -12,7 +12,7 @@ A central reference for templates, examples, and logs in this repository.
 - ( https://www.gjopen.com/challenges/119-vehicle-innovation-challenge-2025-2027)
 
 ## 🧾 Audit Logs
-- [Audit: GJO 2025 Vehicle Forecast](logs/AuditLog_Vehicle2025.txt)
+- [Audit: GJO 2025 Vehicle Forecast](https://github.com/captbullett65/MSCFT-/blob/main/logs)
 
 ---
 
