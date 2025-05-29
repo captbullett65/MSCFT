@@ -1,34 +1,57 @@
-Forecast Title: GJO 2025 Vehicle Innovation Challenge – # of qualifying entries
+Forecast Title: 
+Ranking of Large Language Models as of 22 May 2026
+Forecaster: Captbullett / used Copilot output 
+Initial Question Framing
+Question: Which organization's large language model (LLM) will be ranked first as of 22 May 2026, according to Chatbot Arena (formerly LMSYS Org)?
 
-Initial Question Framing (Copilot/GPT Input):
-This forecast estimates the number of qualifying team entries submitted for the 2025 GJO Vehicle Innovation Challenge, informed by historical data, incentive alignment, and domain participation trends.
+Clarifications:
 
-Refinement & Analysis:
-- Historical GJO participation data from 2017–2023
-- Funding trends in vehicle automation and AI
-- Variance in qualification thresholds between challenge years
+- The ranking will be determined based on Chatbot Arena's leaderboard on 22 May 2026 at approximately 5:00 PM ET.
+- In case of a tie, the LLM with the higher Arena Score will be ranked first, followed by total vote count.
+- As of 21 May 2025, Google’s Gemini-2.5-Pro-Preview-05-06 was ranked first with an Arena Score of 1446.
+Key Sources:
+
+Chatbot Arena leaderboard
+Technology news from sources such as Pymnts, TechCrunch, and GuruFocus
+Official announcements from major AI companies
+Refinement & Analysis
+Key Developments:
+
+Increased competition among OpenAI, Google, Anthropic, xAI, and Chinese tech firms like DeepSeek, Tencent, and Alibaba.
+Continuous updates to AI models improving performance and market positioning.
+Regulatory impact and strategic partnerships affecting development.
+Interpretation:
+
+While Google currently holds the top rank, OpenAI and Anthropic are strong contenders. Industry shifts, technological breakthroughs, and strategic moves could influence the rankings by May 2026.
 
 Data Anomaly & Source Integrity Log:
-- Limited public data for the 2023 challenge
-- Conflicting projections from media versus university-affiliated sources
 
+Date Range Affected: Future rankings leading up to 22 May 2026
+Observed Anomaly: Potential volatility in rankings due to sudden advances in AI performance.
+Identified Cause: Model updates, strategic partnerships, and AI breakthroughs.
+Implication for Forecast: Possible shifts in leaderboards as competition intensifies.
+Action Taken: Regularly reviewing Chatbot Arena rankings and key developments in AI.
 Probability Allocation:
-- 2 or fewer: 3%
-- Between 3 and 5: 12%
-- Between 6 and 8: 24%
-- Between 9 and 12: 31%
-- Between 13 and 16: 19%
-- Between 17 and 21: 7%
-- 22 or more: 4%
-(Total: 100%)
 
+Google: 45.00%
+OpenAI: 20.50%
+Anthropic: 1.00%
+xAI: 9.25%
+A Chinese organization (e.g., DeepSeek, Tencent, Alibaba): 21.75%
+Another organization: 2.50%
 Final Forecast Summary:
-Our consensus forecast expects 9–12 qualifying entries in 2025, with a mode probability at 31%. This reflects moderate optimism based on prior cycles and increased attention from university-affiliated labs.
 
-Why might this forecast be wrong?
-- Surge in last-minute entries due to revised eligibility rules
-- Underestimation of international participation
+Forecast: Given historical performance, Google's LLM is currently leading. However, OpenAI and Anthropic could challenge the top position, depending on technological advancements and industry shifts.
 
-What would make you change your mind?
-- Public confirmation of increased funding or incentives
-- Entry criteria significantly loosened or clarified
+Why might you be wrong?  
+Potential Reasons Why This Forecast May Be Wrong
+
+Unexpected breakthroughs from competitors
+Major regulatory changes affecting model releases
+ Shifts in voting methodology or leaderboard criteria
+Further Reasons Why This Forecast Might Be Incorrect
+
+Unforeseen controversies impacting AI adoption
+Strategic decisions by AI organizations affecting rankings
+Note: This forecast is based on information available as of 27 May 2025 and is subject to change as new data emerges.
+
