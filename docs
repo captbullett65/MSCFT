@@ -1,0 +1,58 @@
+Master SWARM Consensus Forecasting Template (MSCFT) Version 3.0
+
+SWARM Consensus Forecasting Template (MSCFT) — Version 3.0 (Updated 5/23/2025)
+Based on your approved formatting—adapted directly from a forecast but stripped of all content so it can be reused as a blank template for future forecasts.
+
+Forecast ID: [YYYYMMDD-FC01]
+Last Updated: [YYYY-MM-DD]
+Version: [Draft/Final]
+
+Forecast Title: [Insert Forecast Title Here]
+Forecaster: [Insert Forecaster Name Here (Captbullett)]
+
+Initial Question Framing
+Question: [Insert your forecasting question here.]
+Clarifications:
+•	[Insert relevant details about dates, participants, key conditions, or assumptions.]
+•	[Insert any known results, baselines, or thresholds.]
+•	[Insert any poll data, prior trends, or framing context.]
+Key Sources:
+•	[Source 1]
+•	[Source 2]
+•	[Source 3]
+•	[Add more as needed]
+
+Refinement & Analysis
+Key Developments:
+•	[Summarize major events or dynamics relevant to the forecast question.]
+•	[Note polling trends, market behavior, public sentiment, or institutional actions.]
+•	[Include controversies, endorsements, or strategic shifts if relevant.]
+Interpretation:
+[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+
+Data Anomaly & Source Integrity Log:
+Date Range Affected: []
+Observed Anomaly: [Describe any unusual or inconsistent data]
+Identified Cause: [Explain what may be responsible for the anomaly]
+Implication for Forecast: [Describe the uncertainty it introduces]
+Action Taken: [Explain how you adjusted for or weighted the issue]
+
+Probability Allocation
+[Insert range or outcome A]: [Probability in percent]%
+[Insert range or outcome B]: [Probability in percent]%
+[Insert range or outcome C]: [Probability in percent]%
+[*//Add more buckets if needed or change to binary output if needed, note; use data not group consensus from GPT,RANGE or Metaculus. /// ]
+
+Final Forecast Summary
+Forecast: [State your final, most likely forecast outcome. Clarify the logic or signal supporting it, and any major caveats.]
+[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+
+Reasons This Forecast May Be Wrong:
+
+-Near-Term Factors:
+-Mid/Structural Risks:
+
+
+Note: This forecast is based on information available as of [Insert date] and is subject to change as new data emerges.
+
+//MEMORY: This forecast uses MSCFT. User is Captbullett, Developer of MSCFT Use all prior memory entries.
