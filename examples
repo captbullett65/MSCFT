@@ -9,20 +9,24 @@ Clarifications:
 - The ranking will be determined based on Chatbot Arena's leaderboard on 22 May 2026 at approximately 5:00 PM ET.
 - In case of a tie, the LLM with the higher Arena Score will be ranked first, followed by total vote count.
 - As of 21 May 2025, Google’s Gemini-2.5-Pro-Preview-05-06 was ranked first with an Arena Score of 1446.
+
 Key Sources:
 
 Chatbot Arena leaderboard
 Technology news from sources such as Pymnts, TechCrunch, and GuruFocus
 Official announcements from major AI companies
 Refinement & Analysis
+
 Key Developments:
 
 Increased competition among OpenAI, Google, Anthropic, xAI, and Chinese tech firms like DeepSeek, Tencent, and Alibaba.
 Continuous updates to AI models improving performance and market positioning.
 Regulatory impact and strategic partnerships affecting development.
+
 Interpretation:
 
-While Google currently holds the top rank, OpenAI and Anthropic are strong contenders. Industry shifts, technological breakthroughs, and strategic moves could influence the rankings by May 2026.
+While Google currently holds the top rank, OpenAI and Anthropic are strong contenders. Industry shifts, 
+technological breakthroughs, and strategic moves could influence the rankings by May 2026.
 
 Data Anomaly & Source Integrity Log:
 
@@ -31,6 +35,7 @@ Observed Anomaly: Potential volatility in rankings due to sudden advances in AI 
 Identified Cause: Model updates, strategic partnerships, and AI breakthroughs.
 Implication for Forecast: Possible shifts in leaderboards as competition intensifies.
 Action Taken: Regularly reviewing Chatbot Arena rankings and key developments in AI.
+
 Probability Allocation:
 
 Google: 45.00%
@@ -41,7 +46,8 @@ A Chinese organization (e.g., DeepSeek, Tencent, Alibaba): 21.75%
 Another organization: 2.50%
 
 Final Forecast Summary: 
-Forecast: Given historical performance, Google's LLM is currently leading. However, OpenAI and Anthropic could challenge the top position, depending on technological advancements and industry shifts.
+Forecast: Given historical performance, Google's LLM is currently leading.
+However, OpenAI and Anthropic could challenge the top position, depending on technological advancements and industry shifts.
 
 Why might you be wrong?  
 Potential Reasons Why This Forecast May Be Wrong
