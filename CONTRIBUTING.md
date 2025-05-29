@@ -35,7 +35,7 @@ Thank you for your interest in contributing!
   7. Why Might You Be Wrong? (2 prompts)
 
 - Ensure all forecasts:
-  - Use **consistent bucket phrasing** per GJ Open standards:
+  - Use **consistent bucket phrasing** per GJ Open or RANGE forecasting platforms standards:
     - 2 or fewer  
     - Between 3 and 5  
     - Between 6 and 8  
@@ -43,7 +43,7 @@ Thank you for your interest in contributing!
     - Between 13 and 16  
     - Between 17 and 21  
     - 22 or more  
-  - Sum all probability allocations to exactly **100%**.
+  - Sum all probability allocations to exactly **100%**. Note: buckets can change from question to question.
   - Identify if the question is **binary** (Yes/No) or **multi-bucket**.
   - Include clear **rationale** and **error introspection**.
 
