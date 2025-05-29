@@ -43,7 +43,7 @@ README.md → This file
 
 ## ✅ Forecasting Standards
 
-- Use only **approved GJO bucket phrasing**:
+- Use only **approved Good Judgement Open and RANGE  bucket phrasing**:
   - 2 or fewer  
   - Between 3 and 5  
   - Between 6 and 8  
