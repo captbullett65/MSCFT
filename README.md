@@ -1,4 +1,4 @@
-👉 [Forecast Index](forecast-index.md)
+[Forecast Index](forecast-index.md)
 
 # MSCFT
 
