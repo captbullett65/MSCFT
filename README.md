@@ -68,7 +68,7 @@ To summarize:
 
 ## 🔒 Backups
 
-Historical forecasts and index versions are stored in `/backups/` as timestamped ZIPs.
+Historical forecasts and index versions are stored in `/ backup-log.md/ ` as timestamped ZIPs.
 
 MSCFT is maintained to ensure traceability, clarity, and reproducibility in judgment forecasting. Feedback and improvements are welcome via pull requests or issues.
 
