@@ -23,11 +23,12 @@ The core template includes **seven required sections** for each forecast:
 
 1. Forecast Title  
 2. Initial Question Framing  
-3. Refinement & Analysis  
-4. Data Anomaly & Source Integrity Log  
-5. Probability Allocation  
-6. Final Forecast Summary  
-7. Why Might You Be Wrong? (two perspectives required)
+3. Refinement & Analysis
+4. Inside-Outside View Structuring
+5. Data Anomaly & Source Integrity Log  
+6. Probability Allocation  
+7. Final Forecast Summary  
+8. Why Might You Be Wrong? (two perspectives required)
 
 All forecasts must follow this structure exactly.
 
