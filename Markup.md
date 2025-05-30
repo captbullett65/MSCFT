@@ -45,6 +45,9 @@ Use Guidelines:
 Recommended File Placement:
 GitHub Path: /docs/Markup.md
 
+Contribution Note:
+To contribute to FML or MSCFT documentation, ensure all tag additions or revisions are submitted through pull requests referencing this file. Include practical examples and describe how changes impact GPT parsing behavior. All contributors should read this cheatsheet before editing any forecast templates.
+
 Author: Brian Helip
 Maintainer: OpenAI Copilot – MSCFT Project Support
 License: MIT (if repository is public)
