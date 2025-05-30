@@ -1,65 +1,62 @@
-Master SWARM Consensus Forecasting Template (MSCFT) – Version 3.1 B (Beta Testing)
+# Forecast Markup Language (FML) – Tag Reference Cheat Sheet
+Version 1.0 (For MSCFT v3.1B)
 
-Forecast Title: \[Insert Forecast Title Here]
-Forecaster: \[Insert Forecaster Name Here]
+## Purpose
+FML tags allow structured input into GPT for compliant, clean output using the Master SWARM Consensus Forecasting Template (MSCFT). Tags act as scaffolding only and are not printed in the final output.
 
-Initial Question Framing
-Question: \[Insert your forecasting question here.]
-Clarifications:
-• \[Insert relevant details about dates, participants, key conditions, or assumptions.]
-• \[Insert any known results, baselines, or thresholds.]
-• \[Insert any poll data, prior trends, or framing context.]
-Key Sources:
-• \[Source 1]
-• \[Source 2]
-• \[Source 3]
-• \[Add more as needed]
+---
 
-Refinement & Analysis
-Key Developments:
-• \[Summarize major events or dynamics relevant to the forecast question.]
-• \[Note polling trends, market behavior, public sentiment, or institutional actions.]
-• \[Include controversies, endorsements, or strategic shifts if relevant.]
+## Tag Categories
 
-Interpretation:
-\[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+### 1. Structural Tags
+`<mscft>` – Wraps entire forecast  
+`<forecast_title>` – Forecast title  
+`<forecaster>` – Name of forecaster  
+`<initial_question_framing>` – Starts question framing section  
+`<refinement_and_analysis>` – Begins refinement/analysis section  
+`<inside_outside_view>` – Inside-outside reasoning  
+`<data_anomaly_log>` – Data anomaly section  
+`<probability_allocation>` – Allocation section  
+`<final_forecast_summary>` – Final call  
+`<why_might_you_be_wrong>` – Risk introspection
 
-Inside-Outside View Structuring
-Inside View:
-• \[Summarize your reasoning based on the specific scenario, participants, or expected behavior of actors involved.]
-• \[Include personal heuristics, contextual judgment, or project-specific timelines.]
+### 2. Field-Level Tags
+`<question>` – The forecast question  
+`<clarifications>` – Clarifying details  
+`<key_sources>` – Sources list  
+`<key_developments>` – Key events  
+`<interpretation>` – Narrative reasoning  
+`<inside_view>` / `<outside_view>` – Contextual and analogical views  
+`<date_range>` / `<observed_anomaly>` – Source review  
+`<identified_cause>` / `<implication>` / `<action_taken>` – Anomaly logging  
+`<bucket>` – A probability scenario group  
+`<outcome>` / `<probability>` / `<rationale>` – Per-scenario metadata
 
-Outside View:
-• \[Compare this forecast to historical analogs, base rates, or similar cases from different domains.]
-• \[Highlight where broader category-level expectations support or challenge your inside view.]
-• \[Note any relevant patterns surfaced by LLM analysis that would be difficult to spot manually.]
+### 3. Formatting & List Tags
+`<li>` – Bullet item  
+`<b>` – Bold (ignored in plaintext)  
+`<i>` – Italic (ignored in plaintext)  
+`<u>` – Underline (ignored in plaintext)  
+`<note>` – Internal notes (not included in output)  
+`<checkbox>` – Used in action and anomaly sections
 
-Data Anomaly & Source Integrity Log
-Date Range Affected: \[Insert applicable date range]
-Observed Anomaly: \[Describe any unusual or inconsistent data inputs]
-Identified Cause:
-☐ Platform reporting change
-☐ Data gap
-☐ Tactical shift
-☐ Unknown
-Implication for Forecast: \[Note how the anomaly may influence your judgment]
-Action Taken:
-☐ Annotated
-☐ Excluded
-☐ Flagged for ARC
-☐ Weighted with caveats
+---
 
-Probability Allocation
-Outcome: \[Describe outcome or bucket]
-Probability: \[%]
-Rationale: \[Explain allocation]
-\[Repeat for each bucket or outcome. Ensure probabilities sum to 100%.]
+## Guidelines
+- Do **not** nest improperly (e.g., `<bucket>` inside `<inside_view>`).
+- Use **lowercase tags** for consistency.
+- Only GPT needs the tags — final MSCFT output will be plaintext.
 
-Final Forecast Summary
-Forecast: \[Summarize your most likely outcome with reasoning condensed into 1–2 sentences.]
+---
 
-Why Might This Forecast Be Wrong?
-• \[Insert reason #1: e.g., policy shift, conflict, data revision]
-• \[Insert reason #2: e.g., trend misread, model blind spot, groupthink effect]
-• \[Insert reason #3: e.g., timing misjudgment, surprise event, institutional failure]
+## File Path
+GitHub: `/docs/Markup.md`  
+Required by: `CONTRIBUTING.md`
+
+---
+
+**Maintainer:** Brian Helip  
+**Support:** OpenAI Copilot – MSCFT Project  
+**License:** MIT
+
 
