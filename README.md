@@ -19,7 +19,7 @@ This project provides a standardized, auditable process for producing and mainta
 
 ## 🧭 Structure
 
-The core template includes **seven required sections** for each forecast:
+The core template includes **Eight required sections** for each forecast:
 
 1. Forecast Title  
 2. Initial Question Framing  
