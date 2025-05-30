@@ -67,6 +67,16 @@ To summarize:
 - Record audits or validations in `/logs/`.
 - Update `forecast-index.md` with a working link to your file.
 
+CHANGELOG.md
+## [3.1 B] - 2025-05-30
+### Added
+- Inside-Outside View Structuring subsection added after "Interpretation".
+- Updated template labeled as MSCFT Version 3.1 B for beta testing.
+
+### Notes
+- This version integrates LLM-assisted calibration via structured outside view analysis.
+- Beta feedback encouraged before promoting to 3.2.
+
 ## 🔒 Backups
 
 Historical forecasts and index versions are stored in `/ backup-log.md/ ` as timestamped ZIPs.
