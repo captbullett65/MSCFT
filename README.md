@@ -1,3 +1,10 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Last Commit](https://img.shields.io/github/last-commit/captbullett65/MSCFT)
+![Repo Size](https://img.shields.io/github/repo-size/captbullett65/MSCFT)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
+
+> The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
+
 [Forecast Index](forecast-index.md)
 
 # MSCFT
