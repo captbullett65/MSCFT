@@ -1,60 +1,38 @@
-Forecast Title: [Insert Forecast Title Here]
-Forecaster: [Insert Forecaster Name Here]
+MSCFT Template (Version 3.1B)
+-----------------------------
+
+Forecast Title:
+Forecaster:
 
 Initial Question Framing
-Question: [Insert your forecasting question here.]
+Question:
 Clarifications:
-• [Insert relevant details about dates, participants, key conditions, or assumptions.]
-• [Insert any known results, baselines, or thresholds.]
-• [Insert any poll data, prior trends, or framing context.]
 Key Sources:
-• [Source 1]
-• [Source 2]
-• [Source 3]
 
 Refinement & Analysis
 Key Developments:
-• [Summarize major events or dynamics relevant to the forecast question.]
-• [Note polling trends, market behavior, public sentiment, or institutional actions.]
-• [Include controversies, endorsements, or strategic shifts if relevant.]
-
 Interpretation:
-[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
 
 Inside-Outside View Structuring
 Inside View:
-• [Summarize your reasoning based on the specific scenario, participants, or expected behavior of actors involved.]
-• [Include personal heuristics, contextual judgment, or project-specific timelines.]
 Outside View:
-• [Compare this forecast to historical analogs, base rates, or similar cases from different domains.]
-• [Highlight where broader category-level expectations support or challenge your inside view.]
-• [Note any relevant patterns surfaced by LLM analysis that would be difficult to spot manually.]
 
 Data Anomaly & Source Integrity Log
-Date Range Affected: [Insert applicable date range]
-Observed Anomaly: [Describe any unusual or inconsistent data inputs]
+Date Range Affected:
+Observed Anomaly:
 Identified Cause:
-☐ Platform reporting change
-☐ Data gap
-☐ Tactical shift
-☐ Unknown
-Implication for Forecast: [Note how the anomaly may influence your judgment]
+Implication for Forecast:
 Action Taken:
-☐ Annotated
-☐ Excluded
-☐ Flagged for ARC
-☐ Weighted with caveats
 
 Probability Allocation
-Outcome: [Describe outcome or bucket]
-Probability: [%]
-Rationale: [Explain allocation]
-[Repeat for each bucket or outcome. Ensure probabilities sum to 100%.]
+Outcome:
+Probability:
+Rationale:
 
 Final Forecast Summary
-Forecast: [Summarize your most likely outcome with reasoning condensed into 1–2 sentences.]
+Forecast:
+Explanation:
 
-Why Might This Forecast Be Wrong?
-• [Insert reason #1: e.g., policy shift, conflict, data revision]
-• [Insert reason #2: e.g., trend misread, model blind spot, groupthink effect]
-• [Insert reason #3: e.g., timing misjudgment, surprise event, institutional failure]
+Why Might You Be Wrong?
+1.
+2.
