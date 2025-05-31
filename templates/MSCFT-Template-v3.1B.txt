@@ -58,11 +58,6 @@ Ensure the total is 100%.
 Rationale:  
 [Briefly explain the reasoning behind your distribution. Why is each range plausible or implausible? What data or signals support your weightings?]
 
-
-
-Rationale:  
-[Briefly explain the reasoning behind your distribution. Why is each range plausible or implausible? What data or signals support your weightings?]
-
 Final Forecast Summary  
 Forecast: [Summarize the most likely outcome and your top bucket(s)]  
 Explanation: [Summarize how this forecast fits the overall strategic context]
