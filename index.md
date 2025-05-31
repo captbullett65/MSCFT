@@ -1,3 +1,6 @@
+![MSCFT Banner](./mscft-banner.png)
+
+
 # Master SWARM Consensus Forecasting Template (MSCFT)
 
 Welcome to the official forecasting repository for the **Master SWARM Consensus Forecasting Template (MSCFT)** — a structured, auditable framework designed to support accurate, high-quality judgment-based forecasts across domains such as innovation, public policy, and geopolitics.
