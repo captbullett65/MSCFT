@@ -40,13 +40,12 @@ The core template includes **Eight required sections** for each forecast:
 All forecasts must follow this structure exactly.
 
 ## 📂 Repository Layout
-/docs/ → MSCFT template file, forecast index
-/examples/ → Completed forecasts
-/logs/ → Audit trails, validation notes
-/backups/ → Versioned snapshots of forecasts and logs
-CONTRIBUTING.md → How to contribute new forecasts
-forecast-index.md → Linked index of all forecast files
-README.md → This file
+/docs/       → MSCFT documentation, FML reference, and forecast index  
+/examples/   → Completed forecasts  
+/logs/       → Audit trails and validation notes  
+/templates/  → Plain-text and Markdown versions of the MSCFT forecast template  
+/backups/    → Versioned snapshots of forecasts and logs  
+
 
 
 ## ✅ Forecasting Standards
@@ -64,9 +63,9 @@ README.md → This file
 - Confirm if the question is **binary (Yes/No)** or **multi-range**.
 - Include **rationale** and **error introspection** in all forecasts.
 
-## 🧠 How to Contribute
 
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for full instructions.
+🧠 How to Contribute (add this at the end of the section)
+To begin forecasting, download the MSCFT Template (v3.1B) from the /templates/ directory in either .txt or .md format.
 
 To summarize:
 - Start with the MSCFT template in `/docs/`.
