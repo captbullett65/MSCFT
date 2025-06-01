@@ -1,0 +1,116 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: U.S. U-6 Unemployment Rate — September 2025
+Official bucket formatting using BLS data via FRED.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+U.S. U-6 Unemployment Rate — September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the U.S. U-6 unemployment rate for September 2025?
+
+**Clarifications:**  
+- Forecast refers to the official BLS U-6 rate, as first released and reported in the FRED database.  
+- U-6 is the broadest measure of unemployment, including discouraged workers and part-time employees for economic reasons.  
+- Question will be suspended on 30 September 2025 and resolved once the September data is first published by BLS.  
+- September 2024 U-6 unemployment rate was 7.7%.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/U6RATE  
+- https://www.bls.gov/lau/stalt.htm  
+- Investopedia on U-3 vs U-6: https://www.investopedia.com/terms/u/u6-unemployment-rate.asp  
+- Monthly BLS Employment Situation Summary
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- As of mid-2025, labor markets remain resilient despite slowing job openings and cooling wage growth.  
+- U-3 (headline unemployment) remains stable around 4.1%, while U-6 trends around 7.4% to 7.8%.  
+- Federal Reserve policy has shifted toward a pause, with slight loosening expected if inflation continues to fall.  
+- Major tech and logistics firms have announced targeted layoffs, though service sector hiring remains robust.  
+- Labor force participation rate has remained flat, with modest recovery in discouraged worker engagement.
+
+**Interpretation:**  
+The September 2025 U-6 rate is likely to stay close to its current range (7.4–7.8%), barring a significant economic downturn. Leading indicators (job openings, wage growth, hours worked) suggest plateauing, not collapse. Upside risks come from delayed effects of past tightening; downside risks exist if demand outperforms or labor force re-entry remains strong.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+March 2020 – April 2022
+
+**Observed Anomaly:**  
+Pandemic-related distortions in U-6 due to temporary shutdowns, misclassification of unemployed as “employed but absent.”
+
+**Identified Cause:**  
+COVID-19 disruptions and data collection inconsistencies.
+
+**Implication for Forecast:**  
+Pre-2023 base rates can be skewed upward; recent trends are more stable. Structural long-term unemployment may still distort interpretation.
+
+**Action Taken:**  
+Focused analysis on post-2023 normalization period. FRED/BLS first release values used exclusively for resolution.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+BLS-reported U-6 unemployment rate for September 2025, as first published and recorded by FRED.
+
+**Probability:**  
+Forecast uses official GJO bucket ranges.
+
+**Rationale:**  
+My central case projects that U-6 will stay within its recent band (7.0%–7.8%), with moderate downside potential if labor force engagement improves, and moderate upside risk if private-sector job growth stalls unexpectedly.
+
+- Less than 6.6%: 2%  
+- At least 6.6%, but less than 7.0%: 10%  
+- At least 7.0%, but less than 7.4%: 25%  
+- At least 7.4%, but less than 7.8%: 30%  
+- At least 7.8%, but less than 8.2%: 15%  
+- At least 8.2%, but less than 8.6%: 8%  
+- At least 8.6%, but less than 9.0%: 5%  
+- At least 9.0%, but less than 9.4%: 3%  
+- At least 9.4%, but less than 9.8%: 1%  
+- 9.8% or more: 1%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+Most likely outcome is a U-6 rate between **7.4% and 7.8%**, with a central estimate of **7.6%**.
+
+**Explanation:**  
+Indicators suggest continued labor market strength despite normalization in hiring and job turnover. Unless there is a downturn or widespread layoffs, the U-6 rate is likely to stay within a stable band just below 8%. Marginal improvements in part-time employment and discouraged worker participation may nudge the rate lower, but not drastically.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be overestimating labor market resilience and underweighting delayed effects of tighter credit or corporate cost-cutting.  
+- Assumes stable labor force participation, which could shift significantly due to policy changes, automation, or immigration dynamics.  
+- Anchoring to recent ranges may obscure warning signs in underemployment or hidden unemployment metrics.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- Post-pandemic volatility makes it hard to draw clean comparisons; structural labor shifts may create new “norms.”  
+- In past cycles, U-6 has spiked quickly when recessionary pressures build — often faster than headline unemployment.  
+- External shocks (e.g., geopolitical, climate-related, or energy spikes) could weaken hiring faster than modeled.
+
+---
