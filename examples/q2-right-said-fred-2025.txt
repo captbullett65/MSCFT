@@ -14,26 +14,31 @@ This version is now audit-compliant.
 # Master SWARM Consensus Forecasting Template (MSCFT)
 
 ## Forecast Title  
-[Insert Forecast Title Here]  
-
-**Forecaster:** [Insert Your Name]
-
+Average Price of a Dozen Large Eggs in the US – September 2025
+ 
+**Forecaster:** Brian Helip
 ---
 
 ## Initial Question Framing  
 
 **Question:**  
-[Insert your forecasting question here.]
+Clarifications:
 
-**Clarifications:**  
-- [Insert relevant details about dates, participants, key conditions, or assumptions.]  
-- [Insert any known results, baselines, or thresholds.]  
-- [Insert any poll data, prior trends, or framing context.]
+Forecast refers to the national average retail price for a dozen large grade A eggs in the United States.
 
-**Key Sources:**  
-- [Source 1]  
-- [Source 2]  
-- [Source 3]  
+Data will be resolved using USDA monthly data or the BLS CPI subcomponent for eggs.
+
+Price is usually reported in US dollars rounded to the nearest cent (e.g., $1.97).
+
+Egg prices are volatile and heavily affected by avian flu outbreaks, feed costs, and seasonal consumer demand.
+
+Key Sources:
+
+USDA Egg Market News Reports: https://www.ams.usda.gov/market-news/egg-market-news-reports
+
+Bureau of Labor Statistics CPI Data: https://www.bls.gov/data/
+
+American Egg Board industry reports
 
 ---
 
