@@ -1,0 +1,107 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: US 30-Year Fixed Mortgage Rate — Week Ending 25 September 2025
+Resolved via FRED (Freddie Mac average)
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+US Mortgage Rate — 30-Year Fixed, Week Ending 25 September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the weekly average interest rate for 30-year fixed-rate mortgages in the United States for the week ending 25 September 2025?
+
+**Clarifications:**  
+- Forecast refers to the average weekly mortgage rate as reported by Freddie Mac and published through the Federal Reserve Economic Data (FRED) platform.  
+- On 26 September 2024, the rate was reported as 6.08%.  
+- The question will be suspended on 24 September 2025.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/MORTGAGE30US  
+- https://www.freddiemac.com/pmms  
+- https://www.investopedia.com/articles/mortgages-real-estate  
+- Reuters, Yahoo News, and Newsweek policy and rate coverage
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- Trump administration’s push to privatize Fannie Mae and Freddie Mac has caused concern in mortgage markets (Reuters).  
+- Treasury yields have remained elevated, placing upward pressure on mortgage rates.  
+- The Fed has signaled rate stabilization or modest cuts, but spreads remain wide.  
+- Mortgage applications are near multi-decade lows, and housing affordability has deteriorated.  
+- Homebuilder sentiment has softened, though new starts remain stable.
+
+**Interpretation:**  
+Mortgage rates are expected to remain sticky near current levels. Even with easing Fed guidance, risk premiums tied to agency uncertainty and bond market volatility may keep 30-year fixed rates in the 6.10%–7.30% range. Political risk adds an upward skew, though a sudden Treasury rally could compress yields and lead to a rate dip.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+March 2022 – October 2023
+
+**Observed Anomaly:**  
+Rapid increases in 30-year mortgage rates, jumping from ~3% to over 7% within a 12-month period.
+
+**Identified Cause:**  
+Aggressive Fed rate hikes in response to inflation; normalization shocks in MBS spreads.
+
+**Implication for Forecast:**  
+This precedent anchors volatility expectations. While not expected to repeat, it suggests tail risks are structurally possible even in stable macro periods.
+
+**Action Taken:**  
+Maintained vigilance for spread behavior and policy-linked volatility. Anchored forecast to observable Fed and Treasury dynamics, with overlay of conservatorship policy path.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+Freddie Mac weekly average 30-year fixed mortgage rate for week ending 25 September 2025
+
+**Probability:**  
+Official bucket allocation per GJO format.
+
+**Rationale:**  
+Rates are expected to hold or rise slightly due to political uncertainty and yield curve anchoring. While Treasury rates may ease, mortgage-specific spread risks persist.
+
+- Less than 5.50%: 2%  
+- At least 5.50%, but less than 5.80%: 5%  
+- At least 5.80%, but less than 6.10%: 12%  
+- At least 6.10%, but less than 6.40%: 20%  
+- At least 6.40%, but less than 6.70%: 23%  
+- At least 6.70%, but less than 7.00%: 17%  
+- At least 7.00%, but less than 7.30%: 12%  
+- At least 7.30%, but less than 7.60%: 6%  
+- At least 7.60%, but less than 7.90%: 2%  
+- 7.90% or more: 1%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+The 30-year fixed mortgage rate is most likely to average between **6.10% and 6.70%** for the week ending 25 September 2025, with a central forecast near **6.4%**.
+
+**Explanation:**  
+Despite cooling inflation, structural spread risk remains high. Agency privatization discussions may increase risk premiums. The most probable outcome reflects yield curve stabilization with modest spread pressure.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be overestimating political effects and agency reform timelines.  
+- Fed guidance may loosen more aggressively than expected, leading to a ra
