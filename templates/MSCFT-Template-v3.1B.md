@@ -6,6 +6,19 @@
 **Forecaster:**
 
 ---
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Change: Corrected Probability Allocation bucket phrasing to match official GJO format:
+• 2 or fewer
+• Between 3 and 5
+• Between 6 and 8
+• Between 9 and 12
+• Between 13 and 16
+• Between 17 and 21
+• 22 or more
+This version is now audit-compliant.
+-->
+
 
 ### Initial Question Framing  
 **Question:**  
