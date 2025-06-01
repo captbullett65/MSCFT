@@ -50,23 +50,21 @@ Interpretation:
 The forecast for September 2025 CPI will depend heavily on oil prices, shelter costs, and wage pass-through. If energy prices stay stable and wage growth continues cooling, a YoY CPI reading between 2.8% and 3.3% is plausible. Upside risks include a resurgence in housing inflation or unexpected geopolitical shocks affecting energy. Downside risk exists if consumer demand softens more than expected due to credit tightening or labor weakness. I'm currently leaning toward a mid-range CPI value consistent with a Fed pause environment.]
 
 ---
+Date Range Affected:
+February 2024 – April 2025
 
-## Data Anomaly & Source Integrity Log  
+Observed Anomaly:
+Lag in real-time shelter cost adjustments; BLS data tends to smooth rental inflation even when market rates fall quickly.
 
-**Date Range Affected:**  
-[Insert applicable date range]
+Identified Cause:
+BLS methodology for Owners’ Equivalent Rent (OER) and primary rent introduces significant lags due to survey collection intervals and averaging.
 
-**Observed Anomaly:**  
-[Describe any unusual, inconsistent, or missing data]
+Implication for Forecast:
+CPI may continue to show elevated housing inflation through Q3 2025 even if real-world rents are declining. This may skew overall CPI higher than macro conditions suggest.
 
-**Identified Cause:**  
-[Explain what you think caused the anomaly]
+Action Taken:
+Forecast adjusted to allow for persistent housing inflation even in the presence of weakening consumer demand. Energy and core goods components assumed to contribute mild disinflation.
 
-**Implication for Forecast:**  
-[State whether and how it affects your judgment]
-
-**Action Taken:**  
-[What did you adjust, or why was no adjustment made?]
 
 ---
 
