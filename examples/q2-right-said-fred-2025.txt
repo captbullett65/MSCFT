@@ -121,13 +121,13 @@ Total: 100%
 ---
 
 ## Final Forecast Summary  
+ChatGPT said:
 
-**Forecast:**  
-[State your most likely outcome clearly.]
+Forecast:
+The most likely outcome is that the average retail price for a dozen large eggs in September 2025 will fall between $2.20 and $2.80, with a central estimate near $2.45.
 
-**Explanation:**  
-[Summarize your reasoning and what you think the most important variables are.]
-
+Explanation:
+After record volatility in 2022–2023 driven by avian flu and feed costs, egg prices have returned to seasonal norms. Recent USDA and BLS data show stable pricing with moderate input costs and no new outbreaks. While the egg market is sensitive to supply shocks, current production trends suggest that barring a health crisis, prices will remain between $2.20 and $2.80. Higher outcomes are still possible but would require significant disruption.
 ---
 
 ## Why Might This Forecast Be Wrong?
