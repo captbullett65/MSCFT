@@ -1,0 +1,114 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: ADP Private Payrolls, Q3 2025 (Average Monthly Change)
+Resolved via FRED ADP series, “Change, Persons”
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+Average Monthly Change in ADP Total Nonfarm Private Payrolls — Q3 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the average monthly change in US total nonfarm private payrolls in the third quarter of 2025, according to ADP?
+
+**Clarifications:**  
+- Forecast refers to ADP-reported payroll changes for July, August, and September 2025.  
+- Outcome determined using the ADP data as published in FRED, with units set to "Change, Persons".  
+- As of Q3 2024, the average monthly change was 138,666.7 (based on July = 42,000; August = 180,000; September = 194,000).  
+- Question suspended on 30 September 2025.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/ADPTNFP  
+- https://www.investopedia.com/terms/a/adp.asp  
+- https://adpemploymentreport.com/  
+- BLS Job Openings and Labor Turnover Survey (JOLTS)  
+- Conference Board Employment Trends Index
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- Labor market in 2025 remains resilient but shows signs of cooling, especially in white-collar sectors.  
+- ADP’s monthly reports for early 2025 showed volatile swings between 90,000 and 220,000.  
+- Tech and finance hiring has slowed, while health and services remain stable.  
+- Immigration and labor supply normalization may be tempering upward wage pressure.  
+- No major layoffs reported, but quit rates have declined.
+
+**Interpretation:**  
+Private payrolls are likely to average between 100,000 and 200,000, consistent with a stable-to-softening labor market. Downside risk includes Fed overtightening or external shocks. Upside tail risk exists if productivity gains or immigration reforms lead to unexpected hiring booms.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+2023–2024
+
+**Observed Anomaly:**  
+ADP and BLS data diverged significantly for several quarters, with ADP underreporting relative to BLS figures.
+
+**Identified Cause:**  
+Methodological differences in business sample size, classification of contractor roles, and seasonal adjustments.
+
+**Implication for Forecast:**  
+ADP data remains somewhat noisy and lag-sensitive. Forecast is more cautious and weighted toward stability.
+
+**Action Taken:**  
+Anchored forecast to recent three-month moving average and compared variance across adjacent quarters.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+Average monthly change in ADP total nonfarm private payrolls for July–Sept 2025
+
+**Probability:**  
+Aligned with GJO's bucket structure.
+
+**Rationale:**  
+Stable labor market dynamics support a base case of 100k–200k. Downside pressures are limited unless economic conditions worsen. Outside tail risk for +250k seems improbable absent a policy shift.
+
+- Lower than -100,000: 0.5%  
+- At least -100,000, but lower than -50,000: 1%  
+- At least -50,000, but lower than 0: 3%  
+- At least 0, but lower than 50,000: 8%  
+- At least 50,000, but lower than 100,000: 12%  
+- At least 100,000, but lower than 150,000: 28%  
+- At least 150,000, but lower than 200,000: 30%  
+- At least 200,000, but lower than 250,000: 15%  
+- 250,000 or higher: 2.5%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+The ADP-reported average monthly change in private payrolls for Q3 2025 will most likely fall between **100,000 and 200,000**, with a median forecast around **160,000**.
+
+**Explanation:**  
+Hiring continues, though at a slower pace. Structural labor force dynamics support a mid-growth forecast absent external disruption.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- Assumes hiring softens but continues; a misread of productivity or labor costs may skew expectations.  
+- Overreliance on July data could bias trends if August/September diverge sharply.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- Hiring swings of ±100k per month are not uncommon in ADP data.  
+- Past Q3 periods have seen unexpected surges tied to policy or demographic shifts.
+
+---
