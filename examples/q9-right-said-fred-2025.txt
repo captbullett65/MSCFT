@@ -1,0 +1,113 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: US Real GDP Growth — Q3 2025 (annualized)
+Resolved via BEA first release as published in FRED.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+US Real GDP Growth Rate — Q3 2025 (Annualized)
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the U.S. real GDP growth rate for the third quarter of 2025?
+
+**Clarifications:**  
+- Forecast refers to the annualized quarterly change in inflation-adjusted U.S. GDP.  
+- Outcome will be determined using the first official estimate released by the Bureau of Economic Analysis (BEA) and published via FRED.  
+- Historical reference: Q3 2024 real GDP growth was reported as 3.1%.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/A191RL1Q225SBEA  
+- https://www.bea.gov/news/2025/gdp-release-schedule  
+- Bloomberg, CNBC, and WSJ macroeconomic data summaries  
+- Federal Reserve Beige Book and Atlanta Fed GDPNow forecasts
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- As of late Q2 2025, consumer spending remains resilient but showing signs of slowing.  
+- Business investment has stabilized, with growth in AI, infrastructure, and manufacturing offsetting weakness in commercial real estate.  
+- Government spending has contributed positively to growth, including defense and public infrastructure outlays.  
+- Exports are recovering slowly, while imports remain steady due to dollar strength.  
+- Fed policy has paused rate hikes, and forward guidance signals potential cuts in Q4.
+
+**Interpretation:**  
+Growth momentum appears intact but decelerating. A print between 1.0% and 2.5% appears most likely, depending on consumption and inventories. Risks skew slightly downward due to household balance sheet strain and weakening retail data. Upside risk exists if inventory accumulation or government spending exceeds expectations.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+Q2 2020 – Q2 2021
+
+**Observed Anomaly:**  
+COVID-era GDP swings (–29.9% to +33.8%) distort historical volatility averages.
+
+**Identified Cause:**  
+Pandemic-driven shutdowns and fiscal stimulus produced extreme outliers.
+
+**Implication for Forecast:**  
+Base rates for Q3 comparisons must filter out these anomalies to avoid anchoring bias.
+
+**Action Taken:**  
+Using post-2022 base rate normalization. Relying on BEA’s advance estimate only for resolution, via FRED data series.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+Annualized real GDP growth rate for Q3 2025 (first BEA estimate via FRED)
+
+**Probability:**  
+Forecast uses official GJO bucket ranges for quarterly GDP change.
+
+**Rationale:**  
+Mid-cycle dynamics point toward a soft landing scenario, with strong but moderating growth. Extreme negative or overly positive prints are unlikely barring major surprises.
+
+- Down by more than 2.0%: 1%  
+- Down by more than 1.0% but at most 2.0%: 4%  
+- Down by more than 0.0% but at most 1.0%: 10%  
+- Up by at least 0.0%, but less than 1.0%: 15%  
+- Up by at least 1.0%, but less than 2.0%: 25%  
+- Up by at least 2.0%, but less than 3.0%: 25%  
+- Up by at least 3.0%, but less than 4.0%: 15%  
+- Up by 4.0% or more: 5%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+Real GDP growth for Q3 2025 is most likely to be between **1.0% and 3.0%**, with a central estimate of **2.3%**.
+
+**Explanation:**  
+Macroeconomic conditions remain supportive of growth, but headwinds from consumer credit stress and global trade frictions suggest deceleration from 2024’s pace. Fiscal policy remains expansionary, and business investment is trending upward. Inventory and net exports remain wildcards.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be underestimating weakness in the consumer sector and overstating inventory contributions.  
+- Government spending assumptions could be off depending on continuing resolution timelines.  
+- Seasonal adjustments and inflation revisions can distort advance release readings.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- Past soft landings have often shown more abrupt deceleration than modeled.  
+- External shocks (e.g., oil price surge, China slowdown) can affect export demand sharply.  
+- BEA’s advance estimates have historically shown up to ±1.5% revisions in Q3 data over time.
+
+---
