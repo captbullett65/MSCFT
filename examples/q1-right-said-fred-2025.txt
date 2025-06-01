@@ -14,26 +14,24 @@ This version is now audit-compliant.
 # Master SWARM Consensus Forecasting Template (MSCFT)
 
 ## Forecast Title  
-[Insert Forecast Title Here]  
+US CPI – 12-Month Change for September 2025  
 
-**Forecaster:** [Insert Your Name]
-
+**Forecaster:** Brian Helip
 ---
-
 ## Initial Question Framing  
 
 **Question:**  
-[Insert your forecasting question here.]
+What will be the 12-month percentage change in the US Consumer Price Index (CPI) for September 2025?
 
 **Clarifications:**  
-- [Insert relevant details about dates, participants, key conditions, or assumptions.]  
-- [Insert any known results, baselines, or thresholds.]  
-- [Insert any poll data, prior trends, or framing context.]
+- Forecast is for year-over-year change from September 2024 to September 2025.  
+- Forecast will be resolved using final U.S. Bureau of Labor Statistics CPI release for September 2025.  
+- BLS defines CPI as a measure of the average change in prices paid by urban consumers for a market basket of consumer goods and services.
 
 **Key Sources:**  
-- [Source 1]  
-- [Source 2]  
-- [Source 3]  
+- https://www.bls.gov/cpi/  
+- Federal Reserve Economic Data (FRED)  
+- Inflation expectations data (e.g., University of Michigan, NY Fed)
 
 ---
 
