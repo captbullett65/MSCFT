@@ -81,35 +81,43 @@ Forecast adjusted to widen expected outcome range slightly and increase tail ris
 ---
 
 ## Probability Allocation  
+ChatGPT said:
+Excellent — you're using the official Good Judgment bucket format for egg prices. Let’s now rewrite the Probability Allocation section of your MSCFT file to match this structure exactly.
 
-**Outcome:**  
-[Brief description of what is being forecasted]
+✅ STEP 4: Finalized Probability Allocation (Official Buckets)
+Paste this into your Q2 forecast file under the Probability Allocation section:
 
-**Probability:**  
-[Assign probability across buckets or binary options]
+Outcome:
+Average US retail price for a dozen large eggs in September 2025.
 
-**Rationale:**  
-[Explain the reasoning behind your probability allocation]
+Probability:
+Buckets follow official Good Judgment formatting for price ranges in USD.
 
-### If using bucketed forecast:
+Rationale:
+Given current supply stability, production costs, and the absence of major HPAI outbreaks, prices are likely to remain well below peak 2022–2023 levels. However, the structure of the egg market leaves room for sudden supply shocks. My base case centers around $2.20–$2.80, with a tapering distribution beyond $3.40.
 
-- 2 or fewer: [ ]%  
-- Between 3 and 5: [ ]%  
-- Between 6 and 8: [ ]%  
-- Between 9 and 12: [ ]%  
-- Between 13 and 16: [ ]%  
-- Between 17 and 21: [ ]%  
-- 22 or more: [ ]%  
+Official Buckets:
+Less than $2.200: 8%
 
-**Ensure the total is 100%.**
+At least $2.200, but less than $2.800: 35%
 
-### If binary (Yes/No):
+At least $2.800, but less than $3.400: 25%
 
-- Yes: [ ]%  
-- No: [ ]%  
+At least $3.400, but less than $4.000: 15%
 
-**Ensure the total is 100%.**
+At least $4.000, but less than $4.600: 8%
 
+At least $4.600, but less than $5.200: 5%
+
+At least $5.200, but less than $5.800: 2%
+
+At least $5.800, but less than $6.400: 1%
+
+At least $6.400, but less than $7.000: 0.5%
+
+$7.000 or more: 0.5%
+
+Total: 100%
 ---
 
 ## Final Forecast Summary  
