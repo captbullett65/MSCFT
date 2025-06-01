@@ -68,36 +68,37 @@ Forecast adjusted to allow for persistent housing inflation even in the presence
 
 ---
 
-## Probability Allocation  
+## Probability Allocation 
 
-**Outcome:**  
-[Brief description of what is being forecasted]
+Outcome:
+Year-over-year percentage change in US Consumer Price Index (CPI) for September 2025.
 
-**Probability:**  
-[Assign probability across buckets or binary options]
+Probability:
+Forecast uses the official Good Judgment bucket format for CPI percentage change.
 
-**Rationale:**  
-[Explain the reasoning behind your probability allocation]
+Rationale:
+April 2025 CPI YoY was 3.4%. Disinflation trends continue, but shelter and services remain sticky. My base case is centered around 2.8%–3.2%, with upside tail risk if shelter inflation fails to moderate or oil spikes. Downside risk includes weakening demand or labor market cooling faster than expected.
 
-### If using bucketed forecast:
+Official Bucketed Forecast:
+Up by less than 1.600% or down: 5%
 
-- 2 or fewer: [ ]%  
-- Between 3 and 5: [ ]%  
-- Between 6 and 8: [ ]%  
-- Between 9 and 12: [ ]%  
-- Between 13 and 16: [ ]%  
-- Between 17 and 21: [ ]%  
-- 22 or more: [ ]%  
+Up by at least 1.600%, but less than 2.000%: 8%
 
-**Ensure the total is 100%.**
+Up by at least 2.000%, but less than 2.400%: 12%
 
-### If binary (Yes/No):
+Up by at least 2.400%, but less than 2.800%: 20%
 
-- Yes: [ ]%  
-- No: [ ]%  
+Up by at least 2.800%, but less than 3.200%: 25%
 
-**Ensure the total is 100%.**
+Up by at least 3.200%, but less than 3.600%: 15%
 
+Up by at least 3.600%, but less than 4.000%: 8%
+
+Up by at least 4.000%, but less than 4.400%: 5%
+
+Up by 4.400% or more: 2%
+
+Total: 100%
 ---
 
 ## Final Forecast Summary  
