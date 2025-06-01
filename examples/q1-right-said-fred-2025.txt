@@ -113,10 +113,23 @@ Disinflation has taken hold in headline CPI, aided by stabilizing energy prices 
 
 ## Why Might This Forecast Be Wrong?
 
-### Inside View (Scenario/Assumption Bias)  
-[What might you be getting wrong in your logic, assumptions, timeline, or confidence?]
+Inside View (Scenario/Assumption Bias)
 
-### Outside View (Base Rate / Historical Anomaly Risk)  
-[What does the historical or comparative case suggest might make this forecast wrong? Base rates, black swan risks, or error in data trends?]
+I may be underestimating the persistence of services inflation, especially if wage growth reaccelerates due to labor shortages.
+
+My assumptions about the shelter component cooling may be premature given how lagged BLS housing data is.
+
+I may be over-relying on soft-landing scenarios, discounting potential policy missteps or external shocks.
+
+There’s a possibility I’m anchoring too closely to recent CPI trends and under-weighting volatility.
+
+Outside View (Base Rate / Historical Anomaly Risk)
+Historically, CPI disinflation from 3.5%+ to the 2% range often takes longer than a year, especially if core components are sticky.
+
+Base rate comparisons to similar cycles (e.g., 1990s, post-GFC) suggest a slower glide path than my mid-2025 expectation.
+
+Inflation surprises in the past (e.g., early 2021) have occurred despite broad expectations of moderation.
+
+Geopolitical events, commodity shocks, or supply disruptions could materially alter the outlook outside base rate logic.
 
 ---
