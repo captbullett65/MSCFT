@@ -34,16 +34,20 @@ What will be the 12-month percentage change in the US Consumer Price Index (CPI)
 - Inflation expectations data (e.g., University of Michigan, NY Fed)
 
 ---
+Key Developments:
 
-## Refinement & Analysis  
+Headline CPI as of April 2025 was at [insert latest YoY %], continuing a trend of gradual disinflation since mid-2023.
 
-**Key Developments:**  
-- [Summarize major events or dynamics relevant to the forecast question.]  
-- [Note polling trends, market behavior, public sentiment, or institutional actions.]  
-- [Include controversies, endorsements, or strategic shifts if relevant.]
+Core CPI (excluding food and energy) has remained more persistent but is also showing signs of deceleration.
 
-**Interpretation:**  
-[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+Fed policy remains in a holding pattern with rate cuts increasingly priced in for late 2025, depending on inflation momentum.
+
+Supply chain normalization and a strong dollar have helped cap import inflation, though housing and services inflation remain sticky.
+
+Labor market indicators show slowing job growth, but wage inflation is still above 3.5%.
+
+Interpretation:
+The forecast for September 2025 CPI will depend heavily on oil prices, shelter costs, and wage pass-through. If energy prices stay stable and wage growth continues cooling, a YoY CPI reading between 2.8% and 3.3% is plausible. Upside risks include a resurgence in housing inflation or unexpected geopolitical shocks affecting energy. Downside risk exists if consumer demand softens more than expected due to credit tightening or labor weakness. I'm currently leaning toward a mid-range CPI value consistent with a Fed pause environment.]
 
 ---
 
