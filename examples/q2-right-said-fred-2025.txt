@@ -63,20 +63,20 @@ Absent a major supply shock, average retail egg prices in September 2025 are lik
 
 ## Data Anomaly & Source Integrity Log  
 
-**Date Range Affected:**  
-[Insert applicable date range]
+Date Range Affected:
+January 2022 – March 2024 (historical volatility baseline)
 
-**Observed Anomaly:**  
-[Describe any unusual, inconsistent, or missing data]
+Observed Anomaly:
+Extraordinary volatility in egg prices due to highly pathogenic avian influenza (HPAI) outbreaks caused spikes exceeding $4/dozen in 2022–2023.
 
-**Identified Cause:**  
-[Explain what you think caused the anomaly]
+Identified Cause:
+Culling of tens of millions of laying hens during outbreaks sharply reduced supply. Additionally, pandemic-era supply chain issues increased transport and feed costs.
 
-**Implication for Forecast:**  
-[State whether and how it affects your judgment]
+Implication for Forecast:
+Recent price stability may be fragile. Another outbreak, even if regional, could sharply increase prices. Relying solely on 2024–2025 trends without factoring past event risks could result in underestimating volatility.
 
-**Action Taken:**  
-[What did you adjust, or why was no adjustment made?]
+Action Taken:
+Forecast adjusted to widen expected outcome range slightly and increase tail risk buckets to account for uncertainty in poultry health and biosecurity. Sources from USDA and industry reports are cross-referenced for outbreak monitoring.
 
 ---
 
