@@ -81,12 +81,6 @@ Forecast adjusted to widen expected outcome range slightly and increase tail ris
 ---
 
 ## Probability Allocation  
-ChatGPT said:
-Excellent — you're using the official Good Judgment bucket format for egg prices. Let’s now rewrite the Probability Allocation section of your MSCFT file to match this structure exactly.
-
-✅ STEP 4: Finalized Probability Allocation (Official Buckets)
-Paste this into your Q2 forecast file under the Probability Allocation section:
-
 Outcome:
 Average US retail price for a dozen large eggs in September 2025.
 
@@ -132,10 +126,17 @@ After record volatility in 2022–2023 driven by avian flu and feed costs, egg p
 
 ## Why Might This Forecast Be Wrong?
 
-### Inside View (Scenario/Assumption Bias)  
-[What might you be getting wrong in your logic, assumptions, timeline, or confidence?]
+Inside View (Scenario/Assumption Bias)
+I may be underestimating the chance of a localized avian flu outbreak or supply chain disruption affecting regional prices.
 
-### Outside View (Base Rate / Historical Anomaly Risk)  
-[What does the historical or comparative case suggest might make this forecast wrong? Base rates, black swan risks, or error in data trends?]
+I’m assuming stable production and feed costs based on current conditions, but weather or disease could rapidly change supply.
 
+My central estimate is based on recent averages, possibly anchoring too tightly to current levels without accounting for seasonal demand fluctuations (e.g., back-to-school, holidays).
+
+Outside View (Base Rate / Historical Anomaly Risk)
+Historically, egg prices have spiked rapidly with little warning — especially during HPAI events — making tails more important than base assumptions suggest.
+
+Pre-2020 norms may not fully apply post-pandemic; structural shifts in production, transportation, or labor could still ripple through the market.
+
+Similar forecasts in the past failed to anticipate rapid escalations due to single supply-side disruptions. Overconfidence in stability could result in underestimating price volatility.
 ---
