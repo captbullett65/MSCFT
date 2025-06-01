@@ -51,6 +51,21 @@
 **Probability:**  
 **Rationale:**
 
+• 2 or fewer: [   ]%  
+• Between 3 and 5: [   ]%  
+• Between 6 and 8: [   ]%  
+• Between 9 and 12: [   ]%  
+• Between 13 and 16: [   ]%  
+• Between 17 and 21: [   ]%  
+• 22 or more: [   ]%  
+Ensure the total is 100%.
+
+Note: If the question is binary (Yes/No), replace the bucketed probability ranges with:  
+• Yes: [   ]%  
+• No: [   ]%  
+Ensure the total is 100%.
+
+
 ---
 
 ### Final Forecast Summary  
