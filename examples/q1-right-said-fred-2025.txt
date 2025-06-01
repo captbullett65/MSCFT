@@ -102,12 +102,12 @@ Total: 100%
 ---
 
 ## Final Forecast Summary  
+Forecast:
+The most likely outcome is that the September 2025 US CPI year-over-year change will fall between 2.8% and 3.2%, with a central estimate around 2.95%.
 
-**Forecast:**  
-[State your most likely outcome clearly.]
+Explanation:
+Disinflation has taken hold in headline CPI, aided by stabilizing energy prices and easing goods prices. However, services inflation, especially shelter, remains sticky due to methodological lags and tight housing markets in key regions. The Federal Reserve has signaled a pause, with rate cuts likely only if inflation sustainably approaches 2%. Current data suggests moderation without collapse, supporting a mid-2% CPI outcome barring external shocks.
 
-**Explanation:**  
-[Summarize your reasoning and what you think the most important variables are.]
 
 ---
 
