@@ -1,0 +1,114 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: 10-Year US Treasury Yield — 30 September 2025
+Resolved via FRED Treasury yield benchmark.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+US 10-Year Treasury Yield — Closing Level on 30 September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the yield for US 10-year Treasury securities on 30 September 2025?
+
+**Clarifications:**  
+- Forecast refers to the market yield on 10-year US Treasury bonds, as reported in the FRED database (DGS10 series).  
+- The yield on 30 September 2024 was 3.81%.  
+- The question will be suspended on 29 September 2025.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/DGS10  
+- https://www.investopedia.com/terms/1/10-year-treasury-note.asp  
+- Bloomberg rates dashboard  
+- WSJ bond market tracker
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- As of mid-2025, yields have been volatile due to Fed uncertainty and geopolitical risk.  
+- The Fed has paused hikes but maintains a hawkish posture, delaying cuts.  
+- Term premium remains elevated amid fiscal concerns and global debt selloffs.  
+- Market pricing suggests a 20–30 bps upward skew, but recession risks cap long-end pressure.  
+- Recent CPI prints have been slightly above expectations.
+
+**Interpretation:**  
+Yields are likely to stay within the 3.90%–4.80% range. Slight upward pressure exists from deficit dynamics and Fed balance sheet runoff. However, long-term inflation expectations remain anchored, and global capital flows into Treasuries could cap the top end. The mid-4% range looks most likely unless there's a surprise economic acceleration or shock.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+2022–2023
+
+**Observed Anomaly:**  
+Rapid spike in 10-year yields from ~1.5% to over 4.0% due to Fed tightening.
+
+**Identified Cause:**  
+Inflation panic, supply-demand imbalance, and shifting expectations about Fed neutrality.
+
+**Implication for Forecast:**  
+Reinforces caution in assigning high probability to extreme yield compression or spikes without strong macro justification.
+
+**Action Taken:**  
+Anchored forecast on Q2–Q3 2025 macro data, focused on stable inflation and neutral Fed rate policy.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+10-year US Treasury yield on 30 September 2025
+
+**Probability:**  
+Official GJO bucket formatting.
+
+**Rationale:**  
+Baseline assumes modest upward drift from current levels, constrained by real yield compression and safe haven demand. Topside capped without reacceleration in growth/inflation.
+
+- Less than 3.30%: 2%  
+- At least 3.30%, but less than 3.60%: 5%  
+- At least 3.60%, but less than 3.90%: 15%  
+- At least 3.90%, but less than 4.20%: 25%  
+- At least 4.20%, but less than 4.50%: 22%  
+- At least 4.50%, but less than 4.80%: 15%  
+- At least 4.80%, but less than 5.10%: 10%  
+- At least 5.10%, but less than 5.40%: 4%  
+- At least 5.40%, but less than 5.70%: 1%  
+- At least 5.70%, but less than 6.00%: 0.5%  
+- 6.00% or more: 0.5%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+The US 10-year Treasury yield will most likely fall between **3.90% and 4.50%**, with a median estimate of **4.2%**.
+
+**Explanation:**  
+Stable macro conditions and balanced investor sentiment are driving range-bound yield behavior. Slight upward pressure from debt issuance and Fed balance sheet policy is counterbalanced by global demand for safe assets and moderating inflation.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be underestimating the potential for rapid Fed cuts, especially if recessionary signals emerge.  
+- I may be overweighting the impact of Treasury issuance and underweighting capital inflows.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- In past years, 10-year yields have moved 100 bps in less than 90 days.  
+- Unexpected global financial events or rate cuts abroad can cause sudden yield compression in Treasuries.
+
+---
