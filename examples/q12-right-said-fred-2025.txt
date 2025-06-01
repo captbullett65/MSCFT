@@ -1,0 +1,108 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: US Yield Curve Spread (10-Year Minus 2-Year) — 30 September 2025
+Resolved via FRED series: T10Y2Y
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+US Yield Curve Spread — 10-Year Minus 2-Year Treasury Rate (as of 30 September 2025)
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the spread between the US 10-year Treasury yield and the 2-year Treasury yield on 30 September 2025?
+
+**Clarifications:**  
+- Spread = 10-year yield minus 2-year yield.  
+- Outcome determined using FRED series "T10Y2Y" (https://fred.stlouisfed.org/series/T10Y2Y).  
+- Spread on 30 September 2024 was 0.15%.  
+- The question will be suspended on 29 September 2025.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/T10Y2Y  
+- https://www.investopedia.com/terms/y/yieldcurve.asp  
+- Bloomberg bond outlook reports  
+- WSJ interest rate monitor
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- As of mid-2025, the curve has steepened slightly from its deepest inversion in early 2023.  
+- Market expectations indicate a pivot in Fed policy by late 2025, lifting 2-year yields slightly less than 10-year yields.  
+- Treasury issuance and deficit fears have nudged long rates upward.  
+- Historical precedent shows curve normalization typically occurs 6–12 months before or after recessionary conditions.  
+- Soft landing expectations dominate, with inflation stable and moderate growth anticipated.
+
+**Interpretation:**  
+While inversion has begun to unwind, full normalization is uncertain. Fed may reduce short-term rates, but long-end inflation expectations and fiscal supply pressures will determine the spread. A modest positive spread (0.25%–0.75%) is the most probable, though downside risk exists if the Fed delays cuts.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+2022–2024
+
+**Observed Anomaly:**  
+Historic yield curve inversion (-1.0%) lasting over a year.
+
+**Identified Cause:**  
+Aggressive Fed tightening during a softening economic cycle, paired with delayed long-term yield response.
+
+**Implication for Forecast:**  
+High-duration inversions are rare, and normalization often occurs rapidly. Cannot assume gradual unwinding without macro triggers.
+
+**Action Taken:**  
+Used post-2000 normalization events as base rate guide; cross-checked yield spreads with forward curve pricing.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+10y–2y Treasury yield spread on 30 September 2025
+
+**Probability:**  
+Structured per GJO buckets.
+
+**Rationale:**  
+Steepening is likely but not guaranteed. A neutral-to-positive curve is plausible as the Fed shifts to an easing stance. Long-end supply effects and foreign demand will be key.
+
+- -0.25% or lower: 3%  
+- Higher than -0.25%, but at most 0.00%: 10%  
+- Higher than 0.00%, but at most 0.25%: 20%  
+- Higher than 0.25%, but at most 0.50%: 25%  
+- Higher than 0.50%, but at most 0.75%: 20%  
+- Higher than 0.75%, but at most 1.00%: 12%  
+- Higher than 1.00%, but at most 1.25%: 6%  
+- Higher than 1.25%, but at most 1.50%: 3%  
+- Higher than 1.50%: 1%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+The 10-year minus 2-year Treasury yield spread will likely be between **0.25% and 0.75%**, with a median estimate near **0.40%**.
+
+**Explanation:**  
+Fed normalization, modest growth expectations, and long-term inflation anchoring will push the curve positive. However, lingering inversion effects and policy uncertainty limit confidence in extreme steepening.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be overconfident in curve normalization; the Fed may hold higher for longer.  
+- Underweighting the risk of new shocks (e.g., oil, geopolitical) disrupting long rates.  
+- Assumes too clean a progression toward soft landing; abru
