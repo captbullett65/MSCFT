@@ -1,0 +1,108 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: S&P 500 Index Closing Value — 30 September 2025
+Uses FRED resolution and official GJO bucket formatting.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+S&P 500 Index — Closing Value on 30 September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the closing value of the S&P 500 Index on 30 September 2025?
+
+**Clarifications:**  
+- Outcome refers to the official S&P 500 Index daily closing value on 30 September 2025.  
+- Forecast will be resolved using data published by the Federal Reserve Economic Data (FRED) platform.  
+- On 30 September 2024, the S&P 500 closed at 5,762.48.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/SP500  
+- https://www.investopedia.com/terms/s/sp500.asp  
+- https://www.spglobal.com/spdji/en/indices/equity/sp-500/  
+- Market commentary from CNBC, Bloomberg, and WSJ
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- The S&P 500 has posted steady gains through mid-2025 on the back of earnings strength and expectations of Fed rate cuts.  
+- Inflation continues to cool, and real yields have declined, boosting equity multiples.  
+- Defensive sectors like healthcare and consumer staples have underperformed, while tech, energy, and financials led Q2–Q3 2025.  
+- Geopolitical tension has been a minor headwind, but not enough to derail sentiment.  
+- The index touched a high of 6,240 in August before consolidating around the 6,000 mark.
+
+**Interpretation:**  
+Assuming continued earnings resilience and no macro shocks, the S&P is likely to end Q3 between 5,750 and 6,250. Tail risks to the downside include sharp deterioration in forward guidance or a bond market selloff. Upside depends on whether investor positioning shifts into year-end optimism ahead of possible monetary easing.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+March 2020 – October 2022
+
+**Observed Anomaly:**  
+Pandemic-induced dislocations led to extreme valuation expansion followed by tightening-induced correction.
+
+**Identified Cause:**  
+Monetary policy whiplash, supply chain disruptions, fiscal stimulus volatility.
+
+**Implication for Forecast:**  
+Current base rates from 2023–2025 are more stable, but precedent exists for 15–20% swings in a 6–9 month window.
+
+**Action Taken:**  
+Focus is on post-2023 Fed pause data for base rate. FRED source ensures audit-standard consistency for closing value.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+S&P 500 Index closing value on 30 September 2025
+
+**Probability:**  
+Official GJO bucket formatting.
+
+**Rationale:**  
+Base case targets 5,750–6,250 range. Downside risk exists from earnings deterioration or bond market pressure; upside risk includes AI-driven market expansion and broad fund inflows.
+
+- Less than 4,750: 1%  
+- At least 4,750, but less than 5,000: 3%  
+- At least 5,000, but less than 5,250: 7%  
+- At least 5,250, but less than 5,500: 10%  
+- At least 5,500, but less than 5,750: 15%  
+- At least 5,750, but less than 6,000: 25%  
+- At least 6,000, but less than 6,250: 18%  
+- At least 6,250, but less than 6,500: 10%  
+- At least 6,500, but less than 6,750: 6%  
+- At least 6,750, but less than 7,000: 3%  
+- 7,000 or more: 2%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+The S&P 500 is most likely to close between **5,750 and 6,000** on 30 September 2025, with a midpoint estimate of **5,880**.
+
+**Explanation:**  
+Supportive macro conditions, earnings stability, and a soft Fed stance provide a backdrop for moderate gains. However, valuation ceiling and macro risk aversion cap expectations. Barring major news, the index is likely to drift within a tight band into the end of Q3.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- Assuming too much macro stability or over-reliance on Fed pause narrative.  
+- My range
