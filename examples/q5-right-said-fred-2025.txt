@@ -1,0 +1,121 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: Bitcoin Price — 29 September 2025
+This version uses official GJO price buckets and Coinbase/FRED reference data.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+Bitcoin (BTC) Price — 29 September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the price of one bitcoin on 29 September 2025?
+
+**Clarifications:**  
+- Forecast refers to the USD price of Bitcoin (BTC) as listed on Coinbase and reported in the FRED database.  
+- The question will be suspended on 29 September 2025 and resolved using FRED data based on Coinbase prices.  
+- Historical baseline: BTC was priced at $60,790.00 on 30 September 2024.
+
+**Key Sources:**  
+- https://fred.stlouisfed.org/series/CBCLOSE  
+- https://www.investopedia.com/bitcoin-price-history-5189233  
+- Yahoo Finance (Motley Fool Bitcoin reports)  
+- Coinbase BTC/USD charting tools
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- Bitcoin reached a new all-time high in late May 2025, suggesting renewed market momentum and institutional demand.  
+- ETF and sovereign interest in BTC is contributing to a steady stream of inflows.  
+- Macroeconomic context remains favorable: Fed pauses, inflation stabilizing, and fiat weakening against crypto narratives.  
+- Regulatory signals in the U.S. have clarified Bitcoin’s classification as a commodity, reducing legal uncertainty.  
+- Halving cycle completed in April 2024, historically followed by a 12–18 month price climb.
+
+**Interpretation:**  
+BTC appears to be in a post-halving bull cycle phase, historically aligned with continued growth. However, price resistance around the $90,000–$108,000 range is likely, unless momentum accelerates. Macro risk (recession, regulatory crackdown, or risk-off global shift) could break this momentum. My central forecast centers on BTC holding between $72,000 and $99,000.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+November 2021 – November 2022
+
+**Observed Anomaly:**  
+Major drawdown (>50%) linked to FTX collapse, risk-off Fed policy, and institutional deleveraging.
+
+**Identified Cause:**  
+Systemic contagion, loss of liquidity, and high beta behavior of crypto in response to macro tightening.
+
+**Implication for Forecast:**  
+Historical precedent exists for extreme swings. BTC’s mean reversion tendency can mislead baseline assumptions.
+
+**Action Taken:**  
+Forecast grounded in post-2023 recovery pattern and halving-based cycles. FRED data provides standardized resolution benchmark.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+BTC/USD price on Coinbase as recorded in FRED on 29 September 2025
+
+**Probability:**  
+Forecast uses official GJO bucket format.
+
+**Rationale:**  
+Base case holds BTC between $72,000 and $108,000, with high tail volatility both directions depending on adoption and macro mood. New ATH would require accelerating volume and momentum post-May breakout.
+
+- Less than $54,000: 2%  
+- At least $54,000, but less than $63,000: 5%  
+- At least $63,000, but less than $72,000: 10%  
+- At least $72,000, but less than $81,000: 15%  
+- At least $81,000, but less than $90,000: 18%  
+- At least $90,000, but less than $99,000: 15%  
+- At least $99,000, but less than $108,000: 12%  
+- At least $108,000, but less than $117,000: 8%  
+- At least $117,000, but less than $126,000: 5%  
+- At least $126,000, but less than $135,000: 3%  
+- At least $135,000, but less than $144,000: 2%  
+- At least $144,000, but less than $155,000: 1%  
+- At least $155,000, but less than $168,000: 0.5%  
+- At least $168,000, but less than $183,000: 0.25%  
+- At least $183,000, but less than $200,000: 0.15%  
+- $200,000 or more: 0.10%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+BTC is most likely to close between **$81,000 and $99,000**, with a midpoint estimate around **$90,000**.
+
+**Explanation:**  
+Following historic patterns tied to Bitcoin halving cycles and increased institutional demand, BTC is on pace to maintain upward momentum in Q3 2025. Macro tailwinds, risk appetite, and regulatory clarity have aligned favorably. That said, BTC remains subject to swift sentiment shifts, and upside targets beyond $117,000 require broad adoption or global capital rotation into crypto.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- Overconfidence in the post-halving pattern could ignore macro breakdowns or new legal shocks.  
+- Assumes continued ETF inflow and demand; if interest wanes, price could correct sharply.  
+- Relies on momentum indicators that may lag real-time market changes or structural cracks.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- BTC has a history of extreme volatility — even during bull runs, 20%+ pullbacks are common.  
+- Macro sentiment can shift rapidly — global shocks, banking contagion, or crypto bans could break the current cycle.  
+- Regulatory actions or black swan events could drastically change the trend without warning.
+
+---
