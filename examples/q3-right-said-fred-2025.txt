@@ -1,0 +1,115 @@
+<!-- 
+MSCFT Template Version 3.1B — Updated 2025-05-31
+Forecast: US Gasoline Price — 29 September 2025
+This version uses official Good Judgment bucket formatting.
+-->
+
+# Master SWARM Consensus Forecasting Template (MSCFT)
+
+## Forecast Title  
+Average Price for a Gallon of Regular Conventional Gasoline – 29 September 2025
+
+**Forecaster:** Brian Helip
+
+---
+
+## Initial Question Framing  
+
+**Question:**  
+What will be the average price for a gallon of regular conventional gasoline in the United States on Monday, 29 September 2025?
+
+**Clarifications:**  
+- Forecast refers to the U.S. national average price for regular conventional gasoline as reported by the U.S. Energy Information Administration (EIA).  
+- The outcome will be determined using the FRED database (St. Louis Federal Reserve).  
+- Historical baseline: $3.087 on 30 September 2024.
+
+**Key Sources:**  
+- https://www.eia.gov/petroleum/gasdiesel/  
+- https://fred.stlouisfed.org/series/GASREGCOVW  
+- https://gasprices.aaa.com/  
+- OPEC+ announcements and SPR data (CNBC, Bloomberg, Yahoo)
+
+---
+
+## Refinement & Analysis  
+
+**Key Developments:**  
+- OPEC+ has announced production increases for the second half of 2025, pressuring oil futures downward.  
+- Despite military tensions involving Iran, markets have not priced in significant disruption to supply chains.  
+- Seasonally, US gasoline prices tend to decline after summer driving season ends.  
+- US refining capacity remains healthy, and no major hurricane disruptions are expected.  
+- The price was $3.087 on 30 September 2024.
+
+**Interpretation:**  
+Market signals suggest moderate disinflation in gasoline pricing unless a supply-side event (e.g., Middle East escalation or refinery outage) occurs. With oil markets stabilizing and travel tapering, prices are likely to settle between $2.75 and $3.25 per gallon. Upside risk remains tied to geopolitics; downside potential is tied to weak demand and high inventories.
+
+---
+
+## Data Anomaly & Source Integrity Log  
+
+**Date Range Affected:**  
+February 2022 – October 2023
+
+**Observed Anomaly:**  
+Extreme price fluctuations tied to Russia-Ukraine war and strategic reserve releases distorted typical seasonal patterns.
+
+**Identified Cause:**  
+Supply shocks, rapid SPR deployment, and pandemic recovery effects distorted year-over-year comparisons.
+
+**Implication for Forecast:**  
+Historical base rates pre-2022 may not fully apply. Comparisons to 2022–2023 require adjustments for non-recurring shocks.
+
+**Action Taken:**  
+Anchoring to 2024–2025 EIA and FRED trendline data. Geopolitical variables monitored for live updates.
+
+---
+
+## Probability Allocation  
+
+**Outcome:**  
+Average US gasoline price per gallon on 29 September 2025
+
+**Probability:**  
+Forecast uses official Good Judgment price buckets
+
+**Rationale:**  
+Base case rests on OPEC+ production boost, easing demand, and no catastrophic supply shocks. Moderate downside is expected barring a major event.
+
+- Less than $2.250: 4%  
+- At least $2.250, but less than $2.500: 10%  
+- At least $2.500, but less than $2.750: 18%  
+- At least $2.750, but less than $3.000: 30%  
+- At least $3.000, but less than $3.250: 20%  
+- At least $3.250, but less than $3.500: 10%  
+- At least $3.500, but less than $3.750: 5%  
+- At least $3.750, but less than $4.000: 2%  
+- At least $4.000, but less than $4.250: 0.5%  
+- $4.250 or more: 0.5%
+
+**Total: 100%**
+
+---
+
+## Final Forecast Summary  
+
+**Forecast:**  
+Most likely average price is between **$2.75 and $3.00**, centered around **$2.88** per gallon.
+
+**Explanation:**  
+Seasonal factors, stable refining capacity, and OPEC+ production increases suggest a controlled pricing environment. Without new geopolitical disruptions, prices should track slightly lower than the 2024 level of $3.087. Base case is disinflation with mild upside tail risk.
+
+---
+
+## Why Might This Forecast Be Wrong?
+
+### Inside View (Scenario/Assumption Bias)  
+- I may be underweighting geopolitical escalation risk tied to Iran or shipping routes.  
+- Seasonal effects may be less reliable if refinery maintenance or hurricane season extends later.  
+- I’m assuming demand softens in Q3, but EV adoption or commuter patterns could shift unexpectedly.
+
+### Outside View (Base Rate / Historical Anomaly Risk)  
+- Gasoline prices frequently spike above expectations due to refinery outages, not just crude price shocks.  
+- In previous years, even modest Gulf Coast storms caused large regional and national shifts.  
+- Historical price moderation after summer travel may be less predictable post-2020 due to energy market reshuffling.
+
+---
