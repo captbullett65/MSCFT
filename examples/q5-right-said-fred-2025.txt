@@ -75,22 +75,27 @@ Forecast uses official GJO bucket format.
 **Rationale:**  
 Base case holds BTC between $72,000 and $108,000, with high tail volatility both directions depending on adoption and macro mood. New ATH would require accelerating volume and momentum post-May breakout.
 
-- Less than $54,000: 2%  
-- At least $54,000, but less than $63,000: 5%  
-- At least $63,000, but less than $72,000: 10%  
-- At least $72,000, but less than $81,000: 15%  
-- At least $81,000, but less than $90,000: 18%  
-- At least $90,000, but less than $99,000: 15%  
-- At least $99,000, but less than $108,000: 12%  
-- At least $108,000, but less than $117,000: 8%  
-- At least $117,000, but less than $126,000: 5%  
-- At least $126,000, but less than $135,000: 3%  
-- At least $135,000, but less than $144,000: 2%  
-- At least $144,000, but less than $155,000: 1%  
-- At least $155,000, but less than $168,000: 0.5%  
-- At least $168,000, but less than $183,000: 0.25%  
-- At least $183,000, but less than $200,000: 0.15%  
-- $200,000 or more: 0.10%
+Probability
+Answer
+2%  Less than $54,000
+4%   At least $54,000, but less than $63,000
+8%   At least $63,000, but less than $72,000
+15%  At least $72,000, but less than $81,000
+18%  At least $81,000, but less than $90,000
+17%  At least $90,000, but less than $99,000
+12%  At least $99,000, but less than $108,000
+8%   At least $108,000, but less than $117,000
+6%   At least $117,000, but less than $126,000
+4%   At least $126,000, but less than $135,000
+3%   At least $135,000, but less than $144,000
+2%   At least $144,000, but less than $155,000
+1%   At least $155,000, but less than $168,000
+0%   At least $168,000, but less than $183,000
+0%   At least $183,000, but less than $200,000
+0%   $200,000 or more
+
+
+
 
 **Total: 100%**
 
