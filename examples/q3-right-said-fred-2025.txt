@@ -81,10 +81,10 @@ Base case rests on OPEC+ production boost, easing demand, and no catastrophic su
 - At least $2.750, but less than $3.000: 30%  
 - At least $3.000, but less than $3.250: 20%  
 - At least $3.250, but less than $3.500: 10%  
-- At least $3.500, but less than $3.750: 5%  
+- At least $3.500, but less than $3.750: 4%  
 - At least $3.750, but less than $4.000: 2%  
-- At least $4.000, but less than $4.250: 0.5%  
-- $4.250 or more: 0.5%
+- At least $4.000, but less than $4.250: 1%  
+- $4.250 or more: 1%
 
 **Total: 100%**
 
