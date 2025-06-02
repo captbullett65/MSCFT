@@ -1,57 +1,78 @@
-# Master SWARM Consensus Forecasting Template (MSCFT) v3.1B — BIN Integrated Version
+MSCFT Template (Version 3.1B – BIN Integrated)
 
-Forecaster: [Insert Forecaster Name]
-Forecast Title: [Insert Forecast Title]
+----------------------------------
 
-Initial Question Framing
-Question:
-[Insert your forecasting question here.]
+Forecast Title: [Insert Forecast Title Here]  
+Forecaster: [Insert Forecaster Name Here]  
 
-Clarifications:
-• [Insert relevant details about dates, participants, key conditions, or assumptions.]
-• [Insert any known results, baselines, or thresholds.]
-• [Insert any poll data, prior trends, or framing context.]
+Initial Question Framing  
+Question: [Insert your forecasting question here.]  
+Clarifications:  
+• [Insert relevant details about dates, participants, key conditions, or assumptions.]  
+• [Insert any known results, baselines, or thresholds.]  
+• [Insert any poll data, prior trends, or framing context.]  
+Key Sources:  
+• [Source 1]  
+• [Source 2]  
+• [Source 3]  
+• [Add more as needed]  
 
-Key Sources:
-• [Source 1]
-• [Source 2]
-• [Source 3]
-• [Add more as needed]
-
-Refinement & Analysis
-Key Developments:
-• [Summarize major events or dynamics relevant to the forecast question.]
-• [Note polling trends, market behavior, public sentiment, or institutional actions.]
-• [Include controversies, endorsements, or strategic shifts if relevant.]
-
-Interpretation:
+Refinement & Analysis  
+Key Developments:  
+• [Summarize major events or dynamics relevant to the forecast question.]  
+• [Note polling trends, market behavior, public sentiment, or institutional actions.]  
+• [Include controversies, endorsements, or strategic shifts if relevant.]  
+Interpretation:  
 [Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
 
-→ BIN Tag Any Drivers of Change: (B) Bias, (I) Information, or (N) Noise  
-[Example: “Recent crowd shift appears speculative, not info-driven (N).”]
+→ BIN Tag any updates as: (B) Bias, (I) Information, or (N) Noise  
+Example: “Recent crowd spike appears speculative, not info-driven (N).”
 
-Data Anomaly & Source Integrity Log
-Date Range Affected: [Insert applicable date range]
+Note: If the forecast outcome is near a bucket threshold, consider hedging your probabilities across adjacent bins to avoid overconfidence. Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
 
-Observed Anomalies:
-• [Describe any unusual, inconsistent, or questionable data points.]
-• [Flag unreliable sources, reversals, or gaps in information.]
+Inside-Outside View Structuring  
+Inside View: [Insert short-term or domain-specific reasoning from known context.]  
+Outside View: [Insert baseline rates, historic cases, or comparative reference classes.]
+
+Data Anomaly & Source Integrity Log  
+Date Range Affected: [Insert applicable date range]  
+Observed Anomaly: [Describe any unusual or inconsistent data]  
+Identified Cause: [Explain known or suspected reason for the anomaly]  
+Implication for Forecast: [Describe the forecast impact if any]  
+Action Taken: [Describe any adjustment or caveat added due to this anomaly]  
 
 → BIN Classification of Anomalies:  
-[Example: “Large crowd spike without event trigger — tagged as (N)”]
+Example: “Large crowd spike without event trigger — tagged as (N)”
 
-Probability Allocation
-[Insert your bucketed or binary probability distribution here. Ensure percentages add to 100%.]
+Probability Allocation  
+[Assign a percentage probability to each of the GJO-aligned buckets. Ensure they total to 100%. Do not use ranges that are not approved.]
 
-Final Forecast Summary
-[Summarize your position. Why is your allocation reasonable given current information and uncertainty? Emphasize signal vs. noise.]
+Note: If the question is binary (Yes/No), replace the bucketed probability ranges with:  
+• Yes: [   ]%  
+• No: [   ]%  
+Ensure the total is 100%.
 
-Why might this forecast be wrong?
-[List key ways this could fail. Think model error, scenario blind spots, poor assumptions.]
+• 2 or fewer: [   ]%  
+• Between 3 and 5: [   ]%  
+• Between 6 and 8: [   ]%  
+• Between 9 and 12: [   ]%  
+• Between 13 and 16: [   ]%  
+• Between 17 and 21: [   ]%  
+• 22 or more: [   ]%  
+Ensure the total is 100%.
 
-What signals would cause you to revisit or change this forecast?
-[List future events, releases, or reversals that would meaningfully change your thinking.]
+Rationale:  
+[Briefly explain the reasoning behind your distribution. Why is each range plausible or implausible? What data or signals support your weightings?]
 
-BIN Summary:
+Final Forecast Summary  
+Forecast: [Summarize the most likely outcome and your top bucket(s)]  
+Explanation: [Summarize how this forecast fits the overall strategic context]
+
+Why Might You Be Wrong?  
+1. [Insert potential forecast error #1, e.g., unexpected policy changes or global events]  
+2. [Insert potential forecast error #2, e.g., misreading of trend strength or timing]  
+3. [Insert potential forecast error #3, e.g., data quality issues or blind spots]  
+
+BIN Summary:  
 [What was the main driver of this forecast? Choose one or more: (B), (I), (N)]  
-[Example: “BIN Summary: Mixed (I/N)”]
+Example: “BIN Summary: Mixed (I/N)”
