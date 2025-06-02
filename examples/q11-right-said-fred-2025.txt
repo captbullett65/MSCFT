@@ -77,15 +77,15 @@ Baseline assumes modest upward drift from current levels, constrained by real yi
 
 - Less than 3.30%: 2%  
 - At least 3.30%, but less than 3.60%: 5%  
-- At least 3.60%, but less than 3.90%: 15%  
-- At least 3.90%, but less than 4.20%: 25%  
-- At least 4.20%, but less than 4.50%: 22%  
+- At least 3.60%, but less than 3.90%: 14%  
+- At least 3.90%, but less than 4.20%: 22%  
+- At least 4.20%, but less than 4.50%: 20%  
 - At least 4.50%, but less than 4.80%: 15%  
 - At least 4.80%, but less than 5.10%: 10%  
-- At least 5.10%, but less than 5.40%: 4%  
-- At least 5.40%, but less than 5.70%: 1%  
-- At least 5.70%, but less than 6.00%: 0.5%  
-- 6.00% or more: 0.5%
+- At least 5.10%, but less than 5.40%: 5%  
+- At least 5.40%, but less than 5.70%: 3%  
+- At least 5.70%, but less than 6.00%: 2%  
+- 6.00% or more: 2%
 
 **Total: 100%**
 
