@@ -101,15 +101,15 @@ At least $3.400, but less than $4.000: 15%
 
 At least $4.000, but less than $4.600: 8%
 
-At least $4.600, but less than $5.200: 5%
+At least $4.600, but less than $5.200: 4%
 
 At least $5.200, but less than $5.800: 2%
 
 At least $5.800, but less than $6.400: 1%
 
-At least $6.400, but less than $7.000: 0.5%
+At least $6.400, but less than $7.000: 1%
 
-$7.000 or more: 0.5%
+$7.000 or more: 1%
 
 Total: 100%
 ---
