@@ -24,6 +24,13 @@ This project provides a standardized, auditable process for producing and mainta
 - Introspect on potential sources of forecast error.
 - Maintain internal validation logs and track performance over time.
 
+  ## Forecasting Tools
+
+- [MSCFT Template (v3.1B – Standard)](docs/MSCFT-Template-Plain-v3.1B.txt)
+- [MSCFT Template (v3.1B – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1B.txt)
+- [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
+
+
 ## 🧭 Structure
 
 The core template includes **Eight required sections** for each forecast:
