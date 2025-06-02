@@ -1,0 +1,57 @@
+# Master SWARM Consensus Forecasting Template (MSCFT) v3.1B — BIN Integrated Version
+
+Forecaster: [Insert Forecaster Name]
+Forecast Title: [Insert Forecast Title]
+
+Initial Question Framing
+Question:
+[Insert your forecasting question here.]
+
+Clarifications:
+• [Insert relevant details about dates, participants, key conditions, or assumptions.]
+• [Insert any known results, baselines, or thresholds.]
+• [Insert any poll data, prior trends, or framing context.]
+
+Key Sources:
+• [Source 1]
+• [Source 2]
+• [Source 3]
+• [Add more as needed]
+
+Refinement & Analysis
+Key Developments:
+• [Summarize major events or dynamics relevant to the forecast question.]
+• [Note polling trends, market behavior, public sentiment, or institutional actions.]
+• [Include controversies, endorsements, or strategic shifts if relevant.]
+
+Interpretation:
+[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+
+→ BIN Tag Any Drivers of Change: (B) Bias, (I) Information, or (N) Noise  
+[Example: “Recent crowd shift appears speculative, not info-driven (N).”]
+
+Data Anomaly & Source Integrity Log
+Date Range Affected: [Insert applicable date range]
+
+Observed Anomalies:
+• [Describe any unusual, inconsistent, or questionable data points.]
+• [Flag unreliable sources, reversals, or gaps in information.]
+
+→ BIN Classification of Anomalies:  
+[Example: “Large crowd spike without event trigger — tagged as (N)”]
+
+Probability Allocation
+[Insert your bucketed or binary probability distribution here. Ensure percentages add to 100%.]
+
+Final Forecast Summary
+[Summarize your position. Why is your allocation reasonable given current information and uncertainty? Emphasize signal vs. noise.]
+
+Why might this forecast be wrong?
+[List key ways this could fail. Think model error, scenario blind spots, poor assumptions.]
+
+What signals would cause you to revisit or change this forecast?
+[List future events, releases, or reversals that would meaningfully change your thinking.]
+
+BIN Summary:
+[What was the main driver of this forecast? Choose one or more: (B), (I), (N)]  
+[Example: “BIN Summary: Mixed (I/N)”]
