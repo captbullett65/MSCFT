@@ -7,7 +7,7 @@ Resolved via FRED Treasury yield benchmark.
 # Master SWARM Consensus Forecasting Template (MSCFT)
 
 ## Forecast Title  
-US 10-Year Treasury Yield — Closing Level on 30 September 2025
+What be the US 10-Year Treasury Yield — Closing Level on 30 September 2025
 
 **Forecaster:** Brian Helip
 
