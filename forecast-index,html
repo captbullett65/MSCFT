@@ -29,6 +29,11 @@
       list-style-type: disc;
       padding-left: 20px;
     }
+    p.footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
   </style>
 </head>
 <body>
@@ -61,4 +66,11 @@
   <h2>📘 Resources</h2>
   <ul>
     <li><a href="CONTRIBUTING.md">How to Contribute</a></li>
-    <li><a href="backup-log.md">MSCFT Archiv
+    <li><a href="backup-log.md">MSCFT Archive</a></li>
+  </ul>
+
+  <p class="footer">
+    Maintained by <strong>Brian Helip</strong> · Last updated June 3, 2025
+  </p>
+</body>
+</html>
