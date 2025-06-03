@@ -1,0 +1,41 @@
+# Validated Forecast Log
+
+**Title:** Early Identification of Joby Aviation eVTOL Test Flights Behind New Jersey Drone Sightings
+**Forecaster:** Brian Helip
+**Date of Initial Observation:** Approx. Q1 2024
+**Date of Confirmation:** FAA certificate (June–July 2023); public validation Q2 2025
+
+## Forecast Context:
+
+In early 2024, numerous reports of unexplained drone activity near military bases and urban centers in New Jersey led to widespread public speculation about surveillance or hostile intent. The forecaster assessed that the drones were not threats, but experimental air taxis being tested by Joby Aviation (California), SkyDrive (Japan), and Wisk Aero (California), under quiet FAA authorization.
+
+## Forecast Rationale & Signal Recognition:
+
+* FAA had already granted Joby Aviation a Special Airworthiness Certificate for crewed eVTOL test flights in 2023.
+* Aircraft described by locals resembled Toyota Corolla-sized quadcopters, consistent with press releases from the eVTOL sector.
+* Pattern of sightings corresponded to likely urban air mobility corridor testing, not surveillance.
+* Military silence was interpreted as a sign of parallel DoD interest in dual-use applications, not secrecy about foreign incursion.
+
+## Outcome:
+
+Subsequent media and regulatory disclosures in 2025 confirmed:
+
+* FAA experimental approval for urban air taxi testing (Joby Aviation, SkyDrive)
+* DoD interest in large-scale, pilotless or semi-autonomous aircraft platforms for logistics and battlefield use
+* Public confusion driven in part by classified cooperation agreements with manufacturers
+
+## Implications for Future Forecasting:
+
+* Regulatory breadcrumbs (e.g., FAA certificates, airspace permits) offer predictive leverage over media narratives
+* Silence from authorities can indicate active protection of commercial R\&D, not cover-ups
+* Dual-use technologies should always be flagged for hidden military-commercial crossover potential
+
+## BIN Classification:
+
+* **Bias Avoided:** Public hysteria, conspiratorial framing
+* **Information Leveraged:** FAA experimental test certificate, aerospace press
+* **Noise Filtered:** Speculative social media, misdirected security concerns
+
+## Recommended Tag:
+
+\[ValidatedForecast-Technology-eVTOL-2024Q1]
