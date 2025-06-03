@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MSCFT Forecast Index</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 40px;
-      background: #ffffff;
+      background: #fff;
       color: #333;
     }
-    h1 {
-      color: #0056b3;
-    }
-    h2 {
+    h1, h2 {
       color: #0056b3;
     }
     a {
@@ -29,18 +26,25 @@
       list-style-type: disc;
       padding-left: 20px;
     }
-    p.footer {
+    .footer {
       margin-top: 40px;
       font-size: 0.9em;
       color: #666;
+    }
+    .maintainer {
+      font-size: 1em;
+      font-style: italic;
+      margin-top: -20px;
+      margin-bottom: 20px;
+      color: #444;
     }
   </style>
 </head>
 <body>
   <h1>MSCFT Forecast Index</h1>
+  <p class="maintainer">Live site managed by Brian Helip</p>
   <p>A central reference for templates, examples, and logs in this repository.</p>
-
-  <hr>
+  <hr />
 
   <h2>📁 Templates</h2>
   <ul>
@@ -50,7 +54,9 @@
 
   <h2>🔍 Active Forecasts</h2>
   <ul>
-    <li><a href="https://www.gjopen.com/challenges/119-vehicle-innovation-challenge-2025-2027" target="_blank">GJO Vehicle Innovation Challenge (2025–2027)</a></li>
+    <li><a href="https://www.gjopen.com/challenges/119-vehicle-innovation-challenge-2025-2027" target="_blank">
+      GJO Vehicle Innovation Challenge (2025–2027)
+    </a></li>
   </ul>
 
   <h2>🗂️ Audit Logs</h2>
@@ -60,7 +66,9 @@
 
   <h2>✅ Validated Forecasts</h2>
   <ul>
-    <li><a href="examples/Joby-evtol-drone-sightings-nj-2024-validated.txt">Early Identification of Joby Aviation eVTOL Test Flights</a></li>
+    <li><a href="examples/Joby-evtol-drone-sightings-nj-2024-validated.txt">
+      Early Identification of Joby Aviation eVTOL Test Flights
+    </a></li>
   </ul>
 
   <h2>📘 Resources</h2>
@@ -72,5 +80,7 @@
   <p class="footer">
     Maintained by <strong>Brian Helip</strong> · Last updated June 3, 2025
   </p>
+
+  <!-- force rebuild -->
 </body>
 </html>
