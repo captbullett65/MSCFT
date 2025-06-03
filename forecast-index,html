@@ -42,10 +42,10 @@
 </head>
 <body>
   <h1>MSCFT Forecast Index</h1>
+
   <p class="maintainer">Live site managed by Brian Helip</p>
   <p>A central reference for templates, examples, and logs in this repository.</p>
   <hr />
-
   <h2>📁 Templates</h2>
   <ul>
     <li><a href="docs/MSCFT-Template-Plain-BIN-v3.1B.txt">MSCFT Plain Template</a></li>
