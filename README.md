@@ -15,6 +15,85 @@ Master SWARM Consensus Forecasting Template — structured methodology for forec
 
 The Master SWARM Consensus Forecasting Template (MSCFT) is a structured framework for developing, documenting, and auditing long-range, short-range forecasts across domains such as innovation, geopolitics, and public policy. This repository supports consistent forecasting practices for projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
 
+## How to Use the MSCFT
+
+This section provides full instructions for using the MSCFT template with or without forecasting platforms.
+
+### Key Use Cases
+- Good Judgment Open, Range, RAND (RFI), Metaculus, and IARPA (crowdsourcing) projects  
+- Personal forecasting or journaling for learning  
+- Team-based scenario planning or risk analysis  
+- Academic use in economics, politics, policy, and technology domains
+
+### Key Principles
+- The MSCFT structure helps reduce bias, improve information processing, and limit noise — consistent with the BIN model.
+- It is ideal for LLM-assisted workflows: the forecaster leads, while the LLM helps generate, clarify, refine, and validate reasoning.
+- You can use it independently or collaboratively — forecasts are reproducible and ready for comparison.
+
+---
+
+### Step-by-Step Instructions
+
+#### 1. Forecast Title
+Give your forecast a specific, clear name. This is the “headline” for what you’re predicting.
+
+#### 2. Initial Question Framing
+- **Question:** Copy or write the question you’re answering.
+- **Clarifications:** Add key dates, assumptions, definitions, or known values.
+- **Key Sources:** List any data, news, reports, or research supporting your reasoning.
+
+#### 3. Refinement & Analysis
+- **Key Developments:** What’s happening that affects the forecast?
+- **Interpretation:** Connect trends or scenarios to your reasoning.
+
+*Tip: Ask an LLM for analogies, hidden risks, or outside views to strengthen your analysis.*
+
+#### 4. Data Anomaly & Source Integrity Log
+Note any irregularities in your data (e.g., outdated info, contradictions, or missing pieces). If clean, write “No anomalies noted.”
+
+#### 5. Probability Allocation
+- Indicate whether the forecast is **binary** (Yes/No) or **multi-bucket** (ranges or categories).
+- Use buckets that add to **100%**.
+- Follow official platform formats when applicable (e.g., GJO), or define your own clearly.
+
+*Example (Multi-Bucket):*  
+- 10% — Less than 2%  
+- 40% — Between 2% and 3%  
+- 30% — Between 3% and 4%  
+- 20% — 4% or more
+
+*Example (Binary):*  
+- 70% — Yes  
+- 30% — No
+
+#### 6. Final Forecast Summary
+Write a short 3–5 sentence summary of your prediction and why you believe it’s likely.
+
+#### 7. Why Might You Be Wrong?
+List 2–3 possible failure points:
+- Surprise events
+- Bad assumptions
+- Low-quality data
+
+#### 8. Inside-Outside View Comparison *(Optional – v3.1B Beta)*
+- **Inside View:** Forecast based on context, intent, timing, or players.
+- **Outside View:** Compare against base rates or historical analogs.
+
+---
+
+### Using MSCFT Without a Platform
+
+If you're not posting to GJO or Metaculus:
+- Treat this as your personal forecasting log.
+- Save entries in `.txt` or `.docx` format with version numbers or timestamps.
+- Track results over time and update forecasts as new data arrives.
+
+---
+
+### Final Notes
+- MSCFT is LLM-friendly by design — think of the model as a copilot, not a replacement for your reasoning.
+- Keep your forecasts replicable, transparent, and structured for post-analysis.
+
 ## 📌 Purpose
 
 This project provides a standardized, auditable process for producing and maintaining high-integrity forecast logs. The MSCFT framework helps forecasters:
