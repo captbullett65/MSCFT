@@ -7,6 +7,11 @@ A central reference for templates, examples, and logs in this repository.
 ## 📁 Templates
 - [MSCFT Plain Template](https://github.com/captbullett65/MSCFT-/blob/main/templates/MSCFT-Template-v3.1B.md)
 - [Forecast Example Template](https://github.com/captbullett65/MSCFT-/tree/main/examples)
+- 📘 [MSCFT Instructions Guide](./docs/MSCFT-Instructions.md)
+
+ 
+ 
+
 
 ## 🔍 Active Forecasts
 - (🔗 https://www.gjopen.com/challenges/119-vehicle-innovation-challenge-2025-2027)
