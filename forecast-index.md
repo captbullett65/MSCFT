@@ -30,3 +30,9 @@ For guidelines on contributing or submitting forecasts:
 
 - Backups:
 - [MSCFT Archive](https://github.com/captbullett65/MSCFT-/blob/main/backup-log.md)
+
+- ## 🧭 MSCFT → Raif Attribution Record
+
+  [MSCFT → Raif Attribution Record (GitHub Link)](docs/MSCFT_Raif_Attribution_GitHub.md)
+  
+ 
