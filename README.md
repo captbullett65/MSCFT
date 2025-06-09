@@ -193,7 +193,7 @@ Historical forecasts and index versions are stored in `/ backup-log.md/ ` as tim
 MSCFT is maintained to ensure traceability, clarity, and reproducibility in judgment forecasting. Feedback and improvements are welcome via pull requests or issues.
 
 [Attribution Record: MSCFT_Raif_Attribution_GitHub](docs/MSCFT_Raif_Attribution_GitHub.md)
-
+ 
 
 
 
