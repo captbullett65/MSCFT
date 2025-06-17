@@ -4,6 +4,13 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
 
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
+> # Master SWARM Consensus Forecasting Template (MSCFT)
+
+A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs. Includes trusted agent profiles, disqualification logs, and version-controlled templates.
+
+Created and maintained by: Brian Helip  
+MIT License – Use with credit.  
+
 
 [Forecast Index](forecast-index.md)
 
