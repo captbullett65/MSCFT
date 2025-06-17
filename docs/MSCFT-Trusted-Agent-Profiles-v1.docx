@@ -1,0 +1,81 @@
+**Document Title:**
+**MSCFT TRUSTED AGENT PROFILES – VERSION 1**
+
+**Filed:** June 17, 2025
+**Version:** MSCFT v3.1B – Independent Agents Framework
+
+---
+
+**Approved Agents List:**
+
+---
+
+**Agent Name:** GPT-4 (OpenAI – ChatGPT Plus)
+**Model Line:** GPT-4 Turbo
+**Status:** *Approved for Primary Forecasting Role*
+**Access Mode:** ChatGPT Plus subscription (chat.openai.com)
+**Use Notes:**
+
+* Ideal for structured forecasting templates (MSCFT base template)
+* Reliable audit trail, high performance under time pressure
+* Handles inside/outside view generation, justification, and error logging
+
+**Assigned Roles:**
+
+* Primary Analyst
+* Forecast Generator
+* Justification Validator
+* Final Summary Builder
+
+---
+
+**Agent Name:** Mistral (Mixtral 8x7B via OpenRouter)
+**Model Line:** Mistral AI open-weight models
+**Status:** *Approved for Secondary Validation Role*
+**Access Mode:** openrouter.ai/chat
+**Use Notes:**
+
+* Lightweight, open-weight model with no tracking
+* Excellent for challenge-based roleplay, “why might this be wrong?” sections
+* Does not require Google, Meta, or Anthropic infrastructure
+
+**Assigned Roles:**
+
+* Outside-View Challenger
+* Bias Detector
+* Fast Validator
+* Early Forecast Stress Test
+
+---
+
+**Agent Name:** Command R+ (Reka AI)
+**Model Line:** Command R+ (2024–2025 release)
+**Status:** *Approved for Error Analysis and Reasoning Review*
+**Access Mode:** OpenRouter.ai or Poe (opt-in)
+**Use Notes:**
+
+* Strong structured reasoning and RAG support
+* Useful for technical and analytical summaries
+* Privacy-conscious design, no IP absorption issues
+
+**Assigned Roles:**
+
+* Inside-View Cross-Examiner
+* Error Analyzer
+* Longform Summarizer
+* Scenario Feasibility Critic
+
+---
+
+**MSCFT Guidance:**
+These agents have passed initial testing under MSCFT’s standards for:
+
+* Transparency
+* Reproducibility
+* Respect for user input
+* Resistance to hallucination
+* Availability and stability under real-world use
+
+Any future changes to model behavior, ownership, or moderation policy may result in status reevaluation. See companion document `MSCFT-Agent-Disqualification-Clarification-Claude-Anthropic-v1.docx` for contrast.
+
+
