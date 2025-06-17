@@ -1,0 +1,26 @@
+MSCFT AGENT DISQUALIFICATION NOTICE: CLAUDE (ANTHROPIC)
+
+Agent Name: Claude (Anthropic)
+Model Line: Claude 3 Family (Sonnet, Opus, Haiku)
+Status: Disqualified for SWARM integration under MSCFT protocol
+Date of Disqualification: June 17, 2025
+Version Logged: MSCFT v3.1B – Independent Agents Framework
+
+Reason for Disqualification:
+On June 17, 2025, Claude.ai permanently disabled the user’s account within minutes of first use. The session involved one clean, structured input as part of a comparative LLM forecasting test. No unsafe, abusive, or inappropriate content was submitted. Despite this, the account was suspended without warning, flagged reasoning, explanation, or appeal path.
+
+This incident constitutes a clear violation of MSCFT operational standards, specifically:
+
+Transparency Failure: No clear reason for account lockout
+
+Trustworthiness Failure: No pre-warning, escalation step, or human review
+
+Agent Reliability Failure: Unfit for iterative or critical decision support under audit
+
+IP Risk: Prompt and forecast structure may be absorbed without user control or recourse
+
+Conclusion:
+Claude cannot be used as a trusted agent in any forecasting scenario requiring auditability, continuity, or input protection. Its moderation system is overly aggressive, brittle, and hostile to legitimate structured use. Users are advised to avoid Claude in all forecasting, error logging, or comparative LLM deployments until Anthropic provides a documented, user-respecting appeal system.
+
+MSCFT Guidance:
+Claude should be tagged as “High-Risk Agent: Do Not Include in SWARM” in all forecasting teams or testing logs.
