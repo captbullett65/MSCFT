@@ -58,7 +58,7 @@ This case study can be cited in training, documentation, or public forecasting e
 
 **File maintained in `/examples/` for public record and instructional use.**
 
-MSCFT Case Study: Karen Read Trial – Post-Mortem Analysis
+MSCFT Case Study: Karen Read Trial 
 Date: June 20, 2025
 POST-MORTEM ANALYSIS
 The Karen Read trial will likely be remembered as one of the most closely watched public integrity cases of the decade. Beyond the acquittal on murder charges, the jury’s post-verdict commentary has validated many of the structured concerns previously forecasted in this MSCFT log.
