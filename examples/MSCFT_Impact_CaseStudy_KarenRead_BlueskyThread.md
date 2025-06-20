@@ -57,3 +57,20 @@ This case study can be cited in training, documentation, or public forecasting e
 ---
 
 **File maintained in `/examples/` for public record and instructional use.**
+
+MSCFT Case Study: Karen Read Trial – Post-Mortem Analysis
+Date: June 20, 2025
+POST-MORTEM ANALYSIS
+The Karen Read trial will likely be remembered as one of the most closely watched public integrity cases of the decade. Beyond the acquittal on murder charges, the jury’s post-verdict commentary has validated many of the structured concerns previously forecasted in this MSCFT log.
+
+In an exclusive with ABC News Live, jurors explained their reasoning with unprecedented clarity:
+
+- One juror stated: “A collision did not occur... I can’t assess a motive to this sloppy police investigation.”
+- On the impact of offensive texts by former State Trooper Michael Proctor, another juror said: “It was incredibly hard to hear that language. It was upsetting.”
+- A third juror summarized the reasonable doubt that defined the trial’s outcome: “There were too many holes that could not be filled.”
+
+These remarks reaffirm that the jury was not simply responding to legal technicalities but reacting to the cumulative weight of investigative missteps, prosecutorial tone, and missing evidence. The testimony of State Trooper Proctor—central to the prosecution’s case—was so damaging in its absence and context that it functioned as a reverse witness, weakening state credibility with every referenced exhibit.
+
+Public trust in institutional narratives is increasingly conditional, and this case illustrates how structured forecasting methods like MSCFT—emphasizing bias detection, data integrity, and error logging—can anticipate not just verdicts but the deeper reasons behind them.
+
+A civil suit is now expected, and while its burden of proof will differ, the original case will shadow every step of its progression.
