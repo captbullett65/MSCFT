@@ -27,6 +27,9 @@ Interpretation:
 
 → BIN Tag any updates as: (B) Bias, (I) Information, or (N) Noise  
 Example: “Recent crowd spike appears speculative, not info-driven (N).”
+BIN Summary:  
+[What was the main driver of this forecast? Choose one or more: (B), (I), (N)]  
+Example: “BIN Summary: Mixed (I/N)”
 
 Note: If the forecast outcome is near a bucket threshold, consider hedging your probabilities across adjacent bins to avoid overconfidence. Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
 
@@ -73,6 +76,4 @@ Why Might You Be Wrong?
 2. [Insert potential forecast error #2, e.g., misreading of trend strength or timing]  
 3. [Insert potential forecast error #3, e.g., data quality issues or blind spots]  
 
-BIN Summary:  
-[What was the main driver of this forecast? Choose one or more: (B), (I), (N)]  
-Example: “BIN Summary: Mixed (I/N)”
+
