@@ -15,7 +15,8 @@ MSCFT Version History
 * Helps with audit trails and structured forecast introspection
 
 ## \[3.1 C ]  - 2025-06-28
-Added a header for use with GPT-4o 
+Added a header for use with GPT-4o                               
+
 [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
 This MSCFT template is aligned with GPT-4o capabilities and assumes Research mode is used when current data is needed.
