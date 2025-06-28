@@ -1,5 +1,6 @@
 MSCFT Version History
 
+## \[3.1 C ]  - 2025-06-28
 ## \[3.1 B.1] – 2025-06-02
 
 ### Added
