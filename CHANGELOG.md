@@ -14,6 +14,11 @@ MSCFT Version History
 * BIN tags support classification of changes as Bias, Information, or Noise
 * Helps with audit trails and structured forecast introspection
 
+## \[3.1 C ]  - 2025-06-28
+Added a header for use with GPT-4o 
+
+
+
 ## \[3.1 B] – 2025-05-31
 
 ### Fixed
