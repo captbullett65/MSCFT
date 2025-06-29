@@ -128,7 +128,13 @@ This project provides a standardized, auditable process for producing and mainta
 - Maintain internal validation logs and track performance over time.
 
   ## Forecasting Tools
+ ## 🛠️ Forecasting Tools
 
+- [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
+- [MSCFT Template (v3.1C – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1C.txt)
+- [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
+ 
+//*old version///
 - [MSCFT Template (v3.1B – Standard)](docs/MSCFT-Template-Plain-v3.1B.txt)
 - [MSCFT Template (v3.1B – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1B.txt)
 - [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
