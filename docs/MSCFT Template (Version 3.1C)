@@ -33,9 +33,12 @@ Key Developments:
 • [Note polling trends, market behavior, public sentiment, or institutional actions.]  
 • [Include controversies, endorsements, or strategic shifts if relevant.]  
 Interpretation:  
-[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]  
+[Explain how the developments influence your forecast. Discuss possible pathways, 
+leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]  
 
-Note: If the forecast outcome is near a bucket threshold, consider hedging your probabilities across adjacent bins to avoid overconfidence. Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
+Note: If the forecast outcome is near a bucket threshold, 
+consider hedging your probabilities across adjacent bins to avoid overconfidence. 
+Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
 
 Inside-Outside View Structuring  
 Inside View: [Insert short-term or domain-specific reasoning from known context.]  
@@ -49,7 +52,8 @@ Implication for Forecast: [Describe the forecast impact if any]
 Action Taken: [Describe any adjustment or caveat added due to this anomaly]  
 
 Probability Allocation  
-[Assign a percentage probability to each of the GJO-aligned buckets. Ensure they total to 100%. Do not use ranges that are not approved.]
+[Assign a percentage probability to each of the GJO-aligned buckets. Ensure they total to 100%. 
+Do not use ranges that are not approved.]
 
 Note: If the question is binary (Yes/No), replace the bucketed probability ranges with:  
 • Yes: [   ]%  
