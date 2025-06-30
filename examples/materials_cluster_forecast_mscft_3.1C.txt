@@ -1,0 +1,73 @@
+[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+
+This example demonstrates how the MSCFT Template 3.1C – BIN Integrated can be used to support structured forecasting in LLM-assisted scientific research. The scenario uses AI-clustered oxide materials (Tokyo Tech, 2024) and evaluates the probability of functional semiconductor performance before 31 December 2025.
+
+[END OF NON-OUTPUT SECTION]
+
+Here is a fully compliant **plain-text MSCFT forecast**, structured according to your current standard (Template Version 3.1C – BIN Integrated | GPT Research Mode Optimized). This is tailored to the materials science clustering use case from Tokyo Tech.
+
+---
+
+MSCFT FORECAST REPORT
+Event: Functional Viability of Target Property–Clustered Oxide Materials
+Date Range: July–December 2025
+
+Forecast Question:
+Will at least one oxide material within a target-property-defined cluster (formed using the Random Forest–based regression and clustering method described by Sato et al. 2024) demonstrate functional performance suitable for commercial integration into wide-bandgap semiconductor applications by 31 December 2025?
+
+Initial Question Framing:
+Tokyo Institute of Technology researchers developed a machine learning–driven clustering method that integrates basic features (composition, crystal structure) with predicted target properties (formation energy, band gap, electronic dielectric constant) to group over 1,000 oxide compounds. These clusters were formed using a Random Forest (RF) regression model trained to predict target properties from structural and compositional inputs. Some clusters exhibit characteristics indicative of wide-bandgap semiconductor potential.
+
+For this forecast, "demonstrate functional performance" is defined as public disclosure (via peer-reviewed article, patent, or industrial report) that a material from one of these clusters has exhibited the following, either in lab-scale or prototype-scale evaluation:
+(1) A band gap ≥ 3.0 eV,
+(2) Operational stability at ≥ 300 K under electrical bias, and
+(3) Demonstrated carrier mobility (electron or hole) ≥ 10 cm²/V·s.
+
+Resolution Criteria:
+This question resolves as YES if, by 31 December 2025, a specific material from any of the RF-clustered oxide groups described in Sato et al. (2024) is shown—via a publicly available scientific or technical source—to satisfy all three functional criteria listed above. If no such performance is confirmed by that date, or if only partial data is available, the question resolves as NO. Private disclosures, simulations alone, or unverifiable claims do not meet the resolution threshold.
+
+Forecast Format:
+Use the following probability buckets:
+0–10%, 11–30%, 31–50%, 51–70%, 71–100%
+
+---
+
+BIN Assessment:
+
+Bias – Moderate: Academic and industry research teams may selectively report only favorable data or prototype conditions. Optimism bias may be embedded in how target clusters are framed post hoc.
+
+Information – Partial: The clustering method is well described and reproducible, but performance validation across all candidate materials is sparse. There are no public timelines for experimental validation of specific clusters.
+
+Noise – Moderate: Not all clusters in the Sato et al. dataset have clearly stated application relevance; some are derived from predicted properties only and lack empirical correlation to wide-bandgap performance. Additional uncertainty stems from variability in synthesis methods and non-disclosed test environments.
+
+---
+
+Conditional Indicators:
+
+(+) If any cluster subgroup has already been fabricated and tested under electrical load at room temperature by a known materials lab, probability should be adjusted upward.
+
+(+) If Tokyo Tech or collaborating institutions have filed patents based on a cluster member since Q1 2025, this may indicate functional validation is ongoing.
+
+(–) If no follow-up publications, synthesis reports, or prototype evaluations emerge by Q4 2025, the likelihood of near-term integration declines.
+
+(–) If RF-predicted band gaps for top-ranked clusters differ significantly from subsequent DFT or experimental results, model-induced clustering may be misaligned with actual physical behavior.
+
+---
+
+Forecast Distribution (as of 30 June 2025):
+
+0–10%: 12%
+11–30%: 38%
+31–50%: 31%
+51–70%: 15%
+71–100%: 4%
+
+---
+
+Justification:
+While the RF-based clustering approach shows conceptual strength in integrating target properties with structural features, the short timeline and lack of confirmed downstream synthesis and evaluation reduce the near-term likelihood of verified functional performance. No publicly available synthesis or characterization campaigns for these clusters have been confirmed as of June 2025. Additionally, the relatively stringent resolution criteria—requiring verification of electrical and thermal thresholds—raises the bar for a YES outcome. A non-zero probability remains due to potential unpublished work or rapid prototyping pipelines, particularly within Japanese or EU semiconductor research institutions.
+
+---
+
+Let me know if you'd like a second variant focused on dielectric applications, or if you'd like this bundled with a README entry for GitHub inclusion.
+
