@@ -1,0 +1,23 @@
+Forecast ID: Q1 – MSCFT-2025-06-TREASURY10Y
+Date Issued: 2025-06-20
+Question: What will the 10Y U.S. Treasury yield be on 30 June 2025?
+Resolution: 4.20–4.49%
+Forecast: 80% correct bucket, 10/10% adjacent
+Outcome: Correct
+Brier Score: 0.004
+Relative Brier Score: -0.0565
+Rank: 1/66 (98th percentile)
+BIN Section: Included
+Clause Module(s): None
+
+Forecast ID: Q2 – MSCFT-2025-06-TREASURY_SPREAD
+Date Issued: 2025-06-20
+Question: What will be the spread between the U.S. 10Y and 2Y yields on 30 June 2025?
+Resolution: >0.40%, ≤0.60%
+Forecast: >0.20%, ≤0.40%
+Outcome: Incorrect
+Brier Score: 0.2621
+Relative Brier Score: +0.1318
+Rank: 46/53 (13th percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
