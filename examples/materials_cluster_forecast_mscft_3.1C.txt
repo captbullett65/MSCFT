@@ -1,11 +1,13 @@
 [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
-This example demonstrates how the MSCFT Template 3.1C – BIN Integrated can be used to support structured forecasting in LLM-assisted scientific research. The scenario uses AI-clustered oxide materials (Tokyo Tech, 2024) and evaluates the probability of functional semiconductor performance before 31 December 2025. 
-https://www.msn.com/en-us/news/technology/novel-machine-learning-based-cluster-analysis-method-that-leverages-target-material-property/ar-AA1okBr1
+This example demonstrates how the MSCFT Template 3.1C – BIN Integrated can be used to support structured forecasting in LLM-assisted scientific research. 
+The scenario uses AI-clustered oxide materials (Tokyo Tech, 2024) and evaluates the probability of functional semiconductor performance before 31 December 2025. 
+//* https://www.msn.com/en-us/news/technology/novel-machine-learning-based-cluster-analysis-method-that-leverages-target-material-property/ar-AA1okBr1 ///
 
 [END OF NON-OUTPUT SECTION]
 
-Here is a fully compliant **plain-text MSCFT forecast**, structured according to your current standard (Template Version 3.1C – BIN Integrated | GPT Research Mode Optimized). This is tailored to the materials science clustering use case from Tokyo Tech.
+Here is a fully compliant **plain-text MSCFT forecast**, structured according to your current standard (Template Version 3.1C –
+BIN Integrated | GPT Research Mode Optimized). This is tailored to the materials science clustering use case from Tokyo Tech.
 
 ---
 
