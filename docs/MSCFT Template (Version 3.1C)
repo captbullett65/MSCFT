@@ -9,7 +9,8 @@ Use the information retrieved to frame your reasoning and support structured for
 [END OF NON-OUTPUT SECTION]
 
 ----------------------------------
-MSCFT Template (Version 3.1C)
+
+MSCFT Template (Version 3.1C – BIN Integrated)
 
 Forecast Title: [Insert Forecast Title Here]  
 Forecaster: [Insert Forecaster Name Here]  
@@ -66,6 +67,18 @@ Ensure the total is 100%.
 
 Rationale:  
 [Briefly explain the reasoning behind your distribution. Why is each range plausible or implausible? What data or signals support your weightings?]
+
+BIN MODEL (Bias, Information, Noise)
+
+Bias –
+Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question, its underlying data, or scenario framing. Address both source bias (e.g., media, academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
+
+Information –
+Assess the quality, timeliness, resolution, and credibility of the information used. Clearly distinguish between confirmed data, predictive model output, outdated information, unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
+
+Noise –
+Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic. This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. Describe where noise may distort scenario weighting or probability distribution
+
 
 Final Forecast Summary  
 Forecast: [Summarize the most likely outcome and your top bucket(s)]  
