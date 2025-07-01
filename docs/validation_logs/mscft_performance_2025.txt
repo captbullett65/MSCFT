@@ -21,3 +21,67 @@ Relative Brier Score: +0.1318
 Rank: 46/53 (13th percentile)
 BIN Section: Included
 Clause Module(s): Not Applied
+
+Forecast ID: Q3 – MSCFT-2025-06-SP500_CLOSE
+Date Issued: 2025-06-21
+Question: What will be the closing value of the S&P 500 index on June 30, 2025?
+Resolution: ≥6,000 and <6,250
+Forecast: 17% on correct bucket; 63% on one below; 20% on two below
+Outcome: Correct
+Brier Score: 0.162
+Relative Brier Score: -0.092
+Rank: 6/70 (91st percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+Forecast ID: Q4 – MSCFT-2025-06-YUNUS_STABILITY
+Date Issued: 2025-06-14
+Question: Will Muhammad Yunus flee Bangladesh or cease to be its head of government before 1 July 2025?
+Resolution: NO
+Forecast: 100% NO (final), 2 total forecasts
+Outcome: Correct
+Brier Score: 0.0181
+Relative Brier Score: +0.0001
+Rank: 15/30 (50th percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+Forecast ID: Q5 – MSCFT-2025-06-BTC_PRICE
+Date Issued: 2025-06-16
+Question: What will be the price of Bitcoin on 30 June 2025?
+Resolution: $104,000–$112,000
+Forecast: 60% on correct bucket; 25% one below; 10% two below
+Outcome: Correct
+Brier Score: 0.1278
+Relative Brier Score: -0.1157
+Rank: 5/70 (93rd percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+Forecast ID: Q6 – MSCFT-2025-06-SP500_TRIGGER_ORDER
+Date Issued: 2025-06-12
+Question: Will the S&P 500 Index fall below 4,800 before reaching 6,000.09?
+Resolution: NO
+Forecast: 99% NO, 1% YES
+Outcome: Correct
+Brier Score: 0.0094
+Relative Brier Score: -0.0108
+Rank: 17/69 (75th percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+Forecast ID: Q7 – MSCFT-2025-06-RUSSIA_NUCLEAR_DETONATION
+Date Issued: 2025-06-10
+Question: Before 1 July 2025, will Russia detonate a nuclear device inside of Russian territory or airspace?
+Resolution: NO
+Forecast: 100% NO
+Outcome: Correct
+Brier Score: 0.0000
+Relative Brier Score: -0.0006
+Rank: 18/136 (87th percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+
+
+
