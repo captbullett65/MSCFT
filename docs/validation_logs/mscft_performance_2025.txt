@@ -82,6 +82,20 @@ Rank: 18/136 (87th percentile)
 BIN Section: Included
 Clause Module(s): Not Applied
 
+Forecast ID: Q8 – MSCFT-2025-06-NASDAQ_CLOSE
+Date Issued: 2025-06-17
+Question: What will be the closing value of the NASDAQ Composite Index on 30 June 2025?
+Resolution: At least 20,000 but less than 20,800
+Forecast: 19% on correct bucket, remaining forecast distributed across adjacent buckets
+Outcome: Correct
+Brier Score: 0.1009
+Relative Brier Score: -0.2772
+Rank: 1/53 (98th percentile)
+BIN Section: Included
+Clause Module(s): Not Applied
+
+
+
 
 
 
