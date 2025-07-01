@@ -99,6 +99,16 @@ This version is now audit-compliant.
 **Ensure the total is 100%.**
 
 ---
+BIN MODEL (Bias, Information, Noise)
+
+Bias –
+Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question, its underlying data, or scenario framing. Address both source bias (e.g., media, academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
+
+Information –
+Assess the quality, timeliness, resolution, and credibility of the information used. Clearly distinguish between confirmed data, predictive model output, outdated information, unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
+
+Noise –
+Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic. This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. Describe where noise may distort scenario weighting or probability distribution
 
 ## Final Forecast Summary  
 
