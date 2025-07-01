@@ -12,7 +12,7 @@ A forecasting framework for structured, auditable multi-agent forecasting using 
 Created and maintained by: Brian Helip  
 MIT License – Use with credit.  
 
-[📄 Read the MSCFT Academic Paper]
+[📄 Read the MSCFT Academic Paper PDF download ]
 (https://github.com/captbullett65/MSCFT/raw/main/MSCFT%20Academic%20Paper.pdf)
 
 [Forecast Index](forecast-index.md)
