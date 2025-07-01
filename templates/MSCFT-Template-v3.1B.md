@@ -1,3 +1,15 @@
+<!-- Header added to define the parameters of the template]
+
+[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+
+This MSCFT template is aligned with GPT-4o capabilities and assumes Research mode is used when current data is needed.
+
+After specifying your forecast question, resolution criteria, and bucket structure, include the following line before generation begins:
+
+Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 3.1B – BIN Integrated. No improvisation. No format deviation.
+
+[END OF NON-OUTPUT SECTION] -->
+
 <!-- 
 MSCFT Template Version 3.1B — Updated 2025-05-31
 Change: Corrected Probability Allocation bucket phrasing to match official GJO format:
