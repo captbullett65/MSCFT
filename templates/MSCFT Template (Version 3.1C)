@@ -1,4 +1,4 @@
-[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+<!-- [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
 This MSCFT template is aligned with GPT-4o capabilities and assumes Research mode is used when current data is needed.
 
@@ -6,7 +6,7 @@ After specifying your forecast question, resolution criteria, and bucket structu
 
 Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 3.1B – BIN Integrated. No improvisation. No format deviation.
 
-[END OF NON-OUTPUT SECTION]
+[END OF NON-OUTPUT SECTION] --> 
 
 ----------------------------------
 
