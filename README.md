@@ -1,9 +1,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/captbullett65/MSCFT)
 ![Repo Size](https://img.shields.io/github/repo-size/captbullett65/MSCFT)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
-Academic Paper on MSCFT
-[📄 Read the MSCFT Academic Paper](https://github.com/captbullett65/MSCFT/raw/main/MSCFT%20Academic%20Paper.pdf)
 
 
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
@@ -14,6 +11,8 @@ A forecasting framework for structured, auditable multi-agent forecasting using 
 Created and maintained by: Brian Helip  
 MIT License – Use with credit.  
 
+Academic Paper on MSCFT
+[📄 Read the MSCFT Academic Paper](https://github.com/captbullett65/MSCFT/raw/main/MSCFT%20Academic%20Paper.pdf)
 
 [Forecast Index](forecast-index.md)
 
