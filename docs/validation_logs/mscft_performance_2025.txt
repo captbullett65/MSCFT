@@ -94,6 +94,50 @@ Rank: 1/53 (98th percentile)
 BIN Section: Included
 Clause Module(s): Not Applied
 
+Forecast ID: Q9 – NON-MSCFT (PRE-v3.1C) – USD_MXN_EXCHANGE
+Date Issued: 2025-06-12
+Question: What will be the closing value of the U.S. dollar to Mexican peso exchange rate on 27 June 2025?
+Resolution: At least 18.4000 but less than 19.0000
+Forecast: 2 forecasts submitted using free ChatGPT prior to structured MSCFT implementation
+Outcome: Incorrect
+Brier Score: 0.6997
+Relative Brier Score: 0.3888
+Rank: 34/37
+BIN Section: Not Applied
+Clause Module(s): Not Applied
+Notes: Forecast created prior to adoption of MSCFT v3.1C. Logged here for performance comparison.
+
+Forecast ID: Q10 – NON-MSCFT (PRE-v3.1C) – ADP_PAYROLLS_Q2
+Date Issued: Likely April–May 2025
+Question: What will be the average monthly change in U.S. total non-farm private payrolls in the second quarter of 2025 according to ADP?
+Resolution: At least 0 but lower than 50,000
+Forecast:
+- 80% on 100,000 to 150,000
+- 10% on 50,000 to 100,000
+- 10% on 150,000 to 200,000
+Outcome: Incorrect
+Brier Score: 0.5200
+Relative Brier Score: 0.2211
+Rank: 39/46
+BIN Section: Not Applied
+Clause Module(s): Not Applied
+Notes: Forecast was not produced using MSCFT logic. Included here to contrast with structured performance.
+
+Forecast ID: Q11 – NON-MSCFT (PRE-v3.1C) – NATGAS_SPOT
+Date Issued: Likely May–June 2025
+Question: What will be the spot price per million BTUs for natural gas on 30 June 2025?
+Resolution: At least $3.20 but less than $3.80
+Forecast:
+- 75% on $2.60 to $3.20
+- 25% on $2.00 to $2.60
+Outcome: Incorrect
+Brier Score: 0.2758
+Relative Brier Score: 0.1761
+Rank: 41/43
+BIN Section: Not Applied
+Clause Module(s): Not Applied
+Notes: Forecast was made using GPT-free version or Copilot before MSCFT integration. Logged for reference.
+
 
 
 
