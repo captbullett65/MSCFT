@@ -144,11 +144,13 @@ This project provides a standardized, auditable process for producing and mainta
   ## Forecasting Tools
  ## 🛠️ Forecasting Tools
 
+//* Latest version ///
+-[MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
+
+//*old versions ///
 - [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
 - [MSCFT Template (v3.1C – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1C.txt)
 - [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
- 
-//*old version///
 - [MSCFT Template (v3.1B – Standard)](docs/MSCFT-Template-Plain-v3.1B.txt)
 - [MSCFT Template (v3.1B – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1B.txt)
 - [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
