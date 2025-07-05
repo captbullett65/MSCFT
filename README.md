@@ -145,6 +145,7 @@ This project provides a standardized, auditable process for producing and mainta
  ## 🛠️ Forecasting Tools
 
 //* Latest version ///
+
 -[MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
 
 //*old versions ///
