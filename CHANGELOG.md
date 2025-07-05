@@ -1,10 +1,10 @@
 MSCFT Version History
-
-## \[3.1 C ]  - 2025-06-28
-## \[3.1 B.1] – 2025-06-02
+## \[1.3 D ]  - 2025-06-28
+## \[1.3 C ]  - 2025-06-28
+## \[1.3 B] – 2025-06-02
 
 ### Added
-
+* added Access limitation Header [1.3 D]
 * BIN Tagging Guide added to `/docs`
 * New BIN-integrated template: `MSCFT-Template-Plain-BIN-v3.1B.txt`
 * Forecasting Tools section added to `README.md`
