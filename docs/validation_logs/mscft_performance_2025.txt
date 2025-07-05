@@ -138,6 +138,23 @@ BIN Section: Not Applied
 Clause Module(s): Not Applied
 Notes: Forecast was made using GPT-free version or Copilot before MSCFT integration. Logged for reference.
 
+Forecast ID: Q12 – MSCFT-2025-07-MORTGAGE_RATE_BELOW_6PCT
+Date Issued: 2025-06-28
+Question: Will the weekly average interest rate for a 30-year fixed-rate mortgage in the U.S. fall below 6.00% before 4 July 2025?
+Resolution: NO
+Forecast: 90% NO, 10% YES
+Outcome: Correct
+Brier Score: 0.0200
+Relative Brier Score: -0.0038
+Rank: 21/59 (64th percentile)
+BIN Section: Not Included – Pre-MSCFT Version 3.1C
+Clause Module(s): Not Applied
+
+
+
+
+
+
 
 
 
