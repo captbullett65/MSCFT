@@ -160,6 +160,9 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_S
 - [MSCFT Template (v3.1B – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1B.txt)
 - [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
 
+### 🧠 Community & Developer Posts
+- [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework](https://community.openai.com/t/structured-forecasting-swarms-with-gpt-4o-mscft-4-0a-and-the-abc-node-framework/1308928)
+
 
 ## 🧭 Structure
 
