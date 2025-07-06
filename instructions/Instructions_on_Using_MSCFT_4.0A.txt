@@ -1,0 +1,90 @@
+MSCFT 4.0A Instructions for Use
+Version: 4.0A – SWARM Nodes and BIN Integrated
+
+Overview:
+The Master Swarm Consensus Forecasting Template (MSCFT) 4.0A integrates structured forecasting logic with a multi-node swarm process. It is designed for use with GPT-4 Omni and other structured reasoning models. The template supports not only forecasting but also structured reasoning in domains like policy planning, risk modeling, and decision analysis.
+
+---
+
+Step-by-Step Instructions:
+
+1. **Load the MSCFT Template**
+
+   * Copy and paste the full MSCFT Template (Version 4.0A) into the chat or document environment.
+   * Ensure all fields are correctly preserved, and plain text formatting is maintained.
+
+2. **Define the Forecast Question**
+
+   * Clearly state the forecasting question.
+   * Include resolution criteria (PRAMs): dates, thresholds, definitions, and clarifying assumptions.
+   * Example: "Will the U.S. Congress pass a federal data privacy law before January 1, 2026?"
+
+3. **Set the Bucket Structure**
+
+   * Provide a binary (Yes/No) or time-based set of probability buckets.
+   * Ensure the model knows the output must total 100%.
+   * Example (Binary):
+
+     * Yes: \[   ]%
+     * No: \[   ]%
+   * Example (Time Buckets):
+
+     * Before 1 Nov 2025: \[   ]%
+     * Between 1 Nov 2025 and 28 Feb 2026: \[   ]%
+     * Between 1 Mar 2026 and 30 Jun 2026: \[   ]%
+     * Not before 1 Jul 2026: \[   ]%
+
+4. **Initiate Node A**
+
+   * Prompt: "Start with Node A."
+   * Node A’s task: Frame the question, list sources, and describe parameters and assumptions.
+   * After receiving Node A’s output:
+
+     * **Review it.**
+     * **Ask follow-up questions** to clarify context or correct misunderstandings.
+     * Only proceed when Node A’s framing is clear.
+
+5. **Initiate Node B**
+
+   * Prompt: "Proceed to Node B."
+   * Node B’s task: Analyze the situation using the information from Node A and provide a preliminary probability allocation with a BIN model.
+   * After receiving Node B’s output:
+
+     * **Review it.**
+     * **Ask follow-up questions** to refine reasoning, clarify assumptions, or challenge logic.
+     * Only proceed when satisfied with Node B’s analytical structure.
+
+6. **Initiate Node C**
+
+   * Prompt: "Proceed to Node C."
+   * Node C uses internal MSCFT.MS-CMT logic to synthesize inputs from A and B.
+   * Final output must be in full compliance with MSCFT Template Version 3.1D.
+   * Node C must not mention swarm logic in the output — it is applied internally only.
+
+7. **Check Output Format**
+
+   * Ensure the final forecast is in **plain text only**, with **no ASCII**, **no tables**, and exact compliance with MSCFT formatting.
+
+8. **Optional Use Cases Beyond Forecasting**
+
+   * You can use the MSCFT 4.0A structure for:
+
+     * Policy analysis and scenario testing
+     * Red teaming exercises or structured dissent modeling
+     * Intelligence-style assessments with structured uncertainty handling
+   * Adapt the framing, analysis, and synthesis layers to fit non-forecasting logic needs.
+
+---
+
+Key Principles:
+
+* Use structured prompting to move from Node A → Node B → Node C.
+* Ask clarifying or elaborative questions between nodes.
+* Keep the final output strictly MSCFT-compliant.
+* When publishing, always reference the correct version and document header.
+
+For best results, run this system on GPT-4 Omni in Research Mode with copy/paste-ready templates and prompts.
+
+---
+
+End of Instructions
