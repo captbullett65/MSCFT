@@ -146,7 +146,7 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version ///
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_SwarmIntegration.txt
+https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_SwarmIntegration.txt 
 
 //* Old Versions///
 -[MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
@@ -208,8 +208,9 @@ To summarize:
 - Update `forecast-index.md` with a working link to your file.
 
 CHANGELOG.md
-## [1.3 D] - 2025-07-05
-## [1.3 B] - 2025-05-30
+## [4.0 A ] - 2025-07-06
+## [1.3 D]  - 2025-07-05
+## [1.3 B]  - 2025-05-30
 ### Added
 - Added AI Web Access Limitation header block to clarify model restrictions on real-time internet data access.
 - Inside-Outside View Structuring subsection added after "Interpretation".
