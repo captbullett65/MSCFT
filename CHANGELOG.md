@@ -1,7 +1,8 @@
 MSCFT Version History
+## \[4.0 A ]  -2025- 07-06
 ## \[3.1 D ]  - 2025-07-05
 ## \[3.1 C ]  - 2025-06-28
-## \[3.1 B] – 2025-06-02
+## \[3.1 B]   – 2025-06-02
 
 ### Added
 * added Access limitation Header [1.3 D]
