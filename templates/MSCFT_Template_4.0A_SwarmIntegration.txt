@@ -1,6 +1,6 @@
-// \[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+// [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
-\[NOTICE: AI WEB ACCESS LIMITATION]
+[NOTICE: AI WEB ACCESS LIMITATION]
 GPT-4 Omni and related AI models do not have full access to real-time internet data. Many websites (especially government, medical, and financial) are protected by services like Cloudflare, which block AI web crawlers unless explicitly allowed.
 For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
 Do not assume the model can search or retrieve live information unless confirmed.
