@@ -2,7 +2,9 @@ MSCFT 4.0A Instructions for Use
 Version: 4.0A – SWARM Nodes and BIN Integrated
 
 Overview:
-The Master Swarm Consensus Forecasting Template (MSCFT) 4.0A integrates structured forecasting logic with a multi-node swarm process. It is designed for use with GPT-4 Omni and other structured reasoning models. The template supports not only forecasting but also structured reasoning in domains like policy planning, risk modeling, and decision analysis.
+The Master Swarm Consensus Forecasting Template (MSCFT) 4.0A integrates structured forecasting logic with a multi-node swarm process.
+It is designed for use with GPT-4 Omni and other structured reasoning models. 
+The template supports not only forecasting but also structured reasoning in domains like policy planning, risk modeling, and decision analysis.
 
 ---
 
@@ -92,7 +94,9 @@ BEST PRACTICE for Running MSCFT 4.0A Forecasts
 To ensure smooth and accurate forecasting using the MSCFT 4.0A – SWARM Nodes and BIN Integrated template, follow these best practices:
 
 1. Refresh Your Chat Session Regularly
-Do not use the same GPT-4o conversation for more than 2–3 consecutive days of forecasting. Long sessions can lead to context drift, where older instructions (e.g., formatting, template version, or node logic) may interfere with current forecasting runs.
+Do not use the same GPT-4o conversation for more than 2–3 consecutive days of forecasting. 
+Long sessions can lead to context drift, where older instructions
+(e.g., formatting, template version, or node logic) may interfere with current forecasting runs.
 
 What to do:
 
@@ -106,17 +110,22 @@ Use this line to reassert format compliance:
 //* Use MSCFT Template Version 4.0A – SWARM Nodes and BIN Integrated. Plain text. No formatting. No improvisation. ///
 
 2. Prompt Through Each Node Step-by-Step
-Each node (A, B, C) in the SWARM logic should be manually prompted in order. After receiving Node A’s output, review it and ask any clarifying questions before continuing to Node B. Repeat this process between Node B and Node C.
+Each node (A, B, C) in the SWARM logic should be manually prompted in order. 
+After receiving Node A’s output, review it and ask any clarifying questions before continuing to Node B. 
+Repeat this process between Node B and Node C.
 
 This human-in-the-loop step helps prevent logic errors and improves final synthesis.
 
 3. Use Plain Text Only
-Always request plain text output. Do not allow ASCII art, Markdown tables, or embedded formatting blocks. This keeps the output clean and compliant with the MSCFT formatting standard. (Note: This is so the output can be entered in a text box an not have artifacts that take time to edit.)
+Always request plain text output. Do not allow ASCII art, Markdown tables, or embedded formatting blocks.
+This keeps the output clean and compliant with the MSCFT formatting standard.
+(Note: This is so the output can be entered in a text box an not have artifacts that take time to edit.)
 
 4. Clarify the Template Version
 Always refer to the current version as:
 MSCFT Template Version 4.0A – SWARM Nodes and BIN Integrated
-Do not refer to earlier versions like 3.1C or 3.1D. The BIN model is now fully integrated into 4.0A and should be labeled simply as “BIN model” in the final output.
+Do not refer to earlier versions like 3.1C or 3.1D.
+The BIN model is now fully integrated into 4.0A and should be labeled simply as “BIN model” in the final output.
 
 5. Maintain Clean Instruction Flow
 Each forecast begins with:
