@@ -11,6 +11,17 @@ A forecasting framework for structured, auditable multi-agent forecasting using 
 
 Created and maintained by: Brian Helip  
 MIT License – Use with credit.  
+---
+## Case Studies & Public Demonstrations
+
+**Structured Prompting Prevents Harmful Output – Grok + MSCFT Test**  
+A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that the model produces accurate and safe outputs when given structured input.  
+🧠 [Read the full OpenAI Community write-up](https://community.openai.com/t/user-test-summary-demonstrating-that-structured-prompting-prevents-harmful-output-in-llms/1311904)  
+📷 [X Post (BrianHelip64)](https://x.com/BrianHelip64/status/1810740706726627681)  
+🌐 [Bluesky Post](https://bsky.app/profile/captbullett.bsky.social/post/3kqlcws5xvv2x)
+
+This test serves as a public demonstration that MSCFT can act as an alignment framework and behavioral governor for LLMs.
+--- 
 
 [📄 Read the MSCFT Academic Paper PDF download ]
 (https://github.com/captbullett65/MSCFT/raw/main/MSCFT%20Academic%20Paper.pdf)
