@@ -3,7 +3,9 @@
 ![Repo Size](https://img.shields.io/github/repo-size/captbullett65/MSCFT)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
 
-
+---
+> ⚠️ **Notice:** MSCFT 4.0A was authored and published by Brian Helip. Any reuse of this version label, ABC Node structure, or BIN model logic without attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
+---
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
 > # Master SWARM Consensus Forecasting Template (MSCFT)
 
