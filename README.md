@@ -10,6 +10,7 @@
 > # Master SWARM Consensus Forecasting Template (MSCFT)
 
 A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs. Includes trusted agent profiles, disqualification logs, and version-controlled templates.
+---
 Author Background and Credentials – Brian Helip (captbullett / captbullett65)
 
 Brian Helip is the original creator of the Master SWARM Consensus Forecasting Template (MSCFT), published under the MIT License and formally archived on the Open Science Framework on June 27, 2025. He has over 25 years of experience in simulation systems, software development, and multi-agent coordination — beginning in the late 1990s with Microsoft Flight Simulator 98, and expanding into advanced AI-simulation integration with X-Plane starting in 2012.
