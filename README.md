@@ -6,6 +6,7 @@
 ---
 > ⚠️ **Notice:** MSCFT 4.0A was authored and published by Brian Helip. Any reuse of this version label, ABC Node structure, or BIN model logic without attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
 ---
+
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
 > # Master SWARM Consensus Forecasting Template (MSCFT)
 
@@ -54,6 +55,24 @@ Created and maintained by: Brian Helip
 ---
 MIT License – Use with credit.
 ---
+
+### 🧠 Forecasting Platform Affiliations
+
+The MSCFT (Master SWARM Consensus Forecasting Template) framework supports structured, auditable forecasting across major platforms. My forecasting work spans a wide range of challenges and communities, including:
+
+- [Good Judgment Open](https://www.gjopen.com/)
+- [Range Forecasting](https://www.rangeforecasting.com/)
+- [Metaculus](https://www.metaculus.com/)
+
+🔗 I maintain a public fork of the official Metaculus repository to align research methods and forecasting structures with MSCFT:
+[View Metaculus GitHub Fork →](https://github.com/captbullett65/metaculus)
+
+> ⚠️ This fork is not intended for development contributions, but for reference, study, and integration into the MSCFT project. It demonstrates platform alignment and structured forecasting coherence across ecosystems.
+
+MSCFT is designed to be interoperable with these platforms and to improve accuracy, auditability, and forecasting discipline through structured reasoning, version control, and integrated LLM support.
+
+---
+
 ## Case Studies & Public Demonstrations
 
 **Structured Prompting Prevents Harmful Output – Grok + MSCFT Test**  
