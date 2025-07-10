@@ -48,9 +48,9 @@ DOI: https://lnkd.in/gA8_ywcg
 Active on the X-Plane.org forums since October 2012
 Profile: https://lnkd.in/gyHSk_FM
 
-His long-standing focus on systems integrity, structured input-output, and real-world multi-agent coordination directly informs the design and evolution of the MSCFT framework.
+His long-standing focus on systems integrity, structured input-output, and real-world multi-agent coordination directly informs the design and evolution of the MSCFT framework.  
 Created and maintained by: Brian Helip  
-MIT License – Use with credit.  
+MIT License – Use with credit.
 ---
 ## Case Studies & Public Demonstrations
 
