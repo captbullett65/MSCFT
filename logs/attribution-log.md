@@ -18,3 +18,6 @@ Paul Bellow's post does not cite the original source, despite appearing after th
 This GitHub repository is the canonical and timestamped source of MSCFT 4.0A.
 All forks, derivative work, or public posts referencing this version or framework must credit this repository and its author.
 
+commit: log Blurb C to Attribution Integrity Log — OpenAI Dev post reinstated confirming MSCFT 4.0A authorship under original GitHub + OSF record
+
+
