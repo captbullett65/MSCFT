@@ -223,14 +223,18 @@ This project provides a standardized, auditable process for producing and mainta
  ## 🛠️ Forecasting Tools
 
  [Instructions on Using MSCFT 4.0A]
+ 
  (https://github.com/captbullett65/MSCFT/blob/main/instructions/Instructions_on_Using_MSCFT_4.0A.txt) 
 
 
-//* Latest version ///
+//* Latest version ///   
 
 https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_SwarmIntegration.txt 
 
+---
+
 //* Old Versions///
+
 -[MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
 - [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
 - [MSCFT Template (v3.1C – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1C.txt)
@@ -240,7 +244,9 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_S
 - [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
 
 ### 🧠 Community & Developer Posts
-- [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework](https://community.openai.com/t/structured-forecasting-swarms-with-gpt-4o-mscft-4-0a-and-the-abc-node-framework/1308928)
+- [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework]
+
+(https://community.openai.com/t/structured-forecasting-swarms-with-gpt-4o-mscft-4-0a-and-the-abc-node-framework/1308928)
   
 - https://community.openai.com/t/forecasting-performance-breakthrough-using-gpt-4o-and-mscft-structured-template-framework/1304270  
 
