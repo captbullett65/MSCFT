@@ -74,11 +74,15 @@ MSCFT is designed to be interoperable with these platforms and to improve accura
 ---
 
 ## Case Studies & Public Demonstrations
-
-**Structured Prompting Prevents Harmful Output – Grok + MSCFT Test**  
-A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that the model produces accurate and safe outputs when given structured input.  
+Structured Prompting Prevents Harmful Output – Grok + MSCFT Test
+A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that the model produces accurate and safe outputs when given structured input.
 
 This test serves as a public demonstration that MSCFT can act as an alignment framework and behavioral governor for LLMs.
+
+MSCFT in Clinical Diagnostics – Modular Medical Node Use Case
+We’ve added a standalone medical diagnostic use case showing how MSCFT’s modular node structure can support healthcare workflows. This use case applies structured forecasting logic to real-world clinical reasoning — including patient intake, lab integration, and risk projection — and demonstrates how the BIN model improves diagnostic integrity.
+
+https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/mscft_medical_use_case.txt  
 
 --- 
 
