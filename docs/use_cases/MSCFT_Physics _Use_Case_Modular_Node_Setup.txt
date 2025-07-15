@@ -1,6 +1,13 @@
 MSCFT Physics Use Case – Modular Node Setup
 Introduction
-This document demonstrates how the MSCFT (Master SWARM Consensus Forecasting Template) framework can be adapted for research and development in theoretical and experimental physics. By modularizing scientific reasoning and calculation tasks into structured nodes, this configuration supports reproducible, auditable outputs across multidisciplinary teams. Human-in-the-loop interaction and LLM integration enable iterative hypothesis testing, simulation support, and logical error checking. This structure is particularly suited to labs or academic teams working with large-scale numerical models, theoretical derivations, or experimental instrumentation. The example below illustrates how BIN logic can be embedded to support epistemic integrity and control for distortion in model interpretation.
+This document demonstrates how the MSCFT (Master SWARM Consensus Forecasting Template)
+framework can be adapted for research and development in theoretical and experimental physics.
+By modularizing scientific reasoning and calculation tasks into structured nodes, this configuration supports reproducible,
+auditable outputs across multidisciplinary teams. Human-in-the-loop interaction and
+LLM integration enable iterative hypothesis testing, simulation support, and logical error checking. 
+This structure is particularly suited to labs or academic teams working with large-scale numerical models, 
+theoretical derivations, or experimental instrumentation.
+The example below illustrates how BIN logic can be embedded to support epistemic integrity and control for distortion in model interpretation.
 ________________________________________
 (Example Framework)
 (This conceptual draft shows how the MSCFT template can be extended into a modular research process. Node layout is customizable.)
