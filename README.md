@@ -82,7 +82,7 @@ MSCFT in Clinical Diagnostics – Modular Medical Node Use Case
 We’ve added a standalone medical diagnostic use case showing how MSCFT’s modular node structure can support healthcare workflows. This use case applies structured forecasting logic to real-world clinical reasoning — including patient intake, lab integration, and risk projection — and demonstrates how the BIN model improves diagnostic integrity.
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/mscft_medical_use_case.txt  
----
+
 MSCFT for Physics Research – Structured Scientific Reasoning with Modular Nodes
 This example demonstrates how MSCFT’s node-based architecture can be extended to theoretical and experimental physics. By assigning specific reasoning tasks to modular nodes—from equation setup and variable selection to simulation and peer validation—this structure enhances auditability and reduces the risk of cognitive distortion in scientific modeling. The BIN model is integrated to highlight epistemic risk, assumption bias, and information quality. Ideal for LLM-assisted workflows using Python, LaTeX, or Jupyter, this setup supports symbolic derivation, visualization, and publication-ready output.
 
