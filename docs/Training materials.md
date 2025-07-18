@@ -34,7 +34,11 @@ These can enhance accuracy, structure, and professional reasoning skills in line
 
 
 These subjects can be found here (https://www.gjopen.com/training)
+
+
 A Short Course in Superforecasting with Philip Tetlock
+
+
 Class I: What We Discover When We Start Scoring Accuracy
 Class II: Prying Open Closed Minds in Unnecessarily Polarized Debates
 Class III: Counterfactual History: The Elusive Control Groups in Policy Debates
