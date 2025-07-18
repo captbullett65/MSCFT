@@ -31,6 +31,8 @@ These can enhance accuracy, structure, and professional reasoning skills in line
 ---
 
 **Edge Master Class 2015:**
+
+
 These subjects can be found here (https://www.gjopen.com/training)
 A Short Course in Superforecasting with Philip Tetlock
 Class I: What We Discover When We Start Scoring Accuracy
@@ -38,6 +40,8 @@ Class II: Prying Open Closed Minds in Unnecessarily Polarized Debates
 Class III: Counterfactual History: The Elusive Control Groups in Policy Debates
 Class IV: Skillful Backward and Forward Reasoning in Time
 Class V: Condensing it All Into Four Big Problems and a Killer App Solution
+
+
 ---
 
 **Range Forecasting Platform**
