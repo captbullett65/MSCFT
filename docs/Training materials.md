@@ -30,7 +30,7 @@ These can enhance accuracy, structure, and professional reasoning skills in line
 
 ---
 
-Edge Master Class 2015:
+**Edge Master Class 2015:**
 These subjects can be found here (https://www.gjopen.com/training)
 A Short Course in Superforecasting with Philip Tetlock
 Class I: What We Discover When We Start Scoring Accuracy
