@@ -97,6 +97,15 @@ https://github.com/captbullett65/MSCFT/blob/main/examples/atc_mscft_application.
 [📄 Read the MSCFT Academic Paper PDF download ]
 (https://github.com/captbullett65/MSCFT/raw/main/MSCFT%20Academic%20Paper.pdf)
 
+---
+
+## 📚 Forecasting Training Hub
+
+A curated set of training resources is now available in [`/docs/Training materials.md`](./docs/Training%20materials.md), featuring materials from **Good Judgment Open** and **Range Forecasting**. These include videos, interactive modules, and expert insights to improve structured reasoning, bias awareness, and probabilistic forecasting — all aligned with MSCFT logic.
+
+---
+
+
 [Forecast Index](forecast-index.md)
 
 # MSCFT
