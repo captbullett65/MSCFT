@@ -17,6 +17,8 @@ These can enhance accuracy, structure, and professional reasoning skills in line
   * [Keeping Score on GJ Open (Interactive Video)
   * (https://goodjudgment.io/Training2/KeepingScore/index.html)
   * [Ordered Categorical Scoring Rule (PDF)](https://goodjudgment.io/Training2/Ordered_Categorical_Scoring_Rule.pdf)
+ 
+ ---   
 
 * **Research Insights**
 
@@ -25,6 +27,8 @@ These can enhance accuracy, structure, and professional reasoning skills in line
     * [Building Better Forecasters (Video)](https://knowledge.wharton.upenn.edu/)
     * [Why an Open Mind is Key to Making Better Predictions (Video)](https://knowledge.wharton.upenn.edu/)
     * [Superforecaster Full Video](https://www.youtube.com/watch?v=2d1X3m7yeMA)
+
+---
 
 Edge Master Class 2015:
 These subjects can be found here (https://www.gjopen.com/training)
