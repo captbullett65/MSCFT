@@ -25,14 +25,14 @@ These can enhance accuracy, structure, and professional reasoning skills in line
     * [Why an Open Mind is Key to Making Better Predictions (Video)](https://knowledge.wharton.upenn.edu/)
     * [Superforecaster Full Video](https://www.youtube.com/watch?v=2d1X3m7yeMA)
 
-* **Edge Master Class 2015 – Philip Tetlock**
-
-  * Class I: What We Discover When We Start Scoring Accuracy
-  * Class II: Prying Open Closed Minds in Unnecessarily Polarized Debates
-  * Class III: Counterfactual History and Policy Debate Challenges
-  * Class IV: Backward and Forward Reasoning in Time
-  * Class V: Four Big Problems and a Killer App Forecasting Framework
-
+Edge Master Class 2015:
+These subjects can be found here (https://www.gjopen.com/training)
+A Short Course in Superforecasting with Philip Tetlock
+Class I: What We Discover When We Start Scoring Accuracy
+Class II: Prying Open Closed Minds in Unnecessarily Polarized Debates
+Class III: Counterfactual History: The Elusive Control Groups in Policy Debates
+Class IV: Skillful Backward and Forward Reasoning in Time
+Class V: Condensing it All Into Four Big Problems and a Killer App Solution
 ---
 
 **Range Forecasting Platform**
