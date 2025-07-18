@@ -14,7 +14,8 @@ These can enhance accuracy, structure, and professional reasoning skills in line
 * **Getting Started**
 
   * [Introduction to Forecasting on GJ Open (Video)](https://www.youtube.com/watch?v=1SpqQQDoDA4)
-  * [Keeping Score on GJ Open (Interactive Video) (https://goodjudgment.io/Training2/KeepingScore/index.html)
+  * [Keeping Score on GJ Open (Interactive Video)
+  * (https://goodjudgment.io/Training2/KeepingScore/index.html)
   * [Ordered Categorical Scoring Rule (PDF)](https://goodjudgment.io/Training2/Ordered_Categorical_Scoring_Rule.pdf)
 
 * **Research Insights**
