@@ -88,6 +88,10 @@ This example demonstrates how MSCFT’s node-based architecture can be extended 
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/MSCFT_Physics%20_Use_Case_Modular_Node_Setup.txt 
 
+✈️ New Use Case: Modernizing U.S. Air Traffic Control with MSCFT
+MSCFT isn’t just for forecasting — it’s a structured coordination and validation framework built for real-world complexity. A new example has been added demonstrating how MSCFT can be applied to the modernization of the U.S. air traffic control (ATC) system. The framework's node-based design, audit traceability, and fault isolation capabilities make it a strong fit for upgrading national-scale infrastructure.
+https://github.com/captbullett65/MSCFT/blob/main/examples/atc_mscft_application.md
+
 --- 
 
 [📄 Read the MSCFT Academic Paper PDF download ]
