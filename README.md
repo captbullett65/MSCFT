@@ -64,13 +64,6 @@ The MSCFT (Master SWARM Consensus Forecasting Template) framework supports struc
 - [Range Forecasting](https://www.rangeforecasting.com/)
 - [Metaculus](https://www.metaculus.com/)
 
-🔗 I maintain a public fork of the official Metaculus repository to align research methods and forecasting structures with MSCFT:
-[View Metaculus GitHub Fork →](https://github.com/captbullett65/metaculus)
-
-> ⚠️ This fork is not intended for development contributions, but for reference, study, and integration into the MSCFT project. It demonstrates platform alignment and structured forecasting coherence across ecosystems.
-
-MSCFT is designed to be interoperable with these platforms and to improve accuracy, auditability, and forecasting discipline through structured reasoning, version control, and integrated LLM support.
-
 ---
 
 ## Case Studies & Public Demonstrations
