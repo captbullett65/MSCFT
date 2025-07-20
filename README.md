@@ -235,7 +235,7 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version ///   
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0A_SwarmIntegration.txt 
+https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0_B_SwarmIntegration.txt 
 
 ---
 
