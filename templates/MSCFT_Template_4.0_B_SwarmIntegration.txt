@@ -10,13 +10,13 @@ This MSCFT template is aligned with GPT-4o capabilities and assumes Research mod
 After specifying your forecast question, resolution criteria, and bucket structure, include the following line before generation begins:
 
 Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 3.1B – BIN Integrated. No improvisation. No format deviation. 
-updated to 4.0A which now has A,B,C nodes in GPT 4 omni 
+updated to 4.0B (brovo) which now has A,B,C,D nodes in GPT 4 omni 
 
 \[END OF NON-OUTPUT SECTION]
 
 ---
 
-MSCFT Template (Version 4.0 A SWARM nodes and BIN Integrated)
+MSCFT Template (Version 4.0 B SWARM nodes and BIN Integrated)
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster: \[Insert Forecaster Name Here]
@@ -59,6 +59,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // Node A: Research Node — framing, question structure, source listing
 // Node B: Analytical Node — probability estimate, reasoning, BIN Model
 // Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output
+// Node D: Interpreting LLMs as Markov chains and the implications for generalization and performance
 // Only Node C produces formal output using MSCFT format
 
 Probability Allocation
