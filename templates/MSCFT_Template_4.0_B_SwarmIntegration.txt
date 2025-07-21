@@ -17,17 +17,17 @@ as defined in the previously memorized MSCFT Template 4.0B — SWARM Nodes and B
 No improvisation. No format deviation.
 
 This version formally integrates:
-// Structured Swarm Section — Applies only if forecast used multi-node reasoning  
-// Mode: Structured Swarm (4 Nodes, MSCFT.MS-CMT applied internally)  
-// Node A: Research Node — framing, question structure, source listing  
-// Node B: Analytical Node — probability estimate, reasoning, BIN Model  
-// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output  
-// Node D: Theoretical Node — interprets LLM behavior through one of two frameworks:  
-//         (1) Markov chain modeling over a finite state space to assess generalization dynamics  
-//         (2) Entropy-based modeling (e.g., Shannon entropy H(p) = -∑ p log p) for probabilistic uncertainty  
-//         Node D selects either method based on question relevance (e.g., symbolic generalization vs. statistical inference)  
-// Only Node C produces formal output using MSCFT format  
-
+ // Structured Swarm Section — Applies only if forecast used multi-node reasoning
+// Mode: Structured Swarm (4 Nodes, MSCFT.MS-CMT applied internally)
+// Node A: Research Node — framing, question structure, source listing
+// Node B: Analytical Node — probability estimate, reasoning, BIN Model
+// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output
+// Node D: Interpretation Node — applies advanced model-theoretic analysis of LLM behavior or forecast uncertainty.
+// Node D supports three analytical modes:
+// • (1) Markov Chain Model — interprets LLM behavior as finite-state transitions based on token prediction probabilities.
+// • (2) Entropy Model — uses Shannon entropy (H(p) = -∑ p log p) to quantify uncertainty, confidence, and forecast noise.
+// • (3) KL Divergence Model — applies relative entropy (D_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))) to compare forecast distributions, assess belief shifts, or quantify information gain.
+// Only Node C produces formal output using MSCFT format.
 
 \[END OF NON-OUTPUT SECTION]
 
