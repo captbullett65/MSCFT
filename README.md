@@ -345,7 +345,9 @@ MSCFT is maintained to ensure traceability, clarity, and reproducibility in judg
 [Attribution Record: MSCFT_Raif_Attribution_GitHub](docs/MSCFT_Raif_Attribution_GitHub.md)
 
 ---
-🌦 Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT
+🌦 **Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT**
+---
+
 This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
 
 The example shows how MSCFT’s structured swarm logic (Nodes A–D), BIN model, and anomaly logging can support:
