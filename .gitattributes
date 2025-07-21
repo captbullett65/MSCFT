@@ -1,1 +1,6 @@
 *.md linguist-language=Markdown
+*.html linguist-language=HTML
+*.1 linguist-documentation=false
+*.md linguist-detectable=true
+
+
