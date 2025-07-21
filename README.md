@@ -307,9 +307,11 @@ To summarize:
 - Update `forecast-index.md` with a working link to your file.
 
 CHANGELOG.md
+## [4.0 B ] - 2025-07-20
 ## [4.0 A ] - 2025-07-06
 ## [1.3 D]  - 2025-07-05
 ## [1.3 B]  - 2025-05-30
+
 ### Added
 - Added AI Web Access Limitation header block to clarify model restrictions on real-time internet data access.
 - Inside-Outside View Structuring subsection added after "Interpretation".
