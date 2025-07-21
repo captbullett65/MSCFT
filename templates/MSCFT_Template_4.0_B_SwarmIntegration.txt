@@ -17,12 +17,17 @@ as defined in the previously memorized MSCFT Template 4.0B — SWARM Nodes and B
 No improvisation. No format deviation.
 
 This version formally integrates:
-• Node A – Research (framing, structure, sourcing)
-• Node B – Analytical (probability, BIN reasoning)
-• Node C – Synthesis (MSCFT.MS-CMT logic)
-• Node D – Model Behavior (interprets LLMs as Markov chains over finite state space; evaluates generalization and inference quality)
+// Structured Swarm Section — Applies only if forecast used multi-node reasoning  
+// Mode: Structured Swarm (4 Nodes, MSCFT.MS-CMT applied internally)  
+// Node A: Research Node — framing, question structure, source listing  
+// Node B: Analytical Node — probability estimate, reasoning, BIN Model  
+// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output  
+// Node D: Theoretical Node — interprets LLM behavior through one of two frameworks:  
+//         (1) Markov chain modeling over a finite state space to assess generalization dynamics  
+//         (2) Entropy-based modeling (e.g., Shannon entropy H(p) = -∑ p log p) for probabilistic uncertainty  
+//         Node D selects either method based on question relevance (e.g., symbolic generalization vs. statistical inference)  
+// Only Node C produces formal output using MSCFT format  
 
-Only Node C outputs the final forecast. All logic must conform to MSCFT Template 4.0B structure.
 
 \[END OF NON-OUTPUT SECTION]
 
