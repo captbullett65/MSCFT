@@ -11,10 +11,19 @@ This org chart closely mirrors MSCFT’s core structure:
 
 📌 Kathleen Perley on LinkedIn (original post)
 ---
+### Agent 1 – Human/AI Org Chart
 
-![Agent 1 – Org Chart]( https://github.com/captbullett65/MSCFT/blob/main/Agent1.png ) 
+![Agent Org Chart 1]( https://github.com/captbullett65/MSCFT/blob/main/Agent1.png )
+
+This organizational chart was shared by Kathleen Perley (Faculty & AI Advisor at Rice University). It shows a real-world implementation of AI agents embedded alongside human executives in a functional structure. This aligns with MSCFT logic for swarm-based, multi-node agentic coordination.
 
 ---
-![Agent 2 – [Commentary Screenshot] ( https://github.com/captbullett65/MSCFT/blob/main/Agent2.png )
+
+### Agent 2 – Agent Role Breakdown (Textual)
+
+![Agent Org Chart 2]( https://github.com/captbullett65/MSCFT/blob/main/Agent2.png)
+
+This simplified visual describes the core functional roles of human operators and AI agents, reflecting how structured forecasting templates like MSCFT can guide both human and AI systems in coordinated environments.
+
 
 
