@@ -13,6 +13,8 @@ This org chart closely mirrors MSCFT’s core structure:
 ---
 
 ![Agent 1 – Org Chart]( https://github.com/captbullett65/MSCFT/blob/main/Agent1.png ) 
+
+---
 ![Agent 2 – [Commentary Screenshot] ( https://github.com/captbullett65/MSCFT/blob/main/Agent2.png )
 
 
