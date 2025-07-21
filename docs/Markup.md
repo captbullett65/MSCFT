@@ -1,5 +1,5 @@
 # Forecast Markup Language (FML) – Tag Reference Cheat Sheet
-Version 1.0 (For MSCFT v3.1B)
+Version 1.0 (For MSCFT v4.0 D)
 
 ## Purpose
 FML tags allow structured input into GPT for compliant, clean output using the Master SWARM Consensus Forecasting Template (MSCFT). Tags act as scaffolding only and are not printed in the final output.
