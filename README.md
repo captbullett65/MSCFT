@@ -110,110 +110,125 @@ Master SWARM Consensus Forecasting Template — structured methodology for forec
 The Master SWARM Consensus Forecasting Template (MSCFT) is a structured framework for developing, documenting, and auditing long-range, short-range forecasts across domains such as innovation, geopolitics, and public policy. This repository supports consistent forecasting practices for projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
 
 ## How to Use the MSCFT
+Here is the updated “How to Use the MSCFT” section with **Node D** fully integrated:
+
+---
+
+**How to Use the MSCFT**
 
 This section provides full instructions for using the MSCFT template with or without forecasting platforms.
 
-### Key Use Cases
+**Key Use Cases**
+Good Judgment Open, Range, RAND (RFI), Metaculus, and IARPA (crowdsourcing) projects
+Personal forecasting or journaling for learning
+Team-based scenario planning or risk analysis
+Academic use in economics, politics, policy, and technology domains
 
-* Good Judgment Open, Range, RAND (RFI), Metaculus, and IARPA (crowdsourcing) projects
-* Personal forecasting or journaling for learning
-* Team-based scenario planning or risk analysis
-* Academic use in economics, politics, policy, and technology domains
+**Key Principles**
+The MSCFT structure helps reduce bias, improve information processing, and limit noise — consistent with the BIN model.
+It is ideal for LLM-assisted workflows: the forecaster leads, while the LLM helps generate, clarify, refine, and validate reasoning.
+You can use it independently or collaboratively — forecasts are reproducible and ready for comparison.
 
-### Key Principles
-
-* The MSCFT structure helps reduce bias, improve information processing, and limit noise — consistent with the BIN model.
-* It is ideal for LLM-assisted workflows: the forecaster leads, while the LLM helps generate, clarify, refine, and validate reasoning.
-* You can use it independently or collaboratively — forecasts are reproducible and ready for comparison.
-
-### Background and Design Inspiration
-
-MSCFT incorporates best practices drawn from applied forecasting, intelligence analysis, and structured analytic techniques. Notably, its framework and structure were influenced by the program/project management philosophies used in NASA’s [APPEL Knowledge Services](https://appel.nasa.gov/program-project-management/), where lifecycle discipline, auditability, and structured reasoning are foundational.
-
+**Background and Design Inspiration**
+MSCFT incorporates best practices drawn from applied forecasting, intelligence analysis, and structured analytic techniques.
+Notably, its framework and structure were influenced by the program/project management philosophies 
+used in NASA’s APPEL Knowledge Services  [APPEL Knowledge Services](https://appel.nasa.gov/program-project-management/), 
+where lifecycle discipline, auditability, and structured reasoning are foundational.
 This makes MSCFT suitable for long-term forecasting initiatives, research, and collaborative problem solving — not just one-off predictions.
 
-### Step-by-Step Instructions
+---
 
-#### 1. Forecast Title
+**Step-by-Step Instructions**
 
-Give your forecast a specific, clear name.
+1. **Forecast Title**
+   Give your forecast a specific, clear name.
 
-#### 2. Initial Question Framing
+2. **Initial Question Framing**
+   **Question:** Copy or write the question you’re answering.
+   **Clarifications:** Add key dates, assumptions, definitions, or known values.
+   **Key Sources:** List any data, news, reports, or research supporting your reasoning.
 
-* **Question:** Copy or write the question you’re answering.
-* **Clarifications:** Add key dates, assumptions, definitions, or known values.
-* **Key Sources:** List any data, news, reports, or research supporting your reasoning.
+3. **Refinement & Analysis**
+   **Key Developments:** What’s happening that affects the forecast?
+   **Interpretation:** Connect trends or scenarios to your reasoning.
+   *Tip:* Use an LLM to generate analogies, test assumptions, or find outside views to strengthen your analysis.
 
-#### 3. Refinement & Analysis
+4. **Data Anomaly & Source Integrity Log**
+   Note any irregularities in your data (e.g., outdated info, contradictions, or missing pieces). If clean, write “No anomalies noted.”
 
-* **Key Developments:** What’s happening that affects the forecast?
-* **Interpretation:** Connect trends or scenarios to your reasoning.
+5. **Probability Allocation**
+   Indicate whether the forecast is binary (Yes/No) or multi-bucket (ranges or categories).
+   Use buckets that add to 100%.
+   Follow official platform formats when applicable (e.g., GJO), or define your own clearly.
 
-*Tip: Use an LLM to generate analogies, test assumptions, or find outside views to strengthen your analysis.*
+*Example (Multi-Bucket):*
+10% — Less than 2%
+40% — Between 2% and 3%
+30% — Between 3% and 4%
+20% — 4% or more
 
-#### 4. Data Anomaly & Source Integrity Log
+*Example (Binary):*
+70% — Yes
+30% — No
 
-Note any irregularities in your data (e.g., outdated info, contradictions, or missing pieces). If clean, write “No anomalies noted.”
+---
 
-#### 5. Probability Allocation
+**BIN MODEL (Bias, Information, Noise)**
 
-* Indicate whether the forecast is **binary** (Yes/No) or **multi-bucket** (ranges or categories).
-* Use buckets that add to **100%**.
-* Follow official platform formats when applicable (e.g., GJO), or define your own clearly.
+**Bias** – Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question, its underlying data, or scenario framing. Address both source bias (e.g., media, academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
+**Information** – Assess the quality, timeliness, resolution, and credibility of the information used. Clearly distinguish between confirmed data, predictive model output, outdated information, unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
+**Noise** – Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic. This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. Describe where noise may distort scenario weighting or probability distribution.
 
-**Example (Multi-Bucket):**
+---
 
-* 10% — Less than 2%
-* 40% — Between 2% and 3%
-* 30% — Between 3% and 4%
-* 20% — 4% or more
+6. **Final Forecast Summary**
+   Write a short 3–5 sentence summary of your prediction and why you believe it’s likely.
 
-**Example (Binary):**
-
-* 70% — Yes
-* 30% — No
-
-BIN MODEL (Bias, Information, Noise)
-
-Bias –
-Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question, its underlying data, or scenario framing. Address both source bias (e.g., media, academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
-
-Information –
-Assess the quality, timeliness, resolution, and credibility of the information used. Clearly distinguish between confirmed data, predictive model output, outdated information, unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
-
-Noise –
-Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic. This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. Describe where noise may distort scenario weighting or probability distribution
-
-#### 6. Final Forecast Summary
-
-Write a short 3–5 sentence summary of your prediction and why you believe it’s likely.
-
-#### 7. Why Might You Be Wrong?
-
-List 2–3 possible failure points:
+7. **Why Might You Be Wrong?**
+   List 2–3 possible failure points:
 
 * Surprise events
 * Bad assumptions
 * Low-quality data
 
-#### 8. Inside-Outside View Comparison *(Optional – v3.1B Beta)*
+8. **Inside-Outside View Comparison (Optional – v3.1B Beta)**
+   **Inside View:** Forecast based on context, intent, timing, or players.
+   **Outside View:** Compare against base rates or historical analogs.
 
-* **Inside View:** Forecast based on context, intent, timing, or players.
-* **Outside View:** Compare against base rates or historical analogs.
+---
 
-### Using MSCFT Without a Platform
+**New (4.0B) Node D – Interpretation Node**
+MSCFT Version 4.0B introduces **Node D**, which supports **advanced model-theoretic analysis** for LLM behavior and inference modeling. It is used only when a question requires an understanding of AI system generalization, inference dynamics, or uncertainty representation.
 
+**Node D supports three analytical modes:**
+
+* **(1) Markov Chain Model** – Treats LLM behavior as finite-state transitions based on token prediction probabilities. This mode is best used for questions involving generalization, symbol sequence inference, or few-shot task performance.
+
+* **(2) Entropy Model** – Applies Shannon entropy:
+  **H(p) = -∑ p log p**
+  Used to quantify uncertainty, model noise, and assess confidence levels in distributions or forecast structures.
+
+* **(3) KL Divergence Model** – Applies relative entropy:
+  **D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))**
+  This compares forecast distributions to a base/reference model to measure divergence, information gain, or structural shift.
+
+Node D should only be activated in forecasts that involve **AI behavior, LLM performance, uncertainty modeling**, or **probabilistic inference**. It does not apply to physical-world, legal, or regulatory forecasts unless they involve model reasoning.
+
+---
+
+**Using MSCFT Without a Platform**
 If you're not posting to GJO or Metaculus:
 
 * Treat this as your personal forecasting log.
 * Save entries in `.txt` or `.docx` format with version numbers or timestamps.
 * Track results over time and update forecasts as new data arrives.
 
-### Final Notes
+---
 
-* MSCFT is LLM-friendly by design — think of the model as a copilot, not a replacement for your reasoning.
-* Keep your forecasts replicable, transparent, and structured for post-analysis.
-* This methodology draws structural inspiration from NASA’s APPEL Knowledge Services, used in high-integrity program and project management.
+**Final Notes**
+MSCFT is LLM-friendly by design — think of the model as a copilot, not a replacement for your reasoning.
+Keep your forecasts replicable, transparent, and structured for post-analysis.
+This methodology draws structural inspiration from NASA’s APPEL Knowledge Services, used in high-integrity program and project management.
 
 ---
 ## 📌 Purpose
