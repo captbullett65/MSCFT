@@ -1,15 +1,20 @@
 // [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
 [NOTICE: AI WEB ACCESS LIMITATION]
-GPT-4 Omni and related AI models do not have full access to real-time internet data. Many websites (especially government, medical, and financial) are protected by services like Cloudflare, which block AI web crawlers unless explicitly allowed.
+GPT-4 Omni and related AI models do not have full access to real-time internet data. Many websites 
+(especially government, medical, and financial) are protected by services like Cloudflare,
+which block AI web crawlers unless explicitly allowed.
 For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
 Do not assume the model can search or retrieve live information unless confirmed.
 
 This MSCFT template is aligned with GPT-4o capabilities and assumes Research mode is used when current data is needed.
 
-After specifying your forecast question, resolution criteria, and bucket structure, include the following line before generation begins:
+After specifying your forecast question, resolution criteria, and bucket structure,
+include the following line before generation begins:
 
-Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 4.0B — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
+Use the information retrieved to frame your reasoning and support structured forecasting 
+as defined in the previously memorized MSCFT Template 4.0B — SWARM Nodes and BIN Integrated.
+No improvisation. No format deviation.
 
 This version formally integrates:
 • Node A – Research (framing, structure, sourcing)
