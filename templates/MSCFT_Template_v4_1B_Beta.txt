@@ -16,21 +16,33 @@ Use the information retrieved to frame your reasoning and support structured for
 as defined in the previously memorized MSCFT Template 4.0B — SWARM Nodes and BIN Integrated.
 No improvisation. No format deviation.
 
-This version formally integrates:
- // Structured Swarm Section — Applies only if forecast used multi-node reasoning
-// Mode: Structured Swarm (4 Nodes, MSCFT.MS-CMT applied internally)
-// Node A: Research Node — framing, question structure, source listing
-// Node B: Analytical Node — probability estimate, reasoning, BIN Model
-// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output
-// Node D: Interpretation Node — applies advanced model-theoretic analysis of LLM behavior or forecast uncertainty.
-// Node D supports three analytical modes:
-// • (1) Markov Chain Model — interprets LLM behavior as finite-state transitions based on token prediction probabilities.
-// • (2) Entropy Model — uses Shannon entropy (H(p) = -∑ p log p) to quantify uncertainty, confidence, and forecast noise.
-// • (3) KL Divergence Model — applies relative entropy (D_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))) to compare forecast distributions, assess belief shifts, or quantify information gain.
-// Only Node C produces formal output using MSCFT format.
-// ## Node E: Time Series Modeling — Mathematical Equations (MSCFT 4.1 Beta)
+Data Anomaly & Source Integrity Log  
+Date Range Affected: [Insert applicable date range]  
+Observed Anomaly: [Describe any unusual or inconsistent data]  
+Identified Cause: [Explain known or suspected reason for the anomaly]  
+Implication for Forecast: [Describe the forecast impact if any]  
+Action Taken: [Describe any adjustment or caveat added due to this anomaly]  
 
-This node contains the foundational time series equations used within the MSCFT 4.1B Beta template for signal- or temporal-based inference logic.
+// Structured Swarm Section — Applies only if forecast used multi-node reasoning  
+// Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)  
+// Node A: Research Node — framing, question structure, source listing  
+// Node B: Analytical Node — probability estimate, reasoning, BIN Model  
+// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output  
+
+// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models to interpret LLM generalization, inference behavior, or uncertainty  
+//  (1) Markov Chain Model — models finite-state transitions of token prediction  
+//  (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p  
+//  (3) KL Divergence Model — D_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))  
+//  Optional symbolic structures: Stack, Trie, Tree, Graph  
+
+// Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference  
+//  Methods include ARIMA, Fourier analysis, spectral entropy, matrix-based lag models, and heap-based prioritization for event-driven timelines  
+// Only Node C produces formal output using MSCFT format
+
+---
+
+This node contains the foundational time series equations
+used within the MSCFT 4.1B Beta template for signal- or temporal-based inference logic.
 
 ### 1. Autoregressive (AR) Model
 
@@ -174,12 +186,17 @@ Identified Cause: \[Explain known or suspected reason for the anomaly]
 Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
-// Structured Swarm Section — Applies only if forecast used multi-node reasoning
-// Mode: Structured Swarm (3 Nodes, MSCFT.MS-CMT applied internally)
-// Node A: Research Node — framing, question structure, source listing
-// Node B: Analytical Node — probability estimate, reasoning, BIN Model
-// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output
-// Node D: Interpreting LLMs as Markov chains and the implications for generalization and performance
+// Structured Swarm Section — Applies only if forecast used multi-node reasoning  
+// Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)  
+// Node A: Research Node — framing, question structure, source listing  
+// Node B: Analytical Node — probability estimate, reasoning, BIN Model  
+// Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output  
+// Node D: Interpretation Node — applies Markov chains, entropy, or KL divergence to interpret generalization, inference, or uncertainty in LLM behavior  
+//  (1) Markov Chain Model — models finite-state transitions of token prediction  
+//  (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p  
+//  (3) KL Divergence Model — D_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))  
+// Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference  
+//  Methods include ARIMA, Fourier analysis, spectral entropy, matrix-based lag models, and heap-based prioritization for event-driven timelines  
 // Only Node C produces formal output using MSCFT format
 
 Probability Allocation
