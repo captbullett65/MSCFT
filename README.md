@@ -268,9 +268,9 @@ This project provides a standardized, auditable process for producing and mainta
   ## Forecasting Tools
  ## 🛠️ Forecasting Tools
 
- [Instructions on Using MSCFT 4.0A]
+ [Instructions on Using MSCFT 4.1B ]
  
- (https://github.com/captbullett65/MSCFT/blob/main/instructions/Instructions_on_Using_MSCFT_4.0A.txt) 
+( https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md )
 
 
 //* Latest version /// 
