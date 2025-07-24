@@ -121,14 +121,7 @@ Master SWARM Consensus Forecasting Template — structured methodology for forec
 
 The Master SWARM Consensus Forecasting Template (MSCFT) is a structured framework for developing, documenting, and auditing long-range, short-range forecasts across domains such as innovation, geopolitics, and public policy. This repository supports consistent forecasting practices for projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
 
-## How to Use the MSCFT
-Here is the updated “How to Use the MSCFT” section with **Node D** fully integrated:
-
 ---
-
-**How to Use the MSCFT**
-
-This section provides full instructions for using the MSCFT template with or without forecasting platforms.
 
 **Key Use Cases**
 Good Judgment Open, Range, RAND (RFI), Metaculus, and IARPA (crowdsourcing) projects
