@@ -152,44 +152,35 @@ This makes MSCFT suitable for long-term forecasting initiatives, research, and c
 
 **Step-by-Step Instructions**
 
-1. **Forecast Title**
-   Give your forecast a specific, clear name.
+Version 4.1B Update:
+MSCFT now includes Nodes A–E, adding new interpretation and time-series modeling capabilities.
+See MSGPT4.1b, Instructions for Use for step-by-step guidance on the full 5-node structure:
 
-2. **Initial Question Framing**
-   **Question:** Copy or write the question you’re answering.
-   **Clarifications:** Add key dates, assumptions, definitions, or known values.
-   **Key Sources:** List any data, news, reports, or research supporting your reasoning.
+A: Research context
 
-3. **Refinement & Analysis**
-   **Key Developments:** What’s happening that affects the forecast?
-   **Interpretation:** Connect trends or scenarios to your reasoning.
-   *Tip:* Use an LLM to generate analogies, test assumptions, or find outside views to strengthen your analysis.
+B: BIN model analysis
 
-4. **Data Anomaly & Source Integrity Log**
-   Note any irregularities in your data (e.g., outdated info, contradictions, or missing pieces). If clean, write “No anomalies noted.”
+C: Structured output synthesis
 
-5. **Probability Allocation**
-   Indicate whether the forecast is binary (Yes/No) or multi-bucket (ranges or categories).
-   Use buckets that add to 100%.
-   Follow official platform formats when applicable (e.g., GJO), or define your own clearly.
+D: Interpretation via Markov chains / entropy
 
-*Example (Multi-Bucket):*
-10% — Less than 2%
-40% — Between 2% and 3%
-30% — Between 3% and 4%
-20% — 4% or more
-
-*Example (Binary):*
-70% — Yes
-30% — No
+E: Time-series modeling
 
 ---
 
 **BIN MODEL (Bias, Information, Noise)**
 
-**Bias** – Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question, its underlying data, or scenario framing. Address both source bias (e.g., media, academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
-**Information** – Assess the quality, timeliness, resolution, and credibility of the information used. Clearly distinguish between confirmed data, predictive model output, outdated information, unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
-**Noise** – Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic. This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. Describe where noise may distort scenario weighting or probability distribution.
+**Bias** – Describe any systemic, institutional, cognitive, or structural biases that may influence the interpretation of the forecast question,
+its underlying data, or scenario framing. Address both source bias (e.g., media, 
+academic, or policy bias) and forecaster bias (e.g., optimism/pessimism, threat inflation, anchoring on prior outcomes).
+
+**Information** – Assess the quality, timeliness, resolution, and credibility of the information used. 
+Clearly distinguish between confirmed data, predictive model output, outdated information,
+unverifiable claims, or speculation. Note any critical gaps or overreliance on a narrow set of sources.
+
+**Noise** – Identify irrelevant, misleading, or low-signal data that may contaminate the forecasting logic.
+This includes information clutter, cherry-picked examples, emotionally charged narratives, or recency bias. 
+Describe where noise may distort scenario weighting or probability distribution.
 
 ---
 
@@ -210,11 +201,14 @@ This makes MSCFT suitable for long-term forecasting initiatives, research, and c
 ---
 
 **New (4.0B) Node D – Interpretation Node**
-MSCFT Version 4.0B introduces **Node D**, which supports **advanced model-theoretic analysis** for LLM behavior and inference modeling. It is used only when a question requires an understanding of AI system generalization, inference dynamics, or uncertainty representation.
+MSCFT Version 4.0B introduces **Node D**, which supports **advanced model-theoretic analysis** 
+for LLM behavior and inference modeling. 
+It is used only when a question requires an understanding of AI system generalization, inference dynamics, or uncertainty representation.
 
 **Node D supports three analytical modes:**
 
-* **(1) Markov Chain Model** – Treats LLM behavior as finite-state transitions based on token prediction probabilities. This mode is best used for questions involving generalization, symbol sequence inference, or few-shot task performance.
+* **(1) Markov Chain Model** – Treats LLM behavior as finite-state transitions based on token prediction probabilities.
+*  This mode is best used for questions involving generalization, symbol sequence inference, or few-shot task performance.
 
 * **(2) Entropy Model** – Applies Shannon entropy:
   **H(p) = -∑ p log p**
@@ -224,7 +218,8 @@ MSCFT Version 4.0B introduces **Node D**, which supports **advanced model-theore
   **D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))**
   This compares forecast distributions to a base/reference model to measure divergence, information gain, or structural shift.
 
-Node D should only be activated in forecasts that involve **AI behavior, LLM performance, uncertainty modeling**, or **probabilistic inference**. It does not apply to physical-world, legal, or regulatory forecasts unless they involve model reasoning.
+Node D should only be activated in forecasts that involve **AI behavior, LLM performance, uncertainty modeling**,
+or **probabilistic inference**. It does not apply to physical-world, legal, or regulatory forecasts unless they involve model reasoning.
 
 ---
 
