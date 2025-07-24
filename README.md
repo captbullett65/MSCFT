@@ -159,6 +159,8 @@ D: Interpretation via Markov chains / entropy
 
 E: Time-series modeling
 
+( https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md )
+
 ---
 
 **BIN MODEL (Bias, Information, Noise)**
