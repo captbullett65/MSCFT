@@ -195,12 +195,13 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //  (1) Markov Chain Model — models finite-state transitions of token prediction  
 //  (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p  
 //  (3) KL Divergence Model — D_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))  
+//  Optional symbolic structures: Stack, Trie, Tree, Graph  
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference  
 //  Methods include ARIMA, Fourier analysis, spectral entropy, matrix-based lag models, and heap-based prioritization for event-driven timelines  
 // Only Node C produces formal output using MSCFT format
 
-Probability Allocation
-\[Assign a percentage probability to each of the GJO-aligned buckets. Ensure they total to 100%. Do not use ranges that are not approved.]
+Probability Allocation  
+\Assign a percentage probability to each of the GJO-aligned buckets. Ensure they total to 100%. Do not use ranges that are...
 
 Note: If the question is binary (Yes/No), replace the bucketed probability ranges with:
 • Yes: \[   ]%
