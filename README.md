@@ -147,7 +147,7 @@ This makes MSCFT suitable for long-term forecasting initiatives, research, and c
 
 Version 4.1B Update:
 MSCFT now includes Nodes A–E, adding new interpretation and time-series modeling capabilities.
-See MSGPT4.1b, Instructions for Use for step-by-step guidance on the full 5-node structure:
+See MSCFT 4.1b, Instructions for Use for step-by-step guidance on the full 5-node structure:
 
 A: Research context
 
