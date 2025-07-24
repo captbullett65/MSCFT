@@ -16,7 +16,6 @@ If referencing MSCFT in research or documentation, please use the following cita
 Helip, B. (2025). *From Coordination Failure to Scalable AI SWARMS: The MSCFT Protocol for Structured Forecasting and Multi-Agent Alignment Among Large Language Model Systems*. Zenodo. https://doi.org/10.17605/OSF.IO/Z5K7J  
 ORCID: https://orcid.org/0009-0006-3463-170X
 
-
 ---
 
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
