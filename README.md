@@ -216,6 +216,27 @@ It is used only when a question requires an understanding of AI system generaliz
 Node D should only be activated in forecasts that involve **AI behavior, LLM performance, uncertainty modeling**,
 or **probabilistic inference**. It does not apply to physical-world, legal, or regulatory forecasts unless they involve model reasoning.
 
+New (4.1B) Node E – Time-Series Modeling Node
+MSCFT Version 4.1B introduces Node E, designed to support structured mathematical inference for signal-based or 
+time-dependent forecasting problems.
+This node is used when a forecast requires formal modeling of trends, seasonality, or recurring patterns over time.
+
+Node E supports inference using standard time-series methods, including but not limited to:
+
+ARIMA / SARIMA – For autoregressive integrated modeling of time trends and seasonality
+
+Fourier Analysis – To detect periodic or cyclic components in temporal data
+
+Spectral Entropy – To quantify randomness or structure in evolving signals
+
+Exponential Smoothing (ETS) – For adaptive trend projection and decay-weighted inference
+
+Node E is only activated in forecasts involving temporal dynamics, such as migration trends,
+energy demand, economic cycles, or any domain where forecast resolution is time-indexed or trend-sensitive.
+
+It should not be used for static, symbolic, or non-temporal questions. 
+When used, it feeds time-based inference into Node C to inform the final output.
+
 ---
 
 **Using MSCFT Without a Platform**
