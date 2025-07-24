@@ -1,13 +1,3 @@
-**Output: MSCFT Real-World Example — Inequality Proof Under Constraint $abc = 1$**
-**File Name:** `inequality-proof-abc-equals-1-MSCFT.md`
-**Commit Line:**
-
-```
-Add real-world MSCFT example: Inequality proof under abc = 1 constraint using symbolic reasoning and multi-node logic (Nodes A–D)
-```
-
----
-
 **inequality-proof-abc-equals-1-MSCFT.md**
 **Title:** MSCFT Real-World Example: Symbolic Inequality Proof Under Constraint $abc = 1$
 
