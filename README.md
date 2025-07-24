@@ -5,6 +5,12 @@
 
 ---
 > ⚠️ **Notice:** MSCFT 4.0A was authored and published by Brian Helip. Any reuse of this version label, ABC Node structure, or BIN model logic without attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
+
+📘 The MSCFT Protocol is now formally published and timestamped on Zenodo:  
+🔗 [https://zenodo.org/records/15757279](https://zenodo.org/records/15757279)  
+DOI: [10.17605/OSF.IO/Z5K7J](https://doi.org/10.17605/OSF.IO/Z5K7J)
+
+
 ---
 
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
