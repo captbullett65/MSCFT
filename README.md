@@ -10,6 +10,12 @@
 🔗 [https://zenodo.org/records/15757279](https://zenodo.org/records/15757279)  
 DOI: [10.17605/OSF.IO/Z5K7J](https://doi.org/10.17605/OSF.IO/Z5K7J)
 
+📚 **Citation**  
+If referencing MSCFT in research or documentation, please use the following citation:
+
+Helip, B. (2025). *From Coordination Failure to Scalable AI SWARMS: The MSCFT Protocol for Structured Forecasting and Multi-Agent Alignment Among Large Language Model Systems*. Zenodo. https://doi.org/10.17605/OSF.IO/Z5K7J  
+ORCID: https://orcid.org/0009-0006-3463-170X
+
 
 ---
 
