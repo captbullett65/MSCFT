@@ -213,6 +213,8 @@ It is used only when a question requires an understanding of AI system generaliz
   **D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))**
   This compares forecast distributions to a base/reference model to measure divergence, information gain, or structural shift.
 
+  ---
+
 Node D should only be activated in forecasts that involve **AI behavior, LLM performance, uncertainty modeling**,
 or **probabilistic inference**. It does not apply to physical-world, legal, or regulatory forecasts unless they involve model reasoning.
 
