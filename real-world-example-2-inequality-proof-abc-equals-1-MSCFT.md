@@ -100,7 +100,7 @@ This example illustrates that seemingly basic symbolic prompts can fail in stand
 **Posted Example:**
 This proof was originally shared in a LinkedIn comment thread after Dwight Vaughn, Managing Partner at VyTek, posted a symbolic inequality challenge. The structured MSCFT answer was later published at:
 
-🔗 [ChatGPT - Inequality Proof MSCFT](https://lnkd.in/gbwQYGqj)
+🔗 [ChatGPT - Inequality Proof MSCFT](https://chatgpt.com/share/6882a5eb-4e40-8013-b00b-f4ce56fecc6e)
 
 ---
 
