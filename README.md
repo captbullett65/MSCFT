@@ -25,6 +25,7 @@ In July 2025, following the submission and developer flagging of Real-World Exam
 This real-time validation demonstrates MSCFT’s core design principle: decomposing complex tasks across multiple specialized reasoning nodes (Nodes A–E) for transparency, accuracy, and structured inference. Agent Mode’s launch confirms the utility of swarm-based structured prompting in real-world AI workflows.
 
 📄 See the example that triggered it:
+
 ➡️ Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;
 https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md  
 
