@@ -28,6 +28,8 @@ This real-time validation demonstrates MSCFT’s core design principle: decompos
 ➡️ Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;
 https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md  
 
+---
+
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
 > # Master SWARM Consensus Forecasting Template (MSCFT)
 
