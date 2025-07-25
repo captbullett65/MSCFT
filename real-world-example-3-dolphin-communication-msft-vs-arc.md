@@ -67,10 +67,10 @@ or expressions of need—within the dolphins’ own communicative frameworks.
 These developments hold promise not only for deepening our scientific understanding of
 nonhuman intelligence but also for informing conservation strategies and reshaping ethical relationships between humans and other species [13][14][15].
 
+---
 
 **Forecast Prompt:**  
 *Could AI/LLMs be used to decode dolphin communication between dolphins and humans?*
-
 ---
 
 ## MSCFT Template Version 4.1B SWARM nodes and BIN Integrated
