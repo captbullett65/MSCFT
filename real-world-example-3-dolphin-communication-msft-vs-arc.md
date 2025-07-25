@@ -124,7 +124,8 @@ nonhuman intelligence but also for informing conservation strategies and reshapi
 that can replicate and rival leading structured analytic tools like ARC.
 
 **Live ARC Brief:** https://app.arcanalysis.ai/arcs/819/research/brief  
-**MSCFT GitHub Example:** (https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md)
+
+**MSCFT GitHub Example:** https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md
 
 ---
 
