@@ -83,5 +83,3 @@ that can replicate and rival leading structured analytic tools like ARC.
 
 ---
 
-## Commit Line:
-`Add real-world example 3: AI/LLMs decoding dolphin communication — MSCFT vs. ARC structured comparison test.`
