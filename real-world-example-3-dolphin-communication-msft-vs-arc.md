@@ -26,8 +26,6 @@ Live ARC Brief: https://app.arcanalysis.ai/arcs/819/research/brief (Note: ARC ac
 
 Could AI/ LLMs be used to decode dolphin communication between dolphins and humans?  
 
----
-
 Active ARCbot
 
 Research Brief
