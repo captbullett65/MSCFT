@@ -20,8 +20,50 @@ GPT-4 Omni was simultaneously tasked with solving
 the same prompt using MSCFT Template Version 4.1B (Bravo),
 including multi-node structured swarm reasoning (Nodes A–E).
 
-**ARC Research Brief Link:**  
+**ARC Research Brief Link:** 
+[Note: you need an account to sign-in to view full ARC file ]
 https://app.arcanalysis.ai/arcs/819/research/brief
+Could AI/ LLMs be used to decode dolphin communication between dolphins and humans?
+Active
+
+Research Brief
+ARCbot synthesizes your Search Results, Decomposition, and Scenarios into a Research Brief, providing an introductory primer to the ARC topic.
+Recent advancements in artificial intelligence (AI) and large language models (LLMs)
+have catalyzed significant progress in decoding animal communication, 
+with dolphins emerging as a primary focus due to their complex vocalizations and social intelligence. 
+Pioneering projects such as Google’s DolphinGemma, developed in collaboration with Georgia Tech 
+and the Wild Dolphin Project (WDP), have leveraged decades of audio and behavioral data to train AI models 
+capable of identifying, categorizing, and generating dolphin-like sound sequences.
+These models utilize sophisticated audio tokenization and deep learning to uncover hidden structures within
+dolphin vocalizations, revealing recurring patterns and correlations with specific social contexts or behaviors [1][2][3][4].
+
+The practical application of these AI models is already underway in field research. For example,
+the DolphinGemma model, running on mobile devices such as Google Pixel smartphones, 
+enables real-time analysis of dolphin sounds, helping researchers predict subsequent vocalizations
+and correlate them with observed behaviors. Additionally, systems like CHAT (Cetacean Hearing Augmentation Telemetry)
+are being used to introduce synthetic signals associated with objects, 
+allowing dolphins to mimic these sounds to request items, thereby testing the limits of two-way symbolic communication.
+While current systems do not translate dolphin communication into human language, 
+they represent a foundational step toward building a shared vocabulary and interactive protocols between species [5][6][7][8].
+
+Despite this remarkable progress, several challenges and limitations remain.
+Key barriers include the vast differences in sensory worlds between humans and dolphins,
+the ambiguity of what constitutes a "word" or "sentence" in dolphin communication,
+and the risk of anthropomorphizing animal signals. Experts caution that while AI can detect and predict patterns,
+true understanding of meaning—especially for abstract or subjective concepts—requires grounding signals 
+in observable behaviors and shared experiences. There are also concerns about ethical implications,
+such as the potential misuse of AI-generated signals, impacts on dolphin welfare, 
+and the philosophical question of whether nonhuman animals possess language in the same sense as humans [9][10][11][12].
+
+Looking ahead, the field is poised for rapid advancement as larger,
+higher-quality datasets become available and AI models become more powerful and generalizable.
+Open-source releases of specialized models like DolphinGemma are expected to accelerate global research
+and foster collaboration across disciplines. While full human-dolphin conversation remains a distant goal, 
+experts anticipate that AI-driven tools will soon enable meaningful, structured exchanges—such as requests, warnings,
+or expressions of need—within the dolphins’ own communicative frameworks. 
+These developments hold promise not only for deepening our scientific understanding of
+nonhuman intelligence but also for informing conservation strategies and reshaping ethical relationships between humans and other species [13][14][15].
+
 
 **Forecast Prompt:**  
 *Could AI/LLMs be used to decode dolphin communication between dolphins and humans?*
