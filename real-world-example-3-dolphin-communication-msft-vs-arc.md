@@ -25,8 +25,9 @@ including multi-node structured swarm reasoning (Nodes A–E).
 
 https://app.arcanalysis.ai/arcs/819/research/brief
 ---
-Could AI/ LLMs be used to decode dolphin communication between dolphins and humans?
-Active
+Could AI/ LLMs be used to decode dolphin communication between dolphins and humans?  
+
+Active ARCbot
 
 Research Brief
 ARCbot synthesizes your Search Results, Decomposition, and Scenarios into a Research Brief, providing an introductory primer to the ARC topic.
