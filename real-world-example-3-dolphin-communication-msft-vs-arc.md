@@ -79,7 +79,7 @@ https://app.arcanalysis.ai/arcs/819/research/brief
 that can replicate and rival leading structured analytic tools like ARC.
 
 **Live ARC Brief:** https://app.arcanalysis.ai/arcs/819/research/brief  
-**MSCFT GitHub Example:** (insert link after publishing)
+**MSCFT GitHub Example:** (https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md)
 
 ---
 
