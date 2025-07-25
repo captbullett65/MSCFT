@@ -22,8 +22,6 @@ including multi-node structured swarm reasoning (Nodes A–E).
 
 Live ARC Brief: https://app.arcanalysis.ai/arcs/819/research/brief (Note: ARC account required for access)
 
-https://app.arcanalysis.ai/arcs/819/research/brief
-
 ---
 
 Could AI/ LLMs be used to decode dolphin communication between dolphins and humans?  
