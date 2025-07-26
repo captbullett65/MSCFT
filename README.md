@@ -282,7 +282,7 @@ This project provides a standardized, auditable process for producing and mainta
 
  [Instructions on Using MSCFT 4.1B ]
  
-( https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md )
+ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md 
 
 
 //* Latest version /// 
@@ -305,7 +305,7 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_
 ### 🧠 Community & Developer Posts
 - [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework]
 
-(https://community.openai.com/t/structured-forecasting-swarms-with-gpt-4o-mscft-4-0a-and-the-abc-node-framework/1308928)
+- https://community.openai.com/t/structured-forecasting-swarms-with-gpt-4o-mscft-4-0a-and-the-abc-node-framework/1308928
   
 - https://community.openai.com/t/forecasting-performance-breakthrough-using-gpt-4o-and-mscft-structured-template-framework/1304270  
 
