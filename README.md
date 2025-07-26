@@ -34,6 +34,11 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
 > # Master SWARM Consensus Forecasting Template (MSCFT)
 
+
+> ⚠️ **Agent Tool Compatibility Notice (GPT-4o Alpha Testing)**  
+> MSCFT requires strict formatting compliance. During alpha testing, GPT-4o with Agent tools enabled repeatedly overrode the MSCFT template (e.g., inserting inline citations, reformatting structured output). Unless corrected, **Agent mode is incompatible with MSCFT workflows**. For proper execution, use GPT-4o with Agent tools disabled.
+
+
 A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs. Includes trusted agent profiles, disqualification logs, and version-controlled templates.
 
 Author Background and Credentials – Brian Helip (captbullett / captbullett65)
