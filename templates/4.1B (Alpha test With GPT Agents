@@ -1,0 +1,132 @@
+MSCFT Template (Version 4.1 B SWARM nodes and BIN Integrated)
+
+Forecast Title: \[Insert Forecast Title Here]
+Forecaster: \[Insert Forecaster Name Here]
+
+Initial Question Framing
+Question: \[Insert your forecasting question here.]
+Clarifications:
+• \[Insert relevant details about dates, participants, key conditions, or assumptions.]
+• \[Insert any known results, baselines, or thresholds.]
+• \[Insert any poll data, prior trends, or framing context.]
+Key Sources:
+• \[Source 1]
+• \[Source 2]
+• \[Source 3]
+• \[Add more as needed]
+
+Refinement & Analysis
+Key Developments:
+• \[Summarize major events or dynamics relevant to the forecast question.]
+• \[Note polling trends, market behavior, public sentiment, or institutional actions.]
+• \[Include controversies, endorsements, or strategic shifts if relevant.]
+Interpretation:
+\[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+
+Note: If the forecast outcome is near a bucket threshold, consider hedging your probabilities across adjacent bins to avoid overconfidence. Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
+
+Inside-Outside View Structuring
+Inside View: \[Insert short-term or domain-specific reasoning from known context.]
+Outside View: \[Insert baseline rates, historic cases, or comparative reference classes.]
+
+Data Anomaly & Source Integrity Log
+Site sources:
+[Source 1 ]
+[Source 2 ]
+[Source 3 ]
+[Source 4 ]
+[Source 5 ]
+[Source 6 ]
+Date Range Affected: \[Insert applicable date range]
+Observed Anomaly: \[Describe any unusual or inconsistent data]
+Identified Cause: \[Explain known or suspected reason for the anomaly]
+Implication for Forecast: \[Describe the forecast impact if any]
+Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
+
+// Structured Swarm Section — Applies only if forecast used multi-node reasoning
+// Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)
+// Node A: Research Node — framing, question structure, source listing
+// Node B: Analytical Node — probability estimate, reasoning
+//   Node B.2: BIN Model Substructure (Bias, Information, Noise)
+// Node C: Synthesis Node — applies MSCFT.MS-CMT logic
+//   Node C.2: Final Forecast Summary
+//   Node C.3: Rationale for Probability Distribution
+//   Node C.4: Forecast Caveats and Error Pathways
+//   Only Node C may output the final forecast in structured format
+// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models to interpret LLM generalization, inference behavior, or uncertainty
+//   (1) Markov Chain Model — models finite-state transitions of token prediction
+//   (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
+//   (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
+//   Node D.3: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
+// Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
+//   Methods include:
+//     E.1 AR
+//     E.2 MA
+//     E.3 ARIMA
+//     E.4 SARIMA
+//     E.5 ETS
+//     E.6 Fourier series
+//     E.7 Spectral entropy
+
+---
+
+Refinement & Analysis
+Key Developments:
+• \[Summarize major events or dynamics relevant to the forecast question.]
+• \[Note polling trends, market behavior, public sentiment, or institutional actions.]
+• \[Include controversies, endorsements, or strategic shifts if relevant.]
+Interpretation:
+\[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+
+Inside-Outside View Structuring:
+
+Inside View: 
+\[Insert short-term or domain-specific reasoning from known context.]
+Outside View: 
+\[Insert baseline rates, historic cases, or comparative reference classes.]
+
+Data Anomaly & Source Integrity Log
+Date Range Affected: \[Insert applicable date range]
+Observed Anomaly: \[Describe any unusual or inconsistent data]
+Identified Cause: \[Explain known or suspected reason for the anomaly]
+Implication for Forecast: \[Describe the forecast impact if any]
+Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
+
+Probability Allocation
+Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned buckets. Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
+
+If the question is binary (Yes/No), use:
+• Yes: \[   ]%
+• No: \[   ]%
+
+For multi-range buckets:
+• 2 or fewer:                  \[   ]%
+• Between 3 and 5:      \[   ]%
+• Between 6 and 8:       \[   ]%
+• Between 9 and 12:    \[   ]%
+• Between 13 and 16:  \[   ]%
+• Between 17 and 21:  \[   ]%
+• 22 or more: \[   ]%
+
+// Node B.2: BIN Model Substructure (Bias, Information, Noise)
+Bias –
+\[Describe systemic, institutional, cognitive, or structural biases.]
+
+Information –
+\[Assess quality, timeliness, resolution, credibility, and gaps in data.]
+
+Noise –
+\[Identify irrelevant, misleading, or low-signal data distortions.]
+
+// Node C.2: Final Forecast Summary
+Forecast: \[Summarize the most likely outcome and your top bucket(s)]
+
+// Node C.3: Rationale for Probability Distribution
+Rationale: \[Explain the reasoning behind your distribution. What supports each weighting?]
+
+// Node C.4: Forecast Caveats and Error Pathways
+Why Might You Be Wrong?
+
+1. \[Insert potential forecast error #1]
+2. \[Insert potential forecast error #2]
+3. \[Insert potential forecast error #3]
