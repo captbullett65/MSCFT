@@ -292,12 +292,13 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version /// 
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_Beta.txt
+https://github.com/captbullett65/MSCFT/blob/main/templates/4.1B%20(Alpha%20test%20Refractored).txt
 
 ---
 
 //* Old Versions///
 
+- (https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_Beta.txt)
 - [MSCFT Template v.4.1B](https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0_B_SwarmIntegration.txt) 
 - [MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
 - [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
