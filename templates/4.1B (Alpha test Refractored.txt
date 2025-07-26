@@ -1,6 +1,5 @@
 MSCFT Template Version 4.1 B 
-(SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling) 
-and ChatGPT4o + Agent tool included  
+(SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling)  
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster: \[Insert Forecaster Name Here]
@@ -92,7 +91,7 @@ Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned b
 
 If the question is binary (Yes/No), use:
 • Yes: \[   ]%
-• No: \[   ]%
+• No:  \[   ]%
 
 For multi-range buckets:
 • 2 or fewer:          \[   ]%
@@ -103,7 +102,7 @@ For multi-range buckets:
 • Between 17 and 21:   \[   ]%
 • 22 or more:          \[   ]%
 
-// Node B.2: BIN Model Substructure (Bias, Information, Noise)
+// BIN Model Substructure (Bias, Information, Noise)
 Bias –
 \[Describe systemic, institutional, cognitive, or structural biases.]
 
@@ -113,13 +112,13 @@ Information –
 Noise –
 \[Identify irrelevant, misleading, or low-signal data distortions.]
 
-// Node C.2: Final Forecast Summary
+//Final Forecast Summary
 Forecast: \[Summarize the most likely outcome and your top bucket(s)]
 
-// Node C.3: Rationale for Probability Distribution
+// Rationale for Probability Distribution
 Rationale: \[Explain the reasoning behind your distribution. What supports each weighting?]
 
-// Node C.4: Forecast Caveats and Error Pathways
+// Forecast Caveats and Error Pathways
 Why Might You Be Wrong?
 
 1. \[Insert potential forecast error #1]
