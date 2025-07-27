@@ -23,9 +23,13 @@ Key Developments:
 • \[Note polling trends, market behavior, public sentiment, or institutional actions.]
 • \[Include controversies, endorsements, or strategic shifts if relevant.]
 Interpretation:
-\[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+\[Explain how the developments influence your forecast. Discuss possible pathways,
+leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
 
-Note: If the forecast outcome is near a bucket threshold, consider hedging your probabilities across adjacent bins to avoid overconfidence. Overweighting a single bucket—even if correct—can result in a poor Brier score if the outcome lies near the edge.
+Note: If the forecast outcome is near a bucket threshold, 
+consider hedging your probabilities across adjacent bins to avoid overconfidence.
+Overweighting a single bucket—even if correct 
+can result in a poor Brier score if the outcome lies near the edge.]
 
 Inside-Outside View Structuring
 Inside View: \[Insert short-term or domain-specific reasoning from known context.]
@@ -68,7 +72,8 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //   Node C.3: Rationale for Probability Distribution
 //   Node C.4: Forecast Caveats and Error Pathways
 //   Only Node C may output the final forecast in structured format
-// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models to interpret LLM generalization,        inference behavior, or uncertainty
+// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models
+     to interpret LLM generalization,inference behavior, or uncertainty
 //      (1) Markov Chain Model — models finite-state transitions of token prediction
 //      (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
 //      (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
@@ -122,7 +127,9 @@ Key Developments:
 • \[Note polling trends, market behavior, public sentiment, or institutional actions.]
 • \[Include controversies, endorsements, or strategic shifts if relevant.]
 Interpretation:
-\[Explain how the developments influence your forecast. Discuss possible pathways, leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
+\[Explain how the developments influence your forecast.
+Discuss possible pathways, leverage points, or conditional dependencies.
+Summarize why you're leaning a certain way.
 
 Inside-Outside View Structuring:
 
@@ -157,7 +164,9 @@ For multi-range buckets:
 [Addition to Probability Allocation Section for Metaculus Slider Questions]
 
 Note for Metaculus Slider Questions:  
-Metaculus uses a continuous probability slider rather than discrete buckets. For accurate modeling, the human forecaster must manually provide the slider’s defined value ranges. This typically includes five thresholds:  
+Metaculus uses a continuous probability slider rather than discrete buckets.
+For accurate modeling, the human forecaster must manually provide
+the slider’s defined value ranges. This typically includes five thresholds:  
 
 • Less than   [X]%  
 • Lower 25%   (e.g., –Y%)  
@@ -167,7 +176,8 @@ Metaculus uses a continuous probability slider rather than discrete buckets. For
 
 These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
-as shown in the Metaculus interface. Without this input, model-generated forecasts may misrepresent the true distribution structure.
+as shown in the Metaculus interface. Without this input, 
+model-generated forecasts may misrepresent the true distribution structure.
 
 // BIN Model Substructure (Bias, Information, Noise)
 Bias –
