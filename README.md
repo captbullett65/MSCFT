@@ -4,7 +4,9 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
 
 ---
-> ⚠️ **Notice:** MSCFT 4.0A was authored and published by Brian Helip. Any reuse of this version label, ABC Node structure, or BIN model logic without attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
+> ⚠️ **Notice:** MSCFT 4.0A was authored and published by Brian Helip. Any reuse of this version label,
+> ABC Node structure, or BIN model logic without
+>  attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
 📘 The MSCFT Protocol is now formally published and timestamped on Zenodo:  
 🔗 [https://zenodo.org/records/15757279](https://zenodo.org/records/15757279)  
@@ -82,12 +84,44 @@ His long-standing focus on systems integrity, structured input-output, and real-
 Created and maintained by: Brian Helip 
 
 ---
+
 MIT License – Use with credit.
+
+---
+
+### 🧠 Cited Research and Empirical Foundations
+
+The MSCFT (Master Swarm Consensus Forecasting Template)
+framework builds upon recent scientific studies exploring swarm coordination,
+AI agent behavior, and structured prompting.
+The following papers were directly referenced in the design of MSCFT 4.1B nodes:
+
+**1. Agent Fragmentation in LLM Swarms**  
+*Agent Societies with Emergent Political Polarization and Fragmentation*  
+**arXiv:** [https://arxiv.org/abs/2409.02822](https://arxiv.org/abs/2409.02822)  
+This April 2025 study modeled emergent breakdowns in LLM-based agent societies.
+It found that above a critical threshold, coordination collapsed into political polarization and subgrouping.
+These results validate MSCFT’s modular node structure (A–F) to maintain stability and
+reduce inference drift in multi-agent environments.
+
+**2. Prompt Design for Structured Inference**  
+*Prompt Patterns and Forecast Accuracy in AI Systems* (Cameron Jones, Philip Tetlock, Barbara Millers)  
+**arXiv:** [https://arxiv.org/abs/2506.01578](https://arxiv.org/abs/2506.01578)  
+This July 2025 paper introduced prompt templates for binary reasoning, reflection,
+and uncertainty quantification. MSCFT 4.1B incorporates several of these directly:  
+- **Node B.2.1** – Uncertainty Quantification  
+- **Node D.1** – Entropy Interpretation  
+- Dual-path logic adapted from “Yes vs. No” prompt structures
+
+These papers reinforce MSCFT’s focus on structured reasoning, modular forecasting logic, and scalable multi-agent inference.
+
 ---
 
 ### 🧠 Forecasting Platform Affiliations
 
-The MSCFT (Master SWARM Consensus Forecasting Template) framework supports structured, auditable forecasting across major platforms. My forecasting work spans a wide range of challenges and communities, including:
+The MSCFT (Master SWARM Consensus Forecasting Template)
+framework supports structured, auditable forecasting across major platforms.
+My forecasting work spans a wide range of challenges and communities, including:
 
 - [Good Judgment Open](https://www.gjopen.com/)
 - [Range Forecasting](https://www.rangeforecasting.com/)
@@ -97,21 +131,35 @@ The MSCFT (Master SWARM Consensus Forecasting Template) framework supports struc
 
 ## Case Studies & Public Demonstrations
 Structured Prompting Prevents Harmful Output – Grok + MSCFT Test
-A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that the model produces accurate and safe outputs when given structured input. the test was preformed and good output was achieved with no hallucinations. 
+A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that
+the model produces accurate and safe outputs when given structured input. the test was preformed and good output was achieved with no hallucinations. 
 This test serves as a public demonstration that MSCFT can act as an alignment framework and behavioral governor for LLMs.
 
 MSCFT in Clinical Diagnostics – Modular Medical Node Use Case
-We’ve added a standalone medical diagnostic use case showing how MSCFT’s modular node structure can support healthcare workflows. This use case applies structured forecasting logic to real-world clinical reasoning — including patient intake, lab integration, and risk projection — and demonstrates how the BIN model improves diagnostic integrity.
+We’ve added a standalone medical diagnostic use case showing how MSCFT’s modular node structure
+can support healthcare workflows. This use case applies structured forecasting logic 
+to real-world clinical reasoning — including patient intake, lab integration,
+and risk projection — and demonstrates how the BIN model improves diagnostic integrity.
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/mscft_medical_use_case.txt  
 
 MSCFT for Physics Research – Structured Scientific Reasoning with Modular Nodes
-This example demonstrates how MSCFT’s node-based architecture can be extended to theoretical and experimental physics. By assigning specific reasoning tasks to modular nodes—from equation setup and variable selection to simulation and peer validation—this structure enhances auditability and reduces the risk of cognitive distortion in scientific modeling. The BIN model is integrated to highlight epistemic risk, assumption bias, and information quality. Ideal for LLM-assisted workflows using Python, LaTeX, or Jupyter, this setup supports symbolic derivation, visualization, and publication-ready output.
+This example demonstrates how MSCFT’s node-based architecture can be extended
+to theoretical and experimental physics. By assigning specific reasoning tasks
+to modular nodes—from equation setup and variable selection to simulation and 
+peer validation—this structure enhances auditability and reduces the risk of 
+cognitive distortion in scientific modeling. The BIN model is integrated to highlight epistemic risk,
+assumption bias, and information quality. Ideal for LLM-assisted workflows using Python, 
+LaTeX, or Jupyter, this setup supports symbolic derivation, visualization, and publication-ready output.]
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/MSCFT_Physics%20_Use_Case_Modular_Node_Setup.txt 
 
 ✈️ New Use Case: Modernizing U.S. Air Traffic Control with MSCFT
-MSCFT isn’t just for forecasting — it’s a structured coordination and validation framework built for real-world complexity. A new example has been added demonstrating how MSCFT can be applied to the modernization of the U.S. air traffic control (ATC) system. The framework's node-based design, audit traceability, and fault isolation capabilities make it a strong fit for upgrading national-scale infrastructure.
+MSCFT isn’t just for forecasting — it’s a structured coordination and validation 
+framework built for real-world complexity. A new example has been added demonstrating how MSCFT 
+can be applied to the modernization of the U.S. air traffic control (ATC) system.
+The framework's node-based design, audit traceability,
+and fault isolation capabilities make it a strong fit for upgrading national-scale infrastructure.]
 https://github.com/captbullett65/MSCFT/blob/main/examples/atc_mscft_application.md
 
 --- 
@@ -123,7 +171,9 @@ https://github.com/captbullett65/MSCFT/blob/main/examples/atc_mscft_application.
 
 ## 📚 Forecasting Training Hub
 
-A curated set of training resources is now available in [`/docs/Training materials.md`](./docs/Training%20materials.md), featuring materials from **Good Judgment Open** and **Range Forecasting**. These include videos, interactive modules, and expert insights to improve structured reasoning, bias awareness, and probabilistic forecasting — all aligned with MSCFT logic.
+A curated set of training resources is now available in [`/docs/Training materials.md`](./docs/Training%20materials.md),
+featuring materials from **Good Judgment Open** and **Range Forecasting**. These include videos,
+interactive modules, and expert insights to improve structured reasoning, bias awareness, and probabilistic forecasting — all aligned with MSCFT logic.
 
 ---
 
@@ -136,7 +186,10 @@ Master SWARM Consensus Forecasting Template — structured methodology for forec
 
 # Master SWARM Consensus Forecasting Template (MSCFT)
 
-The Master SWARM Consensus Forecasting Template (MSCFT) is a structured framework for developing, documenting, and auditing long-range, short-range forecasts across domains such as innovation, geopolitics, and public policy. This repository supports consistent forecasting practices for projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
+The Master SWARM Consensus Forecasting Template (MSCFT) is a structured framework for developing, documenting,
+and auditing long-range, short-range forecasts across domains such as innovation, geopolitics, 
+and public policy. This repository supports consistent forecasting practices for
+projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
 
 ---
 
@@ -265,7 +318,12 @@ When used, it feeds time-based inference into Node C to inform the final output.
 
 📥 Node F: Retrieval-Augmented Generation (RAG) Added — MSCFT 4.1B Update
 
-MSCFT Template Version 4.1B now formally integrates Node F to support Retrieval-Augmented Generation (RAG) processes. This node models the role of external document retrieval in structured forecasting—bridging gaps in source availability, reducing hallucination risk, and reinforcing domain-specific inference. Node F includes structured subcomponents to document the retrieval objective, source architecture, mapping to forecast scope, injection risks, and human-in-the-loop oversight. This expansion enables MSCFT to support hybrid forecasts grounded in both model reasoning and real-time or curated retrieval systems.
+MSCFT Template Version 4.1B now formally integrates Node F to support Retrieval-Augmented Generation (RAG) processes.
+This node models the role of external document retrieval in structured forecasting—bridging gaps in source availability,
+reducing hallucination risk, and reinforcing domain-specific inference. Node F includes structured
+subcomponents to document the retrieval objective, source architecture, mapping to forecast scope, 
+injection risks, and human-in-the-loop oversight. This expansion enables
+MSCFT to support hybrid forecasts grounded in both model reasoning and real-time or curated retrieval systems.]
 
 ---
 
