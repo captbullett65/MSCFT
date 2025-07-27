@@ -163,8 +163,9 @@ This makes MSCFT suitable for long-term forecasting initiatives, research, and c
 **Step-by-Step Instructions**
 
 Version 4.1B Update:
-MSCFT now includes Nodes A–E, adding new interpretation and time-series modeling capabilities.
-See MSCFT 4.1b, Instructions for Use for step-by-step guidance on the full 5-node structure:
+MSCFT now includes Nodes A–F, adding new interpretation
+and time-series modeling capabilities and Retrieval-Augmented Generation (RAG)
+See MSCFT 4.1b, Instructions for Use for step-by-step guidance on the full 6-node structure:
 
 A: Research context
 
@@ -176,7 +177,9 @@ D: Interpretation via Markov chains / entropy
 
 E: Time-series modeling
 
- https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md 
+F: Retrieval-Augmented Generation (RAG)
+
+https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
 
 ---
 
@@ -211,6 +214,8 @@ Describe where noise may distort scenario weighting or probability distribution.
    **Outside View:** Compare against base rates or historical analogs.
 
 ---
+
+## Node Structure Overview (A–F)
 
 **New (4.0B) Node D – Interpretation Node**
 MSCFT Version 4.0B introduces **Node D**, which supports **advanced model-theoretic analysis** 
@@ -258,6 +263,12 @@ When used, it feeds time-based inference into Node C to inform the final output.
 
 ---
 
+📥 Node F: Retrieval-Augmented Generation (RAG) Added — MSCFT 4.1B Update
+
+MSCFT Template Version 4.1B now formally integrates Node F to support Retrieval-Augmented Generation (RAG) processes. This node models the role of external document retrieval in structured forecasting—bridging gaps in source availability, reducing hallucination risk, and reinforcing domain-specific inference. Node F includes structured subcomponents to document the retrieval objective, source architecture, mapping to forecast scope, injection risks, and human-in-the-loop oversight. This expansion enables MSCFT to support hybrid forecasts grounded in both model reasoning and real-time or curated retrieval systems.
+
+---
+
 **Using MSCFT Without a Platform**
 If you're not posting to GJO or Metaculus:
 
@@ -292,12 +303,13 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version /// 
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/4.1B%20(Alpha%20test%20Refractored).txt
+https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
 
 ---
 
 //* Old Versions///
 
+- https://github.com/captbullett65/MSCFT/blob/main/templates/4.1B%20(Alpha%20test%20Refractored).txt
 - (https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_Beta.txt)
 - [MSCFT Template v.4.1B](https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0_B_SwarmIntegration.txt) 
 - [MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
@@ -377,6 +389,7 @@ CHANGELOG.md
 - Added AI Web Access Limitation header block to clarify model restrictions on real-time internet data access.
 - Inside-Outside View Structuring subsection added after "Interpretation".
 - Updated template labeled as MSCFT Version 3.1 B for beta testing.
+- Node F: Retrieval-Augmented Generation (RAG) Added — MSCFT 4.1B
 
 ### Notes
 - This version integrates LLM-assisted calibration via structured outside view analysis.
