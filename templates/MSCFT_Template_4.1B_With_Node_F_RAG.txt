@@ -139,7 +139,8 @@ Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 Probability Allocation
-Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned buckets. Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
+Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned buckets.
+Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
 
 If the question is binary (Yes/No), use:
 • Yes: \[   ]%
@@ -164,11 +165,9 @@ Metaculus uses a continuous probability slider rather than discrete buckets. For
 • Upper 75%   (e.g., +A%)  
 • Greater than [B]%  
 
-These values enable proper probabilistic assignment and distribution modeling. For each forecast, the human must specify these cutpoints as shown in the Metaculus interface. Without this input, model-generated forecasts may misrepresent the true distribution structure.
-
-Commit Line for Template Log:  
-Added slider range handling note to Probability Allocation section to support Metaculus continuous distribution forecasts. Requires human-supplied cutpoints for valid forecast output.
-
+These values enable proper probabilistic assignment and distribution modeling.
+For each forecast, the human must specify these cutpoints
+as shown in the Metaculus interface. Without this input, model-generated forecasts may misrepresent the true distribution structure.
 
 // BIN Model Substructure (Bias, Information, Noise)
 Bias –
