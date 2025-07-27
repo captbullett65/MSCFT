@@ -68,15 +68,15 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //   Node C.3: Rationale for Probability Distribution
 //   Node C.4: Forecast Caveats and Error Pathways
 //   Only Node C may output the final forecast in structured format
-// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models to interpret LLM generalization, inference behavior, or uncertainty
-//   (1) Markov Chain Model — models finite-state transitions of token prediction
-//   (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
-//   (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
-// Node D.1 Entropy Interpretation — supports B.2.1 output
-// Use Shannon entropy H(p) = –∑ p log p to assess distributional uncertainty
-// or interpret forecast confidence intervals from Node B.2.1.
-// Apply when evaluating noise spread, instability, or bounded confidence.
-//   Node D.3: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
+// Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models to interpret LLM generalization,        inference behavior, or uncertainty
+//      (1) Markov Chain Model — models finite-state transitions of token prediction
+//      (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
+//      (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
+//  Node D.1 Entropy Interpretation — supports B.2.1 output
+//     Use Shannon entropy H(p) = –∑ p log p to assess distributional uncertainty
+//     or interpret forecast confidence intervals from Node B.2.1.
+//     Apply when evaluating noise spread, instability, or bounded confidence.
+//  Node D.3: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
 //   Methods include:
 //     E.1 AR
