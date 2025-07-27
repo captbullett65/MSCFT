@@ -153,6 +153,22 @@ For multi-range buckets:
 • Between 13 and 16:   \[   ]%
 • Between 17 and 21:   \[   ]%
 • 22 or more:          \[   ]%
+[Addition to Probability Allocation Section for Metaculus Slider Questions]
+
+Note for Metaculus Slider Questions:  
+Metaculus uses a continuous probability slider rather than discrete buckets. For accurate modeling, the human forecaster must manually provide the slider’s defined value ranges. This typically includes five thresholds:  
+
+• Less than   [X]%  
+• Lower 25%   (e.g., –Y%)  
+• Median      (e.g., –Z%)  
+• Upper 75%   (e.g., +A%)  
+• Greater than [B]%  
+
+These values enable proper probabilistic assignment and distribution modeling. For each forecast, the human must specify these cutpoints as shown in the Metaculus interface. Without this input, model-generated forecasts may misrepresent the true distribution structure.
+
+Commit Line for Template Log:  
+Added slider range handling note to Probability Allocation section to support Metaculus continuous distribution forecasts. Requires human-supplied cutpoints for valid forecast output.
+
 
 // BIN Model Substructure (Bias, Information, Noise)
 Bias –
