@@ -1,8 +1,3 @@
-
-**`RWS_006_Tappin_LSE_AI_Persuasion_LinkedIn.txt`**
-
----
-
 **Real-World Signal #6 — Ben Tappin, LSE: Large-Scale AI Persuasion Experiment**
 **Date Logged:** 2025-07-27
 **Platform:** LinkedIn
