@@ -1,5 +1,6 @@
-MSCFT Template Version 4.1 B 
-(SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling)  
+MSCFT Template Version 4.1B SWARM nodes and BIN Integrated — 
+Node D for Interpretation; Node E for Time Series Modeling;
+Node F for Retrieval-Augmented Generation (RAG) Added
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster: \[Insert Forecaster Name Here]
