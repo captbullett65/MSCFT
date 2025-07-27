@@ -43,6 +43,17 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // Node Invocation Declaration: Nodes Used: A, B.2, C, D, E, F
 // Node A: Research Node — framing, question structure, source listing
 // Node B: Analytical Node — probability estimate, reasoning
+//   Node B.1c: Multi-Step “Yes vs. No” Reflection Prompt (for binary questions only)
+//   This method improves clarity and balance in binary forecasts.
+//   Instructions:
+//     (1) Rephrase the forecast as a clear binary statement.
+//     (2) Give reasons why the statement might be true (“Yes”).
+//     (3) Give reasons why the statement might be false (“No”).
+//     (4) Assess strength of both arguments and aggregate.
+//     (5) Provide an initial probability forecast.
+//     (6) Re-evaluate for overconfidence or missing considerations.
+//     (7) Output final revised probability using format: Forecast: X%
+//   Use only for Yes/No binary forecast questions. Reduces bias and enforces structured dual reasoning.
 //   Node B.2: BIN Model Substructure (Bias, Information, Noise)
 // Node C: Synthesis Node — applies MSCFT.MS-CMT logic
 //   Node C.2: Final Forecast Summary
