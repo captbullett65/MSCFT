@@ -378,6 +378,7 @@ To summarize:
 - Update `forecast-index.md` with a working link to your file.
 
 CHANGELOG.md
+## [4.1 B] - 2025-07-26 6-node structure including Node F (RAG) 
 ## [4.1 B Refactored] - 2025-07-26  
 ## [4.1 B ] - 2025-07-24
 ## [4.0 B ] - 2025-07-20
