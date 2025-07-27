@@ -55,6 +55,14 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     (7) Output final revised probability using format: Forecast: X%
 //   Use only for Yes/No binary forecast questions. Reduces bias and enforces structured dual reasoning.
 //   Node B.2: BIN Model Substructure (Bias, Information, Noise)
+// Node B.2.1: Uncertainty Quantification Method
+// Adds explicit interval reasoning to model forecast noise.
+// Instructions:
+//   (1) Provide your primary point estimate (e.g., 62%).
+//   (2) Define a confidence interval (e.g., 90% CI: 52%–72%).
+//   (3) Explain factors that widen or narrow this range.
+//   (4) Use the interval to express judgment uncertainty and noise.
+// Use when forecast requires probabilistic bounding or has ambiguous variance.
 // Node C: Synthesis Node — applies MSCFT.MS-CMT logic
 //   Node C.2: Final Forecast Summary
 //   Node C.3: Rationale for Probability Distribution
@@ -64,6 +72,10 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //   (1) Markov Chain Model — models finite-state transitions of token prediction
 //   (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
 //   (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
+// Node D.1 Entropy Interpretation — supports B.2.1 output
+// Use Shannon entropy H(p) = –∑ p log p to assess distributional uncertainty
+// or interpret forecast confidence intervals from Node B.2.1.
+// Apply when evaluating noise spread, instability, or bounded confidence.
 //   Node D.3: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
 //   Methods include:
