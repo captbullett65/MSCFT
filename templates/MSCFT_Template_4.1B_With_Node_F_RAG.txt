@@ -39,6 +39,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
 // Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)
+// Node Invocation Declaration: Nodes Used: A, B.2, C, D, E, F
 // Node A: Research Node — framing, question structure, source listing
 // Node B: Analytical Node — probability estimate, reasoning
 //   Node B.2: BIN Model Substructure (Bias, Information, Noise)
