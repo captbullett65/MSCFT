@@ -68,9 +68,6 @@ MSCFT added the most explicit probability distribution
 and theoretical reasoning, including entropy modeling and BIN evaluation.
 
 ---
-Understood — logging the following key points for documentation and summary:
-
----
 
 **✅ TEST COMPLETE:**
 All three forecast platforms (MSCFT 4.1B, AgentTool, 
@@ -93,11 +90,6 @@ with Chair Powell may have exerted informal political pressure.
 While not factored heavily into the models (which focus on Fed data, 
 not external optics), this is worth noting as a potential
 *“Why Might You Be Wrong?”* clause, and could inform post-resolution review.
-
----
-
-Here is your **final validation log entry format** for this forecast,
-with clear placeholders to be filled once the outcome is known:
 
 ---
 
