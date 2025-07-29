@@ -81,6 +81,8 @@ This real-time architectural alignment validates MSCFT’s foundational design: 
 
 The release of GPT Agent Mode confirms the practical utility of swarm-based prompting in live AI systems, demonstrating that MSCFT's architecture is not theoretical — it is already shaping real-world AI coordination workflows.
 
+---
+
 📄 See the example that triggered it:
 
 ➡️ **Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;**
