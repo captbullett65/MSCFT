@@ -89,7 +89,8 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 
 ---
 
-➡️ **Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT**
+➡️  Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT
+
 ---
 
 This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
