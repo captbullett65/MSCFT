@@ -20,7 +20,8 @@ ORCID: https://orcid.org/0009-0006-3463-170X
 
 ---
 
-Can MSCFT Be Used Without Forecasting?
+**Can MSCFT Be Used Without Forecasting?**
+
 
 Yes. While MSCFT (Master Swarm Consensus Forecasting Template) was originally designed to bring structured foresight and probability modeling into AI-human collaboration, forecasting is not required for the framework to function. MSCFT is fundamentally a modular reasoning and coordination protocol that can operate across up to 26 nodes (A–Z), where each node represents a unique analytical, organizational, or computational role.
 
@@ -82,12 +83,13 @@ The release of GPT Agent Mode confirms the practical utility of swarm-based prom
 
 📄 See the example that triggered it:
 
-➡️ Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;
+➡️ **Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;**
+
 https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md 
 
 ---
 
-➡️ Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT
+➡️ **Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT**
 ---
 
 This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
