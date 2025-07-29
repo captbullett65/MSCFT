@@ -37,11 +37,11 @@ Key Principle: Forecasting is Optional
 
 1) Air Traffic Control (ATC) Redesign
 
-Nodes A–Z can be configured to handle communication flows, automation checks, and safety protocols, with Node C synthesizing final recommendations rather than probability forecasts.
+   Nodes A–Z can be configured to handle communication flows, automation checks, and safety protocols, with Node C synthesizing final recommendations rather than probability forecasts.
 
 2) Physics and Time Symmetry Modeling
 
-Node D can focus on entropy and Markov chain modeling for physical systems, while Node E handles temporal signal analysis (e.g., wave functions, Fourier transforms).
+   Node D can focus on entropy and Markov chain modeling for physical systems, while Node E handles temporal signal analysis (e.g., wave functions, Fourier transforms).
 
 3) Medical Template (Triage & Diagnostics)
 
