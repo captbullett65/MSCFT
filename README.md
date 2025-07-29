@@ -83,7 +83,29 @@ The release of GPT Agent Mode confirms the practical utility of swarm-based prom
 📄 See the example that triggered it:
 
 ➡️ Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;
-https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md  
+https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md 
+
+---
+
+➡️ Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT
+---
+
+This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
+
+The example shows how MSCFT’s structured swarm logic (Nodes A–D), BIN model, and anomaly logging can support:
+
+Multi-source data integration (radar, satellite, historical models)
+
+Probabilistic forecast framing (e.g., rainfall or wind bands)
+
+Detection of model instability using Node D (e.g., entropy divergence)
+
+Public-facing risk communication and scenario planning
+
+This structured approach allows legacy platforms (often “2.0-level”) to be upgraded toward 4.0-level intelligence, integrating both human and AI agents in transparent, repeatable workflows.
+
+🔗 See the full use case in: ( https://github.com/captbullett65/MSCFT/blob/main/WeatherUpgrade.mscft.md )
+ 
 
 ---
 
@@ -522,24 +544,7 @@ MSCFT is maintained to ensure traceability, clarity, and reproducibility in judg
 [Attribution Record: MSCFT_Raif_Attribution_GitHub](docs/MSCFT_Raif_Attribution_GitHub.md)
 
 ---
-🌦 **Real-World Example: Upgrading Weather Forecasting Systems Using MSCFT**
----
 
-This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
-
-The example shows how MSCFT’s structured swarm logic (Nodes A–D), BIN model, and anomaly logging can support:
-
-Multi-source data integration (radar, satellite, historical models)
-
-Probabilistic forecast framing (e.g., rainfall or wind bands)
-
-Detection of model instability using Node D (e.g., entropy divergence)
-
-Public-facing risk communication and scenario planning
-
-This structured approach allows legacy platforms (often “2.0-level”) to be upgraded toward 4.0-level intelligence, integrating both human and AI agents in transparent, repeatable workflows.
-
-🔗 See the full use case in: ( https://github.com/captbullett65/MSCFT/blob/main/WeatherUpgrade.mscft.md )
  
 
 
