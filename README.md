@@ -103,7 +103,7 @@ https://github.com/captbullett65/MSCFT/blob/main/Real%20World%20Examples.md
 
 ---
 
-➡️  Real-World Example 2 - Upgrading Weather Forecasting Systems Using MSCFT
+🧠  Real-World Example 2 - Upgrading Weather Forecasting Systems Using MSCFT
 
 
 This project includes a real-world use case applying the MSCFT framework to modernize national or institutional weather forecasting platforms.
@@ -125,7 +125,7 @@ This structured approach allows legacy platforms (often “2.0-level”) to be u
 
 ---
 
-➡️ **Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;**
+🧠 **Real-World Example 3 – Dolphin Communication: MSCFT vs ARC;**
 
 https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md 
 
