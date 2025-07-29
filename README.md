@@ -160,14 +160,19 @@ reduce inference drift in multi-agent environments.
 
 **2. Prompt Design for Structured Inference**  
 *Prompt Patterns and Forecast Accuracy in AI Systems* (Cameron Jones, Philip Tetlock, Barbara Millers)  
-**arXiv:** [https://arxiv.org/abs/2506.01578](https://arxiv.org/abs/2506.01578)  
-This July 2025 paper introduced prompt templates for binary reasoning, reflection,
-and uncertainty quantification. MSCFT 4.1B incorporates several of these directly:  
-- **Node B.2.1** – Uncertainty Quantification  
-- **Node D.1** – Entropy Interpretation  
-- Dual-path logic adapted from “Yes vs. No” prompt structures
+**arXiv:** [https://arxiv.org/abs/2506.01578](https://arxiv.org/abs/2506.01578) 
 
-These papers reinforce MSCFT’s focus on structured reasoning, modular forecasting logic, and scalable multi-agent inference.
+This July 2025 paper introduced prompt templates for binary reasoning, reflection, and uncertainty quantification. MSCFT 4.1B incorporates several of these directly:
+
+   Node B.2.1 – Uncertainty Quantification
+
+   Node D.1 – Entropy Interpretation
+
+   Node F – Retrieval-Augmented Generation (RAG), with support for evaluating retrieved sources, injection risks, and grounding integrity
+
+   Dual-path logic adapted from “Yes vs. No” prompt structures
+
+These papers reinforce MSCFT’s focus on structured reasoning, modular forecasting logic, and scalable multi-agent inference — while also validating the inclusion of retrieval pipelines within transparent swarm architectures.
 
 ---
 
