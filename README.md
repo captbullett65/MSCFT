@@ -34,6 +34,34 @@ Key Principle: Forecasting is Optional
 
 ---
 
+🖥️ Optional HTML Tag Support for Structured Forecast Rendering
+The MSCFT repository includes a complete set of HTML-style structural tags to support forecast parsing, agent compatibility, and web-based deployment. These tags are available in the docs/Markup.md file and allow users to:
+
+Transform plaintext forecasts into structured HTML, XML, or JSON formats
+
+Embed forecasts in dashboards, web portals, or AI agent frameworks
+
+Enable programmatic parsing for compliance, versioning, or visualization tools
+
+The tags cover all key structural sections:
+
+<mscft>, <forecast_title>, <probability_allocation>, <data_anomaly_log>, etc.
+
+Plus granular field tags like <question>, <interpretation>, <key_sources>, and more
+
+Guidelines:
+
+Use lowercase tags for consistency
+
+Do not nest invalid structures (e.g., <bucket> inside <inside_view>)
+
+Final MSCFT output remains plaintext — the tags are for optional agent or developer use only
+
+📄 Tag Reference:
+https://github.com/captbullett65/MSCFT/blob/main/docs/Markup.md
+
+---
+
 **Examples of Non-Forecasting Applications**
 
 1) Air Traffic Control (ATC) Redesign
