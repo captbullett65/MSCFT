@@ -10,6 +10,8 @@ At the close of business on 30 July 2025, will the upper limit of the Federal Re
 
 ---
 
+FEDFUNDS-20250730 log with official GJO resolution link:
+
 https://www.gjopen.com/questions/4167-at-close-of-business-on-30-july-2025-will-the-upper-limit-of-the-federal-reserve-s-target-range-for-the-federal-funds-rate-be-lower-the-same-or-higher-than-it-was-at-close-of-business-on-18-june-2025
 
 
