@@ -11,9 +11,9 @@
 >  attribution is a violation of authorship.
 >  See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
-🧾 The MSCFT Protocol is formally published and timestamped on Zenodo
-Zenodo Record:
+🧾 The MSCFT Protocol is formally published and timestamped on Zenodo.
 
+Zenodo Record:
 🔗 https://zenodo.org/records/15757279
 
 DOI: https://orcid.org/0009-0006-3463-170X
