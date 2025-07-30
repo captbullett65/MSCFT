@@ -8,12 +8,16 @@
 > ⚠️ **Notice:**
 > MSCFT 4.1B was authored and published by Brian Helip. Any reuse of this version label, the A–F node structure, the BIN  model logic, or the Retrieval-Augmented Generation (RAG) node design without attribution is a violation of authorship.
 
->  attribution is a violation of authorship. See [Attribution Integrity Log](logs/attribution-log.md) for details.
+>  attribution is a violation of authorship.
+>  See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
 🧾 The MSCFT Protocol is formally published and timestamped on Zenodo
 Zenodo Record:
+
 🔗 https://zenodo.org/records/15757279
+
 DOI: 10.17605/OSF.IO/Z5K7J
+
 Version: MSCFT 4.1B — Published June 27, 2025 
 
 📚 **Citation**  
