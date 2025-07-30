@@ -8,6 +8,7 @@ At the close of business on 30 July 2025, will the upper limit of the Federal Re
 
 **Same** (Fed held the upper limit at 5.50% for the fifth consecutive meeting — confirmed July 30, 2025 via NBC News)
 
+https://www.gjopen.com/questions/4167-at-close-of-business-on-30-july-2025-will-the-upper-limit-of-the-federal-reserve-s-target-range-for-the-federal-funds-rate-be-lower-the-same-or-higher-than-it-was-at-close-of-business-on-18-june-2025
 ---
 
 ### 📍 Forecast ID: `FEDFUNDS-20250730`
