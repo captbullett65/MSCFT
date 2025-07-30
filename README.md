@@ -97,7 +97,6 @@ MSCFT supports up to 26 nodes, each representing a configurable reasoning role. 
 
 In short, MSCFT is not just a forecasting template — it’s a universal reasoning architecture that scales from zero-code thought frameworks to code-augmented multi-agent systems.
 
-MSCFT is not just a forecasting template — it’s a universal reasoning architecture that scales from zero-code thought frameworks to code-augmented multi-agent systems.
 
 ---
 
