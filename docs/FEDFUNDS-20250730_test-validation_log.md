@@ -5,23 +5,7 @@ limit of the Federal Reserve's target range for
 the federal funds rate be lower, the same, or higher than it was on the close of business on 18 June 2025?
 
 ---
-**Resolution on Good Judgement open **
 
-
-**Forecast ID:** GDP\_US\_Q2\_2025
-**Question:** What will be the U.S. annual real GDP growth rate for the second quarter of 2025?
-**Resolution:** Up by at least 3.0%, but less than 4.0%
-**Forecast (MSCFT 4.1B):**
-
-* Up at least 1.0% but less than 2.0% → 25%
-* Up at least 2.0% but less than 3.0% → 75%
-  **Scoring:**
-* Relative Brier Score: -0.2247
-* Brier Score: 0.3542
-* Rank in Question: 5th out of 56 forecasters (91st percentile)
-* Number of Forecasts Submitted: 1
-  **Template Used:** MSCFT Template Version 4.1B — SWARM nodes and BIN Integrated
-  **Validation Purpose:** Confirms structured probabilistic forecasting performance against economic data resolution. Forecast demonstrated accurate bias handling but underweighted tail growth potential.
 
 ---
 
