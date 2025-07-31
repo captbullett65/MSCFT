@@ -118,6 +118,49 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // F.6 RAG Guardrails and Human-in-the-Loop Oversight
 Describe any guardrails or filters used (e.g., domain filters, time filters, citation confidence).
 Note whether the RAG outputs were human-reviewed or blindly accepted into the forecast pipeline.
+// Node G – Meta-Curation and Data Integrity Filter
+Activation: YES (for tasks involving noisy, corrupted, adversarial, or large-scale heterogeneous datasets)
+Core Function: This node applies a meta-learned data filtering algorithm (e.g., DataRater) to prune low-quality or adversarial inputs before they propagate through Nodes A, D, or F. The objective is to preserve data integrity and reduce noise-induced reasoning error.
+
+---
+
+G.1 Objective
+Identify and suppress low-value or adversarial samples using a meta-gradient-based rating network trained on a high-quality validation set. This ensures downstream nodes receive cleaner, more distribution-consistent inputs.
+
+G.2 Algorithm Summary (from DataRater)
+Initialize rater network with meta-parameters η
+For each outer step (K steps):
+For each inner model in the ensemble (N models):
+Update the inner model for T steps using weighted training data
+Sample an outer batch from the test set
+Compute the meta-gradient of the outer loss
+Use this to update the rater’s meta-parameters η
+Return ηK, which scores each training input
+Filter training data by dropping bottom-quantile scores or reweighting inputs
+
+G.3 Integration Points
+Node A (Background Research): Use filtered dataset as input to source selection or retrieval
+Node D (Interpretation): Apply only on entropy-based modeling tasks that rely on clean priors
+Node F (Retrieval-Augmented Generation):
+Ensure retrieved chunks are curated via the rating filter before inclusion in context window
+
+G.4 Risks and Mitigations
+Risk: Over-pruning or removing edge-case data that could be important
+Mitigation: Retain a small sample of filtered data for diagnostic review in Node A
+Risk: Bias in rater model distorting data diversity
+Mitigation: Rater must be trained on a balanced, vetted validation set
+Risk: Adversarial alignment with rating logic
+Mitigation: Apply adversarial test sets to rating function periodically and re-tune η
+G.5 Forecasting Impact
+Forecast outputs are expected to show improved stability, 
+reduced variance, and less hallucination in
+downstream Nodes C and D when Node G is invoked. 
+Especially useful in large-scale web retrieval (Node F), LLM evaluation, or benchmark synthesis tasks.
+
+G.6 Summary
+Node G operates as a meta-optimization and filtering pre-pass, 
+enforcing high signal-to-noise input before inference.
+It adds robustness against corrupted data and is grounded in transductive filtering logic.
 
 ---
 
