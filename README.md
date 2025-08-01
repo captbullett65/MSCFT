@@ -360,15 +360,15 @@ retrieval-augmented generation, and meta-curation via data integrity filters.
 
 See MSCFT v4.2 for step-by-step guidance on the full 7-node structure:
 
-**A:** Research context
-**B:** BIN model analysis (Bias, Information, Noise)
-**C:** Structured output synthesis (MSCFT.MS-CMT logic)
-**D:** Interpretation via Markov chains, entropy, KL divergence
-**E:** Time-series modeling (AR, MA, ARIMA, ETS, Fourier, spectral entropy)
-**F:** Retrieval-Augmented Generation (RAG), human-in-the-loop oversight
-**G:** Meta-Curation and Data Integrity Filtering (DataRater, adversarial pruning)
+- **A:** Research context
+- **B:** BIN model analysis (Bias, Information, Noise)
+- **C:** Structured output synthesis (MSCFT.MS-CMT logic)
+- **D:** Interpretation via Markov chains, entropy, KL divergence
+- **E:** Time-series modeling (AR, MA, ARIMA, ETS, Fourier, spectral entropy)
+- **F:** Retrieval-Augmented Generation (RAG), human-in-the-loop oversight
+- **G:** Meta-Curation and Data Integrity Filtering (DataRater, adversarial pruning)
 
-📄 **Template v4.2 link:**
+📄 **Template v4.2 link:** - 
  https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G%2C6 
 
 ---
