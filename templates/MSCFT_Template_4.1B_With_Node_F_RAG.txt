@@ -44,6 +44,8 @@ This version formally integrates:
 MSCFT Template Version 4.1B SWARM nodes and BIN Integrated — 
 Node D for Interpretation; Node E for Time Series Modeling;
 Node F for Retrieval-Augmented Generation (RAG) Added
+Nodes A, B, B.1, B.2, B.3, C, D, D.1, D.2, D.3, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7,
+F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Activated
 
 ---
 Forecast Title: \[Insert Forecast Title Here]
