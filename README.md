@@ -369,7 +369,7 @@ See MSCFT v4.2 for step-by-step guidance on the full 7-node structure:
 - **G:** Meta-Curation and Data Integrity Filtering (DataRater, adversarial pruning)
 
 📄 **Template v4.2 link:** - 
- https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G%2C6 
+https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6
 
 ---
 
@@ -503,7 +503,7 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version /// 
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G%2C6
+https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6 
 
 ---
 
