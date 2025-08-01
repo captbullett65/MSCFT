@@ -1,10 +1,10 @@
 MSCFT Template Version 4.1B SWARM nodes and BIN Integrated — 
 Node D for Interpretation; Node E for Time Series Modeling;
 Node F for Retrieval-Augmented Generation (RAG) Added
-
+---
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster: \[Insert Forecaster Name Here]
-
+---
 Initial Question Framing
 Question: \[Insert your forecasting question here.]
 Clarifications:
@@ -16,7 +16,7 @@ Key Sources:
 • \[Source 2]
 • \[Source 3]
 • \[Add more as needed]
-
+---
 Refinement & Analysis
 Key Developments:
 • \[Summarize major events or dynamics relevant to the forecast question.]
@@ -25,27 +25,29 @@ Key Developments:
 Interpretation:
 \[Explain how the developments influence your forecast. Discuss possible pathways,
 leverage points, or conditional dependencies. Summarize why you're leaning a certain way.]
-
+---
 Note: If the forecast outcome is near a bucket threshold, 
 consider hedging your probabilities across adjacent bins to avoid overconfidence.
 Overweighting a single bucket—even if correct 
 can result in a poor Brier score if the outcome lies near the edge.]
-
+---
 Inside-Outside View Structuring
 Inside View: \[Insert short-term or domain-specific reasoning from known context.]
 Outside View: \[Insert baseline rates, historic cases, or comparative reference classes.]
-
+---
 Data Anomaly & Source Integrity Log
 Date Range Affected: \[Insert applicable date range]
 Observed Anomaly: \[Describe any unusual or inconsistent data]
 Identified Cause: \[Explain known or suspected reason for the anomaly]
 Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
- 
+---
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
 // Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)
 // Node Invocation Declaration: Nodes Used: A, B.2, C, D, E, F
+---
 // Node A: Research Node — framing, question structure, source listing
+---
 // Node B: Analytical Node — probability estimate, reasoning
 //   Node B.1c: Multi-Step “Yes vs. No” Reflection Prompt (for binary questions only)
 //   This method improves clarity and balance in binary forecasts.
@@ -59,6 +61,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     (7) Output final revised probability using format: Forecast: X%
 //   Use only for Yes/No binary forecast questions. Reduces bias and enforces structured dual reasoning.
 //   Node B.2: BIN Model Substructure (Bias, Information, Noise)
+---
 // Node B.2.1: Uncertainty Quantification Method
 // Adds explicit interval reasoning to model forecast noise.
 // Instructions:
@@ -67,11 +70,13 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //   (3) Explain factors that widen or narrow this range.
 //   (4) Use the interval to express judgment uncertainty and noise.
 // Use when forecast requires probabilistic bounding or has ambiguous variance.
+---
 // Node C: Synthesis Node — applies MSCFT.MS-CMT logic
 //   Node C.2: Final Forecast Summary
 //   Node C.3: Rationale for Probability Distribution
 //   Node C.4: Forecast Caveats and Error Pathways
 //   Only Node C may output the final forecast in structured format
+---
 // Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models
      to interpret LLM generalization,inference behavior, or uncertainty
 //      (1) Markov Chain Model — models finite-state transitions of token prediction
@@ -82,6 +87,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     or interpret forecast confidence intervals from Node B.2.1.
 //     Apply when evaluating noise spread, instability, or bounded confidence.
 //  Node D.3: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
+---
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
 //   Methods include:
 //     E.1 AR
@@ -91,9 +97,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     E.5 ETS
 //     E.6 Fourier series
 //     E.7 Spectral entropy
-
 ---
-
 // Node F: Retrieval-Augmented Generation (RAG) Node
 // F.1 Objective of Retrieval
    Describe the intended role of external data retrieval in the context of this forecast. 
@@ -118,18 +122,17 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // F.6 RAG Guardrails and Human-in-the-Loop Oversight
 Describe any guardrails or filters used (e.g., domain filters, time filters, citation confidence).
 Note whether the RAG outputs were human-reviewed or blindly accepted into the forecast pipeline.
+--- 
 // Node G – Meta-Curation and Data Integrity Filter
 Activation: YES (for tasks involving noisy, corrupted, adversarial, or large-scale heterogeneous datasets)
 Core Function: This node applies a meta-learned data filtering algorithm (e.g., DataRater) to prune low-quality or adversarial inputs before they propagate through Nodes A, D, or F. 
 The objective is to preserve data integrity and reduce noise-induced reasoning error.
-
 ---
-
 G.1 Objective
 Identify and suppress low-value or adversarial samples
 using a meta-gradient-based rating network trained on a high-quality validation set. 
 This ensures downstream nodes receive cleaner, more distribution-consistent inputs.
-
+---
 G.2 Algorithm Summary (from DataRater)
 Initialize rater network with meta-parameters η
 For each outer step (K steps):
@@ -140,13 +143,13 @@ Compute the meta-gradient of the outer loss
 Use this to update the rater’s meta-parameters η
 Return ηK, which scores each training input
 Filter training data by dropping bottom-quantile scores or reweighting inputs
-
+---
 G.3 Integration Points
 Node A (Background Research): Use filtered dataset as input to source selection or retrieval
 Node D (Interpretation): Apply only on entropy-based modeling tasks that rely on clean priors
 Node F (Retrieval-Augmented Generation):
 Ensure retrieved chunks are curated via the rating filter before inclusion in context window
-
+---
 G.4 Risks and Mitigations
 Risk: Over-pruning or removing edge-case data that could be important
 Mitigation: Retain a small sample of filtered data for diagnostic review in Node A
@@ -154,19 +157,18 @@ Risk: Bias in rater model distorting data diversity
 Mitigation: Rater must be trained on a balanced, vetted validation set
 Risk: Adversarial alignment with rating logic
 Mitigation: Apply adversarial test sets to rating function periodically and re-tune η
+---
 G.5 Forecasting Impact
 Forecast outputs are expected to show improved stability, 
 reduced variance, and less hallucination in
 downstream Nodes C and D when Node G is invoked. 
 Especially useful in large-scale web retrieval (Node F), LLM evaluation, or benchmark synthesis tasks.
-
+---
 G.6 Summary
 Node G operates as a meta-optimization and filtering pre-pass, 
 enforcing high signal-to-noise input before inference.
 It adds robustness against corrupted data and is grounded in transductive filtering logic.
-
 ---
-
 Refinement & Analysis
 Key Developments:
 • \[Summarize major events or dynamics relevant to the forecast question.]
@@ -176,29 +178,29 @@ Interpretation:
 \[Explain how the developments influence your forecast.
 Discuss possible pathways, leverage points, or conditional dependencies.
 Summarize why you're leaning a certain way.
-
+---
 Inside-Outside View Structuring:
 
 Inside View: 
 \[Insert short-term or domain-specific reasoning from known context.]
 Outside View: 
 \[Insert baseline rates, historic cases, or comparative reference classes.]
-
+---
 Data Anomaly & Source Integrity Log
 Date Range Affected: \[Insert applicable date range]
 Observed Anomaly: \[Describe any unusual or inconsistent data]
 Identified Cause: \[Explain known or suspected reason for the anomaly]
 Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
-
+---
 Probability Allocation
 Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned buckets.
 Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
-
+---
 If the question is binary (Yes/No), use:
 • Yes: \[   ]%
 • No:  \[   ]%
-
+---
 For multi-range buckets:
 • 2 or fewer:          \[   ]%
 • Between 3 and 5:     \[   ]%
@@ -208,12 +210,12 @@ For multi-range buckets:
 • Between 17 and 21:   \[   ]%
 • 22 or more:          \[   ]%
 [Addition to Probability Allocation Section for Metaculus Slider Questions]
-
+---
 Note for Metaculus Slider Questions:  
 Metaculus uses a continuous probability slider rather than discrete buckets.
 For accurate modeling, the human forecaster must manually provide
 the slider’s defined value ranges. This typically includes five thresholds:  
-
+---
 • Less than   [X]%  
 • Lower 25%   (e.g., –Y%)  
 • Median      (e.g., –Z%)  
@@ -224,7 +226,7 @@ These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
 as shown in the Metaculus interface. Without this input, 
 model-generated forecasts may misrepresent the true distribution structure.
-
+---
 // BIN Model Substructure (Bias, Information, Noise)
 Bias –
 \[Describe systemic, institutional, cognitive, or structural biases.]
@@ -234,13 +236,13 @@ Information –
 
 Noise –
 \[Identify irrelevant, misleading, or low-signal data distortions.]
-
+---
 //Final Forecast Summary
 Forecast: \[Summarize the most likely outcome and your top bucket(s)]
 
 // Rationale for Probability Distribution
 Rationale: \[Explain the reasoning behind your distribution. What supports each weighting?]
-
+---
 // Forecast Caveats and Error Pathways
 Why Might You Be Wrong?
 
