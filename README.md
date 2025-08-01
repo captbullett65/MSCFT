@@ -499,15 +499,15 @@ This project provides a standardized, auditable process for producing and mainta
 
 //* Latest version /// 
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
+https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G%2C6
 
 ---
 
 //* Old Versions///
 
+- https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
 - https://github.com/captbullett65/MSCFT/blob/main/templates/4.1B%20(Alpha%20test%20Refractored).txt
 - (https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_Beta.txt)
-- [MSCFT Template v.4.1B](https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.0_B_SwarmIntegration.txt) 
 - [MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
 - [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
 - [MSCFT Template (v3.1C – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1C.txt)
@@ -523,7 +523,6 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_W
   
 - https://community.openai.com/t/forecasting-performance-breakthrough-using-gpt-4o-and-mscft-structured-template-framework/1304270  
 
-
 ## 🧭 Structure
 
 The core template includes **Eight required sections** for each forecast:
@@ -532,10 +531,11 @@ The core template includes **Eight required sections** for each forecast:
 2. Initial Question Framing  
 3. Refinement & Analysis
 4. Inside-Outside View Structuring
-5. Data Anomaly & Source Integrity Log  
-6. Probability Allocation  
-7. Final Forecast Summary  
-8. Why Might You Be Wrong? (two perspectives required)
+5. Data Anomaly & Source Integrity Log
+6. Structured Swarm Section - A-G.6
+7. Probability Allocation  
+8. Final Forecast Summary  
+9. Why Might You Be Wrong? (two perspectives required)
 
 All forecasts must follow this structure exactly.
 
@@ -574,6 +574,7 @@ To summarize:
 - Update `forecast-index.md` with a working link to your file.
 
 CHANGELOG.md
+## [4.2]   - 2025-08-01 nodes A-G.6
 ## [4.1 B] - 2025-07-26 6-node structure including Node F (RAG) 
 ## [4.1 B Refactored] - 2025-07-26  
 ## [4.1 B ] - 2025-07-24
@@ -583,12 +584,16 @@ CHANGELOG.md
 ## [1.3 B]  - 2025-05-30
 
 ### Added
+- Added the full node structure A-G.6 - Declared Nodes: A, B, B.1, B.2, B.3, C,
+-  D, D.1, D.2, D.3, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7,  
+   F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6  
 - Added AI Web Access Limitation header block to clarify model restrictions on real-time internet data access.
 - Inside-Outside View Structuring subsection added after "Interpretation".
 - Updated template labeled as MSCFT Version 3.1 B for beta testing.
 - Node F: Retrieval-Augmented Generation (RAG) Added — MSCFT 4.1B
 
 ### Notes
+- Version 4.2 has nodes A-G.6
 - This version integrates LLM-assisted calibration via structured outside view analysis.
 - Beta feedback encouraged before promoting to 3.2.
 
