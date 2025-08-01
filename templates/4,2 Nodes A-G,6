@@ -176,7 +176,8 @@ Note whether the RAG outputs were human-reviewed or blindly accepted into the fo
 
 // Node G – Meta-Curation and Data Integrity Filter
 Activation: YES (for tasks involving noisy, corrupted, adversarial, or large-scale heterogeneous datasets)
-Core Function: This node applies a meta-learned data filtering algorithm (e.g., DataRater) to prune low-quality or adversarial inputs before they propagate through Nodes A, D, or F. 
+Core Function: This node applies a meta-learned data filtering algorithm 
+(e.g., DataRater) to prune low-quality or adversarial inputs before they propagate through Nodes A, D, or F. 
 The objective is to preserve data integrity and reduce noise-induced reasoning error.
 
 G.1 Objective
