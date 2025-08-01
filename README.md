@@ -353,24 +353,28 @@ This makes MSCFT suitable for long-term forecasting initiatives, research, and c
 
 **Step-by-Step Instructions**
 
-Version 4.1B Update:
-MSCFT now includes Nodes A–F, adding new interpretation
-and time-series modeling capabilities and Retrieval-Augmented Generation (RAG)
-See MSCFT 4.1b, Instructions for Use for step-by-step guidance on the full 6-node structure:
+**Version 4.2 Update:**
+MSCFT now includes full node integration from **Node A through G.6**, 
+adding enhanced interpretation, time-series modeling, 
+retrieval-augmented generation, and meta-curation via data integrity filters.
 
-A: Research context
+See MSCFT v4.2 for step-by-step guidance on the full 7-node structure:
 
-B: BIN model analysis
+**A:** Research context
+**B:** BIN model analysis (Bias, Information, Noise)
+**C:** Structured output synthesis (MSCFT.MS-CMT logic)
+**D:** Interpretation via Markov chains, entropy, KL divergence
+**E:** Time-series modeling (AR, MA, ARIMA, ETS, Fourier, spectral entropy)
+**F:** Retrieval-Augmented Generation (RAG), human-in-the-loop oversight
+**G:** Meta-Curation and Data Integrity Filtering (DataRater, adversarial pruning)
 
-C: Structured output synthesis
+📄 **Template v4.2 link:**
+ https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G%2C6 
 
-D: Interpretation via Markov chains / entropy
+---
 
-E: Time-series modeling
+Let me know if you'd like a commit line for this README edit or if you're applying it manually.
 
-F: Retrieval-Augmented Generation (RAG)
-
-https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
 
 ---
 
