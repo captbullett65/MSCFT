@@ -88,6 +88,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
 // Mode: Structured Swarm (5 Nodes, MSCFT.MS-CMT applied internally)
+
 // Node Invocation Declaration: Nodes Used:
 - A, B, B.1, B.2, B.3, C, D, D.1, D.2, E, F, F.1, F.2, F.3, F.4, F.5, F.6.
 - G, G.1, G.2, G.3, G.4, G.5, G.6
@@ -135,7 +136,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     Use Shannon entropy H(p) = –∑ p log p to assess distributional uncertainty
 //     or interpret forecast confidence intervals from Node B.2.1.
 //     Apply when evaluating noise spread, instability, or bounded confidence.
----
+
 //  Node D.2: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
 
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
@@ -224,10 +225,11 @@ Key Developments:
 • \[Summarize major events or dynamics relevant to the forecast question.]
 • \[Note polling trends, market behavior, public sentiment, or institutional actions.]
 • \[Include controversies, endorsements, or strategic shifts if relevant.]
+
 Interpretation:
 \[Explain how the developments influence your forecast.
 Discuss possible pathways, leverage points, or conditional dependencies.
-Summarize why you're leaning a certain way.
+Summarize why you're leaning a certain way.]
 
 Inside-Outside View Structuring:
 
