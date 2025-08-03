@@ -7,13 +7,11 @@
 
 > ⚠️ **Attribution Notice**  
 The Master Swarm Consensus Forecasting Template (MSCFT), including all released versions (3.x through 4.2), was authored and published by **Brian Helip**. This includes all core structures such as:
-
 - The A–G node framework (including Node D for Entropy/KL/Markov analysis and Node G for Meta-Curation)  
 - The BIN Model (Bias, Information, Noise) reasoning logic  
 - Structured Swarm integration (MSCFT.MS-CMT logic)  
 - Retrieval-Augmented Generation (RAG) node design  
 - All time-series modeling nodes (E.1 through E.7)
-
 Any reuse of MSCFT’s version labels, internal node architecture, or derivative forecasting logic without attribution constitutes a violation of authorship integrity and intellectual design origin.
 >  attribution is a violation of authorship.
 >  See [Attribution Integrity Log](logs/attribution-log.md) for details.
