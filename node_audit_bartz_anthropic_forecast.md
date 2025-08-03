@@ -1,5 +1,7 @@
 ---
 MSCFT Node Audit – Forecast Compliance: Bartz v. Anthropic PBC (Settlement Probability)
+
+
 ---
 
 
@@ -7,6 +9,8 @@ description: "Internal MSCFT 4.2 structural audit verifying proper node usage an
 author: "Brian Helip"
 date: "2025-08-03"
 tags: [MSCFT, Node Audit, Forecast Verification, Structural Compliance, Entropy, KL Divergence]
+
+
 ---
 
 # MSCFT Forecast Template Audit – Bartz v. Anthropic PBC
