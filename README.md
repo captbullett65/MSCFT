@@ -15,7 +15,7 @@ The Master Swarm Consensus Forecasting Template (MSCFT), including all released 
 > - All time-series modeling nodes (E.1 through E.7)  
 >  Any reuse of MSCFT’s version labels, internal node architecture, or derivative forecasting logic without attribution  constitutes a violation of authorship integrity and intellectual design origin.
 See Attribution Integrity Log for details.
-> [Attribution Integrity Log](logs/attribution-log.md) ]
+> [Attribution Integrity Log](logs/attribution-log.md) 
 
 🧾 The MSCFT Protocol is formally published and timestamped on Zenodo.
 
