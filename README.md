@@ -222,6 +222,14 @@ MIT License – Use with credit.
 
 ---
 
+Forecast Structure Audit:
+
+This MSCFT node-level audit verifies full structural compliance in the Bartz v. Anthropic forecast. It confirms correct invocation of entropy modeling, time-series logic, and retrieval integrity per MSCFT 4.2 standards. 
+View audit → https://github.com/captbullett65/MSCFT/blob/main/node_audit_bartz_anthropic_forecast.md 
+
+
+---
+
 ### 🧠 Cited Research and Empirical Foundations
 
 The MSCFT (Master Swarm Consensus Forecasting Template)
