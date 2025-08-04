@@ -68,11 +68,9 @@ This version formally integrates:
 
 \[END OF NON-OUTPUT SECTION]
 
+---
 
-
-MSCFT Template (Version 3.1C)
-
-
+MSCFT Template (Version 4.2)
 
 ## \[3.1 B] – 2025-05-31
 
