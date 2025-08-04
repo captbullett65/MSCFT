@@ -170,9 +170,11 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 
 ---
 
+
 📘 Official Reference: [MSCFT v4.2 Guidebook PDF](https://github.com/captbullett65/MSCFT/blob/main/MSCFT%20v4.2%20Guidebook.pdf)
 
 
+---
 
 > The Master SWARM Consensus Forecasting Template — a structured, auditable forecasting framework integrating human and LLM collaboration.
 > # Master SWARM Consensus Forecasting Template (MSCFT)
