@@ -154,54 +154,53 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // F.1 Objective of Retrieval
 Describe the intended role of external data retrieval in the context of this forecast.  
 Clarify what information gaps the RAG process is meant to fill (e.g., time-sensitive updates,  
-specialized domain content, mitigation of LLM hallucinations).
+specialized domain content, mitigation of LLM hallucinations).]
 
 // F.2 Source Landscape Overview
 Summarize the structure of the retrieval system (e.g., vector database, API access, curated document set).  
 Indicate whether retrieval is dynamic or static. Note whether sources are verifiable, proprietary, or open.  
-Document retrieval latency, refresh cadence, and index update frequency if available.
+Document retrieval latency, refresh cadence, and index update frequency if available.]
 
 // F.3 Relevance Mapping to Forecast Scope
 Explain how the retrieved material aligns with the forecast question.  
 Identify whether retrieved documents improve grounding, reduce ambiguity,  
-or clarify priors. Flag any source conflicts or inconsistencies.
+or clarify priors. Flag any source conflicts or inconsistencies.]
 
 > Retrieval Index Configuration for RAG Pipelines:  
 > Performance bottlenecks in RAG pipelines often arise at the vector indexing layer.  
 > Vector databases (used for semantic search and agent routing) require a performant index  
 > to efficiently locate embeddings without linear scan delays. MSCFT-F3 must explicitly document the  
-> indexing strategy employed to ensure alignment with forecast latency and scope.  
->
+> indexing strategy employed to ensure alignment with forecast latency and scope.] 
+
 > - Flat Index: Checks all embeddings linearly. Memory-efficient and precise, but scales poorly.  
 > - HNSW (Hierarchical Navigable Small World Graph): Fast and production-grade for large vector sets,  
 >   with logarithmic search time and higher memory demands.  
 > - Dynamic Index: Starts as Flat, transitions to HNSW as scale increases. Flexible but introduces  
->   behavioral variance during state transitions.  
->
+>   behavioral variance during state transitions.]
+
 > The index strategy must match the semantic resolution required by the forecast,  
 > the scale of the vector corpus, and the need for temporal responsiveness.  
 > Incorrect index selection can bottleneck otherwise accurate pipelines.  
-> Index decisions must be aligned with Nodes F5 and G6.
+> Index decisions must be aligned with Nodes F5 and G6.]
 
 // F.4 Retrieval Risks and Injection Hazards
 Identify risks associated with retrieval:  
 - Propagation of outdated, biased, or manipulated content  
 - Risk of injecting unverifiable or hallucinated responses  
 - Dependence on opaque RAG pipelines (e.g., graphRAG, proprietary retrieval graphs)  
-- Index selection that biases or filters content improperly
+- Index selection that biases or filters content improperly]
 
 // F.5 Net Impact on Forecast Validity
 Judge whether the use of retrieval strengthened or weakened the quality of inference.  
 If weakening occurred, explain where and how.  
 If strengthening occurred, explain what resolution or clarification was gained.  
 Include latency effects, hallucination reduction, or semantic reinforcement metrics.  
-Compare inference validity with and without RAG input.
+Compare inference validity with and without RAG input.]
 
 // F.6 RAG Guardrails and Human-in-the-Loop Oversight
 Describe any guardrails or filters used (e.g., domain filters, time filters, citation confidence).  
 Note whether the RAG outputs were human-reviewed or blindly accepted into the forecast pipeline.  
-Document if specific
-
+Document if specific]
 
 // Node G – Meta-Curation and Data Integrity Filter
 Activation: YES (for tasks involving noisy, corrupted, adversarial, or large-scale heterogeneous datasets)
