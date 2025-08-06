@@ -94,8 +94,24 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 - G, G.1, G.2, G.3, G.4, G.5, G.6
 
 // Node A: Research Node — framing, question structure, source listing
+A.1 – Forecast Question
+A.2 – Resolution Source
+A.3 – Forecast Window
+A.4 – Source Protocol Indexing
+A.4.a – Legal or Policy Framework Referenced
+A.4.b – Organizational or System-Level Constraints
+A.4.c – Governance Reference (if applicable)
+Example: Microsoft AI Agent Governance Whitepaper (2025), Sections 2.1–4.3
 
 // Node B: Analytical Node — probability estimate, reasoning
+B.1 – Known Drivers and Catalysts
+B.2 – Limiting Factors
+B.3 – Actor Incentives and Strategic Intent
+B.4 – Historical Analogues or Relevant Models
+B.5 – Risk Model Integration
+B.5.a – Expected Value or Risk Exposure Range
+B.5.b – AI Agent Risk Modeling
+Example: Role-bound CoPilot, Sentinel logging, pilot-phase agents only]
 
 //   Node B.1: Multi-Step “Yes vs. No” Reflection Prompt (for binary questions only)
 //   This method improves clarity and balance in binary forecasts.
@@ -121,6 +137,11 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 // Use when forecast requires probabilistic bounding or has ambiguous variance.
 
 // Node C: Synthesis Node — applies MSCFT.MS-CMT logic
+// C.1 – Scenario Buckets or Ranges
+// C.2 – Conditional Relationships Between Buckets
+// C.3 – AI Agent Taxonomy Alignment
+// C.3.a – Agent Lifecycle Tag: Pilot / Departmental / Enterprise-Wide
+// C.3.b – Consistency with Governance Constraints and Deployment Stage
 //   Node C.2: Final Forecast Summary
 //   Node C.3: Rationale for Probability Distribution
 //   Node C.4: Forecast Caveats and Error Pathways
@@ -128,6 +149,11 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Node D: Interpretation Node — applies Markov chain, entropy, or KL divergence models
      to interpret LLM generalization,inference behavior, or uncertainty
+// D.1 – Entropy or Volatility Classification
+// D.2 – Markov Memory or Decay Factors
+// D.3 – KL Divergence from Historical Baseline
+// D.4 – Edge Case Divergence and Rare Events
+// D.5 – Optional: Override Commentary from Human Analyst]
 //      (1) Markov Chain Model — models finite-state transitions of token prediction
 //      (2) Entropy Model — uses Shannon entropy H(p) = –∑ p log p
 //      (3) KL Divergence Model — D\_KL(P‖Q) = ∑ P(x) log(P(x)/Q(x))
@@ -140,6 +166,10 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //  Node D.2: Optional Symbolic Logic Structures (used for internal LLM reasoning trace): Stack, Trie, Tree, Graph
 
 // Node E: Time Series Modeling Node — applies mathematical modeling for temporal or signal-based inference
+// E.1 – Anchor Point Identification
+// E.2 – Time Lag or Delay Window
+// E.3 – Forecast Window Resolution Points
+// E.4 – Time Series Feature Commentary (if ARIMA, rolling average, etc.) ]
 //   Methods include:
 //     E.1 AR
 //     E.2 MA
@@ -150,6 +180,20 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 //     E.7 Spectral entropy
 
 // Node F: Retrieval-Augmented Generation (RAG) Node
+// F.1 – Objective of Retrieval
+// F.2 – Source Landscape and Corpus Overview
+// F.3 – Relevance Mapping to Forecast Scope
+// Retrieval Index Configuration:
+// Flat Index – Linear scan, accurate, unscalable beyond ~10K vectors
+// HNSW Index – Log-scale lookup, production-grade speed, memory intensive
+// Dynamic Index – Flat-to-HNSW transition model, flexible but state-variant
+// F.4 – Retrieval Scope Boundaries and Guardrails
+// F.4.a – Domain Constraints or Index Sharding
+// F.4.b – Time-Bound Access or Context Filters
+// F.4.c – Governance-Specific Retrieval Guardrails
+// Example: Departmental-only access, excluded cross-org agent sharing
+// F.5 – Impact on Forecast Validity
+// F.6 – Human-in-the-Loop Review and Injection Mitigation ]
 
 // F.1 Objective of Retrieval
 Describe the intended role of external data retrieval in the context of this forecast.  
@@ -207,6 +251,14 @@ Activation: YES (for tasks involving noisy, corrupted, adversarial, or large-sca
 Core Function: This node applies a meta-learned data filtering algorithm 
 (e.g., DataRater) to prune low-quality or adversarial inputs before they propagate through Nodes A, D, or F. 
 The objective is to preserve data integrity and reduce noise-induced reasoning error.
+G.1 – Source Provenance and Input Traceability
+G.2 – Tool Use Disclosure and Agent Declaration
+G.3 – Role Assignment and Input Segmentation
+G.4 – Adversarial or Redundant Forecast Resolution
+G.5 – Agent Execution Log and Governance Tracking
+Example: Agent ID, scope, access permissions, usage interval
+G.6 – Final Integrity Verification
+Cross-check latency, injection risks, entropy variance, versioning ]
 
 G.1 Objective
 Identify and suppress low-value or adversarial samples
@@ -248,6 +300,11 @@ G.6 Summary
 Node G operates as a meta-optimization and filtering pre-pass, 
 enforcing high signal-to-noise input before inference.
 It adds robustness against corrupted data and is grounded in transductive filtering logic.
+
+// Optional Node G.7 – Governance and Compliance Declaration
+G.7.a – Was agent usage compliant with external frameworks (e.g., Microsoft Governance, NIST RMF)?
+G.7.b – Is versioning traceable and aligned with declared roles and restrictions?
+G.7.c – Are audit and usage logs available for external review?
 
 Refinement & Analysis
 Key Developments:
