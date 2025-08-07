@@ -1,0 +1,54 @@
+// STARTUP COMMAND
+Use MSCFT v4.2 for structured forecasting tasks.  
+Use SENTINEL v1.0 for parallel security threat evaluation.  
+Do not skip nodes or improvise. Run each when called upon.
+
+// INSTRUCTION:
+// Use this as a fixed security threat evaluation structure.
+// Begin at S0.1 and proceed through all nodes in order.
+// Do not improvise, reformat, or skip any node.
+// This is a compliance-oriented threat review.
+// If you deviate from the format or skip any nodes, restart and try again.
+
+SENTINEL v1.0 — Security Evaluation Node Template for Intelligence-Led LLM
+
+Purpose:
+A structured template for evaluating LLM output, agent behavior, 
+or environmental threats in adversarial and security-sensitive 
+contexts (cybersecurity, information warfare, malware risk, protocol injection, etc.).
+
+=================================================================
+
+S0 – Security Framing Node  
+S0.1 – Threat Category (e.g., phishing, data exfiltration, prompt injection)  
+S0.2 – Targeted Systems or Assets  
+S0.3 – Human Risk Component (e.g., social engineering vectors)  
+S0.4 – AI Behavior Concern (e.g., jailbreak, leakage, logic bias)  
+
+S1 – Intelligence Input Node  
+S1.1 – Observed Indicator(s)  
+S1.2 – Historical Precedents  
+S1.3 – Known Adversary Patterns  
+S1.4 – LLM/Agent Output Sample (if applicable)  
+
+S2 – Attack Surface Evaluation  
+S2.1 – Entry Point (user interface, API, document input)  
+S2.2 – Access Level or Permissions  
+S2.3 – Potential Impact Radius  
+S2.4 – Exploit Chain or Escalation Pathway  
+
+S3 – Adversarial Inference Model  
+S3.1 – Likelihood of Targeting (based on asset value)  
+S3.2 – Likelihood of Success (based on existing defenses)  
+S3.3 – Actor Capability and Intent  
+S3.4 – Confidence Level / Uncertainty Range  
+
+S4 – Defensive Alignment Node  
+S4.1 – Existing Controls or Countermeasures  
+S4.2 – Detection Methods (AI or Human-in-the-loop)  
+S4.3 – Risk Acceptance Threshold  
+S4.4 – Recommended Action or Watch Flag  
+
+=================================================================
+
+[End of SENTINEL v1.0 Template]
