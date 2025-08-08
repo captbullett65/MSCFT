@@ -15,6 +15,14 @@ The Master Swarm Consensus Forecasting Template (MSCFT), including all released 
 >  Any reuse of MSCFT’s version labels, internal node architecture, or derivative forecasting logic without attribution  constitutes a violation of authorship integrity and intellectual design origin.
 See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
+⚠️ Compatibility Notice:
+Due to input character length constraints,
+Microsoft Copilot (Edge/Windows) is not compatible with executing MSCFT v4.2 
+or SENTINEL v1.0 templates. 
+These structured templates exceed Copilot's prompt limits
+and will truncate or fail. For full compatibility and proper node execution,
+use ChatGPT Plus or Enterprise with persistent chat enabled.
+
 🧾 The MSCFT Protocol is formally published and timestamped on Zenodo.
 
 Zenodo Record:
