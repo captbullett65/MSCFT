@@ -177,7 +177,8 @@ Note: While the MSCFT system structures forecasts automatically after setup, you
 
 ---
 
-Update – Sentinel v1.0 Integration
+## Sentinel v1.0 Integration ##
+
 The MSCFT v4.2 forecasting template now includes Sentinel v1.0, a structured security threat evaluation module designed for adversarial and high-risk environments. Sentinel runs in parallel with MSCFT, using a fixed node sequence (S0–S4) to identify, classify, and assess potential threats to system integrity, data security, and AI-agent behavior.
 This integration enables dual-mode operation: precise forecasting with MSCFT and real-time security evaluation with Sentinel, ensuring all outputs are both analytically sound and security-validated.
 
