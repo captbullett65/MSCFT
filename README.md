@@ -171,7 +171,7 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 ---
 
 
-📘 Official Reference: [MSCFT v4.2 Guidebook PDF](https://github.com/captbullett65/MSCFT/blob/main/MSCFT%20v4.2%20Guidebook.pdf)
+📘 Official Reference: [MSCFT v4.2 Guidebook PDF](https://github.com/captbullett65/MSCFT/blob/main/MSCFT%204.2%20GuideBook%20v2.pdf)
 
 Note: While the MSCFT system structures forecasts automatically after setup, you are still responsible for verifying that the template has executed correctly. This is a human-in-the-loop system—errors can occur, and it’s your role to catch and correct them when needed. MSCFT enables structured forecasting, but it is not a flawless or fully autonomous process.
 
