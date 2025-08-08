@@ -175,6 +175,13 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 
 Note: While the MSCFT system structures forecasts automatically after setup, you are still responsible for verifying that the template has executed correctly. This is a human-in-the-loop system—errors can occur, and it’s your role to catch and correct them when needed. MSCFT enables structured forecasting, but it is not a flawless or fully autonomous process.
 
+---
+
+Update – Sentinel v1.0 Integration
+The MSCFT v4.2 forecasting template now includes Sentinel v1.0, a structured security threat evaluation module designed for adversarial and high-risk environments. Sentinel runs in parallel with MSCFT, using a fixed node sequence (S0–S4) to identify, classify, and assess potential threats to system integrity, data security, and AI-agent behavior.
+This integration enables dual-mode operation: precise forecasting with MSCFT and real-time security evaluation with Sentinel, ensuring all outputs are both analytically sound and security-validated.
+
+https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt
 
 ---
 
