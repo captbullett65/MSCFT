@@ -106,11 +106,6 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
 // Mode: Structured Swarm (7 Nodes, MSCFT.MS-CMT applied internally)
-// Node Invocation Declaration: Nodes Used:
-- A, B, B.1, B.2, B.3, C, D, D.1, D.2, E, F, F.1, F.2, F.3, F.4, F.5, F.6.
-- G, G.1, G.2, G.3, G.4, G.5, G.6
-
-// Cleaned formatting for node declarations and internal structure clarity
 
 // Node A: Research Node — framing, question structure, source listing
 A.1 – Forecast Question
@@ -207,7 +202,13 @@ F.4.b – Time-Bound Access or Context Filters
 F.4.c – Governance-Specific Retrieval Guardrails
 F.5 – Impact on Forecast Validity
 F.6 – Human-in-the-Loop Review and Injection Mitigation
-F.6.a - For platforms like Metaculus with auto-withdrawal functionality, forecasters must re-affirm or update forecasts before the auto-withdrawal threshold (typically 10% of question lifetime) to maintain scoring integrity and avoid invalidation of stale forecasts.
+F.6.a - For platforms like Metaculus with auto-withdrawal functionality,
+forecasters must re-affirm or update forecasts before,
+the auto-withdrawal threshold (typically 10% of question lifetime)
+to maintain scoring integrity and avoid invalidation of stale forecasts.  
+Metaculus uses a continuous probability slider; for each forecast, 
+the human forecaster must provide slider cutpoints 
+(see Probability Allocation: Metaculus slider cutpoints).
 
 // Node G: Meta-Curation and Data Integrity Node
 G.1 – Source Provenance and Input Traceability
@@ -221,18 +222,6 @@ G.6 – Final Integrity Verification
 G.7.a – Framework Compliance
 G.7.b – Versioning and Role Alignment
 G.7.c – Audit Log Availability
-
-
-Refinement & Analysis
-Key Developments:
-• \[Summarize major events or dynamics relevant to the forecast question.]
-• \[Note polling trends, market behavior, public sentiment, or institutional actions.]
-• \[Include controversies, endorsements, or strategic shifts if relevant.]
-
-Interpretation:
-\[Explain how the developments influence your forecast.
-Discuss possible pathways, leverage points, or conditional dependencies.
-Summarize why you're leaning a certain way.]
 
 Inside-Outside View Structuring:
 
@@ -264,13 +253,8 @@ For multi-range buckets:
 • Between 13 and 16:   \[   ]%
 • Between 17 and 21:   \[   ]%
 • 22 or more:          \[   ]%
-[Addition to Probability Allocation Section for Metaculus Slider Questions]
 
-Note for Metaculus Slider Questions:  
-Metaculus uses a continuous probability slider rather than discrete buckets.
-For accurate modeling, the human forecaster must manually provide
-the slider’s defined value ranges. This typically includes five thresholds:  
-
+Metaculus slider cutpoints (required):
 • Less than   [X]%  
 • Lower 25%   (e.g., –Y%)  
 • Median      (e.g., –Z%)  
@@ -281,19 +265,6 @@ These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
 as shown in the Metaculus interface. Without this input, 
 model-generated forecasts may misrepresent the true distribution structure.
-
-// BIN Model Substructure (Bias, Information, Noise)
-Bias –
-\[Describe systemic, institutional, cognitive, or structural biases.]
-
-Information –
-\[Assess quality, timeliness, resolution, credibility, and gaps in data.]
-
-Noise –
-\[Identify irrelevant, misleading, or low-signal data distortions.]
-
-//Final Forecast Summary
-Forecast: \[Summarize the most likely outcome and your top bucket(s)]
 
 // Rationale for Probability Distribution
 Rationale: \[Explain the reasoning behind your distribution. What supports each weighting?]
