@@ -139,9 +139,28 @@ B.5.b – AI Agent Risk Modeling
 // (4) Re-evaluate for overconfidence
 
 // Node B.2: BIN Model Substructure (Bias, Information, Noise)
+Node B.2: BIN Model Substructure (Bias, Information, Noise)
+
 Bias –
+Monitor source, framing, and algorithmic bias. 
+Use origin-blind review before weighting.
+Log dissent levels as signal, not error. 
+Detect and flag coordinated or patterned inputs.
+Adjust or reduce weights on flagged items; record actions taken.
+
 Information –
+Include only data that directly reduces
+uncertainty on the resolution variable. 
+Record provenance, method, timestamp, and reliability. 
+Prioritize primary and independent sources. 
+Apply recency decay. Require cross-source confirmation 
+before weight increases. Keep immutable snapshots tied to forecast ID.
+
 Noise –
+Identify and remove duplicates, stale data, and irrelevant context.
+Use robust estimators to limit outlier impact.
+Differentiate rare valid events from bad data via cross-checks.
+Monitor for drift; re-source if triggered. Hold suspect data for manual review before inclusion
 
 // Node B.3: Uncertainty Quantification Method
 // (1) Point estimate
