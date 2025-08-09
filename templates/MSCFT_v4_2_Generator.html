@@ -1,65 +1,68 @@
 <!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-<title>MSCFT v4.2 Generator (Plain Text, S-Mode Safe)</title>
-<style>
-  body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 12px; }
-  label { display:block; margin-top:12px; font-weight:600; }
-  textarea, input { width:100%; box-sizing:border-box; padding:8px; }
-  textarea { min-height: 72px; }
-  .row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
-  .buttons { margin-top:16px; display:flex; gap:8px; flex-wrap:wrap; }
-  #output { min-height: 520px; white-space:pre; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-  small { color:#444; }
-</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSCFT v4.2 Generator (Plain Text, S-Mode Safe)</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 12px; }
+    label { display:block; margin-top:12px; font-weight:600; }
+    textarea, input { width:100%; box-sizing:border-box; padding:8px; }
+    textarea { min-height: 72px; }
+    .row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+    .buttons { margin-top:16px; display:flex; gap:8px; flex-wrap:wrap; }
+    #output { min-height: 520px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; white-space: pre; }
+    small { color:#444; }
+  </style>
+</head>
 <body>
   <h1>MSCFT v4.2 Generator (Plain Text)</h1>
   <p><small>Outputs strict plain text. No markdown, no ASCII art, no inline citations. Unfilled fields become “[Insert]”.</small></p>
 
-  <form id="form">
-    <label>Forecast Title</label>
-    <input id="title" autocomplete="off">
+  <form id="form" novalidate>
+    <label for="title">Forecast Title</label>
+    <input id="title" name="title" autocomplete="off">
 
-    <label>Forecaster</label>
-    <input id="forecaster" autocomplete="off">
+    <label for="forecaster">Forecaster</label>
+    <input id="forecaster" name="forecaster" autocomplete="off">
 
-    <label>Forecast Question</label>
-    <textarea id="question"></textarea>
+    <label for="question">Forecast Question</label>
+    <textarea id="question" name="question"></textarea>
 
-    <label>Clarifications</label>
-    <textarea id="clarifications"></textarea>
+    <label for="clarifications">Clarifications</label>
+    <textarea id="clarifications" name="clarifications"></textarea>
 
-    <label>Key Sources</label>
-    <textarea id="sources"></textarea>
+    <label for="sources">Key Sources</label>
+    <textarea id="sources" name="sources"></textarea>
 
-    <label>Key Developments</label>
-    <textarea id="developments"></textarea>
+    <label for="developments">Key Developments</label>
+    <textarea id="developments" name="developments"></textarea>
 
-    <label>Interpretation</label>
-    <textarea id="interpretation"></textarea>
+    <label for="interpretation">Interpretation</label>
+    <textarea id="interpretation" name="interpretation"></textarea>
 
     <div class="row">
       <div>
-        <label>Inside View</label>
-        <textarea id="inside"></textarea>
+        <label for="inside">Inside View</label>
+        <textarea id="inside" name="inside"></textarea>
       </div>
       <div>
-        <label>Outside View</label>
-        <textarea id="outside"></textarea>
+        <label for="outside">Outside View</label>
+        <textarea id="outside" name="outside"></textarea>
       </div>
     </div>
 
-    <label>Data Anomaly & Source Integrity Log</label>
-    <textarea id="anomalies"></textarea>
+    <label for="anomalies">Data Anomaly &amp; Source Integrity Log</label>
+    <textarea id="anomalies" name="anomalies"></textarea>
 
     <div class="row">
       <div>
-        <label>Yes % (binary)</label>
-        <input id="yespct" type="number" min="0" max="100" step="1">
+        <label for="yespct">Yes % (binary)</label>
+        <input id="yespct" name="yespct" type="number" min="0" max="100" step="1" inputmode="numeric">
       </div>
       <div>
-        <label>No % (binary)</label>
-        <input id="nopct" type="number" min="0" max="100" step="1">
+        <label for="nopct">No % (binary)</label>
+        <input id="nopct" name="nopct" type="number" min="0" max="100" step="1" inputmode="numeric">
       </div>
     </div>
 
@@ -71,8 +74,8 @@
     </div>
   </form>
 
-  <label style="margin-top:18px;">Output (plain text)</label>
-  <textarea id="output" readonly></textarea>
+  <label for="output" style="margin-top:18px;">Output (plain text)</label>
+  <textarea id="output" readonly aria-label="MSCFT output"></textarea>
 
 <script>
 (function(){
@@ -94,14 +97,13 @@
     const yespct = $('yespct').value;
     const nopct = $('nopct').value;
 
-    // Optional sanity check: if both present, ensure they sum to 100
     let warn = "";
     if (yespct && nopct) {
       const sum = parseInt(yespct,10) + parseInt(nopct,10);
       if (sum !== 100) warn = `NOTE: Yes% + No% = ${sum} (should be 100). Adjust before publishing.\n\n`;
     }
 
-    const txt = warn + 
+    const txt = warn +
 `MSCFT Template Version 4.2 SWARM nodes and BIN Integrated —
 Node D for Interpretation; Node E for Time Series Modeling;
 Node F for Retrieval-Augmented Generation (RAG) Added
@@ -309,8 +311,7 @@ Why Might You Be Wrong?
   $('gen').addEventListener('click', build);
 
   $('copy').addEventListener('click', async () => {
-    const out = $('output').value;
-    if (!out.trim()) build();
+    if (!$('output').value.trim()) build();
     try {
       await navigator.clipboard.writeText($('output').value);
       alert('Copied to clipboard.');
@@ -321,11 +322,14 @@ Why Might You Be Wrong?
 
   $('download').addEventListener('click', () => {
     if (!$('output').value.trim()) build();
-    const blob = new Blob([$('<output>').value], {type: 'text/plain'});
+    const outEl = document.getElementById('output');
+    const blob = new Blob([outEl.value], { type: 'text/plain' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = 'forecast.txt';
+    document.body.appendChild(a);
     a.click();
+    a.remove();
     URL.revokeObjectURL(a.href);
   });
 })();
