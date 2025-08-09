@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>MSCFT v4.2 Generator (Plain Text, S-Mode Safe)</title>
+<style>
+  body { font-family: system-ui, Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 12px; }
+  label { display:block; margin-top:12px; font-weight:600; }
+  textarea, input { width:100%; box-sizing:border-box; padding:8px; }
+  textarea { min-height: 72px; }
+  .row { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+  .buttons { margin-top:16px; display:flex; gap:8px; flex-wrap:wrap; }
+  #output { min-height: 520px; white-space:pre; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  small { color:#444; }
+</style>
+<body>
+  <h1>MSCFT v4.2 Generator (Plain Text)</h1>
+  <p><small>Outputs strict plain text. No markdown, no ASCII art, no inline citations. Unfilled fields become “[Insert]”.</small></p>
+
+  <form id="form">
+    <label>Forecast Title</label>
+    <input id="title" autocomplete="off">
+
+    <label>Forecaster</label>
+    <input id="forecaster" autocomplete="off">
+
+    <label>Forecast Question</label>
+    <textarea id="question"></textarea>
+
+    <label>Clarifications</label>
+    <textarea id="clarifications"></textarea>
+
+    <label>Key Sources</label>
+    <textarea id="sources"></textarea>
+
+    <label>Key Developments</label>
+    <textarea id="developments"></textarea>
+
+    <label>Interpretation</label>
+    <textarea id="interpretation"></textarea>
+
+    <div class="row">
+      <div>
+        <label>Inside View</label>
+        <textarea id="inside"></textarea>
+      </div>
+      <div>
+        <label>Outside View</label>
+        <textarea id="outside"></textarea>
+      </div>
+    </div>
+
+    <label>Data Anomaly & Source Integrity Log</label>
+    <textarea id="anomalies"></textarea>
+
+    <div class="row">
+      <div>
+        <label>Yes % (binary)</label>
+        <input id="yespct" type="number" min="0" max="100" step="1">
+      </div>
+      <div>
+        <label>No % (binary)</label>
+        <input id="nopct" type="number" min="0" max="100" step="1">
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button type="button" id="gen">Generate</button>
+      <button type="button" id="copy">Copy to Clipboard</button>
+      <button type="button" id="download">Download .txt</button>
+      <button type="reset">Clear</button>
+    </div>
+  </form>
+
+  <label style="margin-top:18px;">Output (plain text)</label>
+  <textarea id="output" readonly></textarea>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const blank = v => (v && v.trim().length ? v.trim() : "[Insert]");
+  const pct = v => (v && v.toString().trim().length ? v.toString().trim() : "  ");
+
+  function build() {
+    const title = $('title').value;
+    const forecaster = $('forecaster').value;
+    const question = $('question').value;
+    const clar = $('clarifications').value;
+    const sources = $('sources').value;
+    const dev = $('developments').value;
+    const interp = $('interpretation').value;
+    const inside = $('inside').value;
+    const outside = $('outside').value;
+    const anom = $('anomalies').value;
+    const yespct = $('yespct').value;
+    const nopct = $('nopct').value;
+
+    // Optional sanity check: if both present, ensure they sum to 100
+    let warn = "";
+    if (yespct && nopct) {
+      const sum = parseInt(yespct,10) + parseInt(nopct,10);
+      if (sum !== 100) warn = `NOTE: Yes% + No% = ${sum} (should be 100). Adjust before publishing.\n\n`;
+    }
+
+    const txt = warn + 
+`MSCFT Template Version 4.2 SWARM nodes and BIN Integrated —
+Node D for Interpretation; Node E for Time Series Modeling;
+Node F for Retrieval-Augmented Generation (RAG) Added
+Nodes A, B, B.1, B.2, B.3, C, D, D.1, D.2, D.3, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7,
+F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Declared.
+
+Forecast Title: ${blank(title)}
+Forecaster: ${blank(forecaster)}
+
+Initial Question Framing
+Question:
+${blank(question)}
+
+Clarifications:
+${blank(clar)}
+
+Key Sources:
+${blank(sources)}
+
+Refinement & Analysis
+Key Developments:
+${blank(dev)}
+
+Interpretation:
+${blank(interp)}
+
+Inside-Outside View Structuring
+Inside View:
+${blank(inside)}
+Outside View:
+${blank(outside)}
+
+Data Anomaly & Source Integrity Log
+${blank(anom)}
+
+// Structured Swarm Section — Applies only if forecast used multi-node reasoning
+// Mode: Structured Swarm (7 Nodes, MSCFT.MS-CMT applied internally)
+// Node Invocation Declaration: Nodes Used:
+- A, B, B.1, B.2, B.3, C, D, D.1, D.2, E, F, F.1, F.2, F.3, F.4, F.5, F.6.
+- G, G.1, G.2, G.3, G.4, G.5, G.6
+
+// Node A: Research Node — framing, question structure, source listing
+A.1 – Forecast Question
+${blank(question)}
+A.2 – Resolution Source
+[Insert official source here]
+A.3 – Forecast Window
+[Insert window]
+A.4 – Source Protocol Indexing
+A.4.a – Legal or Policy Framework Referenced
+A.4.b – Organizational or System-Level Constraints
+A.4.c – Governance Reference (if applicable)
+
+// Node B: Analytical Node — probability estimate, reasoning
+B.1 – Known Drivers and Catalysts
+[Insert]
+B.2 – Limiting Factors
+[Insert]
+B.3 – Actor Incentives and Strategic Intent
+[Insert]
+B.4 – Historical Analogues or Relevant Models
+[Insert]
+B.5 – Risk Model Integration
+B.5.a – Expected Value or Risk Exposure Range
+[Insert]
+B.5.b – AI Agent Risk Modeling
+[Insert]
+
+// Node B.1: Multi-Step “Yes vs. No” Reflection Prompt (for binary questions only)
+// (1) Rephrase the forecast as a binary statement
+// (2) Argue Yes and No sides
+// (3) Aggregate and assign forecast percentage
+// (4) Re-evaluate for overconfidence
+
+// Node B.2: BIN Model Substructure (Bias, Information, Noise)
+Bias –
+[Insert]
+Information –
+[Insert]
+Noise –
+[Insert]
+
+// Node B.3: Uncertainty Quantification Method
+// (1) Point estimate
+// (2) 90% CI
+// (3) Factors that widen/narrow range
+// (4) Express noise/variance
+
+// Node C: Synthesis Node — applies MSCFT.MS-CMT logic
+C.1 – Scenario Buckets or Ranges
+[Insert]
+C.2 – Conditional Relationships Between Buckets
+[Insert]
+C.3 – AI Agent Taxonomy Alignment
+C.3.a – Agent Lifecycle Tag: Pilot / Departmental / Enterprise-Wide
+C.3.b – Governance Constraints and Deployment Stage
+C.4 – Final Forecast Summary
+[Insert]
+C.5 – Rationale for Probability Distribution
+[Insert]
+C.6 – Forecast Caveats and Error Pathways
+[Insert]
+
+// Node D: Interpretation Node — Markov chain, entropy, or KL divergence
+D.1 – Entropy or Volatility Classification
+[Insert]
+D.2 – Markov Memory or Decay Factors
+[Insert]
+D.3 – KL Divergence from Historical Baseline
+[Insert]
+D.4 – Edge Case Divergence and Rare Events
+[Insert]
+D.5 – Optional: Human Analyst Override
+[Insert]
+
+// Node D.1 Entropy Interpretation — H(p) = –∑ p log p
+// Node D.2 Optional Symbolic Logic: Stack, Trie, Tree, Graph
+
+// Node E: Time Series Modeling Node
+E.1 – Anchor Point Identification
+[Insert]
+E.2 – Time Lag or Delay Window
+[Insert]
+E.3 – Forecast Window Resolution Points
+[Insert]
+E.4 – Time Series Feature Commentary (ARIMA, rolling average, etc.)
+[Insert]
+E.5 – ETS
+[Insert]
+E.6 – Fourier series
+[Insert]
+E.7 – Spectral entropy
+[Insert]
+
+// Node F: Retrieval-Augmented Generation (RAG) Node
+F.1 – Objective of Retrieval
+[Insert]
+F.2 – Source Landscape and Corpus Overview
+[Insert]
+F.3 – Relevance Mapping to Forecast Scope
+[Insert]
+F.4 – Retrieval Scope Boundaries and Guardrails
+F.4.a – Domain Constraints or Index Sharding
+[Insert]
+F.4.b – Time-Bound Access or Context Filters
+[Insert]
+F.4.c – Governance-Specific Retrieval Guardrails
+[Insert]
+F.5 – Impact on Forecast Validity
+[Insert]
+F.6 – Human-in-the-Loop Review and Injection Mitigation
+[Insert]
+F.6.a - For platforms like Metaculus with auto-withdrawal functionality, forecasters must re-affirm or update forecasts before the auto-withdrawal threshold (typically 10% of question lifetime) to maintain scoring integrity and avoid invalidation of stale forecasts.
+
+// Node G: Meta-Curation and Data Integrity Node
+G.1 – Source Provenance and Input Traceability
+[Insert]
+G.2 – Tool Use Disclosure and Agent Declaration
+[Insert]
+G.3 – Role Assignment and Input Segmentation
+[Insert]
+G.4 – Adversarial or Redundant Forecast Resolution
+[Insert]
+G.5 – Agent Execution Log and Governance Tracking
+[Insert]
+G.6 – Final Integrity Verification
+[Insert]
+
+// Optional Node G.7 – Governance and Compliance Declaration
+G.7.a – Framework Compliance
+[Insert]
+G.7.b – Versioning and Role Alignment
+[Insert]
+G.7.c – Audit Log Availability
+[Insert]
+
+Probability Allocation
+Yes: [${pct(yespct)}]%
+No:  [${pct(nopct)}]%
+
+// BIN Model Substructure (Bias, Information, Noise)
+Bias –
+[Insert]
+Information –
+[Insert]
+Noise –
+[Insert]
+
+//Final Forecast Summary
+Forecast:
+[Summarize the most likely outcome and your top bucket(s)]
+
+Rationale:
+[Explain the reasoning behind your distribution. What supports each weighting?]
+
+// Forecast Caveats and Error Pathways
+Why Might You Be Wrong?
+1. [Insert potential forecast error #1]
+2. [Insert potential forecast error #2]
+3. [Insert potential forecast error #3]
+`;
+    $('output').value = txt;
+  }
+
+  $('gen').addEventListener('click', build);
+
+  $('copy').addEventListener('click', async () => {
+    const out = $('output').value;
+    if (!out.trim()) build();
+    try {
+      await navigator.clipboard.writeText($('output').value);
+      alert('Copied to clipboard.');
+    } catch (e) {
+      alert('Copy failed. Select the text and press Ctrl+C.');
+    }
+  });
+
+  $('download').addEventListener('click', () => {
+    if (!$('output').value.trim()) build();
+    const blob = new Blob([$('<output>').value], {type: 'text/plain'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'forecast.txt';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+})();
+</script>
+</body>
+</html>
