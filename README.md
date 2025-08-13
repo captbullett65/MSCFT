@@ -550,8 +550,10 @@ This project provides a standardized, auditable process for producing and mainta
  
  https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md 
 
+---
 
-//* Latest version for MSCFT, FORGE, Mathematics,and Sentinal /// 
+## Latest version for MSCFT, FORGE, Mathematics,and Sentinal ##
+
 
 This repository now contains four main current templates, each designed for direct use in your LLM’s input box:
 
