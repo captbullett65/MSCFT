@@ -103,6 +103,23 @@ SECTION: work
 SECTION: compute
 SECTION: checks
 SECTION: result
+
+SECTION: graphical insight (optional)
+Provide a short qualitative description of the function’s behavior over its real domain, 
+and note any significant changes in curvature, monotonicity, or asymptotics.  
+If applicable, describe the behavior in the complex domain.  
+Keep it concise (2–4 sentences).  
+
+SECTION: cognitive tag (optional)
+Label the reasoning steps and modes used in the solution.  
+Examples: domain analysis, symbolic evaluation, numerical approximation, 
+complex extension, dimensional analysis, proof by induction, etc.
+
+SECTION: generalization (optional)
+Briefly describe how the same reasoning approach could be applied to other 
+functions or problems with similar structure. Highlight any recurring patterns 
+or reusable solution strategies.
+
 SECTION: code (optional)
 
 
