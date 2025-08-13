@@ -551,24 +551,25 @@ This project provides a standardized, auditable process for producing and mainta
  https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md 
 
 
-//* Latest version /// 
+//* Latest version 4.2 /// 
+
+Here’s the expanded unordered list version for your README:
+
+---
+
+This repository now contains four main current templates, each designed for direct use in your LLM’s input box:
+
+* **MSCFT (Forecasting)** – A structured forecasting framework that improves prediction accuracy by standardizing context, constraints, and output format. Ideal for consensus forecasting, competitive platforms, and decision-support scenarios.
+* **FORGE (Coding)** – A language-agnostic code generation template that reduces hallucinations, enforces consistent logic, and supports multiple languages including Python, C/C++, Java, and JavaScript/TypeScript.
+* **MATHEMATICS** – A calculation and formula template providing immediate access to structured geometry, algebra, and applied math operations for technical, engineering, and scientific use cases.
+* **SENTINEL (Security)** – A structured security evaluation framework for assessing risks, vulnerabilities, and adversarial scenarios, adaptable for both defensive and investigative applications.
+
+These templates can be run individually or in parallel, enabling forecasting, coding, math, and security workflows to operate together or independently depending on your project needs.
 
 https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6 
 
 ---
 
-//* Old Versions///
-
-- https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_4.1B_With_Node_F_RAG.txt
-- https://github.com/captbullett65/MSCFT/blob/main/templates/4.1B%20(Alpha%20test%20Refractored).txt
-- (https://github.com/captbullett65/MSCFT/blob/main/templates/MSCFT_Template_v4_1B_Beta.txt)
-- [MSCFT Template v3.1D (Delta) – Plain Text Format](https://github.com/captbullett65/MSCFT/blob/main/templates/3.1D)  
-- [MSCFT Template (v3.1C – Standard)](docs/MSCFT-Template-Plain-v3.1C.txt)
-- [MSCFT Template (v3.1C – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1C.txt)
-- [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
-- [MSCFT Template (v3.1B – Standard)](docs/MSCFT-Template-Plain-v3.1B.txt)
-- [MSCFT Template (v3.1B – BIN Tagging Integrated)](docs/MSCFT-Template-Plain-BIN-v3.1B.txt)
-- [BIN Tagging Guide](docs/BIN-Tagging-Guide.md)
 
 ### 🧠 Community & Developer Posts
 - [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework]
@@ -635,7 +636,7 @@ CHANGELOG.md
 ## [4.0 B ] - 2025-07-20
 ## [4.0 A ] - 2025-07-06
 ## [1.3 D]  - 2025-07-05
-## [1.3 B]  - 2025-05-30
+## [1.3 B]  - 2025-05-30 
 
 ### Added
 - Added the full node structure A-G.6 - Declared Nodes: A, B, B.1, B.2, B.3, C,
