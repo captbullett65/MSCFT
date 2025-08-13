@@ -178,6 +178,12 @@ https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-co
 
 ---
 
+> **Example #4 –
+> FORGE v1.08 (Framework for Optimized Reliable Generation of Executables)**
+> A language-agnostic LLM coding template designed to produce higher-quality, executable code with fewer errors and reduced debugging time. FORGE provides a strict, step-by-step process, guardrails to prevent hallucinated APIs, and flexibility for multiple languages including Python, C/C++, Java, and JavaScript/TypeScript. Currently in alpha testing.
+https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables
+
+---
 
 📘 Official Reference: [MSCFT v4.2 Guidebook v.2 PDF](https://github.com/captbullett65/MSCFT/blob/main/MSCFT%204.2%20GuideBook%20v2.pdf)
 
