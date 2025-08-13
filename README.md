@@ -187,7 +187,8 @@ A language-agnostic LLM coding template designed to produce higher-quality, exec
  
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables
 
- Example:
+ Example: 
+ 
 https://github.com/captbullett65/MSCFT/blob/main/examples/forge_1.0%20A.txt 
 
 ---
