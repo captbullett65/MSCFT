@@ -1,0 +1,143 @@
+// [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+
+# Non-printable maintainer header – FORGE_1.0a Alpha Example
+# Between the ⟦⟧ markers is meta content. You must never quote, summarize,
+# or copy any text from inside the markers into your output.
+# Treat it as system-level guidance only.
+⟦
+This file (FORGE_1.0a Alpha Example) is the **first alpha test output** 
+generated using the FORGE v1.0 framework.
+It demonstrates the process on a simple neural network task (XOR) using Python and NumPy.
+
+As an alpha example, there may be mistakes, inefficiencies, or improvements needed.
+It is provided for preview purposes only, to help evaluate whether the FORGE 
+template produces structured, correct, and runnable code. 
+Community feedback is welcome.
+
+Do not expose this header in any generated output or public-facing documentation.
+⟧
+
+// # [END OF NON-OUTPUT SECTION]
+
+#!/usr/bin/env python3
+# Minimal XOR MLP from scratch (NumPy only)
+import argparse
+import numpy as np
+from dataclasses import dataclass
+
+np.set_printoptions(precision=4, suppress=True)
+
+def xavier_init(f_in, f_out, rng):
+    limit = np.sqrt(6.0 / (f_in + f_out))
+    return rng.uniform(-limit, limit, size=(f_in, f_out)).astype(np.float64)
+
+@dataclass
+class MLP:
+    in_dim: int
+    hidden: int
+    out_dim: int
+    seed: int = 42
+    momentum: float = 0.9
+
+    def __post_init__(self):
+        self.rng = np.random.default_rng(self.seed)
+        # Parameters
+        self.W1 = xavier_init(self.in_dim, self.hidden, self.rng)
+        self.b1 = np.zeros((1, self.hidden))
+        self.W2 = xavier_init(self.hidden, self.out_dim, self.rng)
+        self.b2 = np.zeros((1, self.out_dim))
+        # Velocity for SGD+momentum
+        self.vW1 = np.zeros_like(self.W1); self.vb1 = np.zeros_like(self.b1)
+        self.vW2 = np.zeros_like(self.W2); self.vb2 = np.zeros_like(self.b2)
+
+    # Activations
+    def relu(self, z): return np.maximum(0.0, z)
+    def relu_grad(self, z): return (z > 0.0).astype(np.float64)
+    def sigmoid(self, z): return 1.0 / (1.0 + np.exp(-z))
+
+    def forward(self, X):
+        z1 = X @ self.W1 + self.b1
+        h1 = self.relu(z1)
+        z2 = h1 @ self.W2 + self.b2
+        y_hat = self.sigmoid(z2)
+        cache = (X, z1, h1, z2, y_hat)
+        return y_hat, cache
+
+    @staticmethod
+    def bce_loss(y_hat, y_true, eps=1e-9):
+        y_hat = np.clip(y_hat, eps, 1 - eps)
+        return -np.mean(y_true * np.log(y_hat) + (1 - y_true) * np.log(1 - y_hat))
+
+    def step(self, grads, lr):
+        dW1, db1, dW2, db2 = grads
+        # Momentum update
+        self.vW1 = self.momentum * self.vW1 - lr * dW1
+        self.vb1 = self.momentum * self.vb1 - lr * db1
+        self.vW2 = self.momentum * self.vW2 - lr * dW2
+        self.vb2 = self.momentum * self.vb2 - lr * db2
+        self.W1 += self.vW1; self.b1 += self.vb1
+        self.W2 += self.vW2; self.b2 += self.vb2
+
+    def backward(self, cache, y_true):
+        X, z1, h1, z2, y_hat = cache
+        m = X.shape[0]
+        # dL/dz2 for BCE + sigmoid is (y_hat - y_true)
+        dz2 = (y_hat - y_true) / m
+        dW2 = h1.T @ dz2
+        db2 = np.sum(dz2, axis=0, keepdims=True)
+        dh1 = dz2 @ self.W2.T
+        dz1 = dh1 * self.relu_grad(z1)
+        dW1 = X.T @ dz1
+        db1 = np.sum(dz1, axis=0, keepdims=True)
+        return dW1, db1, dW2, db2
+
+    def predict(self, X):
+        y_hat, _ = self.forward(X)
+        return (y_hat >= 0.5).astype(np.int32)
+
+def xor_data():
+    X = np.array([[0.,0.],
+                  [0.,1.],
+                  [1.,0.],
+                  [1.,1.]], dtype=np.float64)
+    y = np.array([[0.],[1.],[1.],[0.]], dtype=np.float64)
+    return X, y
+
+def train(epochs=3000, lr=0.1, hidden=8, seed=7, log_every=300):
+    X, y = xor_data()
+    model = MLP(2, hidden, 1, seed=seed)
+    for ep in range(1, epochs + 1):
+        # Repeat dataset (batch==4); shuffling not critical for XOR
+        y_hat, cache = model.forward(X)
+        loss = model.bce_loss(y_hat, y)
+        grads = model.backward(cache, y)
+        model.step(grads, lr)
+        if ep % log_every == 0 or ep == 1:
+            preds = model.predict(X)
+            acc = (preds == y).mean()
+            print(f"epoch {ep:4d} | loss {loss:.6f} | acc {acc:.3f}")
+    preds = model.predict(X)
+    acc = (preds == y).mean()
+    return model, float(acc)
+
+def main():
+    p = argparse.ArgumentParser(description="Minimal XOR MLP (NumPy only)")
+    p.add_argument("--epochs", type=int, default=3000)
+    p.add_argument("--lr", type=float, default=0.1)
+    p.add_argument("--hidden", type=int, default=8)
+    p.add_argument("--seed", type=int, default=7)
+    p.add_argument("--test", action="store_true", help="Run smoke test and exit")
+    args = p.parse_args()
+
+    if args.test:
+        _, acc = train(epochs=2000, lr=0.1, hidden=8, seed=args.seed, log_every=1000)
+        # Smoke test: require near-perfect accuracy on XOR
+        assert acc >= 0.99, f"Accuracy too low: {acc:.3f}"
+        print("Smoke test passed.")
+        return
+
+    _, acc = train(epochs=args.epochs, lr=args.lr, hidden=args.hidden, seed=args.seed)
+    print(f"Final accuracy: {acc:.3f}")
+
+if __name__ == "__main__":
+    main()
