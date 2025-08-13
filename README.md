@@ -551,25 +551,26 @@ This project provides a standardized, auditable process for producing and mainta
  https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md 
 
 
-//* Latest version 4.2 /// 
-
-Here’s the expanded unordered list version for your README:
-
----
+//* Latest version for MSCFT, FORGE, Mathematics,and Sentinal /// 
 
 This repository now contains four main current templates, each designed for direct use in your LLM’s input box:
 
 * **MSCFT (Forecasting)** – A structured forecasting framework that improves prediction accuracy by standardizing context, constraints, and output format. Ideal for consensus forecasting, competitive platforms, and decision-support scenarios.
-* **FORGE (Coding)** – A language-agnostic code generation template that reduces hallucinations, enforces consistent logic, and supports multiple languages including Python, C/C++, Java, and JavaScript/TypeScript.
+https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6 
+  
+* **FORGE (Coding)** – A language-agnostic code generation template that reduces hallucinations, enforces consistent logic, and supports multiple languages including Python, C/C++, Java, and JavaScript/TypeScript.     https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables 
+  
 * **MATHEMATICS** – A calculation and formula template providing immediate access to structured geometry, algebra, and applied math operations for technical, engineering, and scientific use cases.
+https://github.com/captbullett65/MSCFT/blob/main/templates/MATHEMATICS_v1.0_Template.txt
+  
 * **SENTINEL (Security)** – A structured security evaluation framework for assessing risks, vulnerabilities, and adversarial scenarios, adaptable for both defensive and investigative applications.
+https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt
 
 These templates can be run individually or in parallel, enabling forecasting, coding, math, and security workflows to operate together or independently depending on your project needs.
 
-https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6 
+Note: The FORGE, MATHEMATICS, and SENTINEL templates are still in testing phases. Outputs generated using these templates must be carefully reviewed for accuracy and reliability—they should not be assumed correct solely because they were produced by an LLM. Additional validation and manual checks are strongly recommended. Feedback and contributions to improve these templates are welcome. 
 
 ---
-
 
 ### 🧠 Community & Developer Posts
 - [Structured Forecasting Swarms with GPT-4o: MSCFT 4.0A and the ABC Node Framework]
