@@ -183,6 +183,10 @@ FORGE v1.08 (Framework for Optimized Reliable Generation of Executables) — A l
 
 This example demonstrates how to test the FORGE template workflow in a lightweight, repeatable way. Simply add the FORGE template into the ChatGPT text box, let it generate your code, then run that code in Google Colab. This approach works around Windows S-mode restrictions and is also useful for quickly verifying that ChatGPT-generated Python (or other supported languages) runs correctly. While Colab supports many languages, Python is the most common choice for fast, accessible testing.
 
+FORGE v1.0 — ChatGPT Helper for Code Generation
+Try the FORGE v1.0 GPT—a custom ChatGPT assistant that preloads our structured code template and helps generate clean, deterministic, modular code across Python, C++, Java, JS/TS, and more.
+Opens instantly with your template ready—just click link: https://chatgpt.com/g/g-689ea1c3aa6c81919683d75103b09bc3-forge-v-1-0
+
  Template:
  
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables
