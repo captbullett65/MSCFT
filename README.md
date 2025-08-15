@@ -385,6 +385,12 @@ and auditing long-range, short-range forecasts across domains such as innovation
 and public policy. This repository supports consistent forecasting practices for
 projects like the Good Judgment Open Vehicle Innovation Challenge (2025 & 2027), enabling transparent, high-quality judgment-based analysis.
 
+Try It Live: Use the preloaded MSCFT v4.2 GPT for structured, 
+deterministic swarm consensus forecasting directly in ChatGPT. 
+Supports binary, bucketed, and range forecasts with built-in parameter adherence.
+
+https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-v4-2
+
 ---
 
 **Key Use Cases**
