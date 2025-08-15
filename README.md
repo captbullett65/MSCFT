@@ -577,7 +577,8 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6
 * **MATHEMATICS** – A calculation and formula template providing immediate access to structured geometry, algebra, and applied math operations for technical, engineering, and scientific use cases.
 https://github.com/captbullett65/MSCFT/blob/main/templates/MATHEMATICS_v1.0_Template.txt
 
-* MATHEMATICS (Custom GPT) – A preloaded MSCFT-based mathematics assistant built on the Mathematics v1.0 template. Includes step-by-step verification and LaTeX export commands, supporting structured reasoning for algebra, geometry, calculus, probability, statistics, and applied problem solving. Ready to use with web search, code execution, and image generation enabled. 
+* MATHEMATICS (Custom GPT) – A preloaded MSCFT-based mathematics assistant built on the Mathematics v1.0 template. Includes step-by-step verification and LaTeX export commands, supporting structured reasoning for algebra, geometry, calculus, probability, statistics, and applied problem solving. Ready to use with web search, code execution, and image generation enabled.                                                                         
+  
 https://chatgpt.com/g/g-689f321989848191b020bb58a84521ab-mscft-mathematics-solver
   
 * **SENTINEL (Security)** – A structured security evaluation framework for assessing risks, vulnerabilities, and adversarial scenarios, adaptable for both defensive and investigative applications.
