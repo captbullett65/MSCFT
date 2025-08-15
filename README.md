@@ -587,7 +587,7 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Templat
 * SENTINEL v1.0 – Security Threat Evaluation GPT
 SENTINEL v1.0 is a structured, compliance-oriented framework for analyzing security risks in cyber, physical, and geopolitical contexts. It uses a fixed multi-node evaluation sequence to assess threats, vulnerabilities, adversary patterns, and mitigation strategies.
 
- https://chatgpt.com/g/g-689f39097bbc819194c2a9b967959a44-sentinel-v1-0
+  https://chatgpt.com/g/g-689f39097bbc819194c2a9b967959a44-sentinel-v1-0
 
 These templates can be run individually or in parallel, enabling forecasting, coding, math, and security workflows to operate together or independently depending on your project needs.
 
