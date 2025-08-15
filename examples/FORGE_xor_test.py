@@ -1,3 +1,13 @@
+# forge_xor_test.py
+# Minimal XOR neural network for testing the FORGE template.
+# Runs in Google Colab (or any Python environment with NumPy installed).
+# Purpose: Verify FORGE workflow and serve as a reference example.
+# Usage in Colab:
+#   1. Upload this file to Colab.
+#   2. Run:
+#        !pip install -q numpy
+#        !python forge_xor_test.py --test
+#        !python forge_xor_test.py --epochs 3000 --lr 0.1 --hidden 8 --seed 7
 #!/usr/bin/env python3
 # Minimal XOR MLP from scratch (NumPy only)
 
