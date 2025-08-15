@@ -177,11 +177,11 @@ This structured approach allows legacy platforms (often “2.0-level”) to be u
 https://github.com/captbullett65/MSCFT/blob/main/real-world-example-3-dolphin-communication-msft-vs-arc.md 
 
 ---
+Example #4 –
 
-Example #4 – 
+FORGE v1.08 (Framework for Optimized Reliable Generation of Executables) — A language-agnostic LLM coding template designed to produce higher-quality, executable code with fewer errors and reduced debugging time. FORGE provides a strict, step-by-step process, guardrails to prevent hallucinated APIs, and flexibility for multiple languages including Python, C/C++, Java, and JavaScript/TypeScript. Currently in alpha testing.
 
-FORGE v1.08 (Framework for Optimized Reliable Generation of Executables)
-A language-agnostic LLM coding template designed to produce higher-quality, executable code with fewer errors and reduced debugging time. FORGE provides a strict, step-by-step process, guardrails to prevent hallucinated APIs, and flexibility for multiple languages including Python, C/C++, Java, and JavaScript/TypeScript. Currently in alpha testing.
+This example demonstrates how to test the FORGE template workflow in a lightweight, repeatable way. Simply add the FORGE template into the ChatGPT text box, let it generate your code, then run that code in Google Colab. This approach works around Windows S-mode restrictions and is also useful for quickly verifying that ChatGPT-generated Python (or other supported languages) runs correctly. While Colab supports many languages, Python is the most common choice for fast, accessible testing.
 
  Template:
  
@@ -189,7 +189,9 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%2
 
  Example: 
  
-https://github.com/captbullett65/MSCFT/blob/main/examples/forge_1.0%20A.txt 
+1) https://github.com/captbullett65/MSCFT/blob/main/examples/forge_1.0%20A.txt 
+
+2) https://github.com/captbullett65/MSCFT/blob/main/examples/FORGE_xor_test.py
 
 ---
 
