@@ -163,6 +163,15 @@ Monitor for drift; re-source if triggered. Hold suspect data for manual review b
 // (3) Factors that widen/narrow range
 // (4) Express noise/variance
 
+// **Node B.4 – Historical Analogues or Relevant Models**  
+// The fine-tuning scaling law described by Zhang et al. (2024) provides a relevant empirical model:  
+
+$$
+L(D) \approx C \cdot |D|^{-\Beta} + E
+$$
+
+// where validation loss decreases with dataset size following a power-law relationship until reaching an irreducible error floor. This aligns with prior findings (Zhou et al., 2024; Raghavendra et al., 2024) that modest datasets can already yield meaningful improvements, while larger datasets continue to enhance downstream performance with diminishing returns. This model serves as a benchmark analogue for reasoning about expected fine-tuning efficiency and marginal gains when expanding training data.
+
 // Node C: Synthesis Node — applies MSCFT.MS-CMT logic
 C.1 – Scenario Buckets or Ranges
 C.2 – Conditional Relationships Between Buckets
@@ -183,14 +192,33 @@ D.5 – Optional: Human Analyst Override
 // Node D.1 Entropy Interpretation — H(p) = –∑ p log p
 // Node D.2 Optional Symbolic Logic: Stack, Trie, Tree, Graph
 
-// Node E: Time Series Modeling Node
-E.1 – Anchor Point Identification
-E.2 – Time Lag or Delay Window
-E.3 – Forecast Window Resolution Points
-E.4 – Time Series Feature Commentary (ARIMA, rolling average, etc.)
-E.5 – ETS
-E.6 – Fourier series
-E.7 – Spectral entropy
+gotcha — here’s **Node E** fixed so the formula renders as one clean line on GitHub (no code fences, no indentation, display‑math with `$$ … $$` on a single line).
+
+// **Node E – Time Series Modeling Node**
+E.1 – Anchor Point Identification:
+The scaling law provides a mathematical anchor by modeling validation loss as a function of dataset size rather than time, allowing calibration against observed loss curves.
+
+$$L(D) \approx C \cdot |D|^{-\Beta} + E$$
+
+E.2 – Time Lag or Delay Window:
+Initial rapid improvement corresponds to steep early gains in smaller datasets, followed by delayed incremental improvements as size scales.
+E.3 – Forecast Window Resolution Points:
+Critical inflection points occur where additional data yields sharply diminishing returns, mapping to plateau regions of the power‑law curve.
+E.4 – Time Series Feature Commentary:
+The scaling law behaves like a decay curve used for residual modeling but follows a power‑law slope ($\beta$) that governs the rate of improvement.
+E.5 – ETS:
+Not directly applied, but the curve’s flattening tail is consistent with trend saturation captured in ETS models.
+E.6 – Fourier series:
+Not applicable here since no cyclic behavior is implied.
+E.7 – Spectral entropy:
+Entropy decreases as dataset size increases, stabilizing once the irreducible error ($E$) dominates; this corresponds to lower uncertainty variance at larger scales.
+
+Quick tips to avoid GitHub breaking the math:
+
+* Do not indent the `$$` lines.
+* Keep the entire formula on **one** line between the `$$` delimiters.
+* Use \`.
+
 
 // Node F: Retrieval-Augmented Generation (RAG) Node
 F.1 – Objective of Retrieval
