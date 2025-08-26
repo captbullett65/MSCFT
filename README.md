@@ -15,33 +15,39 @@ The Master Swarm Consensus Forecasting Template (MSCFT), including all released 
 >  Any reuse of MSCFT’s version labels, internal node architecture, or derivative forecasting logic without attribution  constitutes a violation of authorship integrity and intellectual design origin.
 See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
-⚠️ Compatibility Notice:
-Due to input character length constraints,
-Microsoft Copilot (Edge/Windows) is not compatible with executing MSCFT v4.2 
-or SENTINEL v1.0 templates. 
-These structured templates exceed Copilot's prompt limits
-and will truncate or fail. For full compatibility and proper node execution,
-use ChatGPT Plus or Enterprise with persistent chat enabled. limit (10250)
+Got it — let’s streamline and clean up that section so it highlights both of your papers clearly, without the extra version note that belongs elsewhere. Here’s a polished replacement block for your README:
 
-🧾 The MSCFT Protocol is formally published and timestamped on Zenodo.
+---
 
-Zenodo Record:
-🔗 https://zenodo.org/records/15757279
+⚠️ **Compatibility Notice**
+Due to input character length constraints, Microsoft Copilot (Edge/Windows) is not compatible with executing MSCFT v4.2 or SENTINEL v1.0 templates. These structured templates exceed Copilot's prompt limits and will truncate or fail. For full compatibility and proper node execution, use ChatGPT Plus or Enterprise with persistent chat enabled. (limit 10250)
 
-DOI: https://orcid.org/0009-0006-3463-170X
+📄 **Published Papers**
+The MSCFT Protocol and its extensions are formally published and timestamped on Zenodo and OSF.
 
-Version: MSCFT 4.1B — Published June 27, 2025 
+**Paper 1**
+*From Coordination Failure to Scalable AI SWARMS: The MSCFT Protocol for Structured Forecasting and Multi-Agent Alignment among Large Language Model Systems*
+Zenodo Record: [https://zenodo.org/records/15757279](https://zenodo.org/records/15757279)
+DOI: [https://doi.org/10.17605/OSF.IO/Z5K7J](https://doi.org/10.17605/OSF.IO/Z5K7J)
+ORCID: [https://orcid.org/0009-0006-3463-170X](https://orcid.org/0009-0006-3463-170X)
 
-📚 **Citation**  
-If referencing MSCFT in research or documentation, please use the following citation:
+**Citation**
+Helip, B. (2025). *From Coordination Failure to Scalable AI SWARMS: The MSCFT Protocol for Structured Forecasting and Multi-Agent Alignment among Large Language Model Systems.* Zenodo. [https://doi.org/10.17605/OSF.IO/Z5K7J](https://doi.org/10.17605/OSF.IO/Z5K7J)
 
-Helip, B. (2025). *From Coordination Failure to Scalable AI SWARMS: The MSCFT Protocol for Structured Forecasting and Multi-Agent Alignment Among Large Language Model Systems*. Zenodo. https://doi.org/10.17605/OSF.IO/Z5K7J  
-ORCID: https://orcid.org/0009-0006-3463-170X
+---
+
+**Paper 2**
+*From Protocol to Practice: Nodes, Not Agents in Human-in-the-Loop LLM Swarms — The MSCFT Ecosystem and its No-Code Templates (MSCFT, SENTINEL, FORGE, MATHEMATICS) for Forecasting, Coding, Security, and Mathematics*
+Zenodo Record: [https://zenodo.org/records/16945573](https://zenodo.org/records/16945573)
+DOI: [https://doi.org/10.5281/zenodo.16945573](https://doi.org/10.5281/zenodo.16945573)
+ORCID: [https://orcid.org/0009-0006-3463-170X](https://orcid.org/0009-0006-3463-170X)
+
+**Citation**
+Helip, B. (2025). *From Protocol to Practice: Nodes, Not Agents in Human-in-the-Loop LLM Swarms — The MSCFT Ecosystem and its No-Code Templates (MSCFT, SENTINEL, FORGE, MATHEMATICS) for Forecasting, Coding, Security, and Mathematics.* Zenodo. [https://doi.org/10.5281/zenodo.16945573](https://doi.org/10.5281/zenodo.16945573)
 
 ---
 
 **Can MSCFT Be Used Without Forecasting?**
-
 
 Yes. While MSCFT (Master Swarm Consensus Forecasting Template) was originally designed to bring structured foresight and probability modeling into AI-human collaboration, forecasting is not required for the framework to function. MSCFT is fundamentally a modular reasoning and coordination protocol that can operate across up to 26 nodes (A–Z), where each node represents a unique analytical, organizational, or computational role.
 
