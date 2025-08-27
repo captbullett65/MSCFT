@@ -313,7 +313,18 @@ This July 2025 paper introduced prompt templates for binary reasoning, reflectio
 
    Dual-path logic adapted from “Yes vs. No” prompt structures
 
-These papers reinforce MSCFT’s focus on structured reasoning, modular forecasting logic, and scalable multi-agent inference — while also validating the inclusion of retrieval pipelines within transparent swarm architectures.
+These papers reinforce MSCFT’s focus on structured reasoning, modular forecasting logic, and scalable multi-agent inference —
+while also validating the inclusion of retrieval pipelines within transparent swarm architectures.
+
+Node M: Memento CBR Agent
+
+We integrate Node M (Memento CBR Agent) as a pre-executor stage before Node F (Tools / RAG).
+Node M introduces case-based reasoning and memory-driven action guidance without fine-tuning the underlying LLM.
+It maintains a case memory of past (state, action, reward) tuples, retrieves similar cases via cosine similarity, 
+and biases planner actions based on prior outcomes. This enables continual learning and adaptation while preserving the MSCFT flow.
+Implementation is based on:
+Zhou et al., 2025 — Memento: Fine-tuning LLM Agents without Fine-tuning LLMs
+https://arxiv.org/abs/2508.16153
 
 ---
 
