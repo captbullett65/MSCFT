@@ -54,6 +54,16 @@ This version formally integrates:
 - F, F.1, F.2, F.3, F.4, F.5, F.6
 - G, G.1, G.2, G.3, G.4, G.5, G.6
 
+// Integration Note: Node M Placement:
+
+// Node M (Memento CBR Agent) is integrated into the MSCFT process flow as a pre-executor module.
+Its position is directly // before Node F (RAG / Tools), ensuring that memory-based reasoning,
+and case retrieval can guide or refine the action  selection process without interfering with
+upstream nodes (A–E). This placement aligns with the sequential logic of the template: 
+Planner output is first evaluated through memory-driven reasoning (Node M),
+and the resulting action is then executed via Node F. Node M does not replace or override other nodes;
+it supplements the process by adding adaptive, case-based learning between planning and execution.
+
 // MSCFT plain mode locked. No formatting. No ASCII. No inline interpretation. And no deviation. No summarization of the template.
 
 \[END OF NON-OUTPUT SECTION]
@@ -106,6 +116,7 @@ Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
 // Mode: Structured Swarm (7 Nodes, MSCFT.MS-CMT applied internally)
+// ... Node E → Node M (Memento CBR Agent) → Node F → Node G ...
 
 // Node A: Research Node — framing, question structure, source listing
 A.1 – Forecast Question
@@ -219,6 +230,40 @@ Quick tips to avoid GitHub breaking the math:
 * Keep the entire formula on **one** line between the `$$` delimiters.
 * Use \`.
 
+// Node M integrates into the pipeline as a pre-executor stage.
+// It does not override Node A–E logic; it only precedes Node F.
+
+// Node M: Memento CBR Agent
+// Purpose: Provides case-based reasoning and memory-driven action
+guidance without fine-tuning the LLM. 
+Operates as a standalone module between planner output and tool execution.
+
+Inputs:
+Current state s (task description, subtask context, constraints, last observation).
+Action candidates a (proposed by planner or requested from Node A–C).
+Reward signal r (binary or graded success measure from Node F execution).
+Core Functions:
+Write: Append new case (s, a, r) into case memory M after each subtask attempt.
+M ← M ∪ {(s_t, a_t, r_t)}
+Store state text, action string, reward, and embedding vector enc(s_t).
+Read (Non-Parametric Retrieval): For a given state s_t, retrieve Top-K similar cases from memory using cosine similarity over embeddings.
+ReadNP(s_t, M) = TopK sim(enc(s_t), enc(s_i))
+Case Augmentation: Provide retrieved cases (successful or failed) as additional context for LLM decision-making.
+Each retrieved case condensed to: [State summary | Action taken | Reward outcome].
+Action Selection:
+If useful prior cases found: bias planner toward reusing or revising retrieved actions.
+If no close cases: default to planner’s proposed action.
+Memory Growth: Expand memory incrementally across episodes. No fine-tuning of LLM parameters required.
+Outputs:
+Selected action a_t to forward to Node F for execution.
+Updated memory M (persistent case bank).
+Optional Extensions:
+Parametric Retrieval: Learn Q(s,c;θ) to prioritize high-utility cases.
+Memory Curation: Connect to Node G for pruning, deduplication, and noise reduction.
+Uncertainty Signals: Export retrieval similarity scores and entropy to Node D for interpretation.
+Position in Flow:
+Inserted immediately before Node F (Tools / RAG Executor).
+Planner → Node M → Node F.
 
 // Node F: Retrieval-Augmented Generation (RAG) Node
 F.1 – Objective of Retrieval
