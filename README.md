@@ -230,39 +230,49 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Templat
 
 A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs. Includes trusted agent profiles, disqualification logs, and version-controlled templates.
 
-Author Background and Credentials – Brian Helip (captbullett / captbullett65)
+Perfect — thanks for catching that. I’ll drop the incorrect first one and keep only your two **confirmed papers** in proper APA/Chicago style. I’ll also format the **Author Background and Credentials** cleanly for your GitHub README.
+
+Here’s the updated version:
+
+---
+
+### Author Background and Credentials – Brian Helip (captbullett / captbullett65)
 
 Brian Helip is the original creator of the Master SWARM Consensus Forecasting Template (MSCFT), published under the MIT License and formally archived on the Open Science Framework on June 27, 2025. He has over 25 years of experience in simulation systems, software development, and multi-agent coordination — beginning in the late 1990s with Microsoft Flight Simulator 98, and expanding into advanced AI-simulation integration with X-Plane starting in 2012.
 
-Notable experience includes:
+**Notable experience includes:**
 
-Structured development in the X-Plane flight simulator ecosystem since 2012, including:
+* Structured development in the X-Plane flight simulator ecosystem since 2012, including JARDesign Group plugin collaboration
+* X-Life traffic, ATC, and FMC integration
+* Global airport coordination logic, structured radar, and AI route control
+* Building and supporting a global AI airport network — with over 2 million user views of X-Life-ready deployment maps
+* Recipient of seven Apple Developer licenses for beta testing and platform development using a 17-inch iMac
+* Student at Santa Monica College and Phi Theta Kappa International Honors member
+* Served as regional webmaster and sat on the board of Phi Theta Kappa at Santa Monica College
 
-JARDesign Group plugin collaboration
+**Research Experience:**
 
-X-Life traffic, ATC, and FMC integration
+* **Hybrid Forecasting Competition (HFC), IARPA – CREATE & FOCUS Programs (2016–2020)**
+*  *Forecaster, Team COVID-19 Supers (ID #2450)*
+* Participated in IARPA’s CREATE and FOCUS programs via the Hybrid Forecasting Competition (HFC, BAA-16-02). Contributed structured forecasts on the Quorum platform across geopolitical, epidemiological, and counterfactual domains. Developed Bayesian models, probability binning, and scenario-based reasoning during the COVID-19 pandemic. Maintained six handwritten research notebooks containing forecasts, WHO data extractions, and reasoning logs, serving as primary-source documentation of continuous forecasting activity under IARPA supervision.
 
-Global airport coordination logic, structured radar, and AI route control
+* **HRL Laboratories – Forecasting Research Projects (2014–2016)**
+  *Research Collaborator*
+  Engaged in two HRL Laboratories forecasting projects under IARPA-related initiatives:
 
-Building and supporting a global AI airport network — with over 2 million user views of X-Life-ready deployment maps
+  * **BARD via Delphi**: Applied Delphi-style iterative elicitation and Bayesian reasoning to structured forecasting tasks, contributing to experimental platforms that informed later HFC methodologies.
+  * **SWARM Project**: Participated in swarm-intelligence forecasting research, exploring multi-agent consensus, adversarial dynamics, and structured group reasoning.
+    These projects provided direct experience with structured elicitation and multi-agent inference, forming a precursor to subsequent IARPA forecasting challenges.
 
-Recipient of seven Apple Developer licenses for beta testing and platform development using a 17-inch iMac
+**Engaged with IARPA and the Director of National Intelligence’s Special Projects Activity, including:**
 
-Student at Santa Monica College and Phi Theta Kappa International Honors member
+* Project CREATE
+* Project FOCUS
+* Hybrid Forecasting Competition (HFC)
 
-Served as regional webmaster and sat on the board of Phi Theta Kappa at Santa Monica College
+Helip, B. (2025, June 27). *From coordination failure to scalable AI SWARMS: The MSCFT protocol for structured forecasting and multi-agent alignment among large language model systems*. Zenodo. [https://doi.org/10.5281/zenodo.15757279](https://doi.org/10.5281/zenodo.15757279)
 
-Engaged with IARPA and the Director of National Intelligence’s Special Projects Activity, including:
-
-Project CREATE
-
-Project FOCUS
-
-Public author and maintainer of the GitHub repository captbullett65/MSCFT
-
-OSF-published author:
-“The MSCFT Protocol: A New Blueprint for Scalable AI Alignments via Structured Forecasting and Agent Coordination”
-DOI: https://lnkd.in/gA8_ywcg
+Helip, B. (2025, August 26). *From protocol to practice: Nodes, not agents in human-in-the-loop LLM swarms — The MSCFT ecosystem and its no-code templates (MSCFT, SENTINEL, FORGE, MATHEMATICS) for forecasting, coding, security, and mathematics*. Zenodo. [https://doi.org/10.5281/zenodo.16945573](https://doi.org/10.5281/zenodo.16945573)
 
 Active on the X-Plane.org forums since October 2012
 Profile: https://lnkd.in/gyHSk_FM
