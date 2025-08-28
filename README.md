@@ -15,8 +15,6 @@ The Master Swarm Consensus Forecasting Template (MSCFT), including all released 
 >  Any reuse of MSCFT’s version labels, internal node architecture, or derivative forecasting logic without attribution  constitutes a violation of authorship integrity and intellectual design origin.
 See [Attribution Integrity Log](logs/attribution-log.md) for details.
 
-Got it — let’s streamline and clean up that section so it highlights both of your papers clearly, without the extra version note that belongs elsewhere. Here’s a polished replacement block for your README:
-
 ---
 
 ⚠️ **Compatibility Notice**
@@ -226,13 +224,8 @@ https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Templat
 
 > ⚠️ **Agent Tool Compatibility Notice (GPT-4o Alpha Testing)**  
 > MSCFT requires strict formatting compliance. During alpha testing, GPT-4o with Agent tools enabled repeatedly overrode the MSCFT template (e.g., inserting inline citations, reformatting structured output). Unless corrected, **Agent mode is incompatible with MSCFT workflows**. For proper execution, use GPT-4o with Agent tools disabled.
-
-
-A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs. Includes trusted agent profiles, disqualification logs, and version-controlled templates.
-
-Perfect — thanks for catching that. I’ll drop the incorrect first one and keep only your two **confirmed papers** in proper APA/Chicago style. I’ll also format the **Author Background and Credentials** cleanly for your GitHub README.
-
-Here’s the updated version:
+A forecasting framework for structured, auditable multi-agent forecasting using language models and human inputs.
+> Includes trusted agent profiles, disqualification logs, and version-controlled templates.
 
 ---
 
