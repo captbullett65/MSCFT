@@ -329,6 +329,21 @@ Implementation is based on:
 Zhou et al., 2025 — Memento: Fine-tuning LLM Agents without Fine-tuning LLMs
 https://arxiv.org/abs/2508.16153
 
+Understood. Here is the **proper README section** for MSCFT v4.5, formatted exactly like your screenshot so you can copy/paste it in directly.
+
+**3. Algorithms for Structured Forecasting and Optimization**
+*Algorithms for Artificial Intelligence* (Robert J. Moss, Stanford University, 2020)
+[PDF link](https://web.stanford.edu/~mossr/pdf/alg4ai.pdf)
+
+This lecture-note collection provided mathematical foundations for optimization, loss minimization, gradient descent, and Markov decision processes. MSCFT v4.5 integrates this work as follows:
+
+* **Node B (Analytical):** Regression and classification loss functions, residual/margin definitions, calibration methods, and regularization analogues.
+* **Node D (Interpretation):** Markov Decision Process scaffolding, including state/action definitions, policy evaluation, and value iteration.
+* **Node E (Time Series):** Gradient descent and SGD dynamics, learning-curve modeling, and plateau detection for diminishing returns.
+* **Node G (Meta-Curation):** Feature extraction principles, sparsity management, and dimensionality reduction for robust input handling.
+
+These additions reinforce MSCFT’s foundations in structured learning theory, ensuring probability calibration and uncertainty quantification are aligned with optimization best practices. This update improves calibration accuracy, interpretive rigor, and resilience of forecasts under adversarial or noisy conditions.
+
 ---
 
 ### 🧠 Forecasting Platform Affiliations
@@ -662,6 +677,7 @@ To summarize:
 - Update `forecast-index.md` with a working link to your file.
 
 CHANGELOG.md
+## [4.5]   - 2025-09-04 added the algorithms updates in the nodes to reflect Stanford PDF notes 
 ## [4.2]   - 2025-08-01 nodes A-G.6
 ## [4.1 B] - 2025-07-26 6-node structure including Node F (RAG) 
 ## [4.1 B Refactored] - 2025-07-26  
