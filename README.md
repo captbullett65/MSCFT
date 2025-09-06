@@ -329,7 +329,7 @@ Implementation is based on:
 Zhou et al., 2025 — Memento: Fine-tuning LLM Agents without Fine-tuning LLMs
 https://arxiv.org/abs/2508.16153
 
-** 3. Algorithms for Structured Forecasting and Optimization
+**3. Algorithms for Structured Forecasting and Optimization**
 
 Algorithms for Artificial Intelligence (Robert J. Moss, Stanford University, 2020) 
 https://web.stanford.edu/~mossr/pdf/alg4ai.pdf
