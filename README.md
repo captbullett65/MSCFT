@@ -331,7 +331,8 @@ https://arxiv.org/abs/2508.16153
 
 ** 3. Algorithms for Structured Forecasting and Optimization
 
-Algorithms for Artificial Intelligence (Robert J. Moss, Stanford University, 2020) PDF link
+Algorithms for Artificial Intelligence (Robert J. Moss, Stanford University, 2020) 
+https://web.stanford.edu/~mossr/pdf/alg4ai.pdf
 
 This lecture-note collection provided mathematical foundations for optimization, loss minimization, gradient descent, and Markov decision processes. Its methods are now integrated into the following templates:
 
