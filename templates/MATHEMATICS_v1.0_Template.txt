@@ -128,3 +128,4 @@ SECTION: generalization (optional)
 Briefly describe how the same reasoning approach could be applied to other problems with similar structure. Highlight recurring patterns or reusable solution strategies.
 
 SECTION: code (optional)
+// - [End of Template ] -
