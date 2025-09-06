@@ -329,18 +329,27 @@ Implementation is based on:
 Zhou et al., 2025 — Memento: Fine-tuning LLM Agents without Fine-tuning LLMs
 https://arxiv.org/abs/2508.16153
 
-**3. Algorithms for Structured Forecasting and Optimization**
-*Algorithms for Artificial Intelligence* (Robert J. Moss, Stanford University, 2020)
-[PDF link](https://web.stanford.edu/~mossr/pdf/alg4ai.pdf)
+** 3. Algorithms for Structured Forecasting and Optimization
 
-This lecture-note collection provided mathematical foundations for optimization, loss minimization, gradient descent, and Markov decision processes. MSCFT v4.5 integrates this work as follows:
+Algorithms for Artificial Intelligence (Robert J. Moss, Stanford University, 2020) PDF link
 
-* **Node B (Analytical):** Regression and classification loss functions, residual/margin definitions, calibration methods, and regularization analogues.
-* **Node D (Interpretation):** Markov Decision Process scaffolding, including state/action definitions, policy evaluation, and value iteration.
-* **Node E (Time Series):** Gradient descent and SGD dynamics, learning-curve modeling, and plateau detection for diminishing returns.
-* **Node G (Meta-Curation):** Feature extraction principles, sparsity management, and dimensionality reduction for robust input handling.
+This lecture-note collection provided mathematical foundations for optimization, loss minimization, gradient descent, and Markov decision processes. Its methods are now integrated into the following templates:
 
-These additions reinforce MSCFT’s foundations in structured learning theory, ensuring probability calibration and uncertainty quantification are aligned with optimization best practices. This update improves calibration accuracy, interpretive rigor, and resilience of forecasts under adversarial or noisy conditions.
+MSCFT v4.5 (Master Swarm Consensus Forecasting Template):
+Regression and classification loss functions, residual/margin definitions, calibration methods, and regularization analogues (Node B).
+Markov Decision Process scaffolding with state/action definitions, policy evaluation, and value iteration (Node D).
+Gradient descent and SGD dynamics, learning-curve modeling, and plateau detection (Node E).
+Feature extraction principles, sparsity management, and dimensionality reduction for robust input handling (Node G).
+
+FORGE v1.0 (Coding Template):
+Standardized optimization choices embedded in Parameters and Guardrails, including loss functions (squared, absolute, logistic, hinge), gradient descent vs. SGD, step-size decay, and regularization strategies.
+Enforced numerical stability and validation through gradient checks and convergence analysis.
+
+Mathematics v1.0 (Mathematics Solver Template):
+Expanded Parameters and Methods to include optimization problems, loss minimization, gradient descent, and stochastic gradient descent.
+Added scaffolding for Markov Decision Processes where applicable, ensuring problems involving states, actions, and rewards are handled systematically.
+
+These additions reinforce the foundations of all three templates in structured learning theory. They ensure probability calibration, optimization rigor, and uncertainty quantification are aligned with best practices while improving calibration accuracy, interpretive rigor, and resilience of outputs under adversarial or noisy conditions.
 
 ---
 
