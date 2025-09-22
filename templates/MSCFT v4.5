@@ -403,12 +403,22 @@ G.4 — Curation Workflow Hooks:
 • Maintain an immutable snapshot tied to forecast ID for auditability.
 • Periodically stress-test curation against adversarial injections; route flagged items for manual review.
 
-G.6 – Integrity check: no probability change unless the JEPA event appears on the resolution source.
+G.5 — Agent Execution Log and Governance Tracking:
+• Record every tool/web call, retrieval query, timestamp, and result hash.
+• Snapshot model/version, system-prompt hash, and template version (MSCFT v4.5) per forecast.
+• Log human-in-the-loop actions and the probability vector before/after each update; store the diff.
+• Link artifacts (source snapshots, PDFs) by content hash to enable replay and audit.
 
-// Optional Node G.7 – Governance and Compliance Declaration
-G.7.a – Framework Compliance
-G.7.b – Versioning and Role Alignment
-G.7.c – Audit Log Availability
+G.6 — Integrity Check:
+• No probability change unless the JEPA event appears on the resolution source (or equivalent primary source for the question).
+• Cross-verify the execution log against the source snapshot before publishing any update.
+• If mismatch is detected, revert the update and flag for manual review.
+
+// Optional Node G.7 — Governance and Compliance Declaration
+G.7.a — Framework Compliance
+G.7.b — Versioning and Role Alignment
+G.7.c — Audit Log Availability
+
 
 Inside-Outside View Structuring:
 
