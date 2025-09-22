@@ -1,13 +1,13 @@
 // [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
 [NOTICE: AI WEB ACCESS LIMITATION]
-GPT-4 Omni and related AI models do not have full access to real-time internet data. Many websites
+GPT-5 and related AI models do not have full access to real-time internet data. Many websites
 (especially government, medical, and financial) are protected by services like Cloudflare,
 which block AI web crawlers unless explicitly allowed.
 For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
 Do not assume the model can search or retrieve live information unless confirmed.
 
-This MSCFT template is aligned with GPT-4o capabilities and assumes Research mode is used when current data is needed.
+This MSCFT template is aligned with GPT-5 capabilities and assumes Research mode is used when current data is needed.
 
 After specifying your forecast question, resolution criteria, and bucket structure,
 include the following line before generation begins:
@@ -23,7 +23,7 @@ No improvisation. No format deviation.
 // [INTERNAL HEADER - NON-PRINT]
 // Reserved Nodes: R1, R2, R3, R4
 // Activation: Manual only, unless AI-flagged input triggers dynamic evaluation
-//
+// Architecture Catalyst (JEPA) — Monitor "Joint Embedding Predictive Architectures" for potential step-change effects on  resolution sources (leaderboards/registries). Do not reweight probabilities on vendor claims; update only upon verifiable ingestion on the resolution page. Reference: LLM-JEPA: Large Language Models meet Joint Embedding Predictive Architectures (arXiv:2509.14252) https://arxiv.org/abs/2509.14252
 // Update Note: Node-to-Layer mapping headers have been added throughout
 // the template (e.g., Node A → [L7 – Application], Node B → [L7 – Application] + [L4 – Context],
 // B.1/B.2/B.3 → [L4 – Context], Node E/E.1–E.7 → [L3 – Neural Network],
@@ -137,17 +137,23 @@ A.4 – Source Protocol Indexing
 A.4.a – Legal or Policy Framework Referenced
 A.4.b – Organizational or System-Level Constraints
 A.4.c – Governance Reference (if applicable)
+A.4.d – Architecture watch: monitor JEPA-style releases/evals
+and note any leaderboard ingestion or reruns that could affect resolution.
 
 // Node B → [L7 – Application] + [L4 – Context]
 Node B: Analytical Node — probability estimate, reasoning and  Loss & Calibration Enhancements v4.5 
-B.1 – Known Drivers and Catalysts
 B.1 → [L4 – Context]
-B.2 – Limiting Factors
+B.1 – Known Drivers and Catalysts;
+Driver: JEPA-trained model added or rerun on the resolution leaderboard.
 B.2 → [L4 – Context]
-B.3 – Actor Incentives and Strategic Intent
+B.2 – Limiting Factors
+Limiter: Transfer to our domain unproven until ingested by the resolution source; no update on vendor claims alone.
 B.3 → [L4 – Context]
+B.3 – Actor Incentives and Strategic Intent
+Uncertainty: If JEPA announced but not ingested, widen 90% CI; tighten only after verified posting.
 B.4 – Historical Analogues or Relevant Models
 B.5 – Risk Model Integration
+Calibration: Update probabilities only on primary-source evidence (official leaderboard/registry post).
 B.5.a – Expected Value or Risk Exposure Range
 B.5.b – AI Agent Risk Modeling
 
@@ -224,16 +230,20 @@ C.2 – Conditional Relationships Between Buckets
 C.3 – AI Agent Taxonomy Alignment
 C.3.a – Agent Lifecycle Tag: Pilot / Departmental / Enterprise-Wide
 C.3.b – Governance Constraints and Deployment Stage
-C.4 – Final Forecast Summary
+C.4 – Final Forecast Summary; Summary note: JEPA catalyst tracked; 
+probability mass shifts only upon verified rank/metric change.
 C.5 – Rationale for Probability Distribution
-C.6 – Forecast Caveats and Error Pathways
+C.6 – Forecast Caveats and Error Pathways; 
+Error pathway: Premature reweighting on marketing claims without leaderboard confirmation.
 
 // Node D → [L4 – Context]
 Node D: Interpretation Node — Markov chain, entropy, or KL divergence
 // D.1 → [L4 – Context]
-D.1 – Entropy or Volatility Classification
+D.1 – Entropy or Volatility Classification 
+Volatility tag: JEPA = regime-change candidate; expect stepwise, not gradual, transitions.
 // D.2 → [L4 – Context]
-D.2 – Markov Memory or Decay Factors
+D.2 – Markov Memory or Decay Factors;
+Markov memory: raise transition probability only when ingestion is visible; otherwise decay to status quo.
 // D.3 → [L4 – Context]
 D.3 – KL Divergence from Historical Baseline
 D.4 – Edge Case Divergence and Rare Events
@@ -273,11 +283,13 @@ followed by delayed incremental improvements as size scales.
 E.3 – Forecast Window Resolution Points:
 Critical inflection points occur where additional data yields sharply diminishing returns,
 mapping to plateau regions of the power-law curve.
+Resolution point: timestamped leaderboard update referencing JEPA model.
 
 // E.4 → [L3 – Neural Network]
 E.4 – Time Series Feature Commentary:
 The scaling law behaves like a decay curve used for residual modeling
 but follows a power-law slope (β) that governs the rate of improvement.
+Feature: piecewise constant with possible JEPA-driven step change. 
 
 // E.5 → [L3 – Neural Network]
 E.5 – ETS:
@@ -312,6 +324,7 @@ E.3.a — Curve Forms:
 Node M: Memento CBR Agent
 Purpose: Provides case-based reasoning and memory-driven action guidance without fine-tuning the LLM.
 Operates as a standalone module between planner output and tool execution.
+Store cases of past architecture-driven flips (state | action | outcome). Bias action toward waiting until ingestion is confirmed; reuse that policy when similarity is high.
 
 Inputs:
 Current state s (task description, subtask context, constraints, last observation).
@@ -344,13 +357,15 @@ Planner → Node M → Node F.
 Node F: Retrieval-Augmented Generation (RAG) Node
 // F.1 → [L5 – Agent]
 F.1 – Objective of Retrieval
+Objective: poll the specific leaderboard/registry for JEPA-tagged entries or reruns; archive snapshots.
 // F.2 → [L5 – Agent]
 F.2 – Source Landscape and Corpus Overview
 // F.3 → [L5 – Agent]
 F.3 – Relevance Mapping to Forecast Scope
 // F.4 → [L5 – Agent]
 F.4 – Retrieval Scope Boundaries and Guardrails
-
+Guardrail: ignore blogs/social posts; 
+act only on the resolution source page or official repo/eval notes tied to that page.
 F.4.a – Domain Constraints or Index Sharding
 F.4.b – Time-Bound Access or Context Filters
 F.4.c – Governance-Specific Retrieval Guardrails
@@ -386,6 +401,7 @@ G.1 — Feature Extraction Principles:
 • Encode properties of x that plausibly affect y; allow the learning step to down-weight irrelevant features.
 • Prefer feature templates that generate related, sparse indicator features (e.g., “contains \_\_\_”, “endsWith \_\_\_”).
 • Use sparse maps for NLP-like features; use arrays for dense signals (e.g., pixels, continuous sensors).
+• Provenance field: Model_Architecture = {JEPA/Non-JEPA}; Version/Date; Ingestion URL.
 
 G.2 — Sparsity and Dimensionality:
 • Encourage one-hot or template-based sparsity to reduce noise and memory.
@@ -400,6 +416,8 @@ G.4 — Curation Workflow Hooks:
 • Track provenance, timestamps, and transformations for each feature set.
 • Maintain an immutable snapshot tied to forecast ID for auditability.
 • Periodically stress-test curation against adversarial injections; route flagged items for manual review.
+
+G.6 – Integrity check: no probability change unless the JEPA event appears on the resolution source.
 
 // Optional Node G.7 – Governance and Compliance Declaration
 G.7.a – Framework Compliance
@@ -458,4 +476,3 @@ Why Might You Be Wrong?
 1. \[Insert potential forecast error #1]
 2. \[Insert potential forecast error #2]
 3. \[Insert potential forecast error #3]
-
