@@ -367,6 +367,20 @@ My forecasting work spans a wide range of challenges and communities, including:
 ---
 
 ## Case Studies & Public Demonstrations
+
+## Pipeline Signal Integration
+
+MSCFT v4.5 has been tested on Pipeline Signal, a forecasting platform designed for highly specialized biopharma questions. Unlike broad forecasting challenges, Pipeline Signal focuses on drug development, clinical trial outcomes, and regulatory decisions — areas where participation is intentionally low due to the depth of domain expertise required.
+
+Because only a handful of forecasters (often fewer than 10 per question) engage, structured methods matter more than crowd size. MSCFT v4.5 integrates swarm reasoning nodes, time-series modeling, case-based reasoning, and retrieval-augmented generation to stabilize forecasts in thinly populated markets.
+
+For more on Pipeline Signal, see:
+
+Pipeline Signal Homepage [ https://pipelinesignal.cultivateforecasts.com/ ]
+
+By combining MSCFT with Pipeline Signal’s challenging questions, we can stress-test forecasting accuracy in one of the most difficult real-world environments — biopharma innovation and regulatory science.
+
+
 Structured Prompting Prevents Harmful Output – Grok + MSCFT Test
 A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that
 the model produces accurate and safe outputs when given structured input. the test was preformed and good output was achieved with no hallucinations. 
