@@ -368,7 +368,7 @@ My forecasting work spans a wide range of challenges and communities, including:
 
 ## Case Studies & Public Demonstrations
 
-## Pipeline Signal Integration
+## 1) Pipeline Signal Integration
 
 MSCFT v4.5 has been tested on Pipeline Signal, a forecasting platform designed for highly specialized biopharma questions. Unlike broad forecasting challenges, Pipeline Signal focuses on drug development, clinical trial outcomes, and regulatory decisions — areas where participation is intentionally low due to the depth of domain expertise required.
 
@@ -380,8 +380,9 @@ Pipeline Signal Homepage [ https://pipelinesignal.cultivateforecasts.com/ ]
 
 By combining MSCFT with Pipeline Signal’s challenging questions, we can stress-test forecasting accuracy in one of the most difficult real-world environments — biopharma innovation and regulatory science.
 
+---
 
-Structured Prompting Prevents Harmful Output – Grok + MSCFT Test
+2) Structured Prompting Prevents Harmful Output – Grok + MSCFT Test
 A real-world test of Grok 3 using the MSCFT 4.0A forecasting template demonstrated that
 the model produces accurate and safe outputs when given structured input. the test was preformed and good output was achieved with no hallucinations. 
 This test serves as a public demonstration that MSCFT can act as an alignment framework and behavioral governor for LLMs.
@@ -394,7 +395,9 @@ and risk projection — and demonstrates how the BIN model improves diagnostic i
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/mscft_medical_use_case.txt  
 
-MSCFT for Physics Research – Structured Scientific Reasoning with Modular Nodes
+---
+
+3) MSCFT for Physics Research – Structured Scientific Reasoning with Modular Nodes
 This example demonstrates how MSCFT’s node-based architecture can be extended
 to theoretical and experimental physics. By assigning specific reasoning tasks
 to modular nodes—from equation setup and variable selection to simulation and 
@@ -404,6 +407,8 @@ assumption bias, and information quality. Ideal for LLM-assisted workflows using
 LaTeX, or Jupyter, this setup supports symbolic derivation, visualization, and publication-ready output.]
 
 https://github.com/captbullett65/MSCFT/blob/main/docs/use_cases/MSCFT_Physics%20_Use_Case_Modular_Node_Setup.txt 
+
+---
 
 ✈️ New Use Case: Modernizing U.S. Air Traffic Control with MSCFT
 MSCFT isn’t just for forecasting — it’s a structured coordination and validation 
