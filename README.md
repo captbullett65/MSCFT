@@ -6,7 +6,7 @@
 ---
 
 > ⚠️ **Attribution Notice**  
-The Master Swarm Consensus Forecasting Template (MSCFT), including all released versions (3.x through 4.2), was authored and published by **Brian Helip**. This includes all core structures such as:
+The Master Swarm Consensus Forecasting Template (MSCFT), including all released versions (3.x through 4.5), was authored and published by **Brian Helip**. This includes all core structures such as:
 > - The A–G node framework (including Node D for Entropy/KL/Markov analysis and Node G for Meta-Curation)  
 > - The BIN Model (Bias, Information, Noise) reasoning logic  
 > - Structured Swarm integration (MSCFT.MS-CMT logic)  
