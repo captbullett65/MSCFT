@@ -43,6 +43,11 @@ ORCID: [https://orcid.org/0009-0006-3463-170X](https://orcid.org/0009-0006-3463-
 **Citation**
 Helip, B. (2025). *From Protocol to Practice: Nodes, Not Agents in Human-in-the-Loop LLM Swarms — The MSCFT Ecosystem and its No-Code Templates (MSCFT, SENTINEL, FORGE, MATHEMATICS) for Forecasting, Coding, Security, and Mathematics.* Zenodo. [https://doi.org/10.5281/zenodo.16945573](https://doi.org/10.5281/zenodo.16945573)
 
+Upcoming Publication
+A forthcoming paper titled:
+“System-Level Evaluation of LLM-Assisted Forecasting Using the Master SWARM Consensus Forecasting Template (MSCFT)”
+will be published after the conclusion of the Good Judgment Open–Roche AI Challenge 2026. The timing is intentional: the competition’s focus on AI in pharmaceutical and medical diagnostic contexts provides a live evaluation environment aligned with the MSCFT system’s design objectives.
+
 ---
 
 **Can MSCFT Be Used Without Forecasting?**
