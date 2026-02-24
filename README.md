@@ -238,6 +238,7 @@ A forecasting framework for structured, auditable multi-agent forecasting using 
 ### Author Background and Credentials – Brian Helip (captbullett / captbullett65)
 
 Brian Helip is the original creator of the Master SWARM Consensus Forecasting Template (MSCFT), published under the MIT License and formally archived on the Open Science Framework on June 27, 2025. He has over 25 years of experience in simulation systems, software development, and multi-agent coordination — beginning in the late 1990s with Microsoft Flight Simulator 98, and expanding into advanced AI-simulation integration with X-Plane starting in 2012.
+During early COVID-19 forecasting work, the author engaged with Bayesian network modeling environments, including BayesiaLab, which supports probabilistic graphical modeling and structured conditional dependency analysis. These systems required explicit specification of priors, directed acyclic graph structures, and conditional probability tables to support diagnostic inference. While MSCFT is not implemented as a formal Bayesian network, exposure to dependency-based reasoning and controlled probabilistic updating influenced the template’s structural emphasis on base-rate anchoring, bias auditing (BIN: Bias–Information–Noise), and disciplined revision under new evidence.
 
 **Notable experience includes:**
 
