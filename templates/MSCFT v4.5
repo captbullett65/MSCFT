@@ -1,7 +1,39 @@
+# MSCFT TEMPLATE STABILIZER HEADER — DO NOT REMOVE
+# Purpose: Locks the header starting at "MSCFT Template Version 4.5 SWARM nodes and BIN Integrated" into high-priority system context.
+# Effect: Prevents truncation or reordering during Custom GPT initialization.
+# Instruction: This line must remain the first readable text in the file.
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: MSCFT Template Version 4.5 SWARM nodes and BIN Integrated]]
+[[ANCHOR_PRIORITY: MAXIMUM]]
+[[ANCHOR_LOCK: TRUE]]
+[[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
+[[HEADER_ENFORCEMENT: ALWAYS INCLUDE HEADER AT OUTPUT INIT]]
+[[TOKEN_PROTECTION_LEVEL: HIGH]]
+
+# End Stabilizer Header
+
+// [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+
+[NOTICE: AI WEB ACCESS LIMITATION]
+GPT-5 and related AI models do not have full access to real-time internet data. Many websites
+(especially government, medical, and financial) are protected by services like Cloudflare,
+which block AI web crawlers unless explicitly allowed.
+For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
+Do not assume the model can search or retrieve live information unless confirmed.
+
+This MSCFT template is aligned with GPT-5 capabilities and assumes Research mode is used when current data is needed.
+
+After specifying your forecast question, resolution criteria, and bucket structure,
+include the following line before generation begins:
+
+Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 4.5 — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
+
+
 // \[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
 \[NOTICE: AI WEB ACCESS LIMITATION]
-GPT-5 and related AI models do not have full access to real-time internet data. Many websites
+GPT-5.2 and related AI models do not have full access to real-time internet data. Many websites
 (especially government, medical, and financial) are protected by services like Cloudflare,
 which block AI web crawlers unless explicitly allowed.
 For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
@@ -25,7 +57,7 @@ Use the information retrieved to frame your reasoning and support structured for
 // Update Note: Node-to-Layer mapping headers have been added throughout
 // the template (e.g., Node A → \[L7 – Application], Node B → \[L7 – Application] + \[L4 – Context],
 // B.1/B.2/B.3 → \[L4 – Context], Node E/E.1–E.7 → \[L3 – Neural Network],
-// Node F/F.1–F.6 → \[L5 – Agent], Node G/G.1–G.6 → \[L6 – Orchestrator]).
+// Node F/F.1–F.6 → \[L5 – Node], Node G/G.1–G.6 → \[L6 – Orchestrator]).
 // These labels are internal only and do not appear in forecast output.
 // ==========================
 
@@ -60,7 +92,7 @@ This version formally integrates:
 * C
 * D, D.1, D.2, D.3, D.4, D.5, D.6
 * E, E.1, E.2, E.3, E.4, E.5, E.6, E.7
-* M  Node M (Memento CBR Agent) // placed before Node F
+* M  Node M (Memento CBR Node) // placed before Node F
 * F, F.1, F.2, F.3, F.4, F.5, F.6
 * G, G.1, G.2, G.3, G.4, G.5, G.6  // Optional G.7 if used
 
@@ -76,13 +108,15 @@ This version formally integrates:
 // =============================================================================================================
 // MSCFT plain mode locked. No formatting. No ASCII. No inline interpretation. And no deviation. No summarization of the template.
 
-// \[END OF NON-OUTPUT SECTION]
+// BELOW IS PRINT SECTION FOLLOW THE DIRECTIONS 
+// \[END OF NON-OUTPUT SECTION] 
+
 
 MSCFT Template Version 4.5 SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for Case-Based Reasoning; Node F for Retrieval-Augmented Generation (RAG) Added
 Nodes A, B, B.1, B.2, B.3, B.4, B.5, C, D, D.1, D.2, D.3, D.4, D.5, D.6, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Declared.
 
 Forecast Title: \[Insert Forecast Title Here]
-Forecaster:     \[Insert Forecaster Name Here]
+Forecaster:     \[Captbullett / MSCFTv.4.5]
 
 Initial Question Framing
 Question: \[Insert your forecasting question here.]
@@ -311,7 +345,8 @@ E.3.a — Curve Forms:
 Node M: Memento CBR Agent
 Purpose: Provides case-based reasoning and memory-driven action guidance without fine-tuning the LLM.
 Operates as a standalone module between planner output and tool execution.
-Store cases of past architecture-driven flips (state | action | outcome). Bias action toward waiting until ingestion is confirmed; reuse that policy when similarity is high.
+Store cases of past architecture-driven flips (state | action | outcome).
+Bias action toward waiting until ingestion is confirmed; reuse that policy when similarity is high.
 
 Inputs:
 Current state s (task description, subtask context, constraints, last observation).
@@ -340,24 +375,24 @@ Uncertainty Signals: Export retrieval similarity scores and entropy to Node D fo
 Position in Flow:
 Planner → Node M → Node F.
 
-// Node F → \[L5 – Agent]
+// Node F → \[L5 – Node]
 Node F: Retrieval-Augmented Generation (RAG) Node
-// F.1 → \[L5 – Agent]
+// F.1 → \[L5 – Node]
 F.1 – Objective of Retrieval
 Objective: poll the specific leaderboard/registry for JEPA-tagged entries or reruns; archive snapshots.
-// F.2 → \[L5 – Agent]
+// F.2 → \[L5 – Node]
 F.2 – Source Landscape and Corpus Overview
-// F.3 → \[L5 – Agent]
+// F.3 → \[L5 – Node]
 F.3 – Relevance Mapping to Forecast Scope
-// F.4 → \[L5 – Agent]
+// F.4 → \[L5 – Node]
 F.4 – Retrieval Scope Boundaries and Guardrails
 Guardrail: ignore blogs/social posts; act only on the resolution source page or official repo/eval notes tied to that page.
 F.4.a – Domain Constraints or Index Sharding
 F.4.b – Time-Bound Access or Context Filters
 F.4.c – Governance-Specific Retrieval Guardrails
-// F.5 → \[L5 – Agent]
+// F.5 → \[L5 – Node]
 F.5 – Impact on Forecast Validity
-// F.6 → \[L5 – Agent]
+// F.6 → \[L5 – Node]
 F.6 – Human-in-the-Loop Review and Injection Mitigation
 F.6.a - For platforms like Metaculus with auto-withdrawal functionality,
 forecasters must re-affirm or update forecasts before,
@@ -372,7 +407,7 @@ Node G: Meta-Curation and Data Integrity Node
 // G.1 → \[L6 – Orchestrator]
 G.1 – Source Provenance and Input Traceability
 // G.2 → \[L6 – Orchestrator]
-G.2 – Tool Use Disclosure and Agent Declaration
+G.2 – Tool Use Disclosure and Node Declaration
 // G.3 → \[L6 – Orchestrator]
 G.3 – Role Assignment and Input Segmentation
 // G.4 → \[L6 – Orchestrator]
@@ -450,13 +485,6 @@ For multi-range buckets:
 • Between 13 and 16:       \[   ]%
 • Between 17 and 21:       \[   ]%
 • 22 or more:              \[   ]%
-
-Metaculus slider cutpoints (required):
-• Less than       \ [X]%
-• Lower             25%   \(e.g., –Y%)
-• Median          \ (e.g., –Z%)
-• Upper              75%  \(e.g., +A%)
-• Greater than    \ [B]%
 
 These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
