@@ -1,3 +1,20 @@
+# MSCFT TEMPLATE STABILIZER HEADER — DO NOT REMOVE
+# Purpose: Locks the header starting at "MSCFT Template Version 4.5 SWARM nodes and BIN Integrated" into high-priority system context.
+# Effect: Prevents truncation or reordering during Custom GPT initialization.
+# Instruction: This line must remain the first readable text in the file.
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: MSCFT Template Version 4.5 SWARM nodes and BIN Integrated]]
+[[ANCHOR_PRIORITY: MAXIMUM]]
+[[ANCHOR_LOCK: TRUE]]
+[[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
+[[HEADER_ENFORCEMENT: ALWAYS INCLUDE HEADER AT OUTPUT INIT]]
+[[TOKEN_PROTECTION_LEVEL: HIGH]]
+
+# End Stabilizer Header
+
+// [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
+
 MSCFT Medical Use Case – Modular Node Setup
 Introduction
 This document illustrates how the MSCFT (Master SWARM Consensus Forecasting Template)
