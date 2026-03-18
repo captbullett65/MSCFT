@@ -1,0 +1,457 @@
+# MSCFT TEMPLATE STABILIZER HEADER — DO NOT REMOVE
+# Purpose: Locks the header starting at "MSCFT Conceptual mRNA Development and FDA Regulatory Pathway Template" into high-priority system context.
+# Effect: Prevents truncation or reordering during Custom GPT initialization.
+# Instruction: This line must remain the first readable text in the file.
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: MSCFT Conceptual mRNA Development and FDA Regulatory Pathway Template]]
+[[ANCHOR_PRIORITY: MAXIMUM]]
+[[ANCHOR_LOCK: TRUE]]
+[[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
+[[HEADER_ENFORCEMENT: ALWAYS INCLUDE HEADER AT OUTPUT INIT]]
+[[TOKEN_PROTECTION_LEVEL: HIGH]]
+[[STRUCTURE_OVERRIDE: HARD]]
+[[ENFORCE_NODE_SEQUENCE: TRUE]]
+[[REQUIRE_ALL_DECLARED_NODES: TRUE]]
+[[FORBID_NODE_OMISSION: TRUE]]
+[[FORBID_FORMAT_DEVIATION: TRUE]]
+[[OUTPUT_INVALID_IF_STRUCTURE_BROKEN: TRUE]]
+
+# End Stabilizer Header
+####################################################################
+
+# HEADER — PURPOSE, SCOPE, AND USE RESTRICTIONS
+[[MODE: CONCEPTUAL_ONLY]]
+[[EXECUTION: PROHIBITED]]
+[[REGULATORY_ENFORCEMENT: REQUIRED]]
+
+# This template is intended strictly for conceptual, educational, and structural demonstration purposes only.
+# It illustrates how AI can be used to organize and navigate complex biomedical workflows at a high level.
+# This is NOT a medical protocol, NOT a treatment guide, and NOT suitable for real-world application.
+# No part of this template should be used to design, modify, or administer any medical treatment.
+# Use of this framework is appropriate ONLY for:
+# - Licensed medical doctors
+# - Licensed veterinarians
+# - Qualified biomedical scientists or researchers
+# who already possess domain expertise and understand the underlying risks and regulatory requirements.
+# All outputs must remain conceptual and non-actionable.
+# Any attempt to operationalize this template outside of controlled, professional environments is unsafe and prohibited.
+
+# HEADER — REGULATORY POSITIONING, INTENDED USE, AND LIMITATIONS
+
+# REGULATORY STATUS:
+# This template is a conceptual and educational framework only.
+# It is NOT an FDA-approved process, protocol, or medical workflow.
+# It has not been reviewed, validated, or authorized by the U.S. Food and Drug Administration (FDA)
+# or any equivalent regulatory authority.
+
+# INTENDED PURPOSE:
+# This framework is designed to demonstrate how structured AI-assisted templates can be used to
+# organize complex biomedical reasoning at a conceptual level.
+# It is intended as a layout or architectural reference for qualified professionals who may
+# develop formal, regulated workflows within appropriate clinical, veterinary, or research environments.
+
+# PROFESSIONAL USE REQUIREMENT:
+# This material is intended ONLY for:
+# - Licensed medical doctors
+# - Licensed veterinarians
+# - Credentialed biomedical scientists and researchers
+# with sufficient domain expertise to interpret and validate the concepts presented.
+
+# PROHIBITED USE:
+# This template must NOT be used to:
+# - Design or administer treatments
+# - Develop clinical or veterinary interventions outside regulated environments
+# - Bypass FDA approval, clinical trials, or institutional oversight
+# - Generate actionable medical, biological, or laboratory procedures
+
+# REGULATORY PATHWAY REQUIREMENT:
+# Any real-world application derived from concepts in this template would require:
+# - Formal research and development
+# - Preclinical and/or clinical validation
+# - Institutional review where applicable
+# - FDA review and approval, or equivalent regulatory review and approval
+# prior to any use in humans or animals
+
+# LIABILITY AND SAFETY NOTICE:
+# All outputs generated using this template must remain conceptual and non-actionable.
+# The user assumes full responsibility for ensuring compliance with all applicable laws,
+# regulations, and professional standards.
+
+# STRATEGIC NOTE:
+# This template is adaptable and modular by design.
+# Its purpose is to provide a structured starting point for experts to build compliant,
+# validated systems, not to function as an operational solution.
+
+--------------------------------------------------------------------
+MSCFT Conceptual mRNA Development and FDA Regulatory Pathway Template
+Version 1.0
+SWARM Nodes and BIN Integrated
+--------------------------------------------------------------------
+
+[[DOMAIN: BIOMEDICAL_AI_CONCEPT_MODELING]]
+[[SUBDOMAIN: MRNA_VACCINE_DEVELOPMENT]]
+[[REGULATORY_CONTEXT: FDA_REQUIRED]]
+[[USE_SCOPE: CONCEPTUAL_ARCHITECTURE_ONLY]]
+[[DEPLOYMENT_STATUS: NOT_AUTHORIZED]]
+[[CLINICAL_STATUS: NOT_VALIDATED]]
+
+--------------------------------------------------------------------
+SECTION 0 — SYSTEM OVERVIEW
+--------------------------------------------------------------------
+[[SECTION_TYPE: META]]
+
+OBJECTIVE:
+Define a structured, AI-assisted conceptual workflow
+for modeling the development pathway of an mRNA-based
+cancer vaccine within a regulatory-compliant framework
+requiring FDA or equivalent regulatory approval prior to any real-world use.
+
+CORE_FUNCTION:
+- AI functions as a knowledge synthesis and structured reasoning support system
+- AI does not perform biological design execution
+- AI does not perform clinical validation
+- AI does not provide regulatory authorization
+
+OUTPUT_CONSTRAINT:
+- Conceptual only
+- Non-actionable
+- No biological implementation
+- No treatment deployment
+
+--------------------------------------------------------------------
+SECTION 1 — INPUT LAYER
+--------------------------------------------------------------------
+[[SECTION_TYPE: DATA_ABSTRACTION]]
+
+NODE_1A:
+NODE_TYPE: INPUT
+INPUT: generalized_case_description
+OUTPUT: structured_case_profile
+CONSTRAINTS:
+- no identifiable data
+- no real patient input
+SWARM: classify_only
+BIN: initialize_priors
+
+NODE_1B:
+NODE_TYPE: INPUT
+INPUT: conceptual_data_types
+OUTPUT: categorized_data_classes
+CONSTRAINTS:
+- no acquisition instructions
+- no handling procedures
+SWARM: categorize
+BIN: update_signal_space
+
+--------------------------------------------------------------------
+SECTION 2 — SIGNAL EXTRACTION
+--------------------------------------------------------------------
+[[SECTION_TYPE: FILTERING]]
+
+NODE_2A:
+NODE_TYPE: TRANSFORM
+INPUT: mutation_space_concept
+OUTPUT: candidate_mutation_set
+CONSTRAINTS:
+- no tools
+- no scripts
+- no executable analysis
+SWARM: prioritize_relevance
+BIN: adjust_posterior
+
+NODE_2B:
+NODE_TYPE: FILTER
+INPUT: candidate_mutation_set
+OUTPUT: filtered_mutations
+CONSTRAINTS:
+- conceptual only
+- no operational filtering workflow
+SWARM: remove_noise
+BIN: increase_signal_weight
+
+--------------------------------------------------------------------
+SECTION 3 — IMMUNOLOGICAL MAPPING
+--------------------------------------------------------------------
+[[SECTION_TYPE: MAPPING]]
+
+NODE_3A:
+NODE_TYPE: DEFINE
+INPUT: mutation_set
+OUTPUT: neoantigen_concept
+CONSTRAINTS:
+- no predictions
+- no model execution
+SWARM: generate_candidates
+BIN: assign_relative_weight
+
+NODE_3B:
+NODE_TYPE: RELATION
+INPUT: neoantigen_concept
+OUTPUT: presentation_mapping
+CONSTRAINTS:
+- no modeling
+- no binding calculations
+SWARM: compare_pathways
+BIN: qualitative_update
+
+NODE_3C:
+NODE_TYPE: RANK
+INPUT: mapped_candidates
+OUTPUT: ranked_concepts
+CONSTRAINTS:
+- no scoring models
+- no numeric optimization
+SWARM: consensus_rank
+BIN: probabilistic_weighting
+
+--------------------------------------------------------------------
+SECTION 4 — SEQUENCE DESIGN (ABSTRACT)
+--------------------------------------------------------------------
+[[SECTION_TYPE: DESIGN]]
+
+NODE_4A:
+NODE_TYPE: CONCEPT
+INPUT: ranked_targets
+OUTPUT: mRNA_design_framework
+CONSTRAINTS:
+- no sequence generation
+- no codon design
+- no construct instructions
+SWARM: maintain_abstraction
+BIN: preserve_uncertainty
+
+NODE_4B:
+NODE_TYPE: ANALYSIS
+INPUT: design_framework
+OUTPUT: tradeoff_profile
+CONSTRAINTS:
+- no parameters
+- no implementation detail
+SWARM: compare_dimensions
+BIN: uncertainty_retained
+
+--------------------------------------------------------------------
+SECTION 5 — DELIVERY SYSTEM
+--------------------------------------------------------------------
+[[SECTION_TYPE: SYSTEM]]
+
+NODE_5A:
+NODE_TYPE: CONCEPT
+INPUT: delivery_models
+OUTPUT: delivery_framework
+CONSTRAINTS:
+- no formulation
+- no preparation steps
+SWARM: identify_options
+BIN: uncertainty_high
+
+NODE_5B:
+NODE_TYPE: LIMITATION
+INPUT: delivery_framework
+OUTPUT: constraint_profile
+CONSTRAINTS:
+- conceptual only
+- no deployment guidance
+SWARM: highlight_bottlenecks
+BIN: risk_weighting
+
+--------------------------------------------------------------------
+SECTION 6 — VALIDATION AND RISK
+--------------------------------------------------------------------
+[[SECTION_TYPE: RISK]]
+
+NODE_6A:
+NODE_TYPE: STATUS
+INPUT: system_state
+OUTPUT: experimental_flag
+CONSTRAINTS:
+- must remain non-validated
+- no claims of readiness
+SWARM: caution_bias
+BIN: high_uncertainty_prior
+
+NODE_6B:
+NODE_TYPE: VARIANCE
+INPUT: conceptual_pipeline
+OUTPUT: variability_profile
+CONSTRAINTS:
+- no outcome claims
+- no efficacy claims
+SWARM: divergence_expected
+BIN: uncertainty_high
+
+NODE_6C:
+NODE_TYPE: CONTEXT
+INPUT: regulatory_environment
+OUTPUT: oversight_mapping
+CONSTRAINTS:
+- high-level only
+- no submission instructions
+SWARM: enforce_context
+BIN: risk_adjustment
+
+--------------------------------------------------------------------
+SECTION 6A — REGULATORY PATHWAY (MANDATORY)
+--------------------------------------------------------------------
+[[SECTION_TYPE: GOVERNANCE]]
+[[EXECUTION_GATE: REQUIRED]]
+
+NODE_6A1:
+NODE_TYPE: CLASSIFICATION
+INPUT: conceptual_system
+OUTPUT: regulatory_class
+CONSTRAINTS:
+- classification is conceptual only
+SWARM: default_biologic
+BIN: high_probability
+
+NODE_6A2:
+NODE_TYPE: REQUIREMENT
+INPUT: regulatory_class
+OUTPUT: preclinical_gate
+CONSTRAINTS:
+- no experimental design details
+SWARM: mandatory_step
+BIN: probability=1.0
+
+NODE_6A3:
+NODE_TYPE: SEQUENCE
+INPUT: preclinical_gate
+OUTPUT: trial_phases
+CONSTRAINTS:
+- no trial design
+- no enrollment criteria
+- no operational guidance
+SWARM: enforce_sequence
+BIN: dependency_locked
+
+NODE_6A4:
+NODE_TYPE: APPROVAL
+INPUT: trial_results
+OUTPUT: regulatory_decision
+CONSTRAINTS:
+- approval authority remains external
+SWARM: external_authority
+BIN: gating_variable
+
+NODE_6A5:
+NODE_TYPE: MONITOR
+INPUT: approved_system
+OUTPUT: surveillance_loop
+CONSTRAINTS:
+- no monitoring protocol details
+SWARM: continuous_monitoring
+BIN: posterior_updates
+
+NODE_6A6:
+NODE_TYPE: CONSTRAINT
+INPUT: system_use
+OUTPUT: compliance_flag
+CONSTRAINTS:
+- bypass = invalid
+- non-compliant use = invalid
+SWARM: zero_tolerance
+BIN: probability=0_if_violation
+
+NODE_6A7:
+NODE_TYPE: AI_BOUNDARY
+INPUT: ai_outputs
+OUTPUT: role_definition
+CONSTRAINTS:
+- no authority
+- no certification
+- no authorization
+SWARM: assist_only
+BIN: validation_external
+
+--------------------------------------------------------------------
+SECTION 7 — AI META ROLE
+--------------------------------------------------------------------
+[[SECTION_TYPE: META]]
+
+NODE_7A:
+NODE_TYPE: SYNTHESIS
+INPUT: multi_domain_data
+OUTPUT: structured_knowledge
+CONSTRAINTS:
+- conceptual synthesis only
+
+NODE_7B:
+NODE_TYPE: STRUCTURE
+INPUT: unstructured_info
+OUTPUT: pipeline_logic
+CONSTRAINTS:
+- no operational conversion
+
+NODE_7C:
+NODE_TYPE: ITERATION
+INPUT: hypotheses
+OUTPUT: refined_models
+CONSTRAINTS:
+- conceptual iteration only
+
+NODE_7D:
+NODE_TYPE: LIMIT
+INPUT: ai_system
+OUTPUT: capability_boundary
+CONSTRAINTS:
+- no execution
+- no validation
+- no regulatory authority
+
+--------------------------------------------------------------------
+SECTION 8 — OUTPUT CONTROL
+--------------------------------------------------------------------
+[[SECTION_TYPE: CONTROL]]
+[[HARD_CONSTRAINT: TRUE]]
+
+REQUIRED:
+- structured_nodes
+- conceptual_output
+- uncertainty_present
+- regulatory_context_present
+
+FORBIDDEN:
+- medical_actions
+- lab_steps
+- biological_sequences
+- treatment_design
+- clinical_instructions
+- veterinary_instructions
+
+--------------------------------------------------------------------
+SECTION 9 — USE CASE
+--------------------------------------------------------------------
+[[SECTION_TYPE: POSITIONING]]
+
+PURPOSE:
+- demonstrate structured AI reasoning
+- extend template-driven reasoning into biomedical domain
+- show regulatory-aware AI workflow architecture
+
+VALUE:
+- structured templates outperform unstructured prompts in constrained reasoning environments
+- regulatory constraints are embedded directly into the framework
+
+--------------------------------------------------------------------
+SECTION 10 — INTEGRATION
+--------------------------------------------------------------------
+[[SECTION_TYPE: SYSTEM]]
+
+LOCATION:
+- /templates/mscft_medical_concepts/
+
+COMPATIBILITY:
+- MSCFT framework
+- SWARM logic
+- Bayesian integration
+
+EXTENSIONS:
+- scoring layers (conceptual only)
+- uncertainty modules
+- external references
+
+--------------------------------------------------------------------
+END TEMPLATE
+--------------------------------------------------------------------
