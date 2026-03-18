@@ -654,8 +654,8 @@ Note: The FORGE, MATHEMATICS, and SENTINEL templates are still in testing phases
 * MSCFT mRNA (Conceptual / Regulatory Pathway) – A regulatory-aware, AI-structured framework for organizing mRNA development workflows at a conceptual level. This template is NOT executable, NOT a medical protocol, and NOT suitable for real-world use. It is intended for licensed medical doctors, PhDs, and qualified biomedical researchers to evaluate, adapt, and transition into a controlled, validated system under appropriate regulatory oversight.
 
 Operationalization requirements (must be completed before any real-world use):
-A. Header Mode Conversion – Replace conceptual-only flags with controlled/validated-use flags and governed execution language under institutional oversight.
-B. Governance & Validation – Add clinical validation status, protocol versioning, audit/logging, and responsible authority (PI/MD/regulatory body) with full traceability.
+A. Header Mode Conversion – Replace conceptual-only flags with controlled/validated-use flags and governed execution language under institutional oversight.<br>
+B. Governance & Validation – Add clinical validation status, protocol versioning, audit/logging, and responsible authority (PI/MD/regulatory body) with full traceability.<br>
 C. System Integration – Restrict use to validated pipelines, approved data sources, and regulated environments; no standalone or uncontrolled execution.
 
 Use is contingent on FDA approval or equivalent regulatory authorization prior to any human or animal application.
