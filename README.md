@@ -225,7 +225,7 @@ https://chatgpt.com/g/g-689ea1c3aa6c81919683d75103b09bc3-forge-v-1-0
 
 ---
 
-## 📘 How to Use MSCFT
+## 🧭 How to Use MSCFT
 
 Instructions:  
 https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md  
@@ -238,6 +238,46 @@ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Ins
 4. Integrate modeling  
 5. Produce structured output  
 6. Validate and audit  
+
+---
+
+## 🔄 Interaction Modes
+
+MSCFT templates support three interaction modes.  
+To select a mode, enter the number as the **first character in your prompt (e.g., `1 ...`)**:
+
+**Examples:**
+
+`1 Will China invade Taiwan before 2030?`  
+→ Strict Mode
+
+`2 What are the key drivers of a potential Taiwan conflict?`  
+→ Discussion Mode
+
+`3 Analyze the probability of a Taiwan conflict using structured reasoning.`  
+→ Hybrid Mode
+
+---
+
+- `1` → Strict Mode  
+- `2` → Discussion Mode  
+- `3` → Hybrid Mode  
+
+---
+
+### Mode Definitions
+
+- **1 — Strict Mode**  
+  Template-only execution. No deviation from structure.  
+  Used for formal forecasts, audits, and consistency.
+
+- **2 — Discussion Mode**  
+  Freeform reasoning without enforced structure.  
+  Used for exploration, brainstorming, and early-stage thinking.
+
+- **3 — Hybrid Mode**  
+  Combines structured template output with discussion.  
+  Enables reasoning alongside formal structure.
 
 ---
 
