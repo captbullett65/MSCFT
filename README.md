@@ -74,7 +74,9 @@ Its core value lies in modularity, auditability, and structured inference.
 
 ## 🔧 Core Architecture
 
-MSCFT supports up to 26 nodes (A–Z), each representing a defined reasoning role.
+MSCFT supports up to 26 nodes (A–Z), each representing a defined reasoning role. 
+Each node can be expanded into hierarchical sub-nodes (e.g., A.1, A.2, A.1.a), 
+allowing modular depth and task-specific refinement within the framework. 
 
 ---
 
