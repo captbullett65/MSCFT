@@ -228,7 +228,7 @@ https://chatgpt.com/g/g-689ea1c3aa6c81919683d75103b09bc3-forge-v-1-0
 ## 🧭 How to Use MSCFT
 
 Instructions:  
-https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md  
+https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Instructions%20for%20Use.md   
 
 ### Core Workflow
 
