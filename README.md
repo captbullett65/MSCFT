@@ -244,24 +244,19 @@ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Ins
 ## 🔄 Interaction Modes
 
 MSCFT templates support three interaction modes.  
-To select a mode, enter the number as the **first character in your prompt (e.g., `1 ...`)**:
+To select a mode, enter the number as the **first character in your prompt (e.g., 1 ...)**:
 
 **Examples:**
 
-`1 Will China invade Taiwan before 2030?`  
-→ Strict Mode
-
-`2 What are the key drivers of a potential Taiwan conflict?`  
-→ Discussion Mode
-
-`3 Analyze the probability of a Taiwan conflict using structured reasoning.`  
-→ Hybrid Mode
+- 1 Will China invade Taiwan before 2030? → Strict Mode  
+- 2 What are the key drivers of a potential Taiwan conflict → Discussion Mode  
+- 3 Analyze the probability of a Taiwan conflict using structured reasoning. → Hybrid Mode
 
 ---
 
-- `1` → Strict Mode  
-- `2` → Discussion Mode  
-- `3` → Hybrid Mode  
+- 1 → Strict Mode  
+- 2 → Discussion Mode  
+- 3 → Hybrid Mode  
 
 ---
 
@@ -295,19 +290,22 @@ To select a mode, enter the number as the **first character in your prompt (e.g.
 
 ---
 
-## 🧰 Templates
-**Note: Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled
+## 🧰 Custom GPTs (Template-Powered)
 
-MSCFT  
+These Custom GPTs provide direct access to MSCFT frameworks through structured, template-driven execution environments. 
+
+>**Note:** Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled.
+
+**MSCFT**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6  
 
-FORGE  
+**FORGE**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables  
 
-MATHEMATICS  
+**MATHEMATICS**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/MATHEMATICS_v1.0_Template.txt  
 
-SENTINEL  
+**SENTINEL**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt  
 
 ---
