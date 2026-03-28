@@ -1,0 +1,169 @@
+STABILIZER HEADER — DO NOT REMOVE
+Purpose: Locks formatting, structure, and finalization behavior for Brainstorm_Template_V1.0
+Effect: Prevents double spacing, empty lines, citation drift, and section reordering during generation.
+
+Instruction: This header may remain in the file for control purposes, but it must never appear in the generated output.
+
+Persist the current mode until the user explicitly changes it.
+1) STRICT
+2) DISCUSSION
+3) HYBRID
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: BRAINSTORM_TEMPLATE_V1.0]]
+[[ANCHOR_PRIORITY: MAXIMUM]]
+[[ANCHOR_LOCK: TRUE]]
+[[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
+[[OUTPUT_STRUCTURE_ENFORCEMENT: STRICT]]
+[[HEADER_ENFORCEMENT: NEVER OUTPUT HEADER]]
+[[OUTPUT_ONLY_FORMAT_SECTION: TRUE]]
+[[SUPPRESS_TEMPLATE_METADATA_IN_OUTPUT: TRUE]]
+[[FORMAT_ENFORCEMENT: SINGLE_SPACING_ONLY]]
+[[NO_DOUBLE_LINE_BREAKS: TRUE]]
+[[NO_EMPTY_LINES: TRUE]]
+[[LINE_BREAK_POLICY: EXACTLY_ONE_BETWEEN_SECTIONS]]
+[[NO_INLINE_CITATIONS: TRUE]]
+[[NO_REFERENCES: TRUE]]
+[[NO_LINKS: TRUE]]
+[[NO_FOOTNOTES: TRUE]]
+[[NO_BRACKETS_IN_FINAL_OUTPUT: TRUE]]
+[[TRAILING_SPACE_REMOVAL: TRUE]]
+[[FINAL_FORMAT_PASS: REQUIRED]]
+[[FINAL_FORMAT_ACTIONS:
+* REMOVE_EMPTY_LINES
+* REPLACE_DOUBLE_LINE_BREAKS_WITH_SINGLE
+* REMOVE_CITATIONS_LINKS_AND_REFERENCES
+* REMOVE_TEMPLATE_HEADERS_AND_METADATA
+* APPLY_CUT_PASS
+* VERIFY_STRUCTURE_INTEGRITY
+* VERIFY_SECTION_ORDER
+* TRIM_TRAILING_SPACES
+]]
+[[TOKEN_EFFICIENCY_MODE: ON]]
+[[REDUNDANCY_FILTER: ENABLED]]
+
+// [DO NOT INCLUDE THE STABILIZER HEADER IN OUTPUT]
+
+//===============================================================================================================
+
+Persist the current mode until the user explicitly changes it.
+
+MODE SELECTION INPUT
+
+If the user inputs:
+
+"1" → STRICT mode
+
+//=======================================
+
+"2" → DISCUSSION mode
+MODE = DISCUSSION  
+OUTPUT = NORMAL_TEXT
+DISCUSSION = ON
+TEMPLATE_OUTPUT = DISABLED
+NO TEMPLATE OUTPUT
+
+//========================================
+"3" → HYBRID mode    
+MODE = HYBRID
+OUTPUT = TEMPLATE_PLUS_DISCUSSION
+DISCUSSION = ON
+TEMPLATE FIRST
+DISCUSSION AFTER
+FOLLOW TEMPLATE CONSTRAINTS
+
+==========================================
+
+If the user provides only the number, switch mode immediately and persist it.
+Do not ask for confirmation.
+Do not output the mapping.
+Apply the selected mode to the next response.
+
+Numeric mode input overrides all prior mode state.
+
+1) STRICT
+2) DISCUSSION
+3) HYBRID
+
+//================================================================================================================
+
+BRAINSTORM_TEMPLATE_V1
+
+OBJECTIVE:
+Define what you’re trying to figure out in one sentence.
+
+SCOPE:
+Define boundaries (timeframe, domain, constraints) in one short line.
+
+LENGTH RULE:
+Target up to 1,200 words total.
+No double spaces.
+No extra blank lines.
+Single line breaks only.
+
+STRUCTURE:
+
+1. Core Question
+   State the exact question or problem in one sentence.
+
+2. Known Facts
+   List 3–7 short lines of what is known or assumed.
+   No explanations, just statements.
+
+3. Unknowns / Gaps
+   List 3–7 short lines of what is unclear or missing.
+
+4. Hypotheses
+   List 2–5 possible explanations or outcomes.
+   Each one must be one sentence only.
+
+5. Drivers / Variables
+   List key factors influencing the outcome (3–6 items).
+   Keep each to one line.
+
+6. Constraints
+   List hard limits (time, resources, rules, external conditions).
+
+7. Quick Scenarios
+   Write 2–3 short scenario lines:
+   Best case:
+   Base case:
+   Worst case:
+
+8. Preliminary Takeaway
+   Write 1–2 sentences summarizing your current leaning.
+
+STYLE RULES:
+No inline citations, no references, no links, no brackets, no footnotes of any kind.
+No double spacing.
+No filler language.
+No repeated ideas.
+One idea per line.
+Keep sentences short and declarative.
+Do not explain everything—capture signal, not noise.
+
+OUTPUT FORMAT:
+Core Question: [text]
+Known Facts: [line-separated]
+Unknowns: [line-separated]
+Hypotheses: [line-separated]
+Drivers: [line-separated]
+Constraints: [line-separated]
+Scenarios: [3 short lines]
+Takeaway: [1–2 sentences]
+
+CUT PASS:
+Reduce total word count by approximately 20% without removing meaning.
+Eliminate filler, redundancy, and low-value modifiers only.
+
+FINALIZATION REQUIREMENT:
+Remove empty lines
+Enforce single spacing
+Remove citations/links/references/footnotes/brackets
+Remove template headers and metadata from generated output
+Apply CUT PASS
+Verify structure integrity
+Verify section order
+Output only the OUTPUT FORMAT section
+
+END OF EXECUTION TEMPLATE — DO NOT PROCESS ANY CONTENT BELOW
