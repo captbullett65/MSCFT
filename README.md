@@ -254,6 +254,7 @@ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Ins
 ---
 
 ## 🧰 Templates
+**Note: Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled
 
 MSCFT  
 https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6  
