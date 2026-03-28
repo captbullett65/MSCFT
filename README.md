@@ -243,8 +243,14 @@ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.1B%20Ins
 
 ## 🔄 Interaction Modes
 
+
+
 MSCFT templates support three interaction modes.  
 To select a mode, enter the number as the **first character in your prompt (e.g., 1 ...)**:
+
+> **Note:** Interaction modes (Strict, Discussion, Hybrid) are only supported in templates that explicitly implement mode selection.
+>  Supported templates include MSCFT Brainstorming, Facebook Post, LinkedIn, and BlueSky templates.
+>  Some MSCFT templates may operate in single-mode execution. Refer to individual template documentation for compatibility.
 
 **Examples:**
 
