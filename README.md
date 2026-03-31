@@ -108,6 +108,7 @@ A → B → C → D → E → M → F → G
 - B.3.a — Strategic Intelligence Baseline (ODNI ATA 2026)
 - B.4 – Historical Analogues or Relevant Models
 - B.5 – Risk Model Integration
+- B.6 — Probability Adjustment Path (PAP)   
 
 ---
 
