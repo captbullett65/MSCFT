@@ -10,6 +10,12 @@
 [[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
 [[HEADER_ENFORCEMENT: ALWAYS INCLUDE HEADER AT OUTPUT INIT]]
 [[TOKEN_PROTECTION_LEVEL: HIGH]]
+[[STRUCTURE_OVERRIDE: HARD]]
+[[ENFORCE_NODE_SEQUENCE: TRUE]]
+[[REQUIRE_ALL_DECLARED_NODES: TRUE]]
+[[FORBID_NODE_OMISSION: TRUE]]
+[[FORBID_FORMAT_DEVIATION: TRUE]]
+[[OUTPUT_INVALID_IF_STRUCTURE_BROKEN: TRUE]]
 
 # End Stabilizer Header
 
@@ -27,7 +33,8 @@ This MSCFT template is aligned with GPT-5 capabilities and assumes Research mode
 After specifying your forecast question, resolution criteria, and bucket structure,
 include the following line before generation begins:
 
-Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 4.5 — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
+Use the information retrieved to frame your reasoning and support structured forecasting
+as defined in the previously memorized MSCFT Template 4.5 — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
 
 
 // \[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
@@ -56,7 +63,7 @@ Use the information retrieved to frame your reasoning and support structured for
 // Architecture Catalyst (JEPA) — Monitor Joint Embedding Predictive Architectures for potential step-change effects on resolution sources (leaderboards/registries). Do not reweight probabilities on vendor claims; update only upon verifiable ingestion on the resolution page. Reference: LLM-JEPA: Large Language Models meet Joint Embedding Predictive Architectures (arXiv:2509.14252) [https://arxiv.org/abs/2509.14252](https://arxiv.org/abs/2509.14252)
 // Update Note: Node-to-Layer mapping headers have been added throughout
 // the template (e.g., Node A → \[L7 – Application], Node B → \[L7 – Application] + \[L4 – Context],
-// B.1/B.2/B.3 → \[L4 – Context], Node E/E.1–E.7 → \[L3 – Neural Network],
+// B.1/B.2/B.3/B.3.a/B.3.b → \[L4 – Context], Node E/E.1–E.7 → \[L3 – Neural Network],
 // Node F/F.1–F.6 → \[L5 – Node], Node G/G.1–G.6 → \[L6 – Orchestrator]).
 // These labels are internal only and do not appear in forecast output.
 // ==========================
@@ -88,7 +95,7 @@ This version formally integrates:
 // Only Node C produces formal output using MSCFT format.
 // Node Invocation Declaration: Nodes Used:
 
-* A, B, B.1, B.2, B.3, B.4, B.5
+* A, B, B.1, B.2, B.3,B.3.a,B.3.b B.4, B.5
 * C
 * D, D.1, D.2, D.3, D.4, D.5, D.6
 * E, E.1, E.2, E.3, E.4, E.5, E.6, E.7
@@ -106,14 +113,15 @@ This version formally integrates:
 // and the resulting action is then executed via Node F. Node M does not replace or override other nodes;
 // it supplements the process by adding adaptive, case-based learning between planning and execution.
 // =============================================================================================================
-// MSCFT plain mode locked. No formatting. No ASCII. No inline interpretation. And no deviation. No summarization of the template.
+
+// MSCFT plain mode locked. No formatting. No ASCII. No inline interpretation, No inline citing, no deviation. No summarization of the template.
 
 // BELOW IS PRINT SECTION FOLLOW THE DIRECTIONS 
 // \[END OF NON-OUTPUT SECTION] 
 
 
 MSCFT Template Version 4.5 SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for Case-Based Reasoning; Node F for Retrieval-Augmented Generation (RAG) Added
-Nodes A, B, B.1, B.2, B.3, B.4, B.5, C, D, D.1, D.2, D.3, D.4, D.5, D.6, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Declared.
+Nodes A, B, B.1, B.2, B.3, B.3.a, B.3.b, B.4, B.5, B.6, C, D, D.1, D.2, D.3, D.4, D.5, D.6, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Declared.
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster:     \[Captbullett / MSCFTv.4.5]
@@ -171,14 +179,17 @@ A.4.c – Governance Reference (if applicable)
 A.4.d – Architecture watch: monitor JEPA-style releases/evals and note any leaderboard ingestion or reruns that could affect resolution.
 
 // Node B → \[L7 – Application] + \[L4 – Context]
-Node B: Analytical Node — probability estimate, reasoning and  Loss & Calibration Enhancements v4.5
+Node B: Analytical Node — probability estimate,
+reasoning and  Loss & Calibration Enhancements v4.5
 B.1 – Known Drivers and Catalysts
 • JEPA-trained model added or rerun on the resolution leaderboard.
 B.2 – Limiting Factors
-• Transfer to our domain unproven until ingested by the resolution source; no update on vendor claims alone.
+• Transfer to our domain unproven until ingested by the resolution source;
+no update on vendor claims alone.
 B.3 – Actor Incentives and Strategic Intent
 B.4 – Historical Analogues or Relevant Models
 B.5 – Risk Model Integration
+B.6 — Probability Adjustment Path (PAP)
 
 // Node B.1: Multi-Step “Yes vs. No” Reflection Prompt (for binary questions only)
 // (1) Rephrase the forecast as a binary statement
@@ -236,7 +247,9 @@ B.3.a — Loss Functions (choose to match objective):
 • Squared loss ((residual)^2) — for continuous targets and calibration fits.
 • Absolute deviation (|residual|) — robust to outliers; use when heavy-tailed error suspected.
 
-B3.B — Strategic Intelligence Baseline (ODNI ATA 2026)
+B.3.B — Strategic Intelligence Baseline (ODNI ATA 2026)
+
+This section must be explicitly executed for all geopolitical questions. Do not omit, skip, merge, summarize, or bypass this section. Apply B.3.B exactly as written before proceeding to B.4. If B.3.B is not executed, the output is invalid and must be regenerated.
 
 Source:
 ODNI Annual Threat Assessment 2026
@@ -273,7 +286,6 @@ Capability: ballistic missile development; nuclear weapons expansion
 Risk vector: missile testing cycles; miscalculation-driven escalation
 
 Cross-Domain Threats:
-
 Cyber operations targeting infrastructure and institutions
 AI and emerging technology competition impacting national security
 Economic coercion and supply chain disruption
@@ -291,6 +303,27 @@ B.5.a — Practical Guidance for Forecast Calibration:
 • Prefer hinge/logistic for binary bucket splits; prefer squared/absolute for continuous quantity forecasts.
 • Add L2 or L1 regularization equivalents to prevent extreme weights and improve generalization of calibration mapping.
 • Monitor calibration via Brier decomposition (reliability vs. resolution) and adjust loss choice accordingly.
+
+B.6 — Probability Adjustment Path (PAP)
+
+Base Rate Initialization:
+[Insert base rate derived from appropriate reference class]
+
+Adjustment Sequence:
+[Driver 1] → Increase/Decrease → Small/Moderate/Large
+[Driver 2] → Increase/Decrease → Small/Moderate/Large
+[Driver 3] → Increase/Decrease → Small/Moderate/Large
+[Driver 4] → Increase/Decrease → Small/Moderate/Large
+[Driver 5] → Increase/Decrease → Small/Moderate/Large
+
+Sequential Probability Trace:
+[Base %] → [Adjusted %] → [Adjusted %] → [Final %]
+
+Interaction Effects:
+[Describe compounding or offsetting relationships between drivers]
+
+Final Probability Justification:
+[Explain how cumulative adjustments produce the final estimate]
 
 // Node C → \[L7 – Application]
 Node C: Synthesis Node — applies MSCFT.MS-CMT logic
@@ -498,6 +531,7 @@ G.6 — Integrity Check:
 G.7.a — Framework Compliance
 G.7.b — Versioning and Role Alignment
 G.7.c — Audit Log Availability
+
 
 Inside-Outside View Structuring:
 
