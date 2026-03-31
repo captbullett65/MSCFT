@@ -304,7 +304,7 @@ These Custom GPTs provide direct access to MSCFT frameworks through structured, 
 >**Note:** Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled.
 
 **MSCFT**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/4%2C2%20Nodes%20A-G.6  
+https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-template-v4-5 
 
 **FORGE**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables  
