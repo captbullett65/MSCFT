@@ -241,45 +241,50 @@ https://github.com/captbullett65/MSCFT/blob/main/instructions/MSCFT%204.5%20Inst
 6. Validate and audit  
 
 ---
-
 ## 🔄 Interaction Modes
 
-
-
-MSCFT templates support three interaction modes.  
+MSCFT templates support four interaction modes.  
 To select a mode, enter the number as the **first character in your prompt (e.g., 1 ...)**:
 
-> **Note:** Interaction modes (Strict, Discussion, Hybrid) are only supported in templates that explicitly implement mode selection.
->  Supported templates include MSCFT Brainstorming, Facebook Post, LinkedIn, and BlueSky templates.
->  Some MSCFT templates may operate in single-mode execution. Refer to individual template documentation for compatibility.
+> **Note:** Interaction modes (Strict, Discussion, Hybrid, Summary) are only supported in templates that explicitly implement mode selection.  
+> Supported templates include; MSCFTv4.5, MSCFT Brainstorming, Facebook Post, LinkedIn Post, and BlueSky Post templates.  
+> Some MSCFT templates may operate in single-mode execution. Refer to individual template documentation for compatibility.
 
 **Examples:**
 
 - 1 Will China invade Taiwan before 2030? → Strict Mode  
 - 2 What are the key drivers of a potential Taiwan conflict → Discussion Mode  
-- 3 Analyze the probability of a Taiwan conflict using structured reasoning. → Hybrid Mode
+- 3 Analyze the probability of a Taiwan conflict using structured reasoning. → Hybrid Mode  
+- 4 Summarize the likelihood of a Taiwan conflict and key drivers → Summary Mode  
 
 ---
 
 - 1 → Strict Mode  
 - 2 → Discussion Mode  
 - 3 → Hybrid Mode  
+- 4 → Summary Mode  
 
 ---
 
 ### Mode Definitions
 
 - **1 — Strict Mode**  
-  Template-only execution. No deviation from structure.  
-  Used for formal forecasts, audits, and consistency.
+Template-only execution. No deviation from structure.  
+Used for formal forecasts, audits, and consistency.
 
 - **2 — Discussion Mode**  
-  Freeform reasoning without enforced structure.  
-  Used for exploration, brainstorming, and early-stage thinking.
+Freeform reasoning without enforced structure.  
+Used for exploration, brainstorming, and early-stage thinking.
 
 - **3 — Hybrid Mode**  
-  Combines structured template output with discussion.  
-  Enables reasoning alongside formal structure.
+Combines structured template output with discussion.  
+Enables reasoning alongside formal structure.
+
+- **4 — Summary Mode**  
+Compressed high-signal output constrained to 25,000 characters.  
+Removes low-value detail while preserving key insights, assumptions, and conclusions.  
+Used for fast review, synthesis, and large-input compression.
+
 
 ---
 
