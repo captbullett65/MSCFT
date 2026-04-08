@@ -16,8 +16,72 @@
 [[FORBID_NODE_OMISSION: TRUE]]
 [[FORBID_FORMAT_DEVIATION: TRUE]]
 [[OUTPUT_INVALID_IF_STRUCTURE_BROKEN: TRUE]]
+[[CHARACTER_BUDGET_MAX: 25000]]
+[[CHARACTER_BUDGET_ENFORCE: TRUE]]
+
 
 # End Stabilizer Header
+
+===================================================================================================
+
+# MODE CONTROL BLOCK — DO NOT REMOVE
+# Purpose: Handles runtime behavior switching between STRICT, DISCUSSION, HYBRID, and SUMMARY modes.
+# Note: This section controls output type only. It does not override stabilizer constraints.
+Persist the current mode until the user explicitly changes it.
+
+1) STRICT
+2) DISCUSSION
+3) HYBRID
+4) SUMMARY
+
+MODE SELECTION INPUT
+
+If the user inputs:
+"1" → STRICT
+MODE = STRICT
+
+"2" → DISCUSSION
+MODE = DISCUSSION
+
+"3" → HYBRID
+MODE = HYBRID
+
+"4" → SUMMARY
+MODE = SUMMARY
+
+If the user provides only the number, switch mode immediately and persist it.
+Do not ask for confirmation.
+Do not output the mapping.
+Apply the selected mode to the next response.
+
+MODE DIRECTIONS
+
+1) STRICT:
+Output template only.
+Follow full template structure.
+No discussion outside template.
+
+2) DISCUSSION:
+Output normal text only.
+Do not output the template.
+
+3) HYBRID:
+Output template first.
+Output discussion after template.
+Follow template constraints for the template portion.
+
+4) SUMMARY:
+Output compressed high-signal summary only.
+Do not output full template unless explicitly requested.
+Keep output under 25000 characters.
+Preserve core question, key facts, main gaps, 
+strongest hypotheses, major constraints, scenarios, and takeaway.
+Remove repetition, filler, and low-value detail.
+Prefer summarization over truncation.
+Do not cut off mid-thought.
+
+// End MODE CONTROL BLOCK 
+===================================================================================================
 
 // [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
@@ -104,6 +168,7 @@ This version formally integrates:
 * G, G.1, G.2, G.3, G.4, G.5, G.6  // Optional G.7 if used
 
 // ============================================================================================================
+
 // Integration Note: Node M Placement:
 // Node M (Memento CBR Agent) is integrated into the MSCFT process flow as a pre-executor module.
 // Its position is directly before Node F (RAG / Tools), ensuring that memory-based reasoning,
@@ -120,8 +185,15 @@ This version formally integrates:
 // \[END OF NON-OUTPUT SECTION] 
 
 
-MSCFT Template Version 4.5 SWARM nodes and BIN Integrated — Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for Case-Based Reasoning; Node F for Retrieval-Augmented Generation (RAG) Added
-Nodes A, B, B.1, B.2, B.3, B.3.a, B.3.b, B.4, B.5, B.6, C, D, D.1, D.2, D.3, D.4, D.5, D.6, E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6 Declared.
+MSCFT Template Version 4.5 SWARM nodes and BIN Integrated.
+Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for Case-Based Reasoning; Node F for Retrieval-Augmented Generation (RAG) Added.
+Nodes:
+A, B, B.1, B.2, B.3, B.3.a, B.3.b, B.4, B.5, B.6, C, D, D.1, D.2, D.3, D.4, D.5, D.6,
+E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6
+FOLLOW THE FULL MSCFTV4.5 TEMPLATE EXACTLY AS WRITTEN. NODE ORDER IS A, B, C, D, E, F, G, BUT NODE G.6 IS NOT THE END OF THE TEMPLATE.
+AFTER G.6, CONTINUE THROUGH ALL REMAINING SECTIONS EXACTLY AS WRITTEN UNTIL THE END-OF-THE TEMPLATE BOUNDRY.
+	
+// THERE ARE REQUIRED SECTIONS AFTER G.6. DO NOT DECLARE THE TEMPLATE COMPLETE AT G.6
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster:     \[Captbullett / MSCFTv.4.5]
@@ -249,7 +321,9 @@ B.3.a — Loss Functions (choose to match objective):
 
 B.3.B — Strategic Intelligence Baseline (ODNI ATA 2026)
 
-This section must be explicitly executed for all geopolitical questions. Do not omit, skip, merge, summarize, or bypass this section. Apply B.3.B exactly as written before proceeding to B.4. If B.3.B is not executed, the output is invalid and must be regenerated.
+This section must be explicitly executed for all geopolitical questions. 
+Do not omit, skip, merge, summarize, or bypass this section. 
+Apply B.3.B exactly as written before proceeding to B.4. If B.3.B is not executed, the output is invalid and must be regenerated.
 
 Source:
 ODNI Annual Threat Assessment 2026
@@ -338,7 +412,9 @@ C.6 – Forecast Caveats and Error Pathways; Error pathway: Premature reweightin
 
 // Node D → \[L4 – Context]
 Node D: Interpretation Node — Markov chain, entropy, or KL divergence
-// D.1 → \[L4 – Context]
+// If failure requires a discrete trigger and no precursor signals are observed, 
+probability of failure decays as a function of remaining time.
+
 D.1 – Entropy or Volatility Classification
 Volatility tag: JEPA = regime-change candidate; expect stepwise, not gradual, transitions.
 // D.2 → \[L4 – Context]
@@ -527,11 +603,14 @@ G.6 — Integrity Check:
 • Cross-verify the execution log against the source snapshot before publishing any update.
 • If mismatch is detected, revert the update and flag for manual review.
 
-// Optional Node G.7 — Governance and Compliance Declaration
+NODE CHAIN CONTINUES - PROCEED TO ALL FOLLOWING REQUIRED SECTIONS. DO NOT TERMINATE AFTER NODE G.6
+
+// Optional Node G.7 — Governance and Compliance Declaration 
+(IF PRESENT, MUST BE OUTPUT)
 G.7.a — Framework Compliance
 G.7.b — Versioning and Role Alignment
 G.7.c — Audit Log Availability
-
+CONTINUE OUTPUT - THIS IS PART OF THE SAME TEMPLATE EXECUTION, NOT A NEW TASK.
 
 Inside-Outside View Structuring:
 
@@ -552,8 +631,8 @@ Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned b
 Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
 
 If the question is binary (Yes/No), use:
-• Yes:  \[   ]%
-• No:   \[   ]%
+• Yes: \[   ]%
+• No:  \[   ]%
 
 For multi-range buckets:
 • 2 or fewer:              \[   ]%
@@ -564,19 +643,24 @@ For multi-range buckets:
 • Between 17 and 21:       \[   ]%
 • 22 or more:              \[   ]%
 
+=========================================================================================
+OUTPUT CONTINUATION REQUIRED - DO NOT TERMINATE AFTER PROBABILITY ALLOCATION.
+COMPLETE ALL REMAINING SECTIONS.
+=========================================================================================
+
 These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
 as shown in the Metaculus interface. Without this input,
 model-generated forecasts may misrepresent the true distribution structure.
 
-// Rationale for Probability Distribution
-Rationale: \[Explain the reasoning behind your distribution. What supports each weighting?]
+Rationale for Probability Distribution
+Rationale: [Explain the reasoning behind your distribution. What supports each weighting?]
 
-// Forecast Caveats and Error Pathways
+Forecast Caveats and Error Pathways
 Why Might You Be Wrong?
 
-1. \[Insert potential forecast error #1]
-2. \[Insert potential forecast error #2]
-3. \[Insert potential forecast error #3]
+1. [Insert potential forecast error #1]
+2. [Insert potential forecast error #2]
+3. [Insert potential forecast error #3]
 
 [END OF WORKING TEMPLATE - DO NOT PRINT BELOW THIS LINE]
