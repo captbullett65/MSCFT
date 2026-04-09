@@ -139,7 +139,7 @@ include the following line before generation begins:
 // ====== Begin Standard Invocation ======
 This version formally integrates:
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
-// Mode: Structured Swarm (7 Nodes, MSCFT.MS-CMT applied internally)
+// Mode: Structured Swarm (13 nodes expandes with sub-nodes, MSCFT.MS-CMT applied internally)
 // Node A: Research Node — framing, question structure, source listing
 // Node B: Analytical Node — probability estimate, reasoning, BIN Model
 // Node C: Synthesis Node — internal application of MSCFT.MS-CMT logic for final output
@@ -151,9 +151,14 @@ This version formally integrates:
 // Node E: Time Series Modeling Node — applies mathematical inference to temporal datasets, including AR, MA, ARIMA, ETS, Fourier series, and spectral entropy models.
 // Node M: Memento CBR Agent — memory-driven case retrieval and action guidance (pre-executor before RAG).
 // Node F: Retrieval-Augmented Generation (RAG) Node — manages the use of retrieved external sources, maps scope alignment, evaluates forecast contamination, and enforces human-in-the-loop validation.
-// Node G: Meta-Curation and Data Integrity Node — filters low-quality or adversarial data using meta-learning algorithms (e.g., DataRater), applying inner/outer loop optimization for upstream data quality assurance.
-// Node Invocation Declaration: Nodes Used:
+// Node G: Meta-Curation and Data Integrity Node — filters low-quality or adversarial data using meta-learning algorithms (e.g., DataRater), applying inner/outer loop optimization for upstream data quality assurance
+// Node H: Inside/Outside View 
+// Node I: Data Anomaly 
+// Node J: Probability Allocation 
+// Node K: Rationale 
+// Node L: Forecast Caveats 
 
+// Node Invocation Declaration: Nodes Used:
 * A, B, B.1, B.2, B.3,B.3.a,B.3.b B.4, B.5, B.6
 * C
 * D, D.1, D.2, D.3, D.4, D.5, D.6
@@ -164,7 +169,7 @@ This version formally integrates:
 * H Inside/Outside View 
 * I Data Anomaly 
 * J Probability Allocation 
-* K Rational 
+* K Rationale 
 * L Forecast Caveats 
 
 // ============================================================================================================
@@ -190,11 +195,7 @@ Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for C
 Nodes:
 A, B, B.1, B.2, B.3, B.3.a, B.3.b, B.4, B.5, B.6, C, D, D.1, D.2, D.3, D.4, D.5, D.6,
 E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6
-FOLLOW THE FULL MSCFT V4.5 TEMPLATE EXACTLY AS WRITTEN. NODE ORDER IS A, B, C, D, E, F, G, H, I, J, K, L 
-BUT NODE G.6 IS NOT THE END OF THE TEMPLATE.
-AFTER G.6, CONTINUE THROUGH ALL REMAINING SECTIONS EXACTLY AS WRITTEN UNTIL THE END-OF-THE TEMPLATE BOUNDRY.
-	 
-// THERE ARE REQUIRED SECTIONS AFTER G.6. DO NOT DECLARE THE TEMPLATE COMPLETE AT G.6
+FOLLOW THE FULL MSCFT V4.5 TEMPLATE EXACTLY AS WRITTEN. NODE ORDER IS A, B, C, D, E, M (Memento CBR Node) // [placed before Node F], F, G, H, I, J, K, L 
 
 Forecast Title: \[Insert Forecast Title Here]
 Forecaster:     \[Captbullett / MSCFTv.4.5]
@@ -606,16 +607,12 @@ G.6 — Integrity Check:
 • Cross-verify the execution log against the source snapshot before publishing any update.
 • If mismatch is detected, revert the update and flag for manual review.
 
-Node G.6 is not the terminal node. Continue execution through Nodes H–L.
-NODE CHAIN CONTINUES - PROCEED TO ALL FOLLOWING REQUIRED SECTIONS. DO NOT TERMINATE AFTER NODE G.6
-
 // Optional Node G.7 — Governance and Compliance Declaration 
 (IF PRESENT, MUST BE OUTPUT)
 
 G.7.a — Framework Compliance
 G.7.b — Versioning and Role Alignment
 G.7.c — Audit Log Availability
-CONTINUE OUTPUT - THIS IS PART OF THE SAME TEMPLATE EXECUTION, NOT A NEW TASK.
 
 // Node H → [L7 – Application]
 Inside-Outside View Structuring:
