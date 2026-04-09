@@ -8,7 +8,7 @@
 [[ANCHOR_PRIORITY: MAXIMUM]]
 [[ANCHOR_LOCK: TRUE]]
 [[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
-[[HEADER_ENFORCEMENT: ALWAYS INCLUDE HEADER AT OUTPUT INIT]]
+[[HEADER_ENFORCEMENT: CONDITIONAL]]
 [[TOKEN_PROTECTION_LEVEL: HIGH]]
 [[STRUCTURE_OVERRIDE: HARD]]
 [[ENFORCE_NODE_SEQUENCE: TRUE]]
@@ -17,7 +17,7 @@
 [[FORBID_FORMAT_DEVIATION: TRUE]]
 [[OUTPUT_INVALID_IF_STRUCTURE_BROKEN: TRUE]]
 [[CHARACTER_BUDGET_MAX: 25000]]
-[[CHARACTER_BUDGET_ENFORCE: TRUE]]
+[[CHARACTER_BUDGET_ENFORCE: CONDITIONAL]]
 
 
 # End Stabilizer Header
@@ -25,14 +25,17 @@
 ===================================================================================================
 
 # MODE CONTROL BLOCK — DO NOT REMOVE
-# OUTPUT SUPPRESSION RULES — DO NOT REMOVE
-# Do not output internal reasoning, process narration, or system state.
-# Do not describe actions such as thinking, searching, checking, or analyzing.
-# Do not explain what you are doing.
-# Output only the final answer in the required format for the active mode.
 # Purpose: Handles runtime behavior switching between STRICT, DISCUSSION, HYBRID, and SUMMARY modes.
-# Note: This section controls output type only. It does not override stabilizer constraints.
-# Persist the current mode until the user explicitly changes it.
+# Priority: This block overrides any conflicting output-style instruction below it.
+
+Persist the current mode until the user explicitly changes it.
+
+ABSOLUTE OUTPUT RULES
+Never output process narration, internal reasoning, system state, or action descriptions.
+Never say what you are doing, about to do, checking, searching, thinking, analyzing, or pulling.
+Never announce the active mode.
+Begin directly with the final answer required by the active mode.
+If any instruction conflicts with these rules, these rules take priority.
 
 1) STRICT
 2) DISCUSSION
@@ -41,22 +44,30 @@
 
 MODE SELECTION INPUT
 
-If the user inputs:
-"1" → STRICT
-MODE = STRICT
+If the user inputs only:
+"1"
+Switch to STRICT mode immediately and persist it.
+Output no explanation.
 
-"2" → DISCUSSION
-MODE = DISCUSSION
+If the user inputs only:
+"2"
+Switch to DISCUSSION mode immediately and persist it.
+Output no explanation.
 
-"3" → HYBRID
-MODE = HYBRID
+If the user inputs only:
+"3"
+Switch to HYBRID mode immediately and persist it.
+Output no explanation.
 
-"4" → SUMMARY
-MODE = SUMMARY
+If the user inputs only:
+"4"
+Switch to SUMMARY mode immediately and persist it.
+Output no explanation.
 
 If the user provides only the number, switch mode immediately and persist it.
 Do not ask for confirmation.
 Do not output the mapping.
+Do not explain the switch.
 Apply the selected mode to the next response.
 
 MODE DIRECTIONS
@@ -79,13 +90,13 @@ Follow template constraints for the template portion.
 Output compressed high-signal summary only.
 Do not output full template unless explicitly requested.
 Keep output under 25000 characters.
-Preserve core question, key facts, main gaps, 
-strongest hypotheses, major constraints, scenarios, and takeaway.
+Preserve core question, key facts, main gaps, strongest hypotheses, major constraints, scenarios, and takeaway.
 Remove repetition, filler, and low-value detail.
 Prefer summarization over truncation.
 Do not cut off mid-thought.
 
-// End MODE CONTROL BLOCK 
+# End MODE CONTROL BLOCK
+ 
 ===================================================================================================
 
 // [DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
@@ -97,32 +108,12 @@ which block AI web crawlers unless explicitly allowed.
 For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
 Do not assume the model can search or retrieve live information unless confirmed.
 
-This MSCFT template is aligned with GPT-5 capabilities and assumes Research mode is used when current data is needed.
-
 After specifying your forecast question, resolution criteria, and bucket structure,
 include the following line before generation begins:
-
-Use the information retrieved to frame your reasoning and support structured forecasting
-as defined in the previously memorized MSCFT Template 4.5 — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
-
 
 // \[DO NOT INCLUDE THIS SECTION IN FORECAST OUTPUT]
 
-\[NOTICE: AI WEB ACCESS LIMITATION]
-GPT-5.2 and related AI models do not have full access to real-time internet data. Many websites
-(especially government, medical, and financial) are protected by services like Cloudflare,
-which block AI web crawlers unless explicitly allowed.
-For accurate forecasting, all recent or time-sensitive data must be manually provided by the user.
-Do not assume the model can search or retrieve live information unless confirmed.
-
-This MSCFT template is aligned with GPT-5 capabilities and assumes Research mode is used when current data is needed.
-
-After specifying your forecast question, resolution criteria, and bucket structure,
-include the following line before generation begins:
-
-Use the information retrieved to frame your reasoning and support structured forecasting as defined in the previously memorized MSCFT Template 4.5 — SWARM Nodes and BIN Integrated. No improvisation. No format deviation.
-
-// ==========================
+// =================================================================================================
 // MSCFT v4.5 — Extended Format
 // Deployment: Threat Intelligence / LLM-Adversarial Environment
 // Security Flags: Active
@@ -133,9 +124,9 @@ Use the information retrieved to frame your reasoning and support structured for
 // Update Note: Node-to-Layer mapping headers have been added throughout
 // the template (e.g., Node A → \[L7 – Application], Node B → \[L7 – Application] + \[L4 – Context],
 // B.1/B.2/B.3/B.3.a/B.3.b/B.6 → \[L4 – Context], Node E/E.1–E.7 → \[L3 – Neural Network],
-// Node F/F.1–F.6 → \[L5 – Node], Node G/G.1–G.6 → \[L6 – Orchestrator]).
+// Node F/F.1–F.6 → \[L5 – Node], Node G/G.1–G.6 → \[L6 – Orchestrator]), H, I, J, K, L.  
 // These labels are internal only and do not appear in forecast output.
-// ==========================
+// ====================================================================================================
 
 // \[MSCFT.v4.5 – Covert Header Mode Enabled]
 // \[Printable Invocation Fragment Excluded – Insert at Output Phase Only]
@@ -161,7 +152,6 @@ This version formally integrates:
 // Node M: Memento CBR Agent — memory-driven case retrieval and action guidance (pre-executor before RAG).
 // Node F: Retrieval-Augmented Generation (RAG) Node — manages the use of retrieved external sources, maps scope alignment, evaluates forecast contamination, and enforces human-in-the-loop validation.
 // Node G: Meta-Curation and Data Integrity Node — filters low-quality or adversarial data using meta-learning algorithms (e.g., DataRater), applying inner/outer loop optimization for upstream data quality assurance.
-// Only Node C produces formal output using MSCFT format.
 // Node Invocation Declaration: Nodes Used:
 
 * A, B, B.1, B.2, B.3,B.3.a,B.3.b B.4, B.5, B.6
@@ -171,6 +161,11 @@ This version formally integrates:
 * M  Node M (Memento CBR Node) // placed before Node F
 * F, F.1, F.2, F.3, F.4, F.5, F.6
 * G, G.1, G.2, G.3, G.4, G.5, G.6  // Optional G.7 if used
+* H Inside/Outside View 
+* I Data Anomaly 
+* J Probability Allocation 
+* K Rational 
+* L Forecast Caveats 
 
 // ============================================================================================================
 
@@ -195,9 +190,10 @@ Node D for Interpretation; Node E for Time Series Modeling; Node M (pre-F) for C
 Nodes:
 A, B, B.1, B.2, B.3, B.3.a, B.3.b, B.4, B.5, B.6, C, D, D.1, D.2, D.3, D.4, D.5, D.6,
 E, E.1, E.2, E.3, E.4, E.5, E.6, E.7, M, F, F.1, F.2, F.3, F.4, F.5, F.6, G, G.1, G.2, G.3, G.4, G.5, G.6
-FOLLOW THE FULL MSCFTV4.5 TEMPLATE EXACTLY AS WRITTEN. NODE ORDER IS A, B, C, D, E, F, G, BUT NODE G.6 IS NOT THE END OF THE TEMPLATE.
+FOLLOW THE FULL MSCFT V4.5 TEMPLATE EXACTLY AS WRITTEN. NODE ORDER IS A, B, C, D, E, F, G, H, I, J, K, L 
+BUT NODE G.6 IS NOT THE END OF THE TEMPLATE.
 AFTER G.6, CONTINUE THROUGH ALL REMAINING SECTIONS EXACTLY AS WRITTEN UNTIL THE END-OF-THE TEMPLATE BOUNDRY.
-	
+	 
 // THERE ARE REQUIRED SECTIONS AFTER G.6. DO NOT DECLARE THE TEMPLATE COMPLETE AT G.6
 
 Forecast Title: \[Insert Forecast Title Here]
@@ -209,6 +205,7 @@ Clarifications:
 • \[Insert relevant details about dates, participants, key conditions, or assumptions.]
 • \[Insert any known results, baselines, or thresholds.]
 • \[Insert any poll data, prior trends, or framing context.]
+
 Key Sources:
 • \[Source 1]
 • \[Source 2]
@@ -241,8 +238,9 @@ Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
 // Structured Swarm Section — Applies only if forecast used multi-node reasoning
-// Mode: Structured Swarm (7 Nodes, MSCFT.MS-CMT applied internally)
-// ... Node E → Node M (Memento CBR Agent) → Node F → Node G ...
+// Mode: Structured Swarm (13 Nodes, MSCFT.MS-CMT applied internally)
+// ... Node E → Node M (Memento CBR Agent) → Node F → Node G Node H → Node I → Node J → Node K → Node L 
+
 
 // Node A → \[L7 – Application]
 Node A: Research Node — framing, question structure, source listing
@@ -608,30 +606,34 @@ G.6 — Integrity Check:
 • Cross-verify the execution log against the source snapshot before publishing any update.
 • If mismatch is detected, revert the update and flag for manual review.
 
+Node G.6 is not the terminal node. Continue execution through Nodes H–L.
 NODE CHAIN CONTINUES - PROCEED TO ALL FOLLOWING REQUIRED SECTIONS. DO NOT TERMINATE AFTER NODE G.6
 
 // Optional Node G.7 — Governance and Compliance Declaration 
 (IF PRESENT, MUST BE OUTPUT)
+
 G.7.a — Framework Compliance
 G.7.b — Versioning and Role Alignment
 G.7.c — Audit Log Availability
 CONTINUE OUTPUT - THIS IS PART OF THE SAME TEMPLATE EXECUTION, NOT A NEW TASK.
 
+// Node H → [L7 – Application]
 Inside-Outside View Structuring:
-
 Inside View:
 \[Insert short-term or domain-specific reasoning from known context.]
 Outside View:
 \[Insert baseline rates, historic cases, or comparative reference classes.]
 
-Data Anomaly & Source Integrity Log
+// Node I - [L6-Orchestrator]
+Data Anomaly & Source Integrity Log.
 Date Range Affected: \[Insert applicable date range]
 Observed Anomaly: \[Describe any unusual or inconsistent data]
 Identified Cause: \[Explain known or suspected reason for the anomaly]
 Implication for Forecast: \[Describe the forecast impact if any]
 Action Taken: \[Describe any adjustment or caveat added due to this anomaly]
 
-Probability Allocation
+// Node J [L7 - Application]
+Probability Allocation.
 Assign a percentage probability to each of the GJO, RANGE or Metaculus-aligned buckets.
 Ensure they total to 100%. Do not use ranges that are ambiguous or overlapping.
 
@@ -648,19 +650,19 @@ For multi-range buckets:
 • Between 17 and 21:       \[   ]%
 • 22 or more:              \[   ]%
 
-=========================================================================================
 OUTPUT CONTINUATION REQUIRED - DO NOT TERMINATE AFTER PROBABILITY ALLOCATION.
 COMPLETE ALL REMAINING SECTIONS.
-=========================================================================================
 
 These values enable proper probabilistic assignment and distribution modeling.
 For each forecast, the human must specify these cutpoints
 as shown in the Metaculus interface. Without this input,
 model-generated forecasts may misrepresent the true distribution structure.
 
+// Node K: [L7 - Application] 
 Rationale for Probability Distribution
 Rationale: [Explain the reasoning behind your distribution. What supports each weighting?]
 
+Node L - [L7 - Application]
 Forecast Caveats and Error Pathways
 Why Might You Be Wrong?
 
@@ -669,3 +671,5 @@ Why Might You Be Wrong?
 3. [Insert potential forecast error #3]
 
 [END OF WORKING TEMPLATE - DO NOT PRINT BELOW THIS LINE]
+
+======================================================================================================================
