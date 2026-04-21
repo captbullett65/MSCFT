@@ -315,7 +315,7 @@ https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-template-v4-5
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables  
 
 **MATHEMATICS**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/MATHEMATICS_v1.0_Template.txt  
+https://chatgpt.com/g/g-689f321989848191b020bb58a84521ab-mscft-mathematics-template-v1-1 
 
 **SENTINEL**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt  
