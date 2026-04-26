@@ -27,11 +27,15 @@ Rules:
 * Data must be numeric
 * Sorted from highest to lowest gene_total
 * Recommended size: 30–100 rows (optimal ~50)
+---
+Example:
 
-Example: gene_index,gene_total
+```
+gene_index,gene_total 
 25121,323.14860632
 11117,314.95693496
 38683,286.06591218
+```
 
 ---
 
