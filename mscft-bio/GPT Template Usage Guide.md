@@ -49,8 +49,27 @@ gene_index,gene_total
 ## Execution
 
 Once the file is uploaded, prompt the system with:
-
 Analyze the dataset and identify patterns, clusters, inflection points, and top-performing signals.
+
+---
+
+## Prompt Template
+Once your CSV is uploaded, use the following prompt:
+```text
+Analyze the dataset and identify patterns, clusters, inflection points, and top-performing signals.
+Focus on:
+- Distribution behavior of gene_total values
+- Any clustering or tiering (high, mid, low signal groups)
+- Sharp drop-offs or inflection points
+- Outliers or anomalies
+Do not give generic explanations. Be specific to the numeric patterns observed.
+Data:
+gene_index,gene_total
+25121,323.14860632
+11117,314.95693496
+38683,286.06591218
+```
+---
 ## Expected Output
 
 The GPT will return structured analysis including:
