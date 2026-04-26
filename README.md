@@ -304,21 +304,28 @@ Used for fast review, synthesis, and large-input compression.
 
 ## 🧰 Custom GPTs (Template-Powered)
 
-These Custom GPTs provide direct access to MSCFT frameworks through structured, template-driven execution environments. 
+These Custom GPTs provide direct access to MSCFT frameworks through structured, template-driven execution environments.
 
->**Note:** Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled.
+> **Note:** Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled.
 
 **MSCFT V4.5**  
 https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-template-v4-5
 
 **FORGE**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20%20Framework%20for%20Optimized%2C%20Reliable%20Generation%20of%20Executables  
+https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20Framework%20for%20Optimized%20Reliable%20Generation%20of%20Executables
 
 **MATHEMATICS**  
-https://chatgpt.com/g/g-689f321989848191b020bb58a84521ab-mscft-mathematics-template-v1-1 
+https://chatgpt.com/g/g-689f321989848191b020bb58a84521ab-mscft-mathematics-template-v1-1
 
 **SENTINEL**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt  
+https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt
+
+**MSCFT-BIO**  
+https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscft-bio-v1-0
+
+MSCFT-BIO extends the MSCFT framework to biological data by converting high-dimensional gene expression datasets into structured, rank-based signals compatible with GPT systems.
+
+This enables pattern detection, clustering, and signal analysis without processing raw matrices directly.
 
 ---
 
