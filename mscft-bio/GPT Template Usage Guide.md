@@ -47,7 +47,8 @@ gene_index,gene_total
 4. Do not paste raw data into chat unless necessary
 
 ## Execution
-## Execution
+This GPT encapsulates the full MSCFT-BIO analytical framework internally. 
+Users are not required to manage or modify underlying templates.
 
 Once the file is uploaded, use the MSCFT-BIO GPT to analyze the dataset.
 
