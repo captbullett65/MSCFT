@@ -7,7 +7,7 @@ This template is designed to analyze ranked gene expression signals using struct
 It extracts patterns, clusters, and signal behavior from preprocessed biological data.
 
 ---
-##Quick Start
+## Quick Start
 
 Data Preparation → README.md
 Project Overview → Structured Gene Signal Forecasting.md
