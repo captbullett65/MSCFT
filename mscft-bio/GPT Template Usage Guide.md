@@ -47,9 +47,26 @@ gene_index,gene_total
 4. Do not paste raw data into chat unless necessary
 
 ## Execution
+## Execution
 
-Once the file is uploaded, prompt the system with:
-Analyze the dataset and identify patterns, clusters, inflection points, and top-performing signals.
+Once the file is uploaded, use the MSCFT-BIO GPT to analyze the dataset.
+
+### Custom GPT Link
+Use the MSCFT-BIO custom GPT here:  
+https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscf-bio-v1-0
+
+### Usage Instructions
+1. Open the custom GPT using the link above
+2. Upload your cleaned `gpt_input.csv` file
+3. Run the prompt provided in the Prompt Template section
+
+The GPT is designed to read ranked `gene_index,gene_total` data and return structured signal analysis, including:
+- Pattern detection
+- Cluster behavior (high, mid, low signal groups)
+- Inflection points
+- Top-performing genes
+
+Do not upload raw gene matrices. Use only processed CSV data generated from the data preparation workflow.
 
 ---
 
