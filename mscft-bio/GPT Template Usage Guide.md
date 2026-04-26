@@ -7,7 +7,13 @@ This template is designed to analyze ranked gene expression signals using struct
 It extracts patterns, clusters, and signal behavior from preprocessed biological data.
 
 ---
+##Quick Start
 
+Data Preparation → README.md
+Project Overview → Structured Gene Signal Forecasting.md
+GPT Usage → GPT Template Usage Guide.md
+
+---
 ## Input Requirements
 
 The GPT requires a clean CSV file with the following structure:
