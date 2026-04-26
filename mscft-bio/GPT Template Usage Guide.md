@@ -29,11 +29,11 @@ Rules:
 * Recommended size: 30–100 rows (optimal ~50)
 
 Example:
-
+'
 25121,323.14860632
 11117,314.95693496
 38683,286.06591218
-
+'
 ---
 
 ## Upload Process
