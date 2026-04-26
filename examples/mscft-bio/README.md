@@ -8,21 +8,26 @@ This example demonstrates how to run the MSCFT-BIO pipeline using a preprocessed
 
 ## How to Run
 
-1. Open the file:
-   examples/mscft-bio/processed_data.csv
+ 1. Open the file:
+   examples/mscft-bio/GSE27255_clean.csv
 
 2. Open the MSCFT-BIO GPT:
    [ https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscft-bio-v1-0 ]
 
-3. Upload:
-   processed_data.csv
+3. 3. Upload ONLY ONE of the following files to GPT:
 
-4. Open:
+   Option A (recommended):
+   GSE27255_clean.csv
+
+   Option B (smaller test dataset):
+   GES27255_Sample_150rows.csv.csv   
+
+5. Open:
    mscft-bio/GPT Template Usage Guide.md
 
-5. Copy the prompt from the **Prompt Template** section
+6. Copy the prompt from the **Prompt Template** section
 
-6. Paste it into GPT and run
+7. Paste it into GPT and run
 
 ## Expected Result
 
