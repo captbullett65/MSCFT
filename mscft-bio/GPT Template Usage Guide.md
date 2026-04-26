@@ -54,7 +54,10 @@ Once the file is uploaded, use the MSCFT-BIO GPT to analyze the dataset.
 
 ### Custom GPT Link
 Use the MSCFT-BIO custom GPT here:  
+
 https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscf-bio-v1-0
+
+Note: Requires an active GPT account with acess(Plus, Team, or Enterprise).
 
 ### Usage Instructions
 1. Open the custom GPT using the link above
