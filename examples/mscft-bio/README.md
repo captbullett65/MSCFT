@@ -12,7 +12,7 @@ This example demonstrates how to run the MSCFT-BIO pipeline using a preprocessed
    examples/mscft-bio/processed_data.csv
 
 2. Open the MSCFT-BIO GPT:
-   (paste your GPT link here)
+   [ https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscft-bio-v1-0 ]
 
 3. Upload:
    processed_data.csv
