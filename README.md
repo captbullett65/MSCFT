@@ -20,9 +20,12 @@ The Master Swarm Consensus Forecasting Template (MSCFT), including all released 
 - Retrieval-Augmented Generation (RAG) node design  
 - All time-series modeling nodes (E.1 through E.7)  
 
-Any reuse without attribution constitutes a violation of authorship integrity.
+Reuse without attribution constitutes a violation of authorship integrity.
 
 ---
+## Open Framework
+
+MSCFT is released as an open, no-code framework that enables organizations to construct controlled, auditable LLM systems tailored to their operational environments.
 
 ## ⚠️ Compatibility Notice
 
