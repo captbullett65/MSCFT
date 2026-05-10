@@ -314,6 +314,28 @@ These Custom GPTs provide direct access to MSCFT frameworks through structured, 
 **MSCFT V4.5**  
 https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-template-v4-5
 
+**MSCFT v5.0 (Beta)**
+
+The current active development version of MSCFT
+
+[https://chatgpt.com/g/g-69dabfa14d7c819184c5d579b6f70740-mscft-template-v5-0](https://chatgpt.com/g/g-69dabfa14d7c819184c5d579b6f70740-mscft-template-v5-0)
+
+
+MSCFT v5.0 (Beta) represents the latest evolution of the Master Swarm Consensus Forecasting Template,
+introducing extended structural controls, enhanced continuity across reasoning stages,
+and improved enforcement of calibration discipline in LLM-assisted forecasting workflows.
+This version also integrates the **Counterweight Track (CWT)**, 
+a structured counter-analysis layer that generates alternative probability adjustments and explicitly surfaces divergence pathways, edge cases, and low-frequency outcome scenarios.
+
+This version is implemented as a **single-mode execution template**, designed to ensure strict adherence to formatting, 
+sequencing, and output consistency. The single-mode constraint reflects current platform limitations and
+is intentionally enforced to preserve structural integrity, reproducibility, and cross-model comparability during active evaluation.
+
+MSCFT v5.0 (Beta) is currently undergoing live validation through the Roche AI Challenge forecasting series. 
+Final stabilization and promotion to a full release will follow the resolution of these forecasts, 
+at which point empirical performance comparisons and cross-model consistency analysis will be integrated.
+
+
 **FORGE**  
 https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20Framework%20for%20Optimized%20Reliable%20Generation%20of%20Executables
 
