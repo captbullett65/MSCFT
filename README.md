@@ -60,6 +60,35 @@ Citation:
 Helip, B. (2025). From Protocol to Practice: Nodes, Not Agents in Human-in-the-Loop LLM Swarms. Zenodo.
 
 ---
+### Paper 3
+
+**System-Level Evaluation of LLM-Assisted Forecasting Using the Master Swarm Consensus Forecasting Template (MSCFT)**
+
+This paper presents a system-level evaluation of the Master Swarm Consensus Forecasting Template (MSCFT), examining structured human-AI forecasting workflows, forecast calibration, probabilistic reasoning, decision-support architectures, and forecasting performance. The study evaluates how disciplined forecasting methodologies can improve transparency, consistency, uncertainty assessment, and analytical rigor when humans and large language models collaborate within a structured analytical framework.
+
+The research represents the culmination of more than two years of development, testing, refinement, and practical application of the MSCFT methodology. The work provides a comprehensive assessment of structured forecasting systems and explores how human judgment and AI-assisted analysis can be integrated within transparent, reproducible, and auditable forecasting processes.
+
+OSF Registration (DOI):
+https://doi.org/10.17605/OSF.IO/DHGWC
+
+OSF Project:
+https://osf.io/fvwxa/
+
+ORCID:
+https://orcid.org/0009-0006-3463-170X
+
+Citation:
+
+Helip, B. (2026). System-Level Evaluation of LLM-Assisted Forecasting Using the Master Swarm Consensus Forecasting Template (MSCFT). Open Science Framework Registration. https://doi.org/10.17605/OSF.IO/DHGWC
+
+
+---
+
+That reads like repository documentation rather than a social-media announcement, and it gives visitors all the citation links in one place.
+
+
+
+---
 
 ## 📌 What MSCFT Is
 
