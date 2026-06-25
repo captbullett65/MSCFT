@@ -79,14 +79,7 @@ https://orcid.org/0009-0006-3463-170X
 
 Citation:
 
-Helip, B. (2026). System-Level Evaluation of LLM-Assisted Forecasting Using the Master Swarm Consensus Forecasting Template (MSCFT). Open Science Framework Registration. https://doi.org/10.17605/OSF.IO/DHGWC
-
-
----
-
-That reads like repository documentation rather than a social-media announcement, and it gives visitors all the citation links in one place.
-
-
+Helip, B. (2026). System-Level Evaluation of LLM-Assisted Forecasting Using the Master Swarm Consensus Forecasting Template (MSCFT). Open Science Framework Registration. https://doi.org/10.17605/OSF.IO/DHGW 
 
 ---
 
