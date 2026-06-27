@@ -326,23 +326,6 @@ Used for fast review, synthesis, and large-input compression.
 - Error Analysis  
 
 ---
-
-## 🧰 Custom GPTs (Template-Powered)
-
-These Custom GPTs provide direct access to MSCFT frameworks through structured, template-driven execution environments.
-
-> **Note:** Access to Custom GPT links requires an active ChatGPT account (Plus, Team, or Enterprise) with GPTs enabled.
-
-**MSCFT V4.5**  
-https://chatgpt.com/g/g-689eba419048819197095cba703a6a1d-mscft-template-v4-5
-
-**MSCFT v5.0 (Beta)**
-
-The current active development version of MSCFT
-
-[https://chatgpt.com/g/g-69dabfa14d7c819184c5d579b6f70740-mscft-template-v5-0](https://chatgpt.com/g/g-69dabfa14d7c819184c5d579b6f70740-mscft-template-v5-0)
-
-
 MSCFT v5.0 (Beta) represents the latest evolution of the Master Swarm Consensus Forecasting Template,
 introducing extended structural controls, enhanced continuity across reasoning stages,
 and improved enforcement of calibration discipline in LLM-assisted forecasting workflows.
@@ -357,22 +340,6 @@ MSCFT v5.0 (Beta) is currently undergoing live validation through the Roche AI C
 Final stabilization and promotion to a full release will follow the resolution of these forecasts, 
 at which point empirical performance comparisons and cross-model consistency analysis will be integrated.
 
-
-**FORGE**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/FORGE%20v1.0%20A%20Framework%20for%20Optimized%20Reliable%20Generation%20of%20Executables
-
-**MATHEMATICS**  
-https://chatgpt.com/g/g-689f321989848191b020bb58a84521ab-mscft-mathematics-template-v1-1
-
-**SENTINEL**  
-https://github.com/captbullett65/MSCFT/blob/main/templates/SENTINEL_v1.0_Template.txt
-
-**MSCFT-BIO**  
-https://chatgpt.com/g/g-69ea7b14d5c88191a6ea23aea0629c20-mscft-bio-v1-0
-
-MSCFT-BIO extends the MSCFT framework to biological data by converting high-dimensional gene expression datasets into structured, rank-based signals compatible with GPT systems.
-
-This enables pattern detection, clustering, and signal analysis without processing raw matrices directly.
 
 ---
 
