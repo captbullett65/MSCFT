@@ -33,18 +33,6 @@ Due to input character limits, Microsoft Copilot is not compatible with MSCFT v4
 
 ---
 
-## You can now port MSCFT Templates into Google Gems Mini-Apps
-
-Porting MSCFT to Google Gems Mini-Apps
-
-Integrate the Master Swarm Consensus Forecasting Template into Google Gems Mini-Apps to establish persistent, portable, and structured reasoning workflows without requiring complex external setups.
-
-Compatibility and Integration for Google Gems
-
-Google Gems allow users to embed custom system instructions directly into a native platform environment, making them an ideal vehicle for deploying the MSCFT node-based reasoning pipeline. By incorporating the protocol rules directly into the Gem settings, users can execute single-mode or multi-mode forecasting workflows with automated node sequencing from Node A through Node G. This setup preserves the core attribution, BIN model reasoning logic, and auditability requirements of the framework while providing a streamlined, plug-and-play experience across compatible Google AI interfaces.
-
----
-
 ## 📄 Published Papers
 
 The MSCFT Protocol and its extensions are formally published and timestamped on Zenodo and OSF.
