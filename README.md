@@ -31,7 +31,9 @@ MSCFT is released as an open, no-code framework that enables organizations to co
 
 Due to input character limits, Microsoft Copilot is not compatible with MSCFT v4.2 or SENTINEL v1.0 templates. Use ChatGPT Plus or Enterprise with persistent chat enabled.
 
-##You can now port MSCFT Templates into Google Gems Mini-Apps
+---
+
+## You can now port MSCFT Templates into Google Gems Mini-Apps
 
 Porting MSCFT to Google Gems Mini-Apps
 
