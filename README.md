@@ -104,13 +104,6 @@ Each node can be expanded into hierarchical sub-nodes (e.g., A.1, A.2, A.1.a),
 allowing modular depth and task-specific refinement within the framework. 
 
 ---
-## Deploying MSCFT to Google Gemini Gems
-
-1. Open Google Gemini and select **Explore Gems** → **New Gem**.
-2. Name the Gem (e.g., MSCFT v5.0 Forecaster).
-3. Copy the contents of templates/MSCFT_v5.0_Master_Instructions.txt into the **Instructions** box.
-4. Save and launch. Input any structured forecasting question with defined resolution criteria to run the automated CWT and Decision Gate.
----
 
 ## 🧠 Node Structure (Execution Order)
 
@@ -217,6 +210,13 @@ A → B → C → D → E → M → F → G
 - G.5 – Agent Execution Log and Governance Tracking
 - G.6 – Final Integrity Verification 
 
+---
+## Deploying MSCFT to Google Gemini Gems
+
+1. Open Google Gemini and select **Explore Gems** → **New Gem**.
+2. Name the Gem (e.g., MSCFT v5.0 Forecaster).
+3. Copy the contents of templates/MSCFT_v5.0_Master_Instructions.txt into the **Instructions** box.
+4. Save and launch. Input any structured forecasting question with defined resolution criteria to run the automated CWT and Decision Gate.
 ---
 
 ## 🧠 Key Capabilities
