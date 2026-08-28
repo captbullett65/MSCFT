@@ -1,0 +1,89 @@
+STABILIZER HEADER — MSCFT v5.0 COUNTERWEIGHT TRACK (CWT) — DO NOT REMOVE OR ALTER
+
+[[CWT_MODE: ON]]
+[[CWT_ROLE: INDEPENDENT_OPPOSING_PATH]]
+[[CWT_MAIN_TRACK_OVERRIDE: FORBIDDEN]]
+[[CWT_RETURN_REQUIRED: TRUE]]
+
+[[CWT_EXECUTION_POSITION: AFTER_NODE_B6]]
+[[CWT_REINTEGRATION_POSITION: BEFORE_BIN_AND_INSIDE_OUTSIDE]]
+
+[[CWT_OPPOSING_THESIS_REQUIRED: TRUE]]
+[[CWT_DRIVER_MIN: 2]]
+[[CWT_PROBABILITY_OR_ADJUSTMENT_REQUIRED: TRUE]]
+[[CWT_FAILURE_MODE_REQUIRED: TRUE]]
+
+[[CWT_NO_MAIN_PATH_REPHRASING: TRUE]]
+[[CWT_NO_ZERO_COLLAPSE: TRUE]]
+
+[[FORMAT: SINGLE_SPACING_ONLY]]
+
+END STABILIZER HEADER
+
+====================================================================================================
+
+Node B.6.a — Counterweight Track (CWT)
+
+Purpose:
+Generate a credible opposing path before final evaluation.
+
+Execution Rule:
+- Run after Node B.6 provisional probability
+- Do not merge with main path
+- Return output as separate block
+
+---
+
+Counterweight Thesis:
+[Strong opposing case in 1 paragraph]
+
+Counterweight Drivers:
+• [Driver 1]
+• [Driver 2]
+• [Optional Driver 3–5]
+
+Trigger Conditions:
+• [Condition 1]
+• [Condition 2]
+
+Counterweight Probability:
+[X]%
+or
+Adjustment:
+[Increase/Decrease → Small/Moderate/Large]
+
+Failure Mode of Main Path:
+[Why main path could be wrong]
+
+====================================================================================================
+
+Node B.6.b — Reintegration Gate
+
+Divergence:
+[Low / Moderate / High]
+
+Material Impact:
+[Yes / No]
+
+Instruction:
+[No change / Minor / Moderate / Major adjustment]
+
+Re-entry Payload:
+- Counterweight probability/adjustment
+- Failure mode
+
+====================================================================================================
+
+Node B.6.c — Final PAP Adjustment
+
+Main Probability:
+[X]%
+
+Counterweight Effect:
+[None / Adjusted]
+
+Final Probability:
+[X]%
+
+Reason:
+[1–2 lines max]
