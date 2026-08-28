@@ -219,8 +219,10 @@ A → B → C → D → E → M → F → G
 
 1. Open Google Gemini and select **Explore Gems** → **New Gem**.
 2. Name the Gem (e.g., MSCFT v5.0 Forecaster).
-3. Copy the contents of templates/MSCFT_v5.0_Master_Instructions.txt into the **Instructions** box.
-4. Save and launch. Input any structured forecasting question with defined resolution criteria to run the automated CWT and Decision Gate.
+3. Download or copy the raw text from templates/MSCFT_v5.0.txt  into a local .txt file on your device.
+4. In the Gem builder, upload the .txt file directly to the **Knowledge** section (or attach it to ground the Gem).
+5. Save and launch. Input any structured forecasting question with defined resolution criteria to run the automated CWT and Decision Gate.
+   
 ---
 
 ## 🧠 Key Capabilities
