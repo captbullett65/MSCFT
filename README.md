@@ -208,8 +208,12 @@ A → B → C → D → E → M → F → G
 - G.3 – Role Assignment and Input Segmentation
 - G.4 – Adversarial or Redundant Forecast Resolution
 - G.5 – Agent Execution Log and Governance Tracking
-- G.6 – Final Integrity Verification 
+- G.6 – Final Integrity Verification
+---
+### Template Versioning & Migration Notice
 
+* **MSCFT v5.0 (Current Testing Release):** The newly added MSCFT_v5.0.txt and MSCFT_v5.0_Counterweight_Track_CWT.txt represent the latest active framework architecture. These files introduce updated stage-gate enforcement and the standalone Counterweight Track (CWT) module for cross-platform forecasting workflows.
+* **MSCFT v4.5 (Legacy Baseline):** MSCFT v4.5.txt remains archived in the /templates directory for historical benchmarking and reference. Users testing or deploying new forecasting instances should migrate to the v5.0 template pipeline.
 ---
 ## Deploying MSCFT to Google Gemini Gems
 
