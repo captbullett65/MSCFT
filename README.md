@@ -4,9 +4,22 @@
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=captbullett65.MSCFT)
 
 ---
-# Master SWARM Consensus Forecasting Template (MSCFT)
+# Master SWARM Consensus Forecasting Template (MSCFT v5.0)
 
-The Master SWARM Consensus Forecasting Template (MSCFT) is a structured, auditable framework integrating human and LLM collaboration for forecasting, reasoning, and multi-agent coordination.
+## Overview
+The **Master SWARM Consensus Forecasting Template (MSCFT v5.0)** is an advanced node-structured algorithmic architecture designed to eliminate single-model bias, overconfidence, and opaque reasoning pathways in complex estimation tasks. Developed over two years of intensive research, the framework functions as a universal, zero-dependency, no-code template adaptable across multiple operational domains. 
+
+While rigorous forecasting tasks—evaluated strictly against LLM accuracy using Brier scoring metrics—served as the primary testing bed, MSCFT is built to scale seamlessly from rapid standalone evaluations into fully automated enterprise workflows behind secure government perimeters under an independent human-at-the-helm architecture.
+
+## Key Features
+* **Zero-Dependency Architecture:** Requires no external libraries or complex setup, enabling rapid, standalone execution and evaluation.
+* **Algorithmic Bias Mitigation:** Combines multi-stage contingency frameworks and decision gates to systematically reduce single-model overconfidence and opaque tracking.
+* **Quantitative Evaluation Framework:** Built around rigorous scoring standards, including Brier score evaluations to maintain consistent output accuracy.
+* **Enterprise & Secure Scalability:** Designed with a modular, no-code framework capable of operating independently or integrating into high-security automated enterprise workflows.
+
+## Official Submission & Deployment
+* **IARPA Solutions Marketplace:** Officially submitted and verified as **Solution #8-26-0113**.
+* **Documentation & Media Package:** Includes a complete companion presentation package, slide decks, and technical demonstration video assets.
 
 ---
 
