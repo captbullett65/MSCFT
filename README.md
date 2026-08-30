@@ -128,7 +128,7 @@ A → B → C → D → E → M → F → G
 ---
 ## 🛡️ Decision-Gate Template (v1.0) 
 
-Note: you can find the Decision Gate Template in the template folder 
+Note: you can find the Decision Gate Template in the template folder.
 Enforces strict sequence flow control and structured evaluation checkpoints across the framework.
 
 * **[A] Input Validation** — Source requirement, completeness check, context declaration, and action intent.
