@@ -1,0 +1,174 @@
+ // MSCFT DECISION-GATE TEMPLATE v1.0
+
+// MSCFT DECISION-GATE TEMPLATE STABILIZER HEADER — DO NOT REMOVE
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: MSCFT DECISION-GATE Template Version 1.0]]
+# MSCFT DECISION-GATE TEMPLATE STABILIZER HEADER — DO NOT REMOVE
+
+[[STABILIZER_MODE: ON]]
+[[ANCHOR_START: MSCFT DECISION-GATE Template Version 1.0]]
+[[ANCHOR_PRIORITY: MAXIMUM]]
+[[ANCHOR_LOCK: TRUE]]
+[[CONTEXT_PERSISTENCE: SESSION + RUNTIME]]
+[[STRUCTURE_OVERRIDE: HARD]]
+[[ENFORCE_NODE_SEQUENCE: TRUE]]
+[[REQUIRE_ALL_DECLARED_NODES: TRUE]]
+[[FORBID_NODE_OMISSION: TRUE]]
+[[FORBID_NODE_RENAMING: TRUE]]
+[[FORBID_FORMAT_DEVIATION: TRUE]]
+[[OUTPUT_INVALID_IF_STRUCTURE_BROKEN: TRUE]]
+[[FORMAT_ENFORCEMENT: SINGLE_SPACING_ONLY]]
+[[NO_EMPTY_LINES: TRUE]]
+[[MODE_PERSISTENCE: TRUE]]
+[[CWT_REQUIRED: TRUE]]
+[[CWT_REINTEGRATION_REQUIRED: TRUE]]
+[[PRINTABLE_HEADER_EXCLUSION: TRUE]]
+[[VERSION_LOCK: 1.0]]
+
+# FLOW CONTROL HEADER — DO NOT PRINT
+
+Primary Nodes:
+A B C D E F
+
+Subnodes:
+A.0 A.1 A.2 A.3
+B.0 B.1 B.2 B.3 B.4
+C.0 C.1 C.2 C.3 C.4
+D.0 D.1 D.2 D.3 D.4
+E.0 E.1 E.2 E.3 E.4
+F.0 F.1 F.2 F.3
+
+RULES
+
+* Execute strictly in order
+* No skipping
+* No renaming
+* No collapsing
+* No early termination
+
+FLOW
+A → B → C → D → E → F
+
+[END NON PRINTING HEADER SECTION]
+---
+
+MSCFT DECISION-GATE v1.0
+
+[MODE IDENTIFICATION]
+Mode: DECISION-GATE
+
+[A. INPUT VALIDATION]
+A.0 Source Requirement:
+
+* Input must originate from completed MSCFT output (A → D.3)
+  A.1 Completeness Check:
+* Confirm reconciled interpretation present
+* Confirm CWT executed
+  A.2 Context Declaration:
+* Intended use: (research / hypothesis / clinical / operational / unknown)
+  A.3 Action Intent:
+* Proposed action: (test / deploy / publish / escalate / ignore)
+
+[B. EVIDENCE & RELIABILITY SCREEN]
+B.0 Evidence Strength:
+
+* Weak / Moderate / Strong
+  B.1 Reproducibility:
+* Single dataset / multi-test agreement / multi-study validation
+  B.2 Effect Clarity:
+* Clear / Ambiguous / Conflicting
+  B.3 Data Gaps:
+* Missing elements (effect size / replicates / perturbation type / validation)
+  B.4 Consistency Check:
+* Alignment between interpretation and CWT challenges
+
+[C. RISK & FAILURE MODE ANALYSIS]
+
+C.0 Misinterpretation Risk:
+Low / Medium / High
+
+C.1 Domain Complexity Risk:
+Describe any domain-specific complexity that could affect interpretation or implementation.
+Examples:
+- Biological
+- Clinical
+- Technical
+- Operational
+- Financial
+- Legal
+- Environmental
+- Other
+
+C.2 Context Dependency Risk:
+Describe factors that may limit applicability transferability.
+Examples:
+- Cell type
+- Mutation
+- Environmental conditions 
+- Organizational context
+- Infrastructure
+- Geographic or regulatory differences
+
+C.3 Statistical Risk:
+Sample size / noise / bias / multiple testing
+
+C.4 Consequence Severity:
+Low / Medium / High
+
+[D. ACTIONABILITY FILTER]
+D.0 Action Readiness:
+
+* Not ready / Conditionally ready / Ready
+  D.1 Evidence Threshold Match:
+* Does evidence meet requirement for intended action
+  D.2 Safe Test Path:
+* Can it be tested safely first
+  D.3 Reversibility:
+* Reversible / Partially / Irreversible
+  D.4 Escalation Need:
+* Expert review / additional validation / replication required
+
+[E. DECISION OUTPUT]
+E.0 Final Gate Decision (Bounded Outcome):
+* One of: PROCEED | VALIDATE_ONLY | HOLD | ESCALATE | REFUSE
+
+E.1 Justification:
+* Concise reasoning linking evidence, risk, and context
+
+E.2 Required Next Steps:
+* Actions required before advancing
+
+E.3 Monitoring Conditions:
+* What must be tracked if action proceeds
+
+E.4 Re-evaluation Trigger:
+* Conditions requiring reassessment
+
+[F. CONTROL DIRECTIVE]
+F.0 Enforcement Rule:
+* No action permitted without passing decision gate
+F.1 Override Condition:
+* Explicit human override required for blocked outcomes
+F.2 Audit Trace:
+* Must link to original MSCFT-BIO output
+F.3 Version Lock:
+
+F.4 Gate Version:
+* DECISION-GATE v1.0
+
+F.5 Authority / Override Condition:
+* Define authorized role(s) permitted to override gate decision
+* Specify conditions under which override is allowed
+* Require explicit justification for any override action
+
+F.6 Audit Receipt:
+* Input Reference:
+* Decision: (must be one of: PROCEED | VALIDATE_ONLY | HOLD | ESCALATE | REFUSE)
+* Justification:
+* Required Next Step:
+* Re-Evaluation Trigger:
+
+[ END MSCFT DECISION-GATE TEMPLATE DO NOT PRINT BELOW ]
+
+=======================================================================================
