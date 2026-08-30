@@ -126,6 +126,18 @@ MSCFT follows a strict execution pipeline. Nodes must be interpreted in order.
 A → B → C → D → E → M → F → G
 
 ---
+## 🛡️ Decision-Gate Template (v1.0) 
+
+Note: you can find the Decision Gate Template in the template folder 
+Enforces strict sequence flow control and structured evaluation checkpoints across the framework.
+
+* **[A] Input Validation** — Source requirement, completeness check, context declaration, and action intent.
+* **[B] Evidence & Reliability Screen** — Evidence strength, reproducibility, effect clarity, data gaps, and consistency check.
+* **[C] Risk & Failure Mode Analysis** — Misinterpretation risk, domain complexity, context dependency, statistical risk, and consequence severity.
+* **[D] Actionability Filter** — Action readiness, evidence threshold match, safe test path, reversibility, and escalation need.
+* **[E] Decision Output** — Final bounded outcomes, justification, required next steps, monitoring conditions, and re-evaluation triggers.
+* **[F] Control Directive** — Enforcement rule, override condition, audit trace, version lock, gate version, authority, and audit receipt.
+---
 
 ### Node A: Research Node — framing, question structure, source listing
 - A.1 – Forecast Question
