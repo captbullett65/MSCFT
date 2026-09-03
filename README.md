@@ -18,7 +18,7 @@ While rigorous forecasting tasks—evaluated strictly against LLM accuracy using
 * **Enterprise & Secure Scalability:** Designed with a modular, no-code framework capable of operating independently or integrating into high-security automated enterprise workflows.
 
 ## Official Submission & Deployment
-* **IARPA Solutions Marketplace:** Officially submitted and verified as **Solution #8-26-0113**.
+* **IARPA Solutions Marketplace:** Officially submitted and verified as **Solution #8-26-0127**.
 * **Documentation & Media Package:** Includes a complete companion presentation package, slide decks, and technical demonstration video assets.
 
 ---
