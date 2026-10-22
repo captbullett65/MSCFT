@@ -6,6 +6,11 @@
 ---
 # Master SWARM Consensus Forecasting Template (MSCFT v5.0)
 
+---
+Security & Architecture Notice
+
+This repository consists entirely of structured text files and markdown templates. It contains no executable code, binaries, or server-side scripts (such as PHP), ensuring complete immunity to runtime interpreter vulnerabilities.
+
 ## Overview
 The **Master SWARM Consensus Forecasting Template (MSCFT v5.0)** is an advanced node-structured algorithmic architecture designed to eliminate single-model bias, overconfidence, and opaque reasoning pathways in complex estimation tasks. Developed over two years of intensive research, the framework functions as a universal, zero-dependency, no-code template adaptable across multiple operational domains. 
 
